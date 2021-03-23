@@ -8,10 +8,14 @@
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/static_ABAcalls2Filler.json",
             "sourceHash": "ba4eb553ab07c9b60cc86fce7c9a0c8aea5bc74497681cf866734974bb75a8d7",
-            "written-with": "CoreGeth-1.11.23-unstable-06de6e33740ae2d4acf63e9de34a2a142383fd17",
-            "parent": "e38664cdd6c291c2cb7951404bfab1bb82db04f0_testdata_(PoC6-2651-ge38664cdd6)",
-            "parentSha1Sum": "acec9d2ad3164e18b7c2c5a26a1e0e6a4edecbd8",
+            "written-with": "CoreGeth-1.11.23-unstable-48533801920aea74fe1bf5a82e98f33479e43770",
+            "parent": "42d39f2bda0e85c7c9635ea76abea83b2b8e9e52_testdata_(PoC6-2652-g42d39f2bda)",
+            "parentSha1Sum": "a3095aba856bbf79f70a40648014b60a2c43a34d",
             "chainspecs": {
+                "Berlin": {
+                    "filename": "berlin_test.json",
+                    "sha1sum": ""
+                },
                 "Byzantium": {
                     "filename": "byzantium_test.json",
                     "sha1sum": "7d6ca01b7843dedad16620d4b7aa478d9a582f00"
@@ -43,6 +47,14 @@
                 "ETC_Atlantis": {
                     "filename": "classic_atlantis_test.json",
                     "sha1sum": "06f906b1e588e62a6da1395dd5f124928ad3ea67"
+                },
+                "ETC_Magneto": {
+                    "filename": "classic_magneto_test.json",
+                    "sha1sum": ""
+                },
+                "ETC_Phoenix": {
+                    "filename": "classic_phoenix_test.json",
+                    "sha1sum": ""
                 },
                 "Frontier": {
                     "filename": "frontier_test.json",

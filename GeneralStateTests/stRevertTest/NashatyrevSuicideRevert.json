@@ -1,74 +1,151 @@
 {
-    "NashatyrevSuicideRevert" : {
-        "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "evm version 1.9.23-unstable-0efc69a9-20201022",
-            "filling-tool-version" : "retesteth-0.0.9-berlin+commit.2f30f0ea.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2020.6.22+commit.9189ad7a.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stRevertTest/NashatyrevSuicideRevertFiller.json",
-            "sourceHash" : "2b2056cbfea1a8e13f77a4eb1e2233d1a626368bd7ccc38c7de7fb647951397f"
-        },
-        "env" : {
-            "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "0x989680",
-            "currentNumber" : "0x01",
-            "currentTimestamp" : "0x03e8",
-            "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
-        },
-        "post" : {
-            "Berlin" : [
-                {
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "hash" : "0xf5be9058653c50d629b9d714c35d51817b70ff0e3f25ed54877628ac5c5d8f65",
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ],
-            "Istanbul" : [
-                {
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "hash" : "0xdd821ab265cb0ac289d94a1c22540a9f1e1e96f59011a2e150618c38323a6c95",
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ]
-        },
-        "pre" : {
-            "0xa000000000000000000000000000000000000000" : {
-                "balance" : "0x00",
-                "code" : "0x60606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680639c3674fc14610049578063c040622614610058575b610000565b3461000057610056610067565b005b3461000057610065610147565b005b600060405160a680610200833901809050604051809103906000f080156100005790508073ffffffffffffffffffffffffffffffffffffffff1660405180807f6628290000000000000000000000000000000000000000000000000000000000815250600301905060405180910390207c010000000000000000000000000000000000000000000000000000000090046040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018090506000604051808303816000876161da5a03f19250505050610000565b50565b3073ffffffffffffffffffffffffffffffffffffffff1660405180807f6261642829000000000000000000000000000000000000000000000000000000815250600501905060405180910390207c010000000000000000000000000000000000000000000000000000000090046040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018090506000604051808303816000876161da5a03f192505050505b56006060604052346000575b608f806100176000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806326121ff014603c575b6000565b3460005760466048565b005b3373ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a723058203d1a897befde21eff26abc325fb3da2f526bbc99de1c5c857d1835f673744ebd0029a165627a7a72305820850a52b31ec4745b7af15ba3bffdb1ba17f5d9a00a5f263ee287a92b568f534c0029",
-                "nonce" : "0x00",
-                "storage" : {
-                }
-            },
-            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0xe8d4a51000",
-                "code" : "0x",
-                "nonce" : "0x00",
-                "storage" : {
+    "NashatyrevSuicideRevert": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "evm version 1.9.23-unstable-0efc69a9-20201022",
+            "filling-tool-version": "retesteth-0.0.9-berlin+commit.2f30f0ea.Linux.g++",
+            "filledWith": "",
+            "lllcversion": "Version: 0.5.14-develop.2020.6.22+commit.9189ad7a.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stRevertTest/NashatyrevSuicideRevertFiller.json",
+            "sourceHash": "2b2056cbfea1a8e13f77a4eb1e2233d1a626368bd7ccc38c7de7fb647951397f",
+            "written-with": "CoreGeth-1.11.23-unstable-48533801920aea74fe1bf5a82e98f33479e43770",
+            "parent": "42d39f2bda0e85c7c9635ea76abea83b2b8e9e52_testdata_(PoC6-2652-g42d39f2bda)",
+            "parentSha1Sum": "52e02d509b525ee2095a6d36d6e2baf1466c4614",
+            "chainspecs": {
+                "Berlin": {
+                    "filename": "berlin_test.json",
+                    "sha1sum": ""
+                },
+                "Byzantium": {
+                    "filename": "byzantium_test.json",
+                    "sha1sum": "7d6ca01b7843dedad16620d4b7aa478d9a582f00"
+                },
+                "Constantinople": {
+                    "filename": "constantinople_test.json",
+                    "sha1sum": "ddd053159711a2486158e1592f0db89a9c518fcb"
+                },
+                "ConstantinopleFix": {
+                    "filename": "constantinople_fix_test.json",
+                    "sha1sum": "94a51c3ee4250e898f9a97639ff6be25afcb51d4"
+                },
+                "EIP150": {
+                    "filename": "eip150_test.json",
+                    "sha1sum": "24ff8ecb0a69a5fb1a210b9cc255702930262e2e"
+                },
+                "EIP158": {
+                    "filename": "eip161_test.json",
+                    "sha1sum": "b7bdf6d61580ff64d57054a58a94c7be5521d75b"
+                },
+                "EIP158ToByzantiumAt5": {
+                    "filename": "eip158_to_byzantiumat5_test.json",
+                    "sha1sum": "5a4b0be6e9278741df403b5831f7251dd1172e4a"
+                },
+                "ETC_Agharta": {
+                    "filename": "classic_agharta_test.json",
+                    "sha1sum": "e7fb0e5506c17c113d45c76487060029954ce1be"
+                },
+                "ETC_Atlantis": {
+                    "filename": "classic_atlantis_test.json",
+                    "sha1sum": "06f906b1e588e62a6da1395dd5f124928ad3ea67"
+                },
+                "ETC_Magneto": {
+                    "filename": "classic_magneto_test.json",
+                    "sha1sum": ""
+                },
+                "ETC_Phoenix": {
+                    "filename": "classic_phoenix_test.json",
+                    "sha1sum": ""
+                },
+                "Frontier": {
+                    "filename": "frontier_test.json",
+                    "sha1sum": "61db8428aaca0084f2258797aa19e81466898f42"
+                },
+                "Homestead": {
+                    "filename": "homestead_test.json",
+                    "sha1sum": "f4581b40e258d769eb37d2434526dcbd5c383256"
+                },
+                "Istanbul": {
+                    "filename": "istanbul_test.json",
+                    "sha1sum": "fe51481afebd896a7849a783ed951f95700580e4"
                 }
             }
         },
-        "transaction" : {
-            "data" : [
+        "env": {
+            "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x989680",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8"
+        },
+        "pre": {
+            "0xa000000000000000000000000000000000000000": {
+                "code": "0x60606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680639c3674fc14610049578063c040622614610058575b610000565b3461000057610056610067565b005b3461000057610065610147565b005b600060405160a680610200833901809050604051809103906000f080156100005790508073ffffffffffffffffffffffffffffffffffffffff1660405180807f6628290000000000000000000000000000000000000000000000000000000000815250600301905060405180910390207c010000000000000000000000000000000000000000000000000000000090046040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018090506000604051808303816000876161da5a03f19250505050610000565b50565b3073ffffffffffffffffffffffffffffffffffffffff1660405180807f6261642829000000000000000000000000000000000000000000000000000000815250600501905060405180910390207c010000000000000000000000000000000000000000000000000000000090046040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018090506000604051808303816000876161da5a03f192505050505b56006060604052346000575b608f806100176000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806326121ff014603c575b6000565b3460005760466048565b005b3373ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a723058203d1a897befde21eff26abc325fb3da2f526bbc99de1c5c857d1835f673744ebd0029a165627a7a72305820850a52b31ec4745b7af15ba3bffdb1ba17f5d9a00a5f263ee287a92b568f534c0029",
+                "balance": "0x0"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "balance": "0xe8d4a51000"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "0xa000000000000000000000000000000000000000",
+            "data": [
                 "0xc0406226"
             ],
-            "gasLimit" : [
-                "0x07a120"
+            "gasLimit": [
+                "0x7a120"
             ],
-            "gasPrice" : "0x01",
-            "nonce" : "0x00",
-            "secretKey" : "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "0xa000000000000000000000000000000000000000",
-            "value" : [
+            "value": [
                 "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "out": "0x",
+        "post": {
+            "Berlin": [
+                {
+                    "hash": "f5be9058653c50d629b9d714c35d51817b70ff0e3f25ed54877628ac5c5d8f65",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Magneto": [
+                {
+                    "hash": "f5be9058653c50d629b9d714c35d51817b70ff0e3f25ed54877628ac5c5d8f65",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "dd821ab265cb0ac289d94a1c22540a9f1e1e96f59011a2e150618c38323a6c95",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "Istanbul": [
+                {
+                    "hash": "dd821ab265cb0ac289d94a1c22540a9f1e1e96f59011a2e150618c38323a6c95",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
             ]
         }
     }

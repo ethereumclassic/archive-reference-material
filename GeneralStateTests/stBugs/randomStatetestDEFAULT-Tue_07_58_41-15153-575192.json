@@ -1,81 +1,158 @@
 {
-    "randomStatetestDEFAULT-Tue_07_58_41-15153-575192" : {
-        "_info" : {
-            "comment" : "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
-            "filling-rpc-server" : "evm version 1.9.23-unstable-0efc69a9-20201022",
-            "filling-tool-version" : "retesteth-0.0.9-berlin+commit.2f30f0ea.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2020.6.22+commit.9189ad7a.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192Filler.json",
-            "sourceHash" : "6f88c69ddbe65706960a561c3fffb3ac52ffdc56a356ba21216965691f8705e8"
-        },
-        "env" : {
-            "currentCoinbase" : "0x1000000000000000000000000000000000000000",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "0x01312d00",
-            "currentNumber" : "0x01",
-            "currentTimestamp" : "0x03e8",
-            "previousHash" : "0x5fa368f13facaec6bf82d19c5d075fd3386be8a4265ed2d90c29b312a09b6d9d"
-        },
-        "post" : {
-            "Berlin" : [
-                {
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "hash" : "0x24530d2e42b4deb1146560b377a26ee63972f4fa3bc0395b92e56c79a7866d0f",
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ],
-            "Istanbul" : [
-                {
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "hash" : "0x01b986d933135516e832bd3b43cf00de1fcc46190c9ebc531a205e68be1724da",
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ]
-        },
-        "pre" : {
-            "0x000000000000000000000000000000000000dead" : {
-                "balance" : "0x00",
-                "code" : "0x62abcdefff",
-                "nonce" : "0x1c",
-                "storage" : {
-                }
-            },
-            "0x1000000000000000000000000000000000000000" : {
-                "balance" : "0x00",
-                "code" : "0x61dead6000600060006000600061dead5af162abcdef3f600155",
-                "nonce" : "0x1c",
-                "storage" : {
-                }
-            },
-            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0x5d8fdd3ff54298b4",
-                "code" : "0x",
-                "nonce" : "0x1c",
-                "storage" : {
+    "randomStatetestDEFAULT-Tue_07_58_41-15153-575192": {
+        "_info": {
+            "comment": "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
+            "filling-rpc-server": "evm version 1.9.23-unstable-0efc69a9-20201022",
+            "filling-tool-version": "retesteth-0.0.9-berlin+commit.2f30f0ea.Linux.g++",
+            "filledWith": "",
+            "lllcversion": "Version: 0.5.14-develop.2020.6.22+commit.9189ad7a.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192Filler.json",
+            "sourceHash": "6f88c69ddbe65706960a561c3fffb3ac52ffdc56a356ba21216965691f8705e8",
+            "written-with": "CoreGeth-1.11.23-unstable-48533801920aea74fe1bf5a82e98f33479e43770",
+            "parent": "42d39f2bda0e85c7c9635ea76abea83b2b8e9e52_testdata_(PoC6-2652-g42d39f2bda)",
+            "parentSha1Sum": "066fdabb793e9c724644c5cf1b63a14eb69cec0c",
+            "chainspecs": {
+                "Berlin": {
+                    "filename": "berlin_test.json",
+                    "sha1sum": ""
+                },
+                "Byzantium": {
+                    "filename": "byzantium_test.json",
+                    "sha1sum": "7d6ca01b7843dedad16620d4b7aa478d9a582f00"
+                },
+                "Constantinople": {
+                    "filename": "constantinople_test.json",
+                    "sha1sum": "ddd053159711a2486158e1592f0db89a9c518fcb"
+                },
+                "ConstantinopleFix": {
+                    "filename": "constantinople_fix_test.json",
+                    "sha1sum": "94a51c3ee4250e898f9a97639ff6be25afcb51d4"
+                },
+                "EIP150": {
+                    "filename": "eip150_test.json",
+                    "sha1sum": "24ff8ecb0a69a5fb1a210b9cc255702930262e2e"
+                },
+                "EIP158": {
+                    "filename": "eip161_test.json",
+                    "sha1sum": "b7bdf6d61580ff64d57054a58a94c7be5521d75b"
+                },
+                "EIP158ToByzantiumAt5": {
+                    "filename": "eip158_to_byzantiumat5_test.json",
+                    "sha1sum": "5a4b0be6e9278741df403b5831f7251dd1172e4a"
+                },
+                "ETC_Agharta": {
+                    "filename": "classic_agharta_test.json",
+                    "sha1sum": "e7fb0e5506c17c113d45c76487060029954ce1be"
+                },
+                "ETC_Atlantis": {
+                    "filename": "classic_atlantis_test.json",
+                    "sha1sum": "06f906b1e588e62a6da1395dd5f124928ad3ea67"
+                },
+                "ETC_Magneto": {
+                    "filename": "classic_magneto_test.json",
+                    "sha1sum": ""
+                },
+                "ETC_Phoenix": {
+                    "filename": "classic_phoenix_test.json",
+                    "sha1sum": ""
+                },
+                "Frontier": {
+                    "filename": "frontier_test.json",
+                    "sha1sum": "61db8428aaca0084f2258797aa19e81466898f42"
+                },
+                "Homestead": {
+                    "filename": "homestead_test.json",
+                    "sha1sum": "f4581b40e258d769eb37d2434526dcbd5c383256"
+                },
+                "Istanbul": {
+                    "filename": "istanbul_test.json",
+                    "sha1sum": "fe51481afebd896a7849a783ed951f95700580e4"
                 }
             }
         },
-        "transaction" : {
-            "data" : [
+        "env": {
+            "currentCoinbase": "1000000000000000000000000000000000000000",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x1312d00",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000dead": {
+                "code": "0x62abcdefff",
+                "balance": "0x0",
+                "nonce": "0x1c"
+            },
+            "0x1000000000000000000000000000000000000000": {
+                "code": "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                "balance": "0x0",
+                "nonce": "0x1c"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "balance": "0x5d8fdd3ff54298b4",
+                "nonce": "0x1c"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x1c",
+            "to": "0x1000000000000000000000000000000000000000",
+            "data": [
                 "0x"
             ],
-            "gasLimit" : [
+            "gasLimit": [
                 "0x5fde07"
             ],
-            "gasPrice" : "0x01",
-            "nonce" : "0x1c",
-            "secretKey" : "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "0x1000000000000000000000000000000000000000",
-            "value" : [
+            "value": [
                 "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "out": "0x",
+        "post": {
+            "Berlin": [
+                {
+                    "hash": "24530d2e42b4deb1146560b377a26ee63972f4fa3bc0395b92e56c79a7866d0f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Magneto": [
+                {
+                    "hash": "24530d2e42b4deb1146560b377a26ee63972f4fa3bc0395b92e56c79a7866d0f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "01b986d933135516e832bd3b43cf00de1fcc46190c9ebc531a205e68be1724da",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "Istanbul": [
+                {
+                    "hash": "01b986d933135516e832bd3b43cf00de1fcc46190c9ebc531a205e68be1724da",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
             ]
         }
     }
