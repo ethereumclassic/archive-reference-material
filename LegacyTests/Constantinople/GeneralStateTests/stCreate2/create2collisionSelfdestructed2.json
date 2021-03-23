@@ -8,10 +8,55 @@
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionSelfdestructed2Filler.json",
             "sourceHash": "5ae0b1d74ccfa93155db2c198eb1b9a40164cc673e166913ebc1b3ab91449fe0",
-            "written-with": "",
-            "parent": "",
-            "parentSha1Sum": "",
-            "chainspecs": null
+            "written-with": "CoreGeth-1.11.23-unstable-06de6e33740ae2d4acf63e9de34a2a142383fd17",
+            "parent": "e38664cdd6c291c2cb7951404bfab1bb82db04f0_testdata_(PoC6-2651-ge38664cdd6)",
+            "parentSha1Sum": "7134aaf054166831312dbb92511d39e7eccfe418",
+            "chainspecs": {
+                "Byzantium": {
+                    "filename": "byzantium_test.json",
+                    "sha1sum": "7d6ca01b7843dedad16620d4b7aa478d9a582f00"
+                },
+                "Constantinople": {
+                    "filename": "constantinople_test.json",
+                    "sha1sum": "ddd053159711a2486158e1592f0db89a9c518fcb"
+                },
+                "ConstantinopleFix": {
+                    "filename": "constantinople_fix_test.json",
+                    "sha1sum": "94a51c3ee4250e898f9a97639ff6be25afcb51d4"
+                },
+                "EIP150": {
+                    "filename": "eip150_test.json",
+                    "sha1sum": "24ff8ecb0a69a5fb1a210b9cc255702930262e2e"
+                },
+                "EIP158": {
+                    "filename": "eip161_test.json",
+                    "sha1sum": "b7bdf6d61580ff64d57054a58a94c7be5521d75b"
+                },
+                "EIP158ToByzantiumAt5": {
+                    "filename": "eip158_to_byzantiumat5_test.json",
+                    "sha1sum": "5a4b0be6e9278741df403b5831f7251dd1172e4a"
+                },
+                "ETC_Agharta": {
+                    "filename": "classic_agharta_test.json",
+                    "sha1sum": "e7fb0e5506c17c113d45c76487060029954ce1be"
+                },
+                "ETC_Atlantis": {
+                    "filename": "classic_atlantis_test.json",
+                    "sha1sum": "06f906b1e588e62a6da1395dd5f124928ad3ea67"
+                },
+                "Frontier": {
+                    "filename": "frontier_test.json",
+                    "sha1sum": "61db8428aaca0084f2258797aa19e81466898f42"
+                },
+                "Homestead": {
+                    "filename": "homestead_test.json",
+                    "sha1sum": "f4581b40e258d769eb37d2434526dcbd5c383256"
+                },
+                "Istanbul": {
+                    "filename": "istanbul_test.json",
+                    "sha1sum": "fe51481afebd896a7849a783ed951f95700580e4"
+                }
+            }
         },
         "env": {
             "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
