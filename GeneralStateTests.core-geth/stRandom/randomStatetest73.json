@@ -1,0 +1,95 @@
+{
+    "randomStatetest73": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "evm version 1.9.23-unstable-0efc69a9-20201022",
+            "filling-tool-version": "retesteth-0.0.9-berlin+commit.2f30f0ea.Linux.g++",
+            "filledWith": "CoreGeth-1.11.23-unstable-f9d37efb830f86cc4e906bf9ac4446d7448fde13",
+            "lllcversion": "Version: 0.5.14-develop.2020.6.22+commit.9189ad7a.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stRandom/randomStatetest73Filler.json",
+            "sourceHash": "b7c2c39454f19d25e7e897acb5a286086da6901ad49be88943493c298864eb5f"
+        },
+        "env": {
+            "currentCoinbase": "945304eb96065b2a98b57a48a06ae28d285a71b5",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x7fffffffffffffff",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8"
+        },
+        "pre": {
+            "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
+                "code": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507f00000000000000000000000000000000000000000000000000000000000000017f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57e7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b5b573198d729b711671056e0a055534613855",
+                "balance": "0x0"
+            },
+            "0x945304eb96065b2a98b57a48a06ae28d285a71b5": {
+                "code": "0x6000355415600957005b60203560003555",
+                "balance": "0x2e"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "balance": "0xde0b6b3a7640000"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
+            "data": [
+                "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507f00000000000000000000000000000000000000000000000000000000000000017f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57e7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b5b573198d729b711671056e0a0555346138"
+            ],
+            "gasLimit": [
+                "0x662bcee0"
+            ],
+            "value": [
+                "0x0505d427"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "out": "0x",
+        "post": {
+            "Berlin": [
+                {
+                    "hash": "3881d77def20b805892669cdac8efd4f4b184a234d69eb5ca3c5943e20c2aa69",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Magneto": [
+                {
+                    "hash": "3881d77def20b805892669cdac8efd4f4b184a234d69eb5ca3c5943e20c2aa69",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "a228e1679e3d80ee15a3cfd22bcc1f13a9599942c7a4eb36e83ac2b310416c78",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "Istanbul": [
+                {
+                    "hash": "a228e1679e3d80ee15a3cfd22bcc1f13a9599942c7a4eb36e83ac2b310416c78",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}
