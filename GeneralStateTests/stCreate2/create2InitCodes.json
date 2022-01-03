@@ -4,7 +4,7 @@
             "comment": "testing different byte opcodes inside create2 init code",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2InitCodesFiller.json",
             "sourceHash": "0f0967bc483d9d1abd269f8a5f546b105dda60e23ea812db73785c3007ba0602"
@@ -219,6 +219,107 @@
                 },
                 {
                     "hash": "8a942f240cecf4a2437111a1fb57bba61d4c3176a005793f0c98de7534432dbb",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 6,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "1d2f683dbd78ff706518c341b533ef2cdad391333d2ebdccff430ec47bc55162",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 7,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "834b1b2a705f790b361434063480dbf14d16da5bb324da34b9413910b63f5d27",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 8,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "ec608831620fa7e9648e01c721c645b245b3104f452ac0e99e03afd43f560849",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "d009e4fce783afbd5cf8d80ec7441790966233a717a71b58ee74fdbd09ebbb2a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "d009e4fce783afbd5cf8d80ec7441790966233a717a71b58ee74fdbd09ebbb2a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "d009e4fce783afbd5cf8d80ec7441790966233a717a71b58ee74fdbd09ebbb2a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "0cba1e92a02967c82fcfb63cc2a86a99e76c251eb19087d02c7d3ccab84dba25",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 4,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "a0d0ddcf8078252f91a510b9171cfe173ada34a914fc726fb144f5416d9e746e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 5,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "f5fd20fa86838537c7f61683d29a62ea851debeadb4c484eb6d89879d25237b8",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

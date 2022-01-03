@@ -4,7 +4,7 @@
             "comment": "Puts the point (0, 3) and the factor 115792089237316195423570985008687907853269984665640564039457584007913129639935 into the ECMUL precompile, truncating or expanding the input data to 128 bytes. Gives the execution 28000 bytes",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroKnowledge2/ecmul_0-3_9935_28000_128Filler.json",
             "sourceHash": "dba6a7a01e69d9d2721fbe646c19bb839c9c4bbf0f3923f9e52ca08558ae9a9d"
@@ -154,6 +154,52 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "a2e48c12cc428bb070d69b88219c76e2020be0bef0223123b5221d8c0da17f08",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "ba63562af5e7643e2e7faaa6fff040a9cbf62e27cc4404c65275c1366a7d969f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "2058b9f6d659924c0d50b5da57b08bc79612d9c9cd6be9b49808fd3b146db3e7",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 2,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "b9f5a230ef05df60dd7faa45a052ca69b1af6f489f4398cc9910b798259158bb",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 3,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "a2e48c12cc428bb070d69b88219c76e2020be0bef0223123b5221d8c0da17f08",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

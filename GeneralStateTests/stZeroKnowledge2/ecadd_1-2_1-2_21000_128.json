@@ -4,7 +4,7 @@
             "comment": "Puts the points (1, 2) and (1, 2) into the ECADD precompile, truncating or expanding the input data to 128 bytes. Gives the execution 21000 bytes",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroKnowledge2/ecadd_1-2_1-2_21000_128Filler.json",
             "sourceHash": "2b0205e5457fe9eaea7da3b7fff7beb70899e2e7c8d66ffb7c1685bc9ee4a651"
@@ -151,6 +151,52 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "ba9d6e7b1ece505ee37cfaf6fcbda6470459c31266ba7de87f77f57c6ee90622",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "176c7ccf3fd2f9ebac885ba2802cfae9a6adc9f608ed04cf74ee129ea9a0a03c",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "176c7ccf3fd2f9ebac885ba2802cfae9a6adc9f608ed04cf74ee129ea9a0a03c",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 2,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "176c7ccf3fd2f9ebac885ba2802cfae9a6adc9f608ed04cf74ee129ea9a0a03c",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 3,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "ba9d6e7b1ece505ee37cfaf6fcbda6470459c31266ba7de87f77f57c6ee90622",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

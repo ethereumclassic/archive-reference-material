@@ -4,7 +4,7 @@
             "comment": "A contract which performs SUICIDE, and is then attempted to be recreated (different code, same init-code) during the same transaction. This ought to fail, since the code is not cleaned out until after the transaction is ended.",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionSelfdestructed2Filler.json",
             "sourceHash": "70370f01b460a9daa55e42ec274a94522a2d365d67dd3abc99e252c22bafe875"
@@ -89,6 +89,30 @@
                 },
                 {
                     "hash": "271ef553557c3e7cb1d808f33d9d13a813ea493ce0260a8342bb6130e6ae3f4c",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "b7662d44ac38d80f22b5a99e0e5eccf675c25b33367518e36edf69dd46ffe145",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "c8b15b772fd2d448838b0445335fcd5482ac8d1a5635821d8ccc83d9d02a3e45",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

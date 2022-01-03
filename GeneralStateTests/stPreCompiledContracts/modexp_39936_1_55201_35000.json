@@ -4,7 +4,7 @@
             "comment": "Puts the base 115792089237316195423570985008687907853269984665640564039457584007913129639936, exponent 1 and modulus 21847450052839212624230656502990235142567050104912751880812823948662932355201 into the MODEXP precompile, saves the hash of the result. Gives the execution 35000 gas",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stPreCompiledContracts/modexp_39936_1_55201_35000Filler.json",
             "sourceHash": "380519f1aa09b019b289e311d7ba210b64bd8e99a9f2b5b6c69239c99c367b45"
@@ -124,6 +124,52 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "c65a1ce329fc66bb92ec40f9c75525ea118b3395cabd7f01783fed2d6821b1d3",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "c65a1ce329fc66bb92ec40f9c75525ea118b3395cabd7f01783fed2d6821b1d3",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "c65a1ce329fc66bb92ec40f9c75525ea118b3395cabd7f01783fed2d6821b1d3",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 2,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "c65a1ce329fc66bb92ec40f9c75525ea118b3395cabd7f01783fed2d6821b1d3",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 3,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "c65a1ce329fc66bb92ec40f9c75525ea118b3395cabd7f01783fed2d6821b1d3",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

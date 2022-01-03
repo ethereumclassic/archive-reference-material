@@ -4,7 +4,7 @@
             "comment": "RevertInCreateInInit for CREATE2",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/RevertInCreateInInitCreate2Filler.json",
             "sourceHash": "6f3d1f29da0278bcd97074ed087bb44314310c1031ddbf9d2d587e63a1a64a6e"
@@ -61,6 +61,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "e0cfa6916b126d6a08639aa0b928a053b7bba1390535e166c1f5d41068a4fc45",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "e0cfa6916b126d6a08639aa0b928a053b7bba1390535e166c1f5d41068a4fc45",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

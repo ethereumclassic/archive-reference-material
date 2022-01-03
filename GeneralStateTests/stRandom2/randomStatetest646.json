@@ -4,7 +4,7 @@
             "comment": "Geth Failed this test on all networks",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom2/randomStatetest646Filler.json",
             "sourceHash": "48f9d38502acdc248b3f347c6f98a86cbb7e85e1608454f6e6aebbd100e98bdf"
@@ -64,6 +64,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "ca096cb11a03ed7d18c9ee8f5a553a010f3db93b03f30e9a0246a3defd68b972",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "ca096cb11a03ed7d18c9ee8f5a553a010f3db93b03f30e9a0246a3defd68b972",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

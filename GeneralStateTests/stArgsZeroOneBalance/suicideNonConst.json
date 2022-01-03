@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stArgsZeroOneBalance/suicideNonConstFiller.yml",
             "sourceHash": "5ef482c5894ece0b409a50acdfac939c13818a463ce0747b4aa8fbb241e57842"
@@ -84,6 +84,30 @@
                 },
                 {
                     "hash": "7b7050cc4bd4d6a67f341828ac8928840eeba94e049deccf61f1627bfb646a3a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 1
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "f2b9f7af0ce42985e9f79700bc2b7b392d2024b0fd1fed4877cc9d4ac54ef7c8",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "1b6c67f116daa1911bc3e766e6b7a0e5d6e6d017735211a9f19d5dad0f1e71a9",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

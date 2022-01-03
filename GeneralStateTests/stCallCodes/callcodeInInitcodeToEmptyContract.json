@@ -4,7 +4,7 @@
             "comment": "callcode inside create contract init to non-existent contract",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCodes/callcodeInInitcodeToEmptyContractFiller.json",
             "sourceHash": "a61ef52fd1c97297f7a149c1b92b0c93d55877e0b1f4962f87f99a39fb007c0f"
@@ -79,6 +79,30 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "742f1c3b2ff6343322065d09b6cb87c4898ef3b69425fbc0ebfa559b731e61d9",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "19eaa197b81a44f75c097a12575a78e3e40473949b65a6b6d094a0078012c069",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "742f1c3b2ff6343322065d09b6cb87c4898ef3b69425fbc0ebfa559b731e61d9",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

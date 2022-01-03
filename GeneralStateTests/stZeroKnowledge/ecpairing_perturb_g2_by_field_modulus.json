@@ -4,7 +4,7 @@
             "comment": "Puts the given data into the ECPAIRING precompile",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroKnowledge/ecpairing_perturb_g2_by_field_modulusFiller.json",
             "sourceHash": "95f0c8a0b6e443ab7a93700a9afa205952ce07cdb704eaf8a76d8cff9cecb84a"
@@ -154,6 +154,52 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "c5061b16a4728c0f486a2613d51287054b582ceb582ca5a54201f78e4c4dc36a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e676b37aa4faa3663ab625741798c998e7056a35e7ea9e29cb999f0f4e2d5400",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "b11dad0563080ca3c8129e9dfceb24e2cb4cc35f1b17d2058d9c9971d88698d6",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 2,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "a3ddd7ee2e9adef7274f6c5d7e526d10fcba5973b1f52c5579d2d96d00e4a2ff",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 3,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "c5061b16a4728c0f486a2613d51287054b582ceb582ca5a54201f78e4c4dc36a",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

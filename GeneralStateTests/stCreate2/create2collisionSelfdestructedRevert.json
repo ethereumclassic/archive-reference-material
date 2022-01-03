@@ -4,7 +4,7 @@
             "comment": "collision with address that has been selfdestructed in the same transaction but then REVERT is called",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionSelfdestructedRevertFiller.json",
             "sourceHash": "1013fa3b84a7e7db4bb2cb9989a49e818236dd16163ff8aa3196917a694dfa32"
@@ -91,6 +91,41 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "34c41e676375b404101ce44b06a4615e49c7c3d5e9ecc3b8e667d6e018fd56c0",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "34c41e676375b404101ce44b06a4615e49c7c3d5e9ecc3b8e667d6e018fd56c0",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "cfc829aefa2c67aa99b7bfe05d426b95e9127b8c805cccaf7972e0cc412f2e8d",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "34c41e676375b404101ce44b06a4615e49c7c3d5e9ecc3b8e667d6e018fd56c0",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/RevertDepthCreate2OOGBerlinFiller.json",
             "sourceHash": "1b5d0f1c9749481a926c780c9d68a888f6279066b8ac5b06e78128d47a18087e"
@@ -144,6 +144,96 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "59fb971b6bcb1cb8c804b00b42b654ce88bfc0081ffaebfeeb320240720c4646",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 1,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "3be1b88191d943fa7be5d3e5f9472c31b3a4acdf5b1796f84cb3adf89f538113",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 1,
+                        "value": 1
+                    }
+                },
+                {
+                    "hash": "e19110fbac9e5541f4a52fc8718ae5747f540f9e616def01b671c77f7af0e02b",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e95555abdabd237d3e760847954082290efd9df350a2efa589383bbe9788d604",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 1
+                    }
+                },
+                {
+                    "hash": "9412a244073c100d5d2c45bc1501cc049c289e895fff03f60f73d9b7cd291133",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "9412a244073c100d5d2c45bc1501cc049c289e895fff03f60f73d9b7cd291133",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 1
+                    }
+                },
+                {
+                    "hash": "9412a244073c100d5d2c45bc1501cc049c289e895fff03f60f73d9b7cd291133",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "9412a244073c100d5d2c45bc1501cc049c289e895fff03f60f73d9b7cd291133",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 1
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "59fb971b6bcb1cb8c804b00b42b654ce88bfc0081ffaebfeeb320240720c4646",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

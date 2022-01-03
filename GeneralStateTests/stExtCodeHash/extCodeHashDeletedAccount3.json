@@ -4,7 +4,7 @@
             "comment": "3) Call creates Account A (0x95ab1c33798981918da6d27056f70376674878d2)\nCall to Account B do the following:\n- stores Account A code hash to 1\n- stores Account A code size to 2\n- stores Account A code to 3\n- Run selfdestruct on A\n- stores Account A code hash to 4\n- stores Account A code size to 5\n- stores Account A code to 6\n",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount3Filler.yml",
             "sourceHash": "337e51b21bd277e86a9e4d96817de3c00b75fadc459a3500fea77a6571e22f93"
@@ -69,6 +69,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "1945bf718f7989835977f7d305b37c1364a938a73f68c16363859a825450ee60",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "2b9590ad4919004dd448bf9cbb7116a102da5ccc9e7f78aee47c0849f0347f5c",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/VMTests/vmIOandFlowOperations/sstore_sloadFiller.yml",
             "sourceHash": "99a459ae78f690e23bb16fa435bc5657a9d03164d176c2ffb51ed8c3cad9d89a",
@@ -103,6 +103,41 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "b5e06470189fae1d1b71ee3d0258234fe4196b1ea4996c81785566d2f2d3bb76",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "54db8ef6a205534c1229abc2b03b908f00f0ffd91a5e97fb68841f7878067ccc",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "319b3e1a56dfe01e9fd96a538a34156e4aa958531387944b0a50f42060ac7d55",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "b5e06470189fae1d1b71ee3d0258234fe4196b1ea4996c81785566d2f2d3bb76",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

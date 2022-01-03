@@ -4,7 +4,7 @@
             "comment": "Uses EXTCODECOPY to copy 32 bytes of code into a 64 byte range of memory and ensures that the last 32 bytes of the memory range are zeroed out",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCodeCopyTest/ExtCodeCopyTargetRangeLongerThanCodeTestsFiller.json",
             "sourceHash": "e2c03d4c0e0c75ee21799c8b4baaa4dbc2525e01ad2f660c310ab967821a18f6"
@@ -64,6 +64,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "0fe8af71825ea3505512e727235b147b294a6464004eb3871afac3616bfa755e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "0fe8af71825ea3505512e727235b147b294a6464004eb3871afac3616bfa755e",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

@@ -4,7 +4,7 @@
             "comment": "account already has storage X. create -\u003e in init code change that account's storage -\u003e 0 -\u003e change it to X again ",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSStoreTest/InitCollisionNonZeroNonceFiller.json",
             "sourceHash": "cc26699997deb69cd44180a1d68d9c32c4c6e10aa9ea9d220a7fe0741fd420a2"
@@ -111,6 +111,52 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "de02ecaaeb6e64a080f1bab6ccdf55da05ca858593ec9363b2ce8a18f812b2ed",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "78be820e96abb8205e7ded5a510a930640d39430731073783180f0e36c006dd2",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "ea07c5622dcf868ecd7421d9c4a014d47726143bc7f49dd6be10caa596fd5aa0",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "2549f0328df3285fb50104b616d45c9a3f34e620286f8890331ccc3c61f56474",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "de02ecaaeb6e64a080f1bab6ccdf55da05ca858593ec9363b2ce8a18f812b2ed",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

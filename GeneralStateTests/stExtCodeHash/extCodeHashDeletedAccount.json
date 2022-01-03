@@ -4,7 +4,7 @@
             "comment": "Get account A (aaaaaaaa00000000000000000000000000000000) code hash, code size, and code\nCalls Account A's code which causes self destruction of A\nGet account A codehash, code size and code\nIt is still getting the same values because selfdestruct is performed\nat the end of transaction during state finalization stage.\n",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccountFiller.yml",
             "sourceHash": "66316646992e538d86072ebdcfd7f40b2800bfccb09239a76667ae81714730ee"
@@ -77,6 +77,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "3e35882d510199f20b8bf158422a7809e191ee7825cdcfb7e0258e0d24badc6a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "e644338f0fe3e32d8e10c07d5bedfd074b1bb16b8d53572781e153c0e95afbd7",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH of an account during a CALL",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashCALLFiller.json",
             "sourceHash": "96d028215f7e76ca7b2fa9ae9c6405035006d21a5f78e90c9de6b4e1a11cead8"
@@ -80,6 +80,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "9ba041175e3ba87615522d1e63d995d69dd4ad9a95ccb91b99d7def2f9d2e15f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "9ba041175e3ba87615522d1e63d995d69dd4ad9a95ccb91b99d7def2f9d2e15f",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

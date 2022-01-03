@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stWalletTest/walletExecuteOverDailyLimitOnlyOneOwnerNewFiller.json",
             "sourceHash": "bb18e616f729eb75921540b56a72a670a6226f2fda542c2e8e4ccb023ee28f09"
@@ -70,6 +70,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "dec1ca765cff138032616971f3b0c2f3ae5ce21e1c2a5ab64cd5e4bc1e1a6186",
+                    "logs": "67bac4be8bc3c841ce2e144ab211bcb6537034b5e410417b6f0b95c9e534be81",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "ca3b7559e816f1f69500f4e49588cc45a2e7c01503f0ca8203b12f95d4ece58e",
                     "logs": "67bac4be8bc3c841ce2e144ab211bcb6537034b5e410417b6f0b95c9e534be81",
                     "txbytes": "0x",
                     "expectException": "",

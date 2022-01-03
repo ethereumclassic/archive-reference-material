@@ -4,7 +4,7 @@
             "comment": "RETURNDATASIZE after a failing CALL (due to insufficient balance) should return 0",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_bugFiller.json",
             "sourceHash": "41a59a4dc3455b263ee19b6b47f6a368ff623207502b639da9c068c348d40953"
@@ -68,6 +68,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "ce47a1ef550544b5333f46834213cb40787204725eaababbbb9aad277ddd55e7",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "cc6aacc55c4fec56ce582abbfec691ff60323359fa0975c9c3d184738c4e4909",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

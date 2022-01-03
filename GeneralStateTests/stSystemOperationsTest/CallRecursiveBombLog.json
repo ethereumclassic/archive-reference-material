@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSystemOperationsTest/CallRecursiveBombLogFiller.json",
             "sourceHash": "256df4455097084aa9a9eea8aaf7105057badbe0158863d2fa815970c79bd61c"
@@ -63,6 +63,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "d36da6f2948b6dcbe2c8282d487e083c13e5728ed0c08fe7005ebfd41dad9c5e",
+                    "logs": "e0499f022d15984679686b6e9d3cfce1b33a67046299283504a353bde17c591b",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "d36da6f2948b6dcbe2c8282d487e083c13e5728ed0c08fe7005ebfd41dad9c5e",
                     "logs": "e0499f022d15984679686b6e9d3cfce1b33a67046299283504a353bde17c591b",

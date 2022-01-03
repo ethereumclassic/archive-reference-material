@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH/EXTCODESIZE of an account created then deleted in a CALL, checking results after the CALL returns",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashCreatedAndDeletedAccountRecheckInOuterCallFiller.json",
             "sourceHash": "1f6ed8f1a116b43bbf09c2e9968d34dc95fda4815a426d0e8bd6fe13941710a8"
@@ -65,6 +65,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "56f7d625bd156b8bc8c95c9afaa26457a7af661a36f2000ad4d70a4bab42e58a",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "ac566732b85afd300f52f98aa7173b9283c33121f923470968eb94b2377c84ad",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

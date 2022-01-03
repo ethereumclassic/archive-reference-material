@@ -4,7 +4,7 @@
             "comment": "This test tries RETURNDATACOPY with a non-zero size after a CALL that fails because of insufficient balance.",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/returndatacopy_following_too_big_transferFiller.json",
             "sourceHash": "55fcb0d6b18ca40ef7ee33c3ae74b475954452d2aa9798923fbb9d77de1862ad"
@@ -66,6 +66,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "925d83ba9860f3270f838bfc74314c32a0bba08250be7aa427fb706513523513",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "925d83ba9860f3270f838bfc74314c32a0bba08250be7aa427fb706513523513",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

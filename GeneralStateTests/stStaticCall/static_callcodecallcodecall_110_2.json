@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-b826f84b4e4b69dab45eb7b8280a1c03dc0e37af",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/static_callcodecallcodecall_110_2Filler.json",
             "sourceHash": "f43ecaa0a0eaa37b20edff9139b6963fb0b49bb3782307ee5ecbc9ba4502183e"
@@ -95,6 +95,41 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "9f03d0ca89bfdc7634dbc6844055aaa639484d820584e5af6cdaaae5f997b55c",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "a7aa838275b80faf0b9dae3261e9751b4b6a511f4136c2005c81df1ae74fc31b",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 1
+                    }
+                },
+                {
+                    "hash": "1c7f26d390737cacf03b5a0c52eaafa8bc9a133fff18057a3256974c09d9d7f9",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 2
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "9f03d0ca89bfdc7634dbc6844055aaa639484d820584e5af6cdaaae5f997b55c",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
