@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSystemOperationsTest/suicideSendEtherPostDeathFiller.json",
             "sourceHash": "8bb49f99484f1177c1ed5b69faf60c6ae34319d5d85fa5a0ae9d8d183f4e1d21"
@@ -61,6 +61,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "d668de9036934d058f5c0f780e02923243479d3336608399688d44dd86cccc40",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "fe0d2c5a6fd79e4792bfe2201394c038381aef08dea077ed211f5058b8960b6f",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

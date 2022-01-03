@@ -4,7 +4,7 @@
             "comment": "call -\u003e call -\u003e ( callcode - \u003e code ) suicide",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCodes/callcallcallcode_001_SuicideEndFiller.json",
             "sourceHash": "8e0c67158394c803f34d184bd4b63145260ba55339b81ad92ad2bf32c1851007"
@@ -73,6 +73,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "a8ae120ca792ac87c9c3bf28a659189f16ba9f2824d4c88e4a007cfabb0bc00b",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "6a01a4d8e01fd35576226a95a7294f7235d7006394e8c592f26c448765c6b22a",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

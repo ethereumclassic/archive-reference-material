@@ -4,7 +4,7 @@
             "comment": "call with value. call takes more gas then tx has, and more value than account has",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/callWithHighValueAndOOGatTxLevelFiller.json",
             "sourceHash": "cad9bb02357f77254ba1c6362fca81dfda824051cc93c951eb8bc9d91f658583"
@@ -80,6 +80,30 @@
             "ETC_Magneto": [
                 {
                     "hash": "5b571b0e5b5f0d5058f19386a0bd3a2a2ff5ad76675145ee7ab302c493f4e1bb",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "0f02f3f2aa203fbba121250bdf9c5500bf24349857255a81ace357c3771d95c2",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 1
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "24583f425f8719018f5580f5f3202fb9b85a7537fdf82025988884f5aeadcde3",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

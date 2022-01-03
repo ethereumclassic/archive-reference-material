@@ -4,7 +4,7 @@
             "comment": "Taken from https://github.com/ethereum/EIPs/blob/master/EIPS/eip-145.md",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stShift/shr11Filler.json",
             "sourceHash": "ce9611e862af605c4214555aa80c8f7353361ce304cc260dab22bfbd1b4a7d7d"
@@ -64,6 +64,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "f837effef27137a3691c978f81bab111dcfb108bd015c2fd295aa7f79e18e21e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "a603cbb49f1b7c196f3dfec1b2b2047d79582ebd69179e613ee1f5457d34eeac",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

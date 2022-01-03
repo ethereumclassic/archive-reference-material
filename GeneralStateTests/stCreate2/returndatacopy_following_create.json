@@ -4,7 +4,7 @@
             "comment": "Check that create2 does not fill returndata buffer with its return opcode.",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/returndatacopy_following_createFiller.json",
             "sourceHash": "c2f7293a8be627302d8a4633795086d40dc43490f95c0dcbb973577d022c863e"
@@ -85,6 +85,30 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "fbe4c2599c5d6f3f0a945d6384c6b2596a73b65fe9cc6ba0b74aa58ab3215baf",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "fbe4c2599c5d6f3f0a945d6384c6b2596a73b65fe9cc6ba0b74aa58ab3215baf",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "fbe4c2599c5d6f3f0a945d6384c6b2596a73b65fe9cc6ba0b74aa58ab3215baf",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

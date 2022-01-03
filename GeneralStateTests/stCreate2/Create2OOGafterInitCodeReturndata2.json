@@ -4,7 +4,7 @@
             "comment": "Call RETURNDATASIZE and RETURNDATACOPY after CREATE2 deploy a contract. correct returndata copy.",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/Create2OOGafterInitCodeReturndata2Filler.json",
             "sourceHash": "d27181026b746015220e32a59641aceb2c314decbead573f05097237a85759f2"
@@ -87,6 +87,30 @@
                 },
                 {
                     "hash": "a2eabb66edee39fa6eb0716393ccaf2d6fc6dab0a1482f4e5dd1bb03f3e123a2",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "173f1d927225e6ab28fad300b69decc9c8890076264b3de5543da485c3c1b27d",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "591da2a539bd1cf57a3b9b2e1a60bf64a1056cfd9a83608ca8ff01dc43ea711e",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

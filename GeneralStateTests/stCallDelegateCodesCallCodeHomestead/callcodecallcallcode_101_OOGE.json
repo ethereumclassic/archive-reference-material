@@ -4,7 +4,7 @@
             "comment": "DELEGATE -\u003e CALLCODE -\u003e CALLCODE -\u003e CODE OOG",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead/callcodecallcallcode_101_OOGEFiller.json",
             "sourceHash": "483a2f634a37c6860788dce7ec958ef440f2a251f74f7ebbba0a2070700e494d"
@@ -71,6 +71,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "4e3d98739c22a57f43883b4d1d92080eeb165a4b23d3dae30c4320962bd8b831",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "4e3d98739c22a57f43883b4d1d92080eeb165a4b23d3dae30c4320962bd8b831",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

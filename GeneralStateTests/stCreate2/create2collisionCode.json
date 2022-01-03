@@ -4,7 +4,7 @@
             "comment": "create2 generates an account that already exists and has not empty code",
             "filling-rpc-server": "evm version 1.10.4-unstable-eff998ef-20210611",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.ab6c70d9.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.6.12+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionCodeFiller.json",
             "sourceHash": "a1f2675c881bc07d23bd5ebd959c9ee4302bc4996414c5037debfbcc0d7ceda1"
@@ -91,6 +91,41 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "569976a3b480cf75eb6ff39d6fa0f48dfecfad35aa72810dca34841ebb701255",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "2f2e7cb6a2a8b6f8c1143bb40d7b4eca60fc91c362f15bcfe52afd302dcd9499",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "da08bc124744445d4ea39ee4afa926d9e1d5d41469a7e29ff9cf941a1c311f44",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "569976a3b480cf75eb6ff39d6fa0f48dfecfad35aa72810dca34841ebb701255",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

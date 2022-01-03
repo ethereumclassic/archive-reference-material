@@ -4,7 +4,7 @@
             "comment": "have a call to e.g. identity built-in that specifies output size less than input size. Check that the long input is totally available with RETURNDATA.  CALL is with 100000 as gas, address 4 as destination, 0 as value, 0 as in-offset, 32 as in-size, 16 as out-offset, 16 as out-size.  The returndatasize should see 32.",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stPreCompiledContracts/identity_to_smallerFiller.json",
             "sourceHash": "42051dafef0381b58c981f5700391f48a5e84fa733c1649ef3c1c8c7706e1052"
@@ -61,6 +61,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "02635c89dab273a5d29a52f93e2aae2c0c453d6c948f152a00e807cef514f503",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "02635c89dab273a5d29a52f93e2aae2c0c453d6c948f152a00e807cef514f503",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

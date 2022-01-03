@@ -4,7 +4,7 @@
             "comment": "4) Call creates Account A\nCall to Account B stores Account A hash to 1\nCall to Account C runs self destruct on A\nCall to Account B stores Account a hash to 2\n",
             "filling-rpc-server": "evm version 1.10.5-unstable-35dbf7a8-20210628",
             "filling-tool-version": "retesteth-0.1.2-london+commit.c991d254.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.6.15+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount4Filler.yml",
             "sourceHash": "a33c0d632f0b7e12a246aba77cae87ef5b753a448298c8ed16369589802062bc"
@@ -73,6 +73,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "145f1d36bfd750787ea52017914fa4f91ffca7f77b8f8fe09efdfabe32532b69",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "a3c4af4cd78818d2df688b6bd77ad965e6d710310c67e267112c6772b98dbeab",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

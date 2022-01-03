@@ -4,7 +4,7 @@
             "comment": "A test shows accessList transaction example",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExample/accessListExampleFiller.yml",
             "sourceHash": "b9c973d7a1e98567b41fe4a674d9d339d35813c904c6a2cad2232e3b067c1d54",
@@ -100,6 +100,30 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "92575ea202220f5f34292941b2ed9d6821c29f221d3ea417682b872d18094c55",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "036bf17c08e7ee19bb2e2cd209947cf71ac16426a30afad455ae183bde397993",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "92575ea202220f5f34292941b2ed9d6821c29f221d3ea417682b872d18094c55",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

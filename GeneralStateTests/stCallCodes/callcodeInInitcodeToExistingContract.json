@@ -4,7 +4,7 @@
             "comment": "callcode inside create/create2 contract init to existing contract",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCodes/callcodeInInitcodeToExistingContractFiller.json",
             "sourceHash": "689a83e48d9a4255c124d7126ec7743df209e9c10877eab475cd58afd3db147c"
@@ -83,6 +83,30 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "b2c499ef54fe5a03666a901a2a5d2f060967ba22525f976bb632a2009a9c468b",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "d8c7a19a4e1a12655b2c29c9ebff14d65fba7955b67bf2ecbc395baf7b8479db",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "b2c499ef54fe5a03666a901a2a5d2f060967ba22525f976bb632a2009a9c468b",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

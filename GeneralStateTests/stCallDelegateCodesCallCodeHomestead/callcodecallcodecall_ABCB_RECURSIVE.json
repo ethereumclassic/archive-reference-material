@@ -4,7 +4,7 @@
             "comment": "DELEGATECALL -\u003e DELEGATECALL2 -\u003e CALLCODE -\u003e DELEGATECALL2 -\u003e ..",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead/callcodecallcodecall_ABCB_RECURSIVEFiller.json",
             "sourceHash": "164b83795ea9b63e24c05fd44ad458e081bb7dcacd544f90d0c7b44dc9a659d6"
@@ -67,6 +67,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "527a63e38d52c209af71dc332381e72527d184d7d2fcc2f91b82c639aa1e17c5",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "527a63e38d52c209af71dc332381e72527d184d7d2fcc2f91b82c639aa1e17c5",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",

@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz   qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRefundTest/refundSSTOREFiller.yml",
             "sourceHash": "785e2fd555b7a309c92bbca7281184bdf4d1d4da4608aab8db41f5d7e58ef65d"
@@ -69,6 +69,19 @@
             "ETC_Magneto": [
                 {
                     "hash": "7a5c6257b89cf8cc11693f9244212aca2ff17070e79f1c2b56c3f623acbb6617",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "04529b0151c6d7ad3f2d3f12648b931fd7293abdc0b7e1fef101b7fc522c45fa",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x",
                     "expectException": "",

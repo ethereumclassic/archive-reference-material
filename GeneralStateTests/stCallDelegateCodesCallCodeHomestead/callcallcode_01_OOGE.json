@@ -4,7 +4,7 @@
             "comment": "CALLCODE -\u003e DELEGATE -\u003e CODE OOG",
             "filling-rpc-server": "evm version 1.10.4-unstable-950d99c2-20210602",
             "filling-tool-version": "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "filledWith": "CoreGeth-1.12.1-unstable-0585d3c3edaa6484887b81b36ee9ac7df4f1a0f8",
+            "filledWith": "CoreGeth-1.12.4-unstable-e15637ec8a4c42c27d0010632f25fb1ca802df57",
             "lllcversion": "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead/callcallcode_01_OOGEFiller.json",
             "sourceHash": "0375f24889389ec397d49ab9fd5ba15598d0c5103bd37c2824dff7396403bac3"
@@ -67,6 +67,19 @@
                 }
             ],
             "ETC_Magneto": [
+                {
+                    "hash": "eababe565de5d422e7c605d7313088ce476e4f9e10811e8cd93942bb52f96bfa",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "expectException": "",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
                 {
                     "hash": "eababe565de5d422e7c605d7313088ce476e4f9e10811e8cd93942bb52f96bfa",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
