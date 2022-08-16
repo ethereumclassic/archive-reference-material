@@ -4,7 +4,7 @@
             "comment": "Contract A creates new contract.\nNew contract initialization code staticcalls contract CALL-00X.\nContract CALL-00X calls precompiled contracts with non zero value.\nIt should interrupt for each precompiled contract.\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-2eb3b65e06b8e62d7da259a3466b8ff054f9625c",
+            "filledWith": "CoreGeth-1.12.9-unstable-0e7a3a5c183da51231889ed8e64c52b5bace9825",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticFlagEnabled/CallWithNOTZeroValueToPrecompileFromContractInitializationFiller.yml",
             "sourceHash": "bf433685267e218583414a3d683759ecbb807760e945f844cbec7ef0ab4269d6"

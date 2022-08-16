@@ -4,7 +4,7 @@
             "comment": "have a call to e.g. identity built-in that specifies output size more than input size. Check that only the short amount is available with RETURNDATA.  CALL is with 100000 as gas, address 4 as destination, 0 as value, 0 as in-offset, 16 as in-size, 16 as out-offset, 32 as out-size.  The returndatasize should see 16.",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-2eb3b65e06b8e62d7da259a3466b8ff054f9625c",
+            "filledWith": "CoreGeth-1.12.9-unstable-0e7a3a5c183da51231889ed8e64c52b5bace9825",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stPreCompiledContracts/identity_to_biggerFiller.json",
             "sourceHash": "a221732d0b80112b20b73a765f4db683710a6ab6f2aa615fba83a27a03e66b70"
