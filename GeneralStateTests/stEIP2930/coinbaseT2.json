@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP2930/coinbaseT2Filler.yml",
             "sourceHash": "b023602bf37ae7fcd4c350ddc8ef960d3214ed24e5ae5b8c8cc3583a5b682625",
@@ -73,10 +73,10 @@
         "post": {
             "ETC_Mystique": [
                 {
-                    "hash": "9716f6360b7204b1fc05f86c72b33b5b755814e389760cab0a74b7cbbad7b95d",
+                    "hash": "1c8f398c6a243ffec2e8f63ef816e48c3af0fbbafc875837c75bb78b555f40aa",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x02f8a10101648227108402625a0094000000000000000000000000000000000000c0de80a4693c61390000000000000000000000000000000000000000000000000000000000000000d7d694000000000000000000000000000000000000ba5ec080a0d5a3052a8cc387f35ffdebe832afdfdd45980cdcbb9b926dee7fb9b1d9a4ee08a06210d404eb6aecd05bc214b120959a71ede9fadcae4b769c96c58bffa216f205",
+                    "expectException": "TxTypeNotSupported",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
@@ -84,10 +84,10 @@
                     }
                 },
                 {
-                    "hash": "718233dbc7175c5e9a40f858d9a49b599b8cc74456819a42376d878b8aa72c56",
+                    "hash": "a0ca8c3dc6c4b54828ffd3e89c977b345c9c152246c9c38cc2c9ee78fb0621b1",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x02f8a10101648227108402625a0094000000000000000000000000000000000000c0de80a4693c61390000000000000000000000000000000000000000000000000000000000000000d7d694000000000000000000000000000000000000ba5ac080a041870d7c20b48b485d76c28565c7da72ff32b28901157b4e815b2481795edb64a02923e080922a492542d9aaba935f81441a85df4465cacd3c204de6d38cd7ce03",
+                    "expectException": "TxTypeNotSupported",
                     "indexes": {
                         "data": 1,
                         "gas": 0,

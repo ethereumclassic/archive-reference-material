@@ -4,7 +4,7 @@
             "comment": "contract A calls itself. In the sub-call, storage is modified, the calls returns successfully. After that, storage is modified again and then an exception occurs.  0xc0406226 == sha(run())",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/RevertRemoteSubCallStorageOOGFiller.yml",
             "sourceHash": "036c6d833a3f2e2774ba3a384e2db9b33cc4646c877a8304074f2fadb0547397"
@@ -78,7 +78,7 @@
                 {
                     "hash": "47b701d5b8f16193fe75772c6f1dae243b8c527ecb9164e4c5f49386139999ed",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864800a83155cc094a0000000000000000000000000000000000000008084c04062261ba0e8762d27448f2915a02a7151cc5b30fb408f563dd028b9550fb533d9a45ed27ca00682b95824efb788cc3206dfc8f71e50dcc0ccdd957921e06cdc5af2bf0d96df",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -89,7 +89,7 @@
                 {
                     "hash": "3a54a99a91762704d46b66be7cc97012db36c8323484a9732dcbb485d9c8d62d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864800a83155cc094a000000000000000000000000000000000000000808454d1405f1ba0cad346e8ea63ee405061910adfc9606b342f1e59b95763fa4b6868eba82912c3a05d589ffbd73ce9a733a21160954cbe924c25ae164a7ff9736cefc7f2cbf4682b",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -102,7 +102,7 @@
                 {
                     "hash": "47b701d5b8f16193fe75772c6f1dae243b8c527ecb9164e4c5f49386139999ed",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864800a83155cc094a0000000000000000000000000000000000000008084c04062261ba0e8762d27448f2915a02a7151cc5b30fb408f563dd028b9550fb533d9a45ed27ca00682b95824efb788cc3206dfc8f71e50dcc0ccdd957921e06cdc5af2bf0d96df",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -113,7 +113,7 @@
                 {
                     "hash": "3a54a99a91762704d46b66be7cc97012db36c8323484a9732dcbb485d9c8d62d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864800a83155cc094a000000000000000000000000000000000000000808454d1405f1ba0cad346e8ea63ee405061910adfc9606b342f1e59b95763fa4b6868eba82912c3a05d589ffbd73ce9a733a21160954cbe924c25ae164a7ff9736cefc7f2cbf4682b",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -126,7 +126,7 @@
                 {
                     "hash": "03f542b0155311e3828e58b7022ba9fae7621818d0d1f08b412e9e177cff8a5e",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864800a83155cc094a0000000000000000000000000000000000000008084c04062261ba0e8762d27448f2915a02a7151cc5b30fb408f563dd028b9550fb533d9a45ed27ca00682b95824efb788cc3206dfc8f71e50dcc0ccdd957921e06cdc5af2bf0d96df",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -137,7 +137,7 @@
                 {
                     "hash": "3a54a99a91762704d46b66be7cc97012db36c8323484a9732dcbb485d9c8d62d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864800a83155cc094a000000000000000000000000000000000000000808454d1405f1ba0cad346e8ea63ee405061910adfc9606b342f1e59b95763fa4b6868eba82912c3a05d589ffbd73ce9a733a21160954cbe924c25ae164a7ff9736cefc7f2cbf4682b",
                     "expectException": "",
                     "indexes": {
                         "data": 1,

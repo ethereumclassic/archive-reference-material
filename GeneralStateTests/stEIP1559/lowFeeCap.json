@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP1559/lowFeeCapFiller.yml",
             "sourceHash": "8cc8b95e98f05f2b500fc977b26b9398cf956727aefb973d075da015daf702d6",
@@ -55,10 +55,10 @@
         "post": {
             "ETC_Mystique": [
                 {
-                    "hash": "1e65108d20638d00673f825ac261af299903a911ac7773409e2fc0eeabf9de1f",
+                    "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x02f8680101648203e783061a8094cccccccccccccccccccccccccccccccccccccccc830186a000c080a0a0c75b311bd40cb10835e4ef967a6629e01352001bd7cc3b5b4cba0c3ca35722a00ed43a4b0bd8161baa12da82564ead82f3edf051e3d2cfeb57003db712fcfd16",
+                    "expectException": "TR_FeeCapLessThanBlocks",
                     "indexes": {
                         "data": 0,
                         "gas": 0,

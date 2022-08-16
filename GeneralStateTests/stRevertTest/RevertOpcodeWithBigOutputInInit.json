@@ -4,7 +4,7 @@
             "comment": "A REVERT with a big output should not be confused with a big code deployment.  This test contains a REVERT in a contract init code that returns a big returndata.",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/RevertOpcodeWithBigOutputInInitFiller.json",
             "sourceHash": "be8efee9103bbfbb721da48983d7767d068e3ee819a04c2f51d909fb73d332f4"
@@ -71,7 +71,7 @@
                 {
                     "hash": "aa71e3414283db257b7e85d1fc5953861bad8a5b18c2679716c764ad25d991b6",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85b800a83186a0080808f600160005560016000fd60116001551ca0bc084a922aacd666ecec10123036a1401a951da4f7badeeb3716f37849b7f3b1a0258c54206b521745459eb08cbd44a7240cb93bd82a1b9a9e033ee80c66febfe3",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -82,7 +82,7 @@
                 {
                     "hash": "aa71e3414283db257b7e85d1fc5953861bad8a5b18c2679716c764ad25d991b6",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85b800a83186a00800a8f600160005560016000fd60116001551ca0b536dcd00a0558aef9a226cda90026615b651b09455fdcdf465af82a180384daa00dc8d59d31b7626d4834144d8264850ded507a65df18820710ce0c09f87aacbe",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -95,7 +95,7 @@
                 {
                     "hash": "aa71e3414283db257b7e85d1fc5953861bad8a5b18c2679716c764ad25d991b6",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85b800a83186a0080808f600160005560016000fd60116001551ca0bc084a922aacd666ecec10123036a1401a951da4f7badeeb3716f37849b7f3b1a0258c54206b521745459eb08cbd44a7240cb93bd82a1b9a9e033ee80c66febfe3",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -106,7 +106,7 @@
                 {
                     "hash": "aa71e3414283db257b7e85d1fc5953861bad8a5b18c2679716c764ad25d991b6",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85b800a83186a00800a8f600160005560016000fd60116001551ca0b536dcd00a0558aef9a226cda90026615b651b09455fdcdf465af82a180384daa00dc8d59d31b7626d4834144d8264850ded507a65df18820710ce0c09f87aacbe",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -119,7 +119,7 @@
                 {
                     "hash": "143f87e05bb4d04edc784763bda576b62367593d6125cda015a1b2dd769fcf52",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85b800a83186a0080808f600160005560016000fd60116001551ca0bc084a922aacd666ecec10123036a1401a951da4f7badeeb3716f37849b7f3b1a0258c54206b521745459eb08cbd44a7240cb93bd82a1b9a9e033ee80c66febfe3",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -130,7 +130,7 @@
                 {
                     "hash": "143f87e05bb4d04edc784763bda576b62367593d6125cda015a1b2dd769fcf52",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85b800a83186a00800a8f600160005560016000fd60116001551ca0b536dcd00a0558aef9a226cda90026615b651b09455fdcdf465af82a180384daa00dc8d59d31b7626d4834144d8264850ded507a65df18820710ce0c09f87aacbe",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

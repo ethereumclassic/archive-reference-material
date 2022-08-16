@@ -4,7 +4,7 @@
             "comment": "A modification of stRevertTests/RevertInCreateInInit.  That test, for EIP158 only, accidentially tested the case where a contract creation transaction touches an empty account and then fails.  This one tests the same thing not just for EIP158 but any network thereafter.",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSpecialTest/FailedCreateRevertsDeletionFiller.json",
             "sourceHash": "ead61c2e1060b6b0706047856cbc03353e5bef156a7a2322722c197619f5182e"
@@ -65,7 +65,7 @@
                 {
                     "hash": "5c909919be50eb74177909035f65aaeebd416d956f0b6bc2fbd4e6c15daa889f",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf86e800a850a000000008080a03050600d80601360003960006000f050fe00fe6211223360005260206000fd001ba076961c0bc9185f8f650ad74b734ebedb442a0ed7c3f0767c203c8800105b1222a02a22d9ddd242a8b7c0ac1cfbabd9798e1efee7e3b1dc4d1e663e7a5f2c3cf6c5",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -78,7 +78,7 @@
                 {
                     "hash": "5c909919be50eb74177909035f65aaeebd416d956f0b6bc2fbd4e6c15daa889f",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf86e800a850a000000008080a03050600d80601360003960006000f050fe00fe6211223360005260206000fd001ba076961c0bc9185f8f650ad74b734ebedb442a0ed7c3f0767c203c8800105b1222a02a22d9ddd242a8b7c0ac1cfbabd9798e1efee7e3b1dc4d1e663e7a5f2c3cf6c5",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -91,7 +91,7 @@
                 {
                     "hash": "5c909919be50eb74177909035f65aaeebd416d956f0b6bc2fbd4e6c15daa889f",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf86e800a850a000000008080a03050600d80601360003960006000f050fe00fe6211223360005260206000fd001ba076961c0bc9185f8f650ad74b734ebedb442a0ed7c3f0767c203c8800105b1222a02a22d9ddd242a8b7c0ac1cfbabd9798e1efee7e3b1dc4d1e663e7a5f2c3cf6c5",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

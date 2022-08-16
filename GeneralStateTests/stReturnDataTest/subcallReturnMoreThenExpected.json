@@ -4,7 +4,7 @@
             "comment": "https://github.com/ethereum/tests/issues/558 (subcall/opcode return more data then expected)",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/subcallReturnMoreThenExpectedFiller.yml",
             "sourceHash": "00a2dcd24478a9f10889280b9dfc78518230da4f1090f704b959c5adc1787b10"
@@ -71,7 +71,7 @@
                 {
                     "hash": "4e5310ed493a5ae9e7f56ddaac560c1ca14750be11734268b3e755e13443dd23",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -84,7 +84,7 @@
                 {
                     "hash": "4e5310ed493a5ae9e7f56ddaac560c1ca14750be11734268b3e755e13443dd23",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -97,7 +97,7 @@
                 {
                     "hash": "a185df0fe3f38a6d97d07413c8d39673af1503601522ba95f52aedadf0686fa1",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

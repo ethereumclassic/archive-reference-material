@@ -4,7 +4,7 @@
             "comment": "copy of this test for CREATE2",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/RevertDepthCreateAddressCollisionBerlinFiller.json",
             "sourceHash": "e20b7728466a728683911ea2f9e9b507b3f074bba6ce3dd7af2c6fb842f20106"
@@ -148,7 +148,7 @@
                 {
                     "hash": "e99b782205ba2a1e32bad75a8ad66414b82748cef732b7542e13a4147d603584",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000001ea601ba094c27d77e39daa90983ba836bf8a5342b1cfe5a10abe9e80318076843b6c1c20a05d6fe7651dd74a6d7222e461084f722326c72a3512b462233370b520c208fa2c",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -159,7 +159,7 @@
                 {
                     "hash": "322ce03ede227ee3210123da92d86869e4fb6f78df5eace064f6c2b759b09b38",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000001ea601ca098a95b0fa1be119f9b64b30c60219414b31cee828309044064c4c8c45166dd37a00952ec4111e5ef0dd21bbadb12d8a356cd123b023a9891f0d943e56541d9cd3e",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -170,7 +170,7 @@
                 {
                     "hash": "9202d397845eafb8fefbb09a1882418e62df6e80becadccc0cc6a0d2c5fffa8b",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000000ea601ba0f0ada45af941e3d90bb2a4730e0705c1866e62c2903487809896fb2318d5a4b1a00c3004d182aef4cd01a9ba6f35e21191f2d26a068b09faf0f859a9f1e1c37d4c",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -181,7 +181,7 @@
                 {
                     "hash": "ef2c8d660e1718caf2ca56c06d064fccbd475f72fcfc9bc5b619eefad11c8a74",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000000ea601ca008b5b3467d301a46ddca211455b800fa660c1dc49dda22b73b8e692687688b27a042a372e0392954d46a44d395c94ace9e3379315c1c910b3f6c601dc0620b4329",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -192,7 +192,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000001ea601ca0523cd1fbeb8c991c610157b7f2033b7e199fcbae3fe069ecaca55afcc2a5352aa0466960dc82c3a086e8f7567088aff10688d65036e4df9c8c8301cb1dfb5728fa",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -203,7 +203,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000001ea601ba0f51fec31fb51356069d31ff5573774161979d8c22c4633e3a15dcb4b1d14c1ada02d3ebeae4186f0d3f5dea9d2134b33f1e7f787e27c026e898c4b3c09b6775825",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -214,7 +214,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000000ea601ca0518c79367a18d73d4e47fbb1611e86e4f335118b81e270cc9e42bc63f4ed5fcfa017d1c19eaa017ff25d40aad9caa897b3e273392a0a872bba7eefef384a38d9a1",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -225,7 +225,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000000ea601ba0217eb4240037e38d93f6cedce218cdf7dc22b920c2084c6a4ece1f0467b559aca031dc37042bd3190bfeb02b819f333b926cb01d8005f30a611655ec615fcc8e88",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -238,7 +238,7 @@
                 {
                     "hash": "e99b782205ba2a1e32bad75a8ad66414b82748cef732b7542e13a4147d603584",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000001ea601ba094c27d77e39daa90983ba836bf8a5342b1cfe5a10abe9e80318076843b6c1c20a05d6fe7651dd74a6d7222e461084f722326c72a3512b462233370b520c208fa2c",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -249,7 +249,7 @@
                 {
                     "hash": "322ce03ede227ee3210123da92d86869e4fb6f78df5eace064f6c2b759b09b38",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000001ea601ca098a95b0fa1be119f9b64b30c60219414b31cee828309044064c4c8c45166dd37a00952ec4111e5ef0dd21bbadb12d8a356cd123b023a9891f0d943e56541d9cd3e",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -260,7 +260,7 @@
                 {
                     "hash": "9202d397845eafb8fefbb09a1882418e62df6e80becadccc0cc6a0d2c5fffa8b",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000000ea601ba0f0ada45af941e3d90bb2a4730e0705c1866e62c2903487809896fb2318d5a4b1a00c3004d182aef4cd01a9ba6f35e21191f2d26a068b09faf0f859a9f1e1c37d4c",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -271,7 +271,7 @@
                 {
                     "hash": "ef2c8d660e1718caf2ca56c06d064fccbd475f72fcfc9bc5b619eefad11c8a74",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a83029810943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000000ea601ca008b5b3467d301a46ddca211455b800fa660c1dc49dda22b73b8e692687688b27a042a372e0392954d46a44d395c94ace9e3379315c1c910b3f6c601dc0620b4329",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -282,7 +282,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000001ea601ca0523cd1fbeb8c991c610157b7f2033b7e199fcbae3fe069ecaca55afcc2a5352aa0466960dc82c3a086e8f7567088aff10688d65036e4df9c8c8301cb1dfb5728fa",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -293,7 +293,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000001ea601ba0f51fec31fb51356069d31ff5573774161979d8c22c4633e3a15dcb4b1d14c1ada02d3ebeae4186f0d3f5dea9d2134b33f1e7f787e27c026e898c4b3c09b6775825",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -304,7 +304,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368201a0000000000000000000000000000000000000000000000000000000000000ea601ca0518c79367a18d73d4e47fbb1611e86e4f335118b81e270cc9e42bc63f4ed5fcfa017d1c19eaa017ff25d40aad9caa897b3e273392a0a872bba7eefef384a38d9a1",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -315,7 +315,7 @@
                 {
                     "hash": "0b9a366fca8bb954334a3585d8286b7e7ca8ac872df2808ac099cd3dddf3d80d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf880800a8301adb0943e180b1862f9d158abb5e519a6d8605540c2368280a0000000000000000000000000000000000000000000000000000000000000ea601ba0217eb4240037e38d93f6cedce218cdf7dc22b920c2084c6a4ece1f0467b559aca031dc37042bd3190bfeb02b819f333b926cb01d8005f30a611655ec615fcc8e88",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

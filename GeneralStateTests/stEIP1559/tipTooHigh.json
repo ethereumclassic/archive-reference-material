@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP1559/tipTooHighFiller.yml",
             "sourceHash": "08fe74f1e3cb785249629f9255030d10ab64f70ca974129c16473f8e95b77335",
@@ -55,10 +55,10 @@
         "post": {
             "ETC_Mystique": [
                 {
-                    "hash": "1e65108d20638d00673f825ac261af299903a911ac7773409e2fc0eeabf9de1f",
+                    "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x02f86a01018203e98203e883061a8094cccccccccccccccccccccccccccccccccccccccc830186a000c001a0cb3c4310de772a61c4ad96283cd55ed787ac9ea8f7c91ce4a86edebd06b9b01ea0610543a260fc4db3e39e7d29d7aed7bb154b2059f4d167825fe924ebbf8e5dbc",
+                    "expectException": "TR_TipGtFeeCap",
                     "indexes": {
                         "data": 0,
                         "gas": 0,

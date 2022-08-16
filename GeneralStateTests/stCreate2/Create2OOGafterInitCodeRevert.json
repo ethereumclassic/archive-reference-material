@@ -4,7 +4,7 @@
             "comment": "Calls a contract that runs CREATE2 which deploy a code. then after deployment and exiting from CREATE a REVERT is called. check the REVERT data in this case equal to RETURN value of CREATE",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/Create2OOGafterInitCodeRevertFiller.json",
             "sourceHash": "607c3c69d94acd2753267954654283ce53f3402aa044946bfb99649604b8a443"
@@ -70,7 +70,7 @@
                 {
                     "hash": "3dee998bd2814158aa36d7b043123e57d5d324d912f69290af681a6d1d5d2939",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a830124f894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca04ee610959d952713c71c18dcc4cb0a30bf4ffe5a94bf307b54c56aedbd6ba85da03759dc3d37a0f6c536c851b280ffbc48b50dee61b20f749a6ebe66d67ba7eccc",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -83,7 +83,7 @@
                 {
                     "hash": "3dee998bd2814158aa36d7b043123e57d5d324d912f69290af681a6d1d5d2939",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a830124f894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca04ee610959d952713c71c18dcc4cb0a30bf4ffe5a94bf307b54c56aedbd6ba85da03759dc3d37a0f6c536c851b280ffbc48b50dee61b20f749a6ebe66d67ba7eccc",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -96,7 +96,7 @@
                 {
                     "hash": "831d47c6c652035fcfed4846c205918b1dc98dc84a993b5be49856be70288100",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a830124f894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca04ee610959d952713c71c18dcc4cb0a30bf4ffe5a94bf307b54c56aedbd6ba85da03759dc3d37a0f6c536c851b280ffbc48b50dee61b20f749a6ebe66d67ba7eccc",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

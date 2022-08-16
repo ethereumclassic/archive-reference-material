@@ -4,7 +4,7 @@
             "comment": "check output memory after callcode. callcode fails with underflow stack",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/callcodeOutput3partialFailFiller.json",
             "sourceHash": "0ea4953a98cb7f681592a1a7ba69a559ac29b92ee3f2f07b9666663444a18bd5"
@@ -67,7 +67,7 @@
                 {
                     "hash": "c0779e04926ff8d3852ce89c11000fba5eb42f65752199fd4f7bca2604b86d17",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf863800a830f424094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca07bb4986663aec020c016ea3db37ba36e62e9c7d355dc8ed8566b20ce7452b600a07da62397d8a969f674442837f419001f2671df0f19a45586ed3acfd93e819d82",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -80,7 +80,7 @@
                 {
                     "hash": "c0779e04926ff8d3852ce89c11000fba5eb42f65752199fd4f7bca2604b86d17",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf863800a830f424094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca07bb4986663aec020c016ea3db37ba36e62e9c7d355dc8ed8566b20ce7452b600a07da62397d8a969f674442837f419001f2671df0f19a45586ed3acfd93e819d82",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -93,7 +93,7 @@
                 {
                     "hash": "501ca8396ff7dedaa70f88ca01c946f56ca57732a104247e381bf3e2c0bd6fef",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf863800a830f424094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca07bb4986663aec020c016ea3db37ba36e62e9c7d355dc8ed8566b20ce7452b600a07da62397d8a969f674442837f419001f2671df0f19a45586ed3acfd93e819d82",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

@@ -4,7 +4,7 @@
             "comment": "Get account A (aaaaaaaa00000000000000000000000000000000) code hash, code size, and code\nCalls Account A's code which causes self destruction of A\nGet account A codehash, code size and code\nIt is still getting the same values because selfdestruct is performed\nat the end of transaction during state finalization stage.\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccountFiller.yml",
             "sourceHash": "0e60955770e55b4ddf0fa74670a24b5479d5214747301ea6fe2bd6e09dfcaf35"
@@ -79,7 +79,7 @@
                 {
                     "hash": "3e35882d510199f20b8bf158422a7809e191ee7825cdcfb7e0258e0d24badc6a",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -92,7 +92,7 @@
                 {
                     "hash": "e644338f0fe3e32d8e10c07d5bedfd074b1bb16b8d53572781e153c0e95afbd7",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -105,7 +105,7 @@
                 {
                     "hash": "99a02ba9af53c8ace1357b2066d690dbe89d811814e42ff65beb082bad7ffcd4",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

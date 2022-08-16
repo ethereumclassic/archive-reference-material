@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz   qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stBadOpcode/measureGasFiller.yml",
             "sourceHash": "0773778238e2c4b36fd683b8e110df76f7fc69592eec8e68bc404516448f2db3",
@@ -135,7 +135,7 @@
                 {
                     "hash": "089b72e988b207c9dd65faf2d95bfd9ac82ebd274bbfc247a1143babc5efaf46",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000f01ca0557d839b6febb1a156ed60c183495c8cba8443fc72d259602b6b3a38fd8c70cda062425aa43de3d326e736ab16ef872b2f3aa50dd8318a033c638d63b909063169",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -146,7 +146,7 @@
                 {
                     "hash": "8281366556ea7ded233c10dff4c8ba7c3da8e440056d2ce9279d542400066432",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000f51ca0a5171d519ebe2181db331781ba1d2813ef1ccfaa8a8abff74781699c6b753d71a00f57d1613b58c1ffa65ba07547a70026665b647f8660da827bcc55453651d9c3",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -157,7 +157,7 @@
                 {
                     "hash": "e0bfd1f7b19f6354c789897d0fa356a185611dff5c5932dafdd99bc6093ec4f3",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000f11ca01721db694df213d77f7e80114434b7dccbaee1645915534b367a822b0f8797f9a05ed8722121b040f95bbf9b0063d8b9775a609ab1e9c4cd248d0e5f229e98585d",
                     "expectException": "",
                     "indexes": {
                         "data": 2,
@@ -168,7 +168,7 @@
                 {
                     "hash": "e0bfd1f7b19f6354c789897d0fa356a185611dff5c5932dafdd99bc6093ec4f3",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000f21ca0ea42e7bbf4a6a8f72f130ae2f9005ca37908f339d2a788108902c638035170aba0150df6813ca893f847d1d798681cff9724882f6f45dfc1363bbeaa973a99ec07",
                     "expectException": "",
                     "indexes": {
                         "data": 3,
@@ -179,7 +179,7 @@
                 {
                     "hash": "54077281166627756f3e0bbed2be41a3626429c776213d415fa87341636af746",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000f41ca0cf339783b8b7fe5a1bc98dc56ce474c11c3b02584039e34285d348bf727ae4f6a06ab392d121c7cf5a9eb7f445ef3dce1883dc995acd8947e14bb6bb1a43479b33",
                     "expectException": "",
                     "indexes": {
                         "data": 4,
@@ -190,7 +190,7 @@
                 {
                     "hash": "54077281166627756f3e0bbed2be41a3626429c776213d415fa87341636af746",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000fa1ba0d7e338b4d80eb34d67df26182e7f3fc2ec368a0c0233e55b3fdb8de36bf106d4a02a99b5f895df35b5498a26adb52fd9247c33675b4fe89f0562419af3a70e10df",
                     "expectException": "",
                     "indexes": {
                         "data": 5,
@@ -201,7 +201,7 @@
                 {
                     "hash": "8b38da6319fc3491eea1cd2816e3dfd61655a9728032274b01ed5dd1e7d25f26",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000511ba0c7f313b13d2dc29d41efe6171f6cfff4c1a41c82538060b108b9fa861b8f4f4aa066006432d421a06aa794068c588be91d3177f4635074f1039e6ef2813a44b7a1",
                     "expectException": "",
                     "indexes": {
                         "data": 6,
@@ -212,7 +212,7 @@
                 {
                     "hash": "59e5fafbf12f8752cb71a4538e6414cdc77b429b749688c66a6c6626f097789c",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000521ba01611d71186152944bf5e5a181badacfa9eb24d044485453379ebc7d7d2fab63ea078b5472b11db4b5c88c7bd2675c0e92bbd45e2477025c793d70b3095aafdb5e9",
                     "expectException": "",
                     "indexes": {
                         "data": 7,
@@ -223,7 +223,7 @@
                 {
                     "hash": "59e5fafbf12f8752cb71a4538e6414cdc77b429b749688c66a6c6626f097789c",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000531ca0e815ed079ae5d1883d3b6d93d91d208ef2fea0a5872c603add2dd2de09d8569da03c1b0d01e675504f1f5cd74f8d6233f01135258106cc24da664a70312998caf3",
                     "expectException": "",
                     "indexes": {
                         "data": 8,
@@ -234,7 +234,7 @@
                 {
                     "hash": "cbb1a562ccf6d76f07287e1f9bf69615924606bd69a567720947a1ae2a3c2e30",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c6139000000000000000000000000000000000000000000000000000000000000003b1ba0ab7ea8c6b8dd4e4a37d41c01fc19b8e8881716ec8d319001d3549554f48e8cf6a0433a484e8d95768f499cb02a0841f28d6be1ba0a8d5bbe7f8f84dfcd686db4f4",
                     "expectException": "",
                     "indexes": {
                         "data": 10,
@@ -245,7 +245,7 @@
                 {
                     "hash": "70e2b84439ade48fa451e8e8ad462589ab8445116368de418b4e6f164eac6b87",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf885010a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000000201ca0b7bdfb6d7bf0407b530ab4164844650235a04a219fd031f0156c12383db01ce0a03639119bfb3a4361f2c25ba07aaaded2a4c3433bee90c0b6719cef90d20311eb",
                     "expectException": "",
                     "indexes": {
                         "data": 9,

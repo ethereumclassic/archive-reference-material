@@ -4,7 +4,7 @@
             "comment": "Martin: @tkstanczak requested a state-test regarding selfdestructs in relation to EIP-2929. I made one, which tests different variants of hot/cold accounts, and even precompile beneficiaries. https://github.com/holiman/goevmlab/blob/selfdestruct_2929/examples/selfdestruct_2929/main.go#L94",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSpecialTest/selfdestructEIP2929Filler.json",
             "sourceHash": "83ad18b77138ae59f74a63de938ede908f8b71c0aad18933bad6218569395b83"
@@ -77,7 +77,7 @@
                 {
                     "hash": "afd65d8c33b2d7fdefccc549968f9a774a2801bb83691813ba06e88c952218e6",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a837a120094000000000000000000000000000000000000c41180801ba0ae5df8f4eecd8f8e17f7629ca1afc2c3d17d472d00c43b01f5bcae355171d931a036135f53a87fe3acbf7a588ca1cfd1b69cfe82f122404abedef18b0a779053b6",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -90,7 +90,7 @@
                 {
                     "hash": "1e1ebf4b7f26b678a050adc8ae29b593174c025ac4170775e998b3cb27694f53",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a837a120094000000000000000000000000000000000000c41180801ba0ae5df8f4eecd8f8e17f7629ca1afc2c3d17d472d00c43b01f5bcae355171d931a036135f53a87fe3acbf7a588ca1cfd1b69cfe82f122404abedef18b0a779053b6",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -103,7 +103,7 @@
                 {
                     "hash": "2666a04f2e37264819c74a32bd3ad897c6d5f8fc8c92cba9e418fb9e5f3b6274",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a837a120094000000000000000000000000000000000000c41180801ba0ae5df8f4eecd8f8e17f7629ca1afc2c3d17d472d00c43b01f5bcae355171d931a036135f53a87fe3acbf7a588ca1cfd1b69cfe82f122404abedef18b0a779053b6",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

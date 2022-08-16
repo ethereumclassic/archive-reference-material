@@ -4,7 +4,7 @@
             "comment": "2) Account A already exists in the state and contains code\nCall to Account B stores Account A code hash to 1, code size to 2, code to 3\nCall to Account C runs self destruct on A\nCall to Account B stores Account A code hash to 4, code size to 5, code to 6\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount2Filler.yml",
             "sourceHash": "5454b60415b077a8045fba237f72d62905691f0540a79b67d013e3f4cb2975a4"
@@ -71,7 +71,7 @@
                 {
                     "hash": "96b3af86019025fd26407ed5c1a7980564adc99f0b91e9caa00d45efe4a1b606",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -84,7 +84,7 @@
                 {
                     "hash": "721ba4c7f1e1e19b8645faafc3fe42586870095a4b595024e4af52b8b3392922",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -97,7 +97,7 @@
                 {
                     "hash": "9d591b0a3f008b9361e6a8bdb8c886aa7fa46490f48d689d8c566c3d804c6637",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

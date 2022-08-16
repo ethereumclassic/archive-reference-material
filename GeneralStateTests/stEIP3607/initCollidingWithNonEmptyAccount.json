@@ -4,7 +4,7 @@
             "comment": "Account attempts to send tx to create a contract on a non-empty address",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP3607/initCollidingWithNonEmptyAccountFiller.yml",
             "sourceHash": "9e4d4ce0e7a138c040c838adee132d68fa35021369199d393aa376ec8b5d37c1"
@@ -62,7 +62,7 @@
                 {
                     "hash": "89cf023507035bdd9b33f1b3caad5be35aabda22d9c0f3536973757045977293",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf854800a83061a8080830186a08560206000f31ca0b3090d3211444a7b1530ae2b72bfd606fc5902d2d04bb2390448361b3d198d94a05c69af38472b9a5c913eb413379078dbb3beed941467229da6d47bf5c82d67c0",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -73,7 +73,7 @@
                 {
                     "hash": "89cf023507035bdd9b33f1b3caad5be35aabda22d9c0f3536973757045977293",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf877800a83061a8080830186a0a86001600055600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af1501ba0d75483c7e4a2ee2764a2c7830311cbd47bb09ac553268ee98a3918dff5e01eb9a011fd0eb779c8c22f2fae447f01e387b40bfa233425d16f3a66f1da10cf3d2332",
                     "expectException": "",
                     "indexes": {
                         "data": 1,
@@ -84,7 +84,7 @@
                 {
                     "hash": "89cf023507035bdd9b33f1b3caad5be35aabda22d9c0f3536973757045977293",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85f800a83061a8080830186a0906001600055600060206000612710f5501ca0924f6bcfb85112d16475520eccbb09315a4b69c2002ea3c5014d8b15f64079f2a01914df61b531dc6c6c8aa6a621bb6bfc0369f01da70d4f8fec08c887a584cd98",
                     "expectException": "",
                     "indexes": {
                         "data": 2,
@@ -95,7 +95,7 @@
                 {
                     "hash": "89cf023507035bdd9b33f1b3caad5be35aabda22d9c0f3536973757045977293",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85d800a83061a8080830186a08e600160005560206000612710f0501ca0776049e5da04ff95b361d372d9a42d15bd133a7b5f932d11e494ad49d7ba2a46a02a8c500da556108422db824bc9b8ac15e59c015f513d14810541160c10987fde",
                     "expectException": "",
                     "indexes": {
                         "data": 3,
@@ -106,7 +106,7 @@
                 {
                     "hash": "89cf023507035bdd9b33f1b3caad5be35aabda22d9c0f3536973757045977293",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf874800a83061a8080830186a0a56001600055600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af4501ba0c01bf0968a14f6714c89a02e9c061908ca2dcd0ff4f3a84106466ae7a155491ca062b944f0c87c66503ca099e570037b998353048c2fd992899d9cbd642ec5c550",
                     "expectException": "",
                     "indexes": {
                         "data": 4,

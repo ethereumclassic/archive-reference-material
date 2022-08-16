@@ -4,7 +4,7 @@
             "comment": "Calls a contract that runs CREATE which deploy a code. then OOG happens upon deployment of the actual code. check the RETURN data buffer in initial contract",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/CreateOOGafterInitCodeReturndata3Filler.json",
             "sourceHash": "31e477adab748a52243b1dd444856f41a4433a9c52f72d33f8f95415ff955049"
@@ -67,7 +67,7 @@
                 {
                     "hash": "ec3121e7dac669353aad073a727d4d6e8998855d39c79e6439e8da194694ce28",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85f800a82d6d894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ba0218b16ddb45b30b08298f1b83b556fdb43f9b24298883a0a53a3901ace7c20b6a071786b1b966b14d9cca3eb42ff4d9a04248660ce2e727ca1e6c69d4014daddf4",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -80,7 +80,7 @@
                 {
                     "hash": "ec3121e7dac669353aad073a727d4d6e8998855d39c79e6439e8da194694ce28",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85f800a82d6d894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ba0218b16ddb45b30b08298f1b83b556fdb43f9b24298883a0a53a3901ace7c20b6a071786b1b966b14d9cca3eb42ff4d9a04248660ce2e727ca1e6c69d4014daddf4",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -93,7 +93,7 @@
                 {
                     "hash": "ec3121e7dac669353aad073a727d4d6e8998855d39c79e6439e8da194694ce28",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf85f800a82d6d894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ba0218b16ddb45b30b08298f1b83b556fdb43f9b24298883a0a53a3901ace7c20b6a071786b1b966b14d9cca3eb42ff4d9a04248660ce2e727ca1e6c69d4014daddf4",
                     "expectException": "",
                     "indexes": {
                         "data": 0,

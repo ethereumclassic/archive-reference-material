@@ -4,7 +4,7 @@
             "comment": "STATICCALL to precompiled contracts from contract that called from another contract.\nIt should execute successfully for each precompiled contract.\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/StaticcallToPrecompileFromCalledContractFiller.yml",
             "sourceHash": "0c386ab50bd28c88058d5b9c8772dc1812714b2a86c3a064a65e5a9ae6ffd062"
@@ -67,7 +67,7 @@
                 {
                     "hash": "5259fd630656b7a5999a7de64dbb8825e15f49c3cc907ce3b381ccc57e0eb76b",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a830f424094b00000000000000000000000000000000000000064801ca06c84a6619cb4f711d3808c41a0e9bee89be8170a390fc954d6c7364bce2afb37a00ab3b0cc9c619f89be0bb583d4b45d7ce2fde910b407b2b23157502fa4f89af6",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -80,7 +80,7 @@
                 {
                     "hash": "5259fd630656b7a5999a7de64dbb8825e15f49c3cc907ce3b381ccc57e0eb76b",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a830f424094b00000000000000000000000000000000000000064801ca06c84a6619cb4f711d3808c41a0e9bee89be8170a390fc954d6c7364bce2afb37a00ab3b0cc9c619f89be0bb583d4b45d7ce2fde910b407b2b23157502fa4f89af6",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -93,7 +93,7 @@
                 {
                     "hash": "8f03357bc90eff6ec91478bb76e29a5427bc69333a08bba157da56240e125cc9",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf860800a830f424094b00000000000000000000000000000000000000064801ca06c84a6619cb4f711d3808c41a0e9bee89be8170a390fc954d6c7364bce2afb37a00ab3b0cc9c619f89be0bb583d4b45d7ce2fde910b407b2b23157502fa4f89af6",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
