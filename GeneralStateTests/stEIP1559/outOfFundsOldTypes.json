@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-eb09c7b6bd72fff3f5a6fdb1a1114f5e9eadb4de",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP1559/outOfFundsOldTypesFiller.yml",
             "sourceHash": "f5cc66f92c22f6ec702ad2689c9ace453184f426f62ee6ced2eaf9acbca5f068"
@@ -58,7 +58,7 @@
                 {
                     "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf868018502540be40086246139ca800094cccccccccccccccccccccccccccccccccccccccc80001ba09e53aee77b280e8454ed90d9b42a8a064a4e07c57111fb49e14ea252fb50ced6a0574dba84f5baca1e333612371e959abc7057014ce19fce71901703f0aa45c438",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -69,7 +69,7 @@
                 {
                     "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf870018502540be40086246139ca800094cccccccccccccccccccccccccccccccccccccccc880de0b6b3a7640000001ca0ea06ef39f418b0aa6e3822b878d494bbf028a98c4c0cdd68472f119bc3fdabbba019fd4918db7bebead9c87978eb1c2ee428efc90c0f11a18ce5396df93a362149",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -80,8 +80,8 @@
                 {
                     "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x01f86a01018502540be40086246139ca800094cccccccccccccccccccccccccccccccccccccccc8001c001a0376bb679a3e5d2260d0b24cc067833f218c97fc5566f7388ee8112c128c85df6a06f6d96ac44a542b895a709da4779823e9ca9a5bc8a86403f51df85c1994ffc36",
+                    "expectException": "TR_NoFunds",
                     "indexes": {
                         "data": 1,
                         "gas": 0,
@@ -91,8 +91,8 @@
                 {
                     "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x01f87201018502540be40086246139ca800094cccccccccccccccccccccccccccccccccccccccc880de0b6b3a764000001c001a095020e3b91bc04edac72212c4beff72631d8cd7c69836116fa67f5c6ce31960da07a1181545273ab93fefd70ac663798ac7388c9d2acb67c5663968b16365e3f61",
+                    "expectException": "TR_NoFunds",
                     "indexes": {
                         "data": 1,
                         "gas": 0,
@@ -102,7 +102,7 @@
                 {
                     "hash": "0e951c5a77ddfd9319a0277497966c19827cabaa174008deb87e2bed0ad3b948",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf864018502540be400829c4094cccccccccccccccccccccccccccccccccccccccc80001ca08e0936fea8efd4a1d4200ec3ac26d468bc8f473d50806bb3320ec7a4482598cba03e4bfc3c5273cf5722761f5ce066a6ff4b48c3df3d74e3e13aa44af37c4d8bed",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -111,10 +111,10 @@
                     }
                 },
                 {
-                    "hash": "0e951c5a77ddfd9319a0277497966c19827cabaa174008deb87e2bed0ad3b948",
+                    "hash": "cfc3199ebc66e160f6c10c5f832d563ce9fefd9440928848256b7606f2e92972",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x01f86601018502540be400829c4094cccccccccccccccccccccccccccccccccccccccc8001c001a09f90bf844a0d5745f33e463a202ce49615e18de09afb50680a07b5b8b91dfba9a06df8c01637adc9a85b854e985c09066a5a7e7634afe00c7b070bd02f37b8dfc8",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 1,
                         "gas": 1,
@@ -124,7 +124,7 @@
                 {
                     "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
+                    "txbytes": "0xf86c018502540be400829c4094cccccccccccccccccccccccccccccccccccccccc880de0b6b3a7640000001ca039f1474dd143199109aca4775e843a57c899b20436b20ae322579a34982e9aa8a053652d84a2486fef4ecf80016c69f04d123ff32c10843791da6f49e91814e7bb",
                     "expectException": "",
                     "indexes": {
                         "data": 0,
@@ -135,8 +135,8 @@
                 {
                     "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x01f86e01018502540be400829c4094cccccccccccccccccccccccccccccccccccccccc880de0b6b3a764000001c080a0b59d8a4208c6bce7e75184755bfce9348f7f942fd982c1c3777b6756a843a9aba023f5265373f1978d55ba8c47a4d4e3fff82241b98d28d78f4c349b635bea8ff3",
+                    "expectException": "TR_NoFunds",
                     "indexes": {
                         "data": 1,
                         "gas": 1,

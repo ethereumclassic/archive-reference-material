@@ -4,7 +4,7 @@
             "comment": "contract A calls itself. In the sub-call, storage is modified, the calls returns successfully. After that, storage is modified again and then an exception occurs.  0xc0406226 == sha(run())",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
+            "filledWith": "CoreGeth-1.12.9-unstable-eb09c7b6bd72fff3f5a6fdb1a1114f5e9eadb4de",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/RevertRemoteSubCallStorageOOGFiller.yml",
             "sourceHash": "036c6d833a3f2e2774ba3a384e2db9b33cc4646c877a8304074f2fadb0547397"

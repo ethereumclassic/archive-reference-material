@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz   qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d8ad0afdd9c07b3d4dfb5a05480496ea8ec742e3",
+            "filledWith": "CoreGeth-1.12.9-unstable-eb09c7b6bd72fff3f5a6fdb1a1114f5e9eadb4de",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRefundTest/refundSSTOREFiller.yml",
             "sourceHash": "5a4ddf785aff98b69aa581d8be232fea97e49ba312ac54141f29b0a809cc551f"
@@ -71,8 +71,8 @@
                 {
                     "hash": "7a5c6257b89cf8cc11693f9244212aca2ff17070e79f1c2b56c3f623acbb6617",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x01f86401018203e88327b02894cccccccccccccccccccccccccccccccccccccccc8000c080a039a0a692787fa83274937107332a154b786bf2cb1f80d1f20fe49d20da6ba324a0103bb80408321d84a1db211dfc777a640db593e889d6ec52f94d8718db3935c6",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
@@ -82,10 +82,10 @@
             ],
             "ETC_Mystique": [
                 {
-                    "hash": "04529b0151c6d7ad3f2d3f12648b931fd7293abdc0b7e1fef101b7fc522c45fa",
+                    "hash": "4a21981771eb68a0b015fc4b5a0ad6bb6a379c6f2f2c2356a1c73279eae6e6f9",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x",
-                    "expectException": "",
+                    "txbytes": "0x01f86401018203e88327b02894cccccccccccccccccccccccccccccccccccccccc8000c080a039a0a692787fa83274937107332a154b786bf2cb1f80d1f20fe49d20da6ba324a0103bb80408321d84a1db211dfc777a640db593e889d6ec52f94d8718db3935c6",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 0,
                         "gas": 0,

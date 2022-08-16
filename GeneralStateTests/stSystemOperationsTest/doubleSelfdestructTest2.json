@@ -4,7 +4,7 @@
             "comment": "The second test case requested here https://github.com/ethereum/tests/issues/431#issue-306081539 .\nInvoked Solidity 0.4.21 with solc --bin-runtime --optimize\ncontract DoubleSelfdestructTest2 {\n  address constant B = 0x3;\n  function remoteSelfdestruct() external {\n    selfdestruct(this);\n  }\n  function() external payable {\n    this.remoteSelfdestruct();\n    selfdestruct(B);\n  }\n}\nThe version of Solidity emits code that always enter OOG for Homestead and Frontier.  So no new accounts\nare created for Homestead and Frontier.  EIP158 changes the behavior of zero-amount transfer so that no new accounts are created.\nThis leaves EIP150 as a special case.\nBecause gasprice is 0 and mining reward is 0, the mining account is created as empty in the post state. (imitating blockchain rules)\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-8e8788229c254fcb9a82e4617f7fa0c62d37c350",
+            "filledWith": "CoreGeth-1.12.9-unstable-eb09c7b6bd72fff3f5a6fdb1a1114f5e9eadb4de",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSystemOperationsTest/doubleSelfdestructTest2Filler.yml",
             "sourceHash": "33ae53c705ded21f3751a1266782336e3c9a68c9593f370eec8ab1550a48890a"
