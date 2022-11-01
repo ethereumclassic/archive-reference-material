@@ -2,10 +2,10 @@
     "transactionCollidingWithNonEmptyAccount_send" : {
         "_info" : {
             "comment" : "Account with non-empty code attempts to send tx to another account with empty code",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "1555205395b00830001af83afa820448964ee7b27387d39c8facfcb8a88d59b5",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "7fab2cdef20561470b2a1b18b6f9e514f398f069b11862df531feba9e4c25619",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stEIP3607/transactionCollidingWithNonEmptyAccount_sendFiller.yml",
             "sourceHash" : "519c6c3041b211a9ef57db8a6e289b466b3c0bc70939fda545c56de4161ac06f"
@@ -21,6 +21,19 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "ETC_Mystique" : [
+                {
+                    "expectException" : "SenderNotEOA",
+                    "hash" : "0x1e3e9912d5bdbe6cd6feea1a121ae56f83e5169476b415884bd9f0412f3927ff",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea02762052f6fd9b92b90e609c21082b621af931e77682c349e8a2948dd6fd87b4ba01d74f005b43fdf151da59598f99bb2935fbaf5a4dd8385c5bf27e8f6b43bda69"
+                }
+            ],
             "London" : [
                 {
                     "expectException" : "SenderNotEOA",

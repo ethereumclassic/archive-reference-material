@@ -2,10 +2,10 @@
     "Callcode1024OOG" : {
         "_info" : {
             "comment" : "calldepth and oog",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "216989d92430fce70dae3da3b46b765b19c25ca897955a48f7fd117ad43ed54e",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "7c8604927e9d4682cafb07a90ca2fd9c1465844d2b14cb50050eedcfe8d0c1e7",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/Callcode1024OOGFiller.json",
             "sourceHash" : "6fc2fd3316322d40ff3958c43f1167e55740aae2f066a33d218eaae9fd41b91c"
@@ -41,6 +41,50 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a83c8353a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a801ca014c4ac8efa19723d893b27c12947bb1cc54d3fb255456bde809d5eeacc8097c8a04214b1cf469a2dcb91dc815d900653e74c7ab9116f8b862243f2e526ee7445c5"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0xf7b1e95ac60e209ba531090df7c1f0218160bf3defdfca858d499bf045fb8068",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83efe17a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea055715f8efe8c035797564df9e7fed82a7debdd421c528703abe1ad10a6e1627da06889bbaabf8617b49fa31b67509ce8def44d6a7942443b3ee339bf85d67e669f"
+                },
+                {
+                    "hash" : "0x2a6bd675bea978a902218ef47b8ac4fc139f47ac6b20dc5229582fa1034c92b9",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83c8353a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea087fa46c9bc1c2a0f6e8dc989fb3f84c231b295368c005d984b538235cb9c5256a004c12351f5238742fe4cd78b08841feeead62b0430fb521bfd36e8ea9650e9f6"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0xf7b1e95ac60e209ba531090df7c1f0218160bf3defdfca858d499bf045fb8068",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83efe17a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea055715f8efe8c035797564df9e7fed82a7debdd421c528703abe1ad10a6e1627da06889bbaabf8617b49fa31b67509ce8def44d6a7942443b3ee339bf85d67e669f"
+                },
+                {
+                    "hash" : "0x2a6bd675bea978a902218ef47b8ac4fc139f47ac6b20dc5229582fa1034c92b9",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83c8353a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea087fa46c9bc1c2a0f6e8dc989fb3f84c231b295368c005d984b538235cb9c5256a004c12351f5238742fe4cd78b08841feeead62b0430fb521bfd36e8ea9650e9f6"
                 }
             ],
             "Istanbul" : [

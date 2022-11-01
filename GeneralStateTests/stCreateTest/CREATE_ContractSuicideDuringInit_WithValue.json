@@ -2,10 +2,10 @@
     "CREATE_ContractSuicideDuringInit_WithValue" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "02705dca9d7e86ef359eba60e3049c1a433b504a13a4ffbec7c36135c7f0f28c",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "6936e00c3bd05a0c49855fc0b6ef35ae2ee8f8e56ad15b8cc729502652a6a984",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CREATE_ContractSuicideDuringInit_WithValueFiller.json",
             "sourceHash" : "f244d2273333c3ddf9cfeb3fd5548d8c5d4615a1e5dd252bb6ba86f1c3297207"
@@ -31,6 +31,42 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf899800a830249f0800ab84c6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f1506d64600c6000556000526005601bf360005273c94f5374fce5edbc8e2a8697c15331677e6ebf0bff1ca0c9b27699a695ad052341c182421915bbba0fefb7f50c79ecdac101bf95223855a067b60649d8e5254d34cdaf5fce31f869fd2050f32c94f8fcc912e29de0c1465e"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x0449f04de8ddf18908a5b6baa3698170fb57fdc7f57d86bab4599905b0143a4d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf89a800a830249f0800ab84c6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f1506d64600c6000556000526005601bf360005273c94f5374fce5edbc8e2a8697c15331677e6ebf0bff819ea0a0b0b7c4b397b9fa1962f22dfb312d64ad29caa528ce4748480bf97b3f63dcbca071a0e5bee5ce024b82b3d24a1c927b6f8f1d6f09856695a3b3701908260ddb6f"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0xd9a5b0e354deebc9751d876eaf26f1c4891b42bc25fcf5ad5717ae232b01c890",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf89a800a830249f0800ab84c6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f1506d64600c6000556000526005601bf360005273c94f5374fce5edbc8e2a8697c15331677e6ebf0bff819ea0a0b0b7c4b397b9fa1962f22dfb312d64ad29caa528ce4748480bf97b3f63dcbca071a0e5bee5ce024b82b3d24a1c927b6f8f1d6f09856695a3b3701908260ddb6f"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0x3bda50c5df391e6e16c7a4dc444a9b069420a9226f1a1bc97a516f911bde03dd",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf89a800a830249f0800ab84c6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f1506d64600c6000556000526005601bf360005273c94f5374fce5edbc8e2a8697c15331677e6ebf0bff819ea0a0b0b7c4b397b9fa1962f22dfb312d64ad29caa528ce4748480bf97b3f63dcbca071a0e5bee5ce024b82b3d24a1c927b6f8f1d6f09856695a3b3701908260ddb6f"
                 }
             ],
             "Istanbul" : [

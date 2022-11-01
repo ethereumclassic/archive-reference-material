@@ -2,14 +2,14 @@
     "createCodeSizeLimit" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "90913066aba3ec6c4981c1ef0850ca1e9af8eee7ceb5305afed3d77ed5884d01",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "8cd372b793ae5176fec811c223c1b8b29ca953e1b462d3137f7d864ab76a5633",
             "labels" : {
                 "0" : "valid",
                 "1" : "invalid"
             },
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCodeSizeLimit/createCodeSizeLimitFiller.yml",
             "sourceHash" : "83e9c2d38543bbcf31c92169085e1c3abdefc658d0d8834f6ea580002426c001"
@@ -25,6 +25,18 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x6d7c707d55ff61f4560cb125de68be3123950a981a62a4028a4271d0de364c25",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf867800a83e4e1c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80866160006000f3819da0691fcfe087ef86aa09e4d17bffa84da221b253bb4c806b3c3488705e53783b14a00e9477c80c8b19f636464da9702b24f3d8337fec62528ffcaa4d2a0e828d971a"
+                }
+            ],
             "London" : [
                 {
                     "hash" : "0x54e43b1247e3a372d6d0867f36bd36bc6d38646f6e5a327934ed170c6e810e83",

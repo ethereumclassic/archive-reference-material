@@ -2,10 +2,10 @@
     "multiOwnedChangeOwner_fromNotOwner" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "663e79fe4cc641f5889171716ba3a9bcc3ee8941b9994c65b0dddd6cd5d4e928",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "ec1036f2395f4e44fb786f30c098345940155da5902dfe172d282a8b00d3a83c",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/multiOwnedChangeOwner_fromNotOwnerFiller.json",
             "sourceHash" : "ea42e3944b36f56fdf75d16dd281e4754f745610bc728c78213d311de62bb424"
@@ -31,6 +31,42 @@
                     },
                     "logs" : "0xe7c7b6ceea0dd0dc4d6cac96b13bcba1bc7c63f2fdea4f7907e37e34b1a408a9",
                     "txbytes" : "0xf8a5010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64b844f00d4b5d000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa1ca0de588705016d228910235c76489649d3a115603117e5dcfeca058969b087b152a00e79f2975040e5b639356965c9ba0f25cde00fcf40444ad8ebe92c95a4f9e183"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x7992e9176bf927759e6eda895386ca322ef736ee755865f389e3d99162e27e2b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0xe7c7b6ceea0dd0dc4d6cac96b13bcba1bc7c63f2fdea4f7907e37e34b1a408a9",
+                    "txbytes" : "0xf8a6010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64b844f00d4b5d000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa819ea01624642371dde2a34cf0495c80a00d06c7e3a2aea775f36d0229bc02c17c24d5a04a791add6118be1db0d924ae29d0fa8d2741ccb7f041c9b00567ac91a9f34b7b"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x389188923c363d07e2471234a709fe874d3dc9d7451790c616e8723aa39bf89c",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0xe7c7b6ceea0dd0dc4d6cac96b13bcba1bc7c63f2fdea4f7907e37e34b1a408a9",
+                    "txbytes" : "0xf8a6010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64b844f00d4b5d000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa819ea01624642371dde2a34cf0495c80a00d06c7e3a2aea775f36d0229bc02c17c24d5a04a791add6118be1db0d924ae29d0fa8d2741ccb7f041c9b00567ac91a9f34b7b"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0xfc77c2a79988c62094af6ace63aba0ecfba95f4dca579abf91ef46d4366b8319",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0xe7c7b6ceea0dd0dc4d6cac96b13bcba1bc7c63f2fdea4f7907e37e34b1a408a9",
+                    "txbytes" : "0xf8a6010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64b844f00d4b5d000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa819ea01624642371dde2a34cf0495c80a00d06c7e3a2aea775f36d0229bc02c17c24d5a04a791add6118be1db0d924ae29d0fa8d2741ccb7f041c9b00567ac91a9f34b7b"
                 }
             ],
             "Istanbul" : [

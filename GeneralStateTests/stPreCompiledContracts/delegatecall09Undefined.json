@@ -2,11 +2,11 @@
     "delegatecall09Undefined" : {
         "_info" : {
             "comment" : "This test invokes delegatecall to the Blake2b (09) precompile in the revision it has been\ndefined (Istanbul) and in the one before it (ConstantinopleFix). For the defined precompile\nthe call should result in a failure and the single gas unit provided should be consumed.\nIn case the precompile is undefined, the call should succeed and no gas should be consumed.\n",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.7e597e14.Linux.g++",
-            "generatedTestHash" : "08e122f82c65435724d6c591fecf938b5e8620bd8182e3526a431b1343d1b5ac",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.30+commit.401d5358.mod.Linux.g++",
-            "solidity" : "Version: 0.8.3+commit.8d00100c.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "6cfd026dce7dcc2066feb0e49fcae138bec0a4127375bdcba5bb3a159a2f1a4b",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
+            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stPreCompiledContracts/delegatecall09UndefinedFiller.yml",
             "sourceHash" : "47dc576f17e59aff6c983d953e601ec6636f928bd1302875d3c04e87820ed37e"
         },
@@ -43,6 +43,42 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a83015f9094095e7baea6a6c7c4c2dfeb977efac326af552d8780801ca068457e376cce29e874412dd14e38d8b4049b4b2d6d6a33b349fda5d6d9e76ba3a05f77f62f7141c2e0b656b233d52af342a6227325215772b6d810c3d0ca71ea58"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x4f8483e2f4a9145576cd31c3642d6871316a597a91b0487eac65887b00fb7475",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83015f9094095e7baea6a6c7c4c2dfeb977efac326af552d878080819da0c301786e99b5311e23f5b1d54f027c0565e33f005bad2ecac66cd30346d39442a074628149d3a87e4f277057273f40c9cca1ad60030f0e93b3cc5a244eac946b65"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x4f8483e2f4a9145576cd31c3642d6871316a597a91b0487eac65887b00fb7475",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83015f9094095e7baea6a6c7c4c2dfeb977efac326af552d878080819da0c301786e99b5311e23f5b1d54f027c0565e33f005bad2ecac66cd30346d39442a074628149d3a87e4f277057273f40c9cca1ad60030f0e93b3cc5a244eac946b65"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0x4f8483e2f4a9145576cd31c3642d6871316a597a91b0487eac65887b00fb7475",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83015f9094095e7baea6a6c7c4c2dfeb977efac326af552d878080819da0c301786e99b5311e23f5b1d54f027c0565e33f005bad2ecac66cd30346d39442a074628149d3a87e4f277057273f40c9cca1ad60030f0e93b3cc5a244eac946b65"
                 }
             ],
             "Istanbul" : [

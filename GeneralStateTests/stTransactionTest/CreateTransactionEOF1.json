@@ -2,16 +2,16 @@
     "CreateTransactionEOF1" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "07cec35c16343affa1724e6c10064301621ea3c4b2d42a0cbbd23689ba8fa269",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "f8bc9149d2196e95c7cbf9a9d7b60495cb9cfed19fd8b1e42bcf74483b70214d",
             "labels" : {
                 "0" : "deploying_0xef",
                 "1" : "deploying_0xef00",
                 "2" : "deploying_0xef0000",
                 "3" : "deploying_0xef00..00"
             },
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/CreateTransactionEOF1Filler.yml",
             "sourceHash" : "b09a80ea5f6951f761525ea582d007372e7e056fc98ab93ed6c8efb28ee73736"
@@ -67,6 +67,48 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf856800a8301117080808a60ef60005360206000f31ca06c4c97a3d578795b697d8c12d52fbb77d86893a36ea774286778ed74069eba8fa017bdd271d998d34804ac890a6565cb2aebdc1b9a7f91659801f3d67d96d90e05"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0xd22620d86315c6e892f6a07c4ac0147f02bfb3cc5794f64f7db822cdf65d3b21",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf857800a8301117080808a60ef60005360016000f3819ea0c31b2e14f23f0de8928d2cf79edc43dff5c7af2000297bd854e62ce7d6cec504a037f722ec45166939e6b2ceec82ec7931d156e9f501787543a5a4823402589244"
+                },
+                {
+                    "hash" : "0xd22620d86315c6e892f6a07c4ac0147f02bfb3cc5794f64f7db822cdf65d3b21",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf857800a8301117080808a60ef60005360026000f3819ea02e1245100ef6c52dc3ae8dc0fc8ef69d971ece131d420b704bc2ed594a3da638a00393248b2776e4c7b2642fde80316152374fe93ded5dcbac49e418df8e59f7e0"
+                },
+                {
+                    "hash" : "0xd22620d86315c6e892f6a07c4ac0147f02bfb3cc5794f64f7db822cdf65d3b21",
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf857800a8301117080808a60ef60005360036000f3819da064e03d2b7819e52476ad7e33c30b34f33bec6b93197863966a86837ff2b1589ba035e29cc8a9f93681bbf2a71a5eaa213537369b02271ae4ce3ade77e35997bc2f"
+                },
+                {
+                    "hash" : "0xd22620d86315c6e892f6a07c4ac0147f02bfb3cc5794f64f7db822cdf65d3b21",
+                    "indexes" : {
+                        "data" : 3,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf857800a8301117080808a60ef60005360206000f3819da06378b3f94a0809630cedae75b76c95c8b4eb117a1f5f0dffbc154ef7c6676115a04d8caaddad9926b580af8d6bef6bbed19323f8a5598e0634fa8ba07983175a41"
                 }
             ],
             "London" : [

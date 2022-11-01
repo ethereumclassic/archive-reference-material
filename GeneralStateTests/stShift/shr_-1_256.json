@@ -2,10 +2,10 @@
     "shr_-1_256" : {
         "_info" : {
             "comment" : "Taken from https://github.com/ethereum/EIPs/blob/master/EIPS/eip-145.md",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "e44a9604dc8d82ca900179843c88b88772dd12c8b757fbdaba94beaac9ccbdfc",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "979a3dddbbe1bcf0bb8812d4247ff90057932d2233b9dd7ce36add0e332ace3c",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stShift/shr_-1_256Filler.json",
             "sourceHash" : "7b22841bd4b844f8a7619c3adb488ae7a2a3a352717e605c24d5bb55cae2f727"
@@ -31,6 +31,42 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf863800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0ffb600e63115a7362e7811894a91d8ba4330e526f22121c994c4692035dfdfd5a06198379fcac8de3dbfac48b165df4bf88e2088f294b61efb9a65fe2281c76e16"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x1656a445af2d08d8b9891f58d990a73da4c2dd6c1ca288396ff9703ac12c7ce4",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea02762052f6fd9b92b90e609c21082b621af931e77682c349e8a2948dd6fd87b4ba01d74f005b43fdf151da59598f99bb2935fbaf5a4dd8385c5bf27e8f6b43bda69"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x7aa1f0d4fe2697be2fa05c7839b8ea73312ee65203d04c52451a7268b0d7539e",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea02762052f6fd9b92b90e609c21082b621af931e77682c349e8a2948dd6fd87b4ba01d74f005b43fdf151da59598f99bb2935fbaf5a4dd8385c5bf27e8f6b43bda69"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0x1656a445af2d08d8b9891f58d990a73da4c2dd6c1ca288396ff9703ac12c7ce4",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea02762052f6fd9b92b90e609c21082b621af931e77682c349e8a2948dd6fd87b4ba01d74f005b43fdf151da59598f99bb2935fbaf5a4dd8385c5bf27e8f6b43bda69"
                 }
             ],
             "Istanbul" : [

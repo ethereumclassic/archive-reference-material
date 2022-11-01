@@ -2,10 +2,10 @@
     "randomStatetest648" : {
         "_info" : {
             "comment" : "Consensus issue test produced by fuzz testing team 00000005-storagefuzz-1",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "4578727e4a5017085cbaabd4e44078abbd57731e4af0c431514fdf19a9984446",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "fd8c15cc77c872f8339f709f357b8c93344883394f584b13a36105136e7504e5",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom2/randomStatetest648Filler.json",
             "sourceHash" : "24257314563d3489888c5d370ee1a0e833f59d5c12b6a74a30b7a2dcfb6f7989"
@@ -31,6 +31,42 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf8c3800a83053dad9400000000000000000000000000000000000000f183db2206b85f384c289327fda733f319011b605929b98b6cc52e4915c942369264c71a3ca70ebce56fef7e41103f1acc71e91f299bf6c5730b265d6f9d475936735ea60c58b9bb125a78178171784759606d696e98f8522b52fe213edee397b3df6ca9f0c61ba040f3226d549d350d99b845f5117ebbad4b078d6ba27706a16dc123984573bfbda03987b5dd27a008c509bc99bfe14bdc9c11165f96ce4cc47c99287ed9eb24d80d"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x1dd1cb94277aadd3e5417c03e8fe6e923233ce06568d4abe2e7b1fb509750586",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8c4800a83053dad9400000000000000000000000000000000000000f183db2206b85f384c289327fda733f319011b605929b98b6cc52e4915c942369264c71a3ca70ebce56fef7e41103f1acc71e91f299bf6c5730b265d6f9d475936735ea60c58b9bb125a78178171784759606d696e98f8522b52fe213edee397b3df6ca9f0c6819ea0766443522e7d3f3586120918b8326ed0ab3c8389c76832104fa70f650d0cf9c4a071ca5a3bc7230517b7d9dd12b40fdc947dd1c77c28525829d4e9648744f6a6f1"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x1dd1cb94277aadd3e5417c03e8fe6e923233ce06568d4abe2e7b1fb509750586",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8c4800a83053dad9400000000000000000000000000000000000000f183db2206b85f384c289327fda733f319011b605929b98b6cc52e4915c942369264c71a3ca70ebce56fef7e41103f1acc71e91f299bf6c5730b265d6f9d475936735ea60c58b9bb125a78178171784759606d696e98f8522b52fe213edee397b3df6ca9f0c6819ea0766443522e7d3f3586120918b8326ed0ab3c8389c76832104fa70f650d0cf9c4a071ca5a3bc7230517b7d9dd12b40fdc947dd1c77c28525829d4e9648744f6a6f1"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0x1dd1cb94277aadd3e5417c03e8fe6e923233ce06568d4abe2e7b1fb509750586",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8c4800a83053dad9400000000000000000000000000000000000000f183db2206b85f384c289327fda733f319011b605929b98b6cc52e4915c942369264c71a3ca70ebce56fef7e41103f1acc71e91f299bf6c5730b265d6f9d475936735ea60c58b9bb125a78178171784759606d696e98f8522b52fe213edee397b3df6ca9f0c6819ea0766443522e7d3f3586120918b8326ed0ab3c8389c76832104fa70f650d0cf9c4a071ca5a3bc7230517b7d9dd12b40fdc947dd1c77c28525829d4e9648744f6a6f1"
                 }
             ],
             "Istanbul" : [

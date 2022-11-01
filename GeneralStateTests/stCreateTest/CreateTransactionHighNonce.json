@@ -2,11 +2,11 @@
     "CreateTransactionHighNonce" : {
         "_info" : {
             "comment" : "The test check if the create transaction is reject if the origin's nonce is maximum value\n(and would overflow if increased by 1).\n",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.7e597e14.Linux.g++",
-            "generatedTestHash" : "65e3d7527c7ce2060c48837cd92f6e0719a790958885f909652f735d15c7487a",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.30+commit.401d5358.mod.Linux.g++",
-            "solidity" : "Version: 0.8.3+commit.8d00100c.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "fc9617d97ca3eb97e4684c5122eb6d9c41b0d12dfa39284dfb672b2ab6a0018a",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
+            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CreateTransactionHighNonceFiller.yml",
             "sourceHash" : "1189dc8c7fc91462a6b51b20d2132b45888c5303e70b2aca647acb29614672f6"
         },
@@ -21,6 +21,30 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "ETC_Mystique" : [
+                {
+                    "expectException" : "TR_NonceHasMaxValue",
+                    "hash" : "0x2fb5804c5079bae761a87f44bc870b2c8675b72980d98c99acd2e451cb84aa94",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85a88ffffffffffffffff0a83015f9080808560016000f3819da0ca0185d0e723e64b0abbc84f5cefd02441e28b26b32d838ec4a2dac0a98c1f12a02f7cfd26d5989047b66a40035b0395dd069def884e9cd097d26b56c73b7008fd"
+                },
+                {
+                    "expectException" : "TR_NonceHasMaxValue",
+                    "hash" : "0x2fb5804c5079bae761a87f44bc870b2c8675b72980d98c99acd2e451cb84aa94",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85a88ffffffffffffffff0a83015f9080018560016000f3819ea010ca6307a1ec6e63a946dad970598ea1398fc9daca827b0a4de75563219467c3a05c9674c632fc7c816deb71810d37fa7c1cc41c26def65c547e5e48c057a106c5"
+                }
+            ],
             "London" : [
                 {
                     "expectException" : "TR_NonceHasMaxValue",

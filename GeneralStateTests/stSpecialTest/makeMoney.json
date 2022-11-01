@@ -2,10 +2,10 @@
     "makeMoney" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "b2cc06a1d4d84cd2189958424cd96f35e5ffcc2c6d0238580f8c0cf258aca84b",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "370cec7488853cd0b85328e7b3c6eb663cee95c91ea09deaf0e875ab3da1e2c9",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/makeMoneyFiller.json",
             "sourceHash" : "15805af36cdc5dee488ad1d94516a753600180c4d5c2d515979bfd903eb418ef"
@@ -31,6 +31,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a83037c9494095e7baea6a6c7c4c2dfeb977efac326af552d870a801ba0b07974995e9a9397bd9ee2cd20d94561a8b24b540495d57095bd3c8eef318bdaa0675ab3cd023f6d479de46a677e1e13b12833acfce3243fb86951cd903dd37357"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x68143815bfb9ce5b9fa292adb9051854ace5eccfa10f7af789319919e6076419",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a83037c9494095e7baea6a6c7c4c2dfeb977efac326af552d870a80819ea088cd9032729c5278abef1da38e38fd3a8cdf197acad3b350d1f78d8c8f2a5e24a06cc19835c3bd71e5918c6e7fae81bb04075164e6b900a2f2695ae7a6a8560527"
                 }
             ],
             "Istanbul" : [

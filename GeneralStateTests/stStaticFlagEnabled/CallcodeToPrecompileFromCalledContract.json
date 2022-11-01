@@ -2,10 +2,10 @@
     "CallcodeToPrecompileFromCalledContract" : {
         "_info" : {
             "comment" : "Contract C calls contract B.\nContract B staticcalls contract A.\nContract A callcodes precompiled contracts.\nIt should execute successfully for each precompiled contract.\n",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "282ade59385acc9edbe922f0ecd1f504eaca35eef2146afaa16585271ee2e9a4",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "99ee6683a5c3d2e1cd29e624dcd74195b8fe25b32c51abc7350d66a878267e74",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticFlagEnabled/CallcodeToPrecompileFromCalledContractFiller.yml",
             "sourceHash" : "aea5786a0c872b954f64fe72ed7f78f8e2847e6e7bdf80b547440060a018cbf2"
@@ -31,6 +31,42 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a833d090094c00000000000000000000000000000000000000064801ca06f1fa866da89e869cd6fbc877a5c65a3208fead5c6ee7ca2f8f287e802ca2c70a07cd7f175ffb75dfc30277beba49388d4dc30a001ceaf404013ec6d5e7fc8f810"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x20e8eb634291db014d13d9ad20e05f0297cd9721e2aaeb476a50225ab4656e86",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a833d090094c0000000000000000000000000000000000000006480819ea0199d26b1c91e95fccdff392c077f1aeeb5324afbdccc99cbc9f09080f7d10a68a07f5e246d3129f587c71cad5b06b5da9df664225fbbfc556128df23ad464afcf6"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x20e8eb634291db014d13d9ad20e05f0297cd9721e2aaeb476a50225ab4656e86",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a833d090094c0000000000000000000000000000000000000006480819ea0199d26b1c91e95fccdff392c077f1aeeb5324afbdccc99cbc9f09080f7d10a68a07f5e246d3129f587c71cad5b06b5da9df664225fbbfc556128df23ad464afcf6"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0xe7ef3d0a7eddca0302822a624b52c43eb2b9081c05801200456c221516f09c66",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a833d090094c0000000000000000000000000000000000000006480819ea0199d26b1c91e95fccdff392c077f1aeeb5324afbdccc99cbc9f09080f7d10a68a07f5e246d3129f587c71cad5b06b5da9df664225fbbfc556128df23ad464afcf6"
                 }
             ],
             "Istanbul" : [

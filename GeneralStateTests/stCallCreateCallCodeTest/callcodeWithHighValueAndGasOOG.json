@@ -2,10 +2,10 @@
     "callcodeWithHighValueAndGasOOG" : {
         "_info" : {
             "comment" : "callcode with high value fails",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "10a4c0f206ad0e674771d431502cfa16a2b9a18ad1501ceb76ca06f1fcf49441",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "fc449b7f90e197054a5be41b55ca30da47457bc8bcc0d240bde4b0777b9fd821",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/callcodeWithHighValueAndGasOOGFiller.json",
             "sourceHash" : "a023c141558da62f4864150d3ea40f15c1eaf2589e85404bd7a6b2f87e444980"
@@ -31,6 +31,42 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf863800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba076ad63e99848bdf585517964cc93fd7e7eec1b1484b1c2c5da06654431002826a0374e5100dbad1edfd62c48df092041f48b1dc272850f7229aaf8b2c08e7e4fef"
+                }
+            ],
+            "ETC_Magneto" : [
+                {
+                    "hash" : "0x2f8ea91a85f9ae306dc5bfb090519dece943adc457268cd804a30b39c41fa497",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819da0887ee59116e7ea946fafd9dc94cff00e37c9ea30786ff0175f56f59ff5d7b149a00a57ded9e9b1e904eac13d21c5e6262faba1d469e39a6bca45b853db2236a70a"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x2f8ea91a85f9ae306dc5bfb090519dece943adc457268cd804a30b39c41fa497",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819da0887ee59116e7ea946fafd9dc94cff00e37c9ea30786ff0175f56f59ff5d7b149a00a57ded9e9b1e904eac13d21c5e6262faba1d469e39a6bca45b853db2236a70a"
+                }
+            ],
+            "ETC_Phoenix" : [
+                {
+                    "hash" : "0xed30eb10a9a3512bff3059d387445c7b6701b070edbcbcfee920866b32630f72",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819da0887ee59116e7ea946fafd9dc94cff00e37c9ea30786ff0175f56f59ff5d7b149a00a57ded9e9b1e904eac13d21c5e6262faba1d469e39a6bca45b853db2236a70a"
                 }
             ],
             "Istanbul" : [

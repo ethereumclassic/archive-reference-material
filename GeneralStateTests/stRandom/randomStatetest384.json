@@ -2,10 +2,10 @@
     "randomStatetest384" : {
         "_info" : {
             "comment" : "Ori Pomerantz   qbzzt1@gmail.com",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "c4ffc7c4969c443a45e9e33b44b67c6fece9def9000317c3db871ecffc92eaed",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "9be065c8cb5cbc81d7631ef8e86c4bf48a63cbe1b2edc5107c9ebb335d63ba06",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom/randomStatetest384Filler.yml",
             "sourceHash" : "c9da1a4755f56f52599571b55a434f0ce158e1e31f30183f32e99e2df65b5f30"
@@ -21,6 +21,18 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x0c5a53e8a42f3b96475125d82fa7c3a03a8c39d1080092ddb189698029c84f30",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8650164871000000000000094cccccccccccccccccccccccccccccccccccccccc8080819ea03ac1172c2b2cefe7d22870c989eed11706dedcb00a3f533211c5c6d6fd19f36aa01c964b53929af3d278a1d08054ef8336a0ef3e4176220bc5082347720ad678ef"
+                }
+            ],
             "London" : [
                 {
                     "hash" : "0x856b908f7fd7ad45af24d01277819dda151a20f87110ed3788b1f29bd29d39b0",

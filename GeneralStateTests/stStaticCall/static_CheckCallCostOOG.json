@@ -2,10 +2,10 @@
     "static_CheckCallCostOOG" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "a1a6855b70246f3a079a2fda4e840b94ab01f9b31bfe1cc1786bb16b3ecf5dce",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "84ddee363e9d53b8b9b853fc37919a53856d0095f9e9b4fceeb38c02ca4929ca",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_CheckCallCostOOGFiller.json",
             "sourceHash" : "f23dd67de19f6c06fc8d02a6996cbf5231b57965518e40350fd096e6bafcd14e"
@@ -41,6 +41,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a830f424094100000000000000000000000000000000000000080801ba0878fccf1801724b1bfb5b0a67d68454b9c56fe9e3753200bc36cd66eed5636eca00dc53455b0e859433799ddbe3c16f98e70c52b6bf684992d9907dc9d1ccb03f1"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0xfd3dcd87e79b62c35bf218334c623255a73e065ade62c9a365a2a478f77eb6c2",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8255f09410000000000000000000000000000000000000008080819da06d2bbbac8bc9397c0ede7df12fee4d8df3858823a313b5e9d3894ebe761ba2d0a04dbd06a71847ba5e0fe30c59fcb0038c1519d35d81a0d418ed7b3693b8e0a084"
+                },
+                {
+                    "hash" : "0x7ce60d09df1487e92d35eca338c29c57df298ac7fa3c70a512afd7cc849e496a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a830f42409410000000000000000000000000000000000000008080819ea094418d58dc64caf52497b226f279e915f73edbf5c917d6ed6c168970c2c4f1c4a03c87cd577cad29ec28d5e0691be6104f204f5e87a6525cb83e50c208e5137a5d"
                 }
             ],
             "Istanbul" : [

@@ -2,11 +2,11 @@
     "doubleSelfdestructTouch" : {
         "_info" : {
             "comment" : "A single contract can execute SELFDESTRUCT multiple times using by being called\nmultiple times. The second and later SELFDESTRUCTs have little effect but can\ntouch some new beneficiary addresses.\n",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.7e597e14.Linux.g++",
-            "generatedTestHash" : "95a3491727c0371e6c359fe2ac7ebd65618818350a313186eadbb9e3c422e481",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.30+commit.401d5358.mod.Linux.g++",
-            "solidity" : "Version: 0.8.3+commit.8d00100c.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "506ba7e69e165e2b0092cdb8ee8daebe1cd54f41c1849a755a7cf52ac249c8ae",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
+            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/doubleSelfdestructTouchFiller.yml",
             "sourceHash" : "1f4615e1322358e4b707b22c434f1b25889bd96287a084ba57e5c71a540225cf"
         },
@@ -21,6 +21,38 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0xcce2593a3c427096cab6b7252a5515ca549b62f61e875f899cc26def8f2b9d6d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8398968094000000000000000000000000000000000000c0de8080819da0027864996c4e51bc30d4760c01ae3038a3ae5de62cd16f881603542ed00129f4a01018d8c1841d3a1c58d105d86ef0092fe2886c9e652f0ec0404d84bd7c00668e"
+                },
+                {
+                    "hash" : "0x7d03f541d56e3939af2e81515e91efa0d394a48c3fd14fab591684273d900919",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8398968094000000000000000000000000000000000000c0de0180819ea023a8f0d61ce1f009bf323f61f2873a8af8fffc486bfa78b33aa3e3848e38c8b8a060ebd0db0216dad98a578e00e05c4e2f316f579cb3f20cebb524482a893dbf2c"
+                },
+                {
+                    "hash" : "0x6ae19013b3082c76d9d549b547c782f6d0dd8e5cc80f92bef717769676712a2a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 2
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8398968094000000000000000000000000000000000000c0de0280819da0a461fdb021bc5c8b2acebda9321f29291e8f33b6ad04abbcf34d596ba24aec25a0460b466f285dc002571fcfff1128e552f5bd1f5bec3c4c5252f63d41ff1e828d"
+                }
+            ],
             "London" : [
                 {
                     "hash" : "0xd6bf0d1e9bc932d860ecaf4e222670c96d01188dc891eb000c2c309e7e4c5e24",

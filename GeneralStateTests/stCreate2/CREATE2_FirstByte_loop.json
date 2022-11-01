@@ -2,10 +2,10 @@
     "CREATE2_FirstByte_loop" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.21-unstable-692bfd1b-20220630",
-            "filling-tool-version" : "retesteth-0.2.2-testinfo+commit.1e11e5ce.Linux.g++",
-            "generatedTestHash" : "3c056e896b6c9b49c176b01531922ca346bb4287ce234214edc3f45f3c3132dc",
-            "lllcversion" : "Version: 0.5.14-develop.2022.6.6+commit.245805fe.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-6c9aea5d-20221101",
+            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.7f54feea.Linux.g++",
+            "generatedTestHash" : "456c57e4ef42a34ee1533be4ef8ad1a012732d4b663d5621c3eac6d5329b3a47",
+            "lllcversion" : "Version: 0.5.14-develop.2022.10.26+commit.a096d7a9.Linux.g++",
             "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/CREATE2_FirstByte_loopFiller.yml",
             "sourceHash" : "25711ba3ff75923e0424c4127fe5cbc56e515d210f1dbe6834fabb6ad17793b4"
@@ -31,6 +31,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a84042c1d8094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca0f141d67812db948c9a4ea43c27d695248205c121ae8d924d23517ab09e38f369a03fe3cfedb4c9a7e61340b6fec87917690e92082f752ad820ad5006c7d49185ed"
+                }
+            ],
+            "ETC_Mystique" : [
+                {
+                    "hash" : "0x186f3b5ff8d924a0619e000ed03bbec06f7342afc5fc15ce19b52708aefd7a1a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf862800a84042c1d8094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da0036b3e027e809d6dc60e7a3f8dd541445be70d9396572e3f4b192ddb7aced941a05c48ed9dc88a17ae3eac3ce4955630bed50c324957321fabbd78c9d4e1aa8298"
                 }
             ],
             "London" : [
