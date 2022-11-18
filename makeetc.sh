@@ -59,7 +59,7 @@ replaceForks() {
         sed -i -e 's/>Constantinople/>ETC_Agharta/g' $eachfile
         sed -i -e 's/<Constantinople/<ETC_Agharta/g' $eachfile
 
-        sed -i -e 's/"Berlin/"ETC_Magneto/g' $eachfile
+        sed -i -e 's/\"Berlin/\"ETC_Magneto/g' $eachfile
         sed -i -e 's/=Berlin/=ETC_Magneto/g' $eachfile
         sed -i -e 's/>Berlin/>ETC_Magneto/g' $eachfile
         sed -i -e 's/<Berlin/<ETC_Magneto/g' $eachfile
