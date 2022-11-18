@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Translate all known forks to ETC style forks..."
-sleep 2
-
 replaceForks() {
+    echo "Translate all known forks to ETC style forks..."
+    sleep 2
+
     sources=`find ./src | grep ".json\|.yml"`
     for eachfile in $sources
     do
@@ -79,30 +79,43 @@ replaceForks() {
 
 replaceForks
 
-echo "Replace known tests to ETC version..."
-sleep 2
+replaceFillerFiles() {
+    echo "Replace known tests to ETC version..."
+    sleep 2
 
-replace() {
-   cp -r  ./src-etc/$test ./src/$test
-   echo "./src-etc/$test ./src/$test"
+    stRefundTest_patch_files=(
+        "GeneralStateTestsFiller/stRefundTest/refund50_1Filler.json"
+        "GeneralStateTestsFiller/stRefundTest/refund50_2Filler.json"
+        "GeneralStateTestsFiller/stRefundTest/refund50percentCapFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund600Filler.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_CallAFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_CallA_OOGFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_CallA_notEnoughGasInCallFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_NoOOG_1Filler.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_OOGFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_TxToSuicideFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_TxToSuicideOOGFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_changeNonZeroStorageFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_getEtherBackFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_multimpleSuicideFiller.json"
+        "GeneralStateTestsFiller/stRefundTest/refund_singleSuicideFiller.json"
+    )
+
+    replace() {
+       cp -r  "./src-etc/${1}" "./src/${1}"
+       echo "./src-etc/${1} ./src/${1}"
+    }
+
+    echo "Patch stRefundTest (${#stRefundTest_patch_files} files)"
+
+    for target_file in "${stRefundTest_patch_files[@]}"
+    do
+      replace "${target_file}"
+    done
 }
 
-echo "Patch stRefundTest"
-test="GeneralStateTestsFiller/stRefundTest/refund50_1Filler.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund50_2Filler.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund50percentCapFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund600Filler.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_CallAFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_CallA_OOGFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_CallA_notEnoughGasInCallFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_NoOOG_1Filler.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_OOGFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_TxToSuicideFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_TxToSuicideOOGFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_changeNonZeroStorageFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_getEtherBackFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_multimpleSuicideFiller.json" replace
-test="GeneralStateTestsFiller/stRefundTest/refund_singleSuicideFiller.json" replace
+replaceFillerFiles
+
 
 
 #info: (stBadOpcode/undefinedOpcodeFirstByte, fork: ETC_Mystique, TrInfo: d: 0, g: 0, v: 0)
