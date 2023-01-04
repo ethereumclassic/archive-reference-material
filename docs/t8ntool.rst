@@ -70,7 +70,7 @@ The command line looks like this:
 
 ::
 
-    start.sh --input.txs /dev/shm/e79d0f66-4c95-4c23-bed3-3593126d4c3d/tx.rlp --state.fork Merged
+    start.sh --input.txs /dev/shm/e79d0f66-4c95-4c23-bed3-3593126d4c3d/tx.rlp --state.fork Merge
 
 Here is how you interpret the parameters:
 
@@ -78,7 +78,7 @@ Here is how you interpret the parameters:
 Parameter name   Value                                 More details
 ================ ===================================== ==============
 -\\-input.txs    RLP encoded transactions file name    `see here <./t8ntool-ref.html#transaction-file>`_
--\\-state.fork   Fork to check against                 Istanbul, London, Merged, etc.
+-\\-state.fork   Fork to check against                 Istanbul, London, Merge, etc.
 ================ ===================================== ==============
 
 
@@ -89,7 +89,7 @@ The command line looks like this (but all in one line)
 
 ::
 
-   start.sh --state.fork Merged 
+   start.sh --state.fork Merge 
         --input.alloc /dev/shm/a12b28a5-e0d2-48c5-9744-6428173af2a5/alloc.json 
         --input.txs /dev/shm/a12b28a5-e0d2-48c5-9744-6428173af2a5/txs.rlp 
         --input.env /dev/shm/a12b28a5-e0d2-48c5-9744-6428173af2a5/env.json 
@@ -115,7 +115,7 @@ The parameters are:
 Parameter name       Value                                   More details
 ==================== ======================================= ==============
 -\\-input.txs        RLP encoded transactions file name      `transaction files <./t8ntool-ref.html#transaction-file>`_
--\\-state.fork       Fork to check against                   Istanbul, London, Merged, etc.
+-\\-state.fork       Fork to check against                   Istanbul, London, Merge, etc.
 -\\-input.alloc      Pretest allocation file with the state  `allocation files <./t8ntool-ref.html#allocation-files>`_
 -\\-input.txs        Transactions file                       `same as for -\\-input.txs <./t8ntool-ref.html#transaction-file>`_
 -\\-input.env        Environment file
