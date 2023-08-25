@@ -2,11 +2,11 @@
     "createInitFailStackSizeLargerThan1024" : {
         "_info" : {
             "comment" : "create fails because init code has stack size >1024",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "5dec568aa60a0002c21a7707ee409e78a1fadee41b262b0be82d1529fb171029",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "fcf1219b66820904f4a12bb9dec7849cba54cf6a8e7cb53e520df07a4137a725",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/createInitFailStackSizeLargerThan1024Filler.json",
             "sourceHash" : "314bd279a8aaa22dd163a321a8608411d62aca01097ceac138cee4d82d7fd60f"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf865800a8405f5e10094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea0d29e24f16ebcbeb7209917c0b87c9bc337ff6d28aa960e7c1063403e76c95318a0196a50db158607cafd89d792d24a8ab88b5f03bd27d16a64f04d4a829ebb6cb6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x1b90f0de1b6b98b1d7377c38be83094f3ae8b5aacf52e178bed5b61135910d9f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a8405f5e10094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba08b2abe6f44d5ee4dfa6c9a76e87184930cac7185339c1506343ebfe4b6e32c71a078474f81ddbb08664594bff4afa50f9086a2385ff922a84e76549abd3e43543c"
                 }
             ]
         },

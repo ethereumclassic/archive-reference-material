@@ -2,11 +2,11 @@
     "TouchToEmptyAccountRevert" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "9534dbcdf3f35140688f78cd896b8adb4f57a87251f2578747f7244c5c373614",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "443bac17c2c0a56b4042e64888bca635cb2bdaea766e1d69aae31385f08382ff",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/TouchToEmptyAccountRevertFiller.json",
             "sourceHash" : "393c5ca65823b8a6a17679c8abac8bc1e92b46a1c12c4291536fda5a70e16dea"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8301117094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819ea069ff14350ad6353eb95e4094dcab118db4e544ade4df8483f7e3384d6690c9afa06f8b2e7299bc948ce569ebc4446eb5cc29cfb521b966b3867533fbe60918f3d9"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x8df6db58f0f048ccb2b8f034a21ee10846f63983128645b2b710413c260b1f9d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8301117094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ba0ea21bb838ec81bf1723cd1cac4cb896694761a548d9c5831bc6348abfd1a6b4ea05d5257a0d7a7bc1c9d50ff024881768f69dc5e657f53eb36d4b1851ada48347c"
                 }
             ]
         },

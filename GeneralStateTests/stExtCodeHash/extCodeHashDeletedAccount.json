@@ -2,11 +2,11 @@
     "extCodeHashDeletedAccount" : {
         "_info" : {
             "comment" : "Get account A (aaaaaaaa00000000000000000000000000000000) code hash, code size, and code\nCalls Account A's code which causes self destruction of A\nGet account A codehash, code size and code\nIt is still getting the same values because selfdestruct is performed\nat the end of transaction during state finalization stage.\n",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "eafe967fc9e875c091e2b2967f56988124a192ac07bec9ff87e00083e5ad18e8",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "da9435bb1737a284c8661b4f076966689eb160478d63c62c6ce1f86cdcc75963",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccountFiller.yml",
             "sourceHash" : "ea28d0331a6cf47ca3baf7df83a18ca059c80a9c5cbf431da2c8df6e63e35696"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d870180819ea02381d23831fd5e0efab25e898ca943cf2004e6670cbaf62c07e1368134ddcacfa06926bb37e31b66f52d56f33d656db6a7103ba19b6c918956aebb0aa92c1f92f2"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4f0cec6ff2ec684a886333050a21fd32c6930651ee12e93e61fcc68438a024c4",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119"
                 }
             ]
         },

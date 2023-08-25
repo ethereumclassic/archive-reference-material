@@ -2,11 +2,11 @@
     "createNameRegistratorPerTxsAfter" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "65e23d6674ac5a2beff58c5fb5292754d359d75fd79dfbbb3857b6224266b235",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "cc9b312449925b7937bf690b04f4809bd0af8530375758f87fa11f178439281e",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransitionTest/createNameRegistratorPerTxsAfterFiller.json",
             "sourceHash" : "c15820254cc26cf6ad78588a08e8270b64c5808c6ea6256bbf25c4b475c0ca1b"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf872800a83030d4080830186a0a26001600155601080600c6000396000f3006000355415600957005b60203560003555819ea0da07e4fcaa9ffac06ed976c7b19890993534075951e743dc205f8c06ace2dc11a00d7903f29f819aa631fed96082da400e582ae5404ff31b4079d86f9486322e98"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x625c5cc308c670e032f946919fdca9aae77cb5dd96f6749f2b66138448c05a91",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf871800a83030d4080830186a0a26001600155601080600c6000396000f3006000355415600957005b602035600035551ba0ccc113de0cc5f3c9fc09c2fe6f1b461a30e4f1da70aaa1d3921047dd1bc79357a03a4a82b2a134ebd0491f750c1aa0e71414f34c3926ce4b354da0bf4dbe77f2fc"
                 }
             ]
         },

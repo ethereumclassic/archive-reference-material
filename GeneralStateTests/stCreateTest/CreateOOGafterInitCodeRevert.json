@@ -2,11 +2,11 @@
     "CreateOOGafterInitCodeRevert" : {
         "_info" : {
             "comment" : "Calls a contract that runs CREATE which deploy a code. then after deployment and exiting from CREATE a REVERT is called. check the REVERT data in this case equal to RETURN value of CREATE",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "37aa7ef5fbdbbd9d4344ebe278ae07b9b7a3fd6e7626b4578a6bb9de20ae5609",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "b68fe6e1e131679f4e96a3d4ae8ad4b580393f2a47c6171eb3323cd43c37ad57",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CreateOOGafterInitCodeRevertFiller.json",
             "sourceHash" : "6a64f8166c4442bddbc99e7e9863c05a4401e961a37e247460078ba3450ab29d"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8304594894c94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da06c9601a047bdb32a59fa716623eb96f21a66f74e4c6d51c9d73087b6e07c17bda005918f2c59ce5234cdeb736c12b75148f2c7b270736c6405167fed5cb1fc0b26"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x0db318d11fb725fcdcecb35adae209b701d9b409275141f52cc9087fcd4dac55",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8304594894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca027eb6159091d11652e4b5b287efcf95c85a667cbc548adf8dd31688e1c2413eca061bfd90c21d4c3ba6b1fa2eb5bc2f7a9f1cd29f58f073f8488429d33c7e022e3"
                 }
             ]
         },

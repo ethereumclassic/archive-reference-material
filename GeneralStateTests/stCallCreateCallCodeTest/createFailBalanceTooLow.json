@@ -2,11 +2,11 @@
     "createFailBalanceTooLow" : {
         "_info" : {
             "comment" : "create fails because we try to send more wei to it that we have",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "8d6518f576e8e0852ed90c869e94ef770a844b6bdbc1c0ef76719f56d30a011b",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "d667a071c4d44914244892095e16650bf5cf14568b61a66c71e6811e03a06a95",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/createFailBalanceTooLowFiller.json",
             "sourceHash" : "8dc60588073ed6efb165f690b158aa0affd985309ed8dd06b6620e50184ece26"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8303dc5d94095e7baea6a6c7c4c2dfeb977efac326af552d871880819da021f1cd0114fb2570c933d428b65d0801ad5f8ced32f36500bf66158f72375db2a0459df0a9cdad04282c8779f8aeead38af844458360b7058cd3925518e8ced254"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xded5b3d8b324815141982414401c162eab3742618ce08ff0d91be7ee90e60800",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8303dc5d94095e7baea6a6c7c4c2dfeb977efac326af552d8717801ca09d04476f3de219db1867e1ab4820b552c78da3f642bae152fab498fb69c1d7b6a07908a8e34ea45d39d7c1662fef9cb6ac113b27e990756cf28c58af5568dface4"
+                },
+                {
+                    "hash" : "0x5ff937306b5f4b0a5dda566b5ad77baeb123fccaebbbb7dc5c8b3cfdf9c8e109",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8303dc5d94095e7baea6a6c7c4c2dfeb977efac326af552d8718801ba0bd440f1e24051288c2af9cd05da14c04167063c56e2eb95e9779d149abf1d01da01ba14075c0c916d5f08cb690dd5adb06f42d624efe92c5f2e753f24fcd478e1f"
                 }
             ]
         },

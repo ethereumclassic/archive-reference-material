@@ -2,11 +2,11 @@
     "extCodeHashDeletedAccount1" : {
         "_info" : {
             "comment" : "1) Account A already exists in the state and contains code\nCall to Account B do the following:\n- stores Account A code hash to 1\n- stores Account A code size to 2\n- stores Account A code to 3\n- Run selfdestruct on A\n- stores Account A code hash to 4\n- stores Account A code size to 5\n- stores Account A code to 6\n",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c957ebb59f94cfccce88928b284fb1f6ecf659265d2da644c975fa73974d0420",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "836fc1bdc520f4789ddf4797bf53bea1695e9e323d96e46a3d284882ff9b1233",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount1Filler.yml",
             "sourceHash" : "42759fc18d56f4d84f545cff11e4a6fc1629f0c183a2344a6f49624e1a3ef80e"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d870180819ea02381d23831fd5e0efab25e898ca943cf2004e6670cbaf62c07e1368134ddcacfa06926bb37e31b66f52d56f33d656db6a7103ba19b6c918956aebb0aa92c1f92f2"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x9d28aa739ec80de5074579864ffd9de05c53c61353f9ce1e1f0a992e36bddf14",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119"
                 }
             ]
         },

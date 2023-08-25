@@ -2,11 +2,11 @@
     "extCodeHashSubcallSuicide" : {
         "_info" : {
             "comment" : "transaction to B | B call to A | A delegatecall/callcode to C (C has selfdestruct) | A selfdestructed. returned to B. now we could check extcodehash of A (in account B code)",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "688867c4ec4490d4438b7903855a12132e3c89908867d786026191ea53b1b8b1",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "fa6a91c4be4725d2d9b793572889bd79f84d925736eb1af59000cc77ceb2ab2e",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashSubcallSuicideFiller.yml",
             "sourceHash" : "b986e9eb4749aa09b1c313f824a6310ede79c0d61e3bfca40ea5659aea441858"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8307a12094b0000000000000000000000000000000000000000180819da0dc87ded6b5f08298c9f646cf56084be52b712a09156574592f231577e5e31dcea03a3fafdef28102cabf50253600e49e0cb806ae31399904e07bcb08e6d75b7bc8"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xcaf896c15fb839af29c26f7136844730cfe0949da24c1b2acfebe85d9bf48a1b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8307a12094b00000000000000000000000000000000000000001801ca0d8e6d3c19b21e9f96f6bef54c1ea9331c55247a3a9ac863ef311adbac7de4ceea07e1be33933cee04eb197f8a44efca7d1356f81ac7030c4d902090cda90e13225"
                 }
             ]
         },

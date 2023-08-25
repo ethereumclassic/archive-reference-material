@@ -2,11 +2,11 @@
     "refund_multimpleSuicide" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "79d76600e90f2f6a59e650cbbe60f29bc4fd3910476ed1a09d74fa7635ab1f22",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "4418d16c4f484ffb3ded634148bf52cf6c697a25c8dc02e55932680ecfbd2567",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRefundTest/refund_multimpleSuicideFiller.json",
             "sourceHash" : "29fba84ce358808c73ee3349c42e810bf8bcd5d95d8ffbfbac6cf459447c81e2"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf865800a830493e09410000000000000000000000000000000000000018084c0406226819da0c9c8550bc964ca96f75754c03f2062b10de209e4d21492a7a9aadff1147e1681a05031f01ba713bf30dfd043ef0a79eeb69892ef306e8a66fdba78606190382c8e"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x94ea31234f1923d6dc7cfa243020272a43433969055959cfce8c2b1ca372d81b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a830493e09410000000000000000000000000000000000000018084c04062261ba09bed14f3c7f7c266c64cf1f95041cb02cfdd16d13e7d5977aa0dfd4b36632070a0027d78a7a9aac2cb8067a0b374d1bb5c3e6c6e12e0f68fa35ef603df8a508cd5"
                 }
             ]
         },

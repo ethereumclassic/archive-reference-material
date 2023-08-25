@@ -2,11 +2,11 @@
     "codeCopyZero" : {
         "_info" : {
             "comment" : "https://github.com/ethereum/tests/issues/493,  CODECOPY and EXTCODECOPY where codesize = 0",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "d662eb8e50f473bc78630db7895b7af7fa9e362fad0fff5801ecda93d5d1ea92",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "7b7e3505fdaea77f4f0d463c481119eba7517448255b02880290fa331729697b",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/codeCopyZeroFiller.yml",
             "sourceHash" : "bbc48241c278bfc63b7446c5eedee9435b32266aa96e82d78ab95ea0eab30e06"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83155cc094a0000000000000000000000000000000000000000180819ea0ffb3a200aa81088190f9e83610886bb897ef11ac2c32ec7b66d6474fff684066a072f76b93328c8f79e6fc32586778514bba8768c0058aef58cd68aa5971ed599e"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x17227b9183f04337617c80972376db9cef7f98be11530d2f7963888ae3ff8de3",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83155cc094a00000000000000000000000000000000000000001801ca0c4779e01b0c76f529fb497f3b6e15762f89ddb906091a91fe9f6b005e205ee17a0736cfe95bf57a25f44159f28fd34a058669e42f293161491cde3a49d501da93c"
                 }
             ]
         },

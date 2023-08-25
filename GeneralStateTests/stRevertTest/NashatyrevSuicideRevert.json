@@ -2,11 +2,11 @@
     "NashatyrevSuicideRevert" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "ca3d94bf7edff4f7abed000be2512198c77255d8f9a0a8a284976a3acad33585",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "d95188eefb263351c36ed10baab6e9b6f02a0390ac6101497ed2d2a6b891193e",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/NashatyrevSuicideRevertFiller.json",
             "sourceHash" : "53819bd1c324565a55cc0627d13d2b62c2d1713062c2c2abb6247a4112a427e7"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf865800a8307a12094a0000000000000000000000000000000000000008084c0406226819da09bc7e43460ec40eaa6177c281064084dc4993f222e28f9cd5d6b4cf29c55d350a00ff4f4b52acebb9290ce1031c0c9299ed3cf54cc5b4363b4ab1774be1153b4bf"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xad5f626a3d8959523cf4e59de123d567f188c548ab6ec4f65b8c73253d7a0589",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a8307a12094a0000000000000000000000000000000000000008084c04062261ca076fbe0ef318c9591097abb2ada278a1005e4cf92b8dff27ca788bff438aaa699a054908483ab5536d7b7043fc3a08df142bac729a37b4d13c0b4c89f1a23f2e16c"
                 }
             ]
         },

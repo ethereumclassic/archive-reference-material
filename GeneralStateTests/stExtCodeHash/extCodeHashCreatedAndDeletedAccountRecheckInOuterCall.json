@@ -2,11 +2,11 @@
     "extCodeHashCreatedAndDeletedAccountRecheckInOuterCall" : {
         "_info" : {
             "comment" : "EXTCODEHASH/EXTCODESIZE of an account created then deleted in a CALL, checking results after the CALL returns",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "57e434dc34b9db5f66a2d83833933847cd1c3bb6270852cee7bcd7c3bd55c2eb",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "dfb67afc1e7433492d4c79f3be842563f72fd07b6ff08a06d643cf06be56ea2f",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashCreatedAndDeletedAccountRecheckInOuterCallFiller.json",
             "sourceHash" : "8e979572b04d24828998cfe7811510cfd9e3ae8cb3afd68af8f2e5f26fd762a8"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83061a8094deadbeef000000000000000000000000000000010180819ea09ed670df305d0308f7db0d219da06bca939ec67e1666b02e97b75912ca72c2e6a0777740b8a8fa2cc15c9260f0693e2a7b6ae03b56e561a844a3e1c80bb72c1ed0"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x075fce705601ab21d8c3010e613c883c7043a20160d743ee0dfdf489269c7796",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83061a8094deadbeef0000000000000000000000000000000101801ca0ca915032d520b0ce68147354cbf04fc2ddf38a11ce2f4f767abd6a32b14b9152a073f798b81ce7c99b290b46865b6e1aa84a9fd5cd0164784a97fa4f70604d225a"
                 }
             ]
         },

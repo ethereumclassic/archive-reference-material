@@ -2,11 +2,11 @@
     "ABAcallsSuicide0" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "521af56d9c36a1c9649cac04a015d9e533c98d65de04669cde7b007716e624ce",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "5082a2f35b8c17e073ba2a2ca23a338490b9e83fee090f95c013a7a8085691b8",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/ABAcallsSuicide0Filler.json",
             "sourceHash" : "73b105fa5adf7238d391d1e355270e44e48afcf772d3e6c48fb779cd59766ffc"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a8398968094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819da0833fab18079baad3b9342cab5100f9ae995cd4a00a95d0ac3cfe1df792f47433a057895c8f3e10b1c9fa273215261582e08f64a98125ca7e355af97f4bd5f95650"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xe85916ce3d9982d7bbc1e8821a6ebf962f0663232a4fac4c5a67575415b54a56",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a8398968094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca0cd6a25a21d686e596c26423ec16cd165f89b4a68ccba98478c740b0db7ce8773a069934f81a17f0b0f3c468c6bdb27ae93876ee94810875d9de367b1f5ae784c04"
                 }
             ]
         },

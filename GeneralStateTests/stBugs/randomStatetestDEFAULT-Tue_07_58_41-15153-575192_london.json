@@ -2,11 +2,11 @@
     "randomStatetestDEFAULT-Tue_07_58_41-15153-575192_london" : {
         "_info" : {
             "comment" : "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "da98bf13b901e71cc3330479154fe754b5ff07a0c9d4432d5c5c032fe3d197ab",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "25f646ebafb05f2cd38b5214ad6c2acff32588561411cd486eca18940e43a7e9",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192_londonFiller.json",
             "sourceHash" : "fb4e93b2572f51513067a08e577afe7ca2fbd5a1ba4114f903e06a4c00834ee9"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf8611c0a835fde079410000000000000000000000000000000000000008080819ea06ce96d61bc7a43b671a9626450bc5e494fec9fb583bc72b0fa3a184a2d84cd25a06acde84a22009f3422fb7900c5114699ca21a330fd042bfca9972579409401b0"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x9291257cadfc5b03d9f08a8ef7b74ac0af8a734f5b1312cd4dbb254bf41d5bff",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8601c0a835fde0794100000000000000000000000000000000000000080801ba0945b0f78b6921849705296174ddec81de943cf3c8d9b65cc3dc85d0946bb64eda039303ddce8ae619da612ff2d33511309c0d5db322e4a3a6bb3013eef5388ebce"
                 }
             ]
         },

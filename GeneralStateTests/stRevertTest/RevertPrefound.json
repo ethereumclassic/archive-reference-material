@@ -2,11 +2,11 @@
     "RevertPrefound" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "025e7e1c81f05bee060a423ebaae396e4315c221b43e722be8b5e5a214e6d6a0",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "93357a2af449742c4b363ff9513bc8b67eae47615f0e6ba3cba193e63cfe1010",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/RevertPrefoundFiller.json",
             "sourceHash" : "a2600df597f50bffd2e3b5bc3d69be66cfeefe53669b4bdbb58a2bc47851862f"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830fde8094a0000000000000000000000000000000000000008080819da03b6d82f866dd5b9a50352050b45f6dc0728b565283c0f9f02d37da42b071a619a03a0130b22d8d873f096976f2edfd38e45bcbac47455fcb3c226cbdac0d47e97e"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xf9d7b72b75da4912a06e3eb64e12bc79882fb0c71dc94c77c16dc6697896e725",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830fde8094a00000000000000000000000000000000000000080801ca04eb70a6acdb7f2d3409c5fe932df4fcbe7a64d08a39d9ebeaba1a9c35a7d3c18a00444aac4ef56efd579f5e534a2ea0adc8ee562e9810dc515ed45e1c96784fe40"
                 }
             ]
         },

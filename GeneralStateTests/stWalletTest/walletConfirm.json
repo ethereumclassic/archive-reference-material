@@ -2,11 +2,11 @@
     "walletConfirm" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "e5fb611b38d3807b6937ca381f7032d5be7eeeb07b6f2be39cf9ae2ca96dad80",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "4c88c01daeb8d7ba4d0c89bac1b3a3d409b3f688c1c3a79848da88e3e6a440bc",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/walletConfirmFiller.json",
             "sourceHash" : "69cd6bf6035216bf5f708e7030e8b387b758d273a13b9b2f1bd31e5d6455b8c2"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0xa3aa458a8875424739d2548917a500636ca969d343176e5a8e48a36ee59be1fe",
                     "txbytes" : "0xf885800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80a4797af6276877e4536b661640954061cdbc3a9761fb5245c340fcb1721307cd9d5f285c96819ea041db291efee5dd0c0653d9b77cca8c2165bf80798c570f53fa2df62d311cbe35a043d97e8afbf470e0c5221947209a0fad33d78d4dd321abb4443c415ff90313e6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x1a026776298065356ac612f202e203f7d548725e7528e59e708ecfb1b3579687",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0xa3aa458a8875424739d2548917a500636ca969d343176e5a8e48a36ee59be1fe",
+                    "txbytes" : "0xf884800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80a4797af6276877e4536b661640954061cdbc3a9761fb5245c340fcb1721307cd9d5f285c961ba05bec7dcb7341eb5c37c68de5a1913f415bc1db64ff162fa3ccdb81c08790e33aa02b7e82ec6bc0097f218afa40bd0bb2ecc8888bb1bd58378c893f9f865124210c"
                 }
             ]
         },

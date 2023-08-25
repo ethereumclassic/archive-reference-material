@@ -2,11 +2,11 @@
     "ContractCreationSpam" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "54a2a577d634e68efe6d0fa42b9e5624233a2550b8eebfdc3552416a9063ca75",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "e85d3a4f5920f044a1c4e5112c8ecf5fff188b9610e4b05a18fd504b03df2308",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stAttackTest/ContractCreationSpamFiller.json",
             "sourceHash" : "7a616ea0241e1e7b040739027dacd7593d65598a2afbe4ffa60b985789d40a52"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83989680946a0a0fc761c612c340a0e98d33b37a75e52684728080819da04b5b525e6fb118dfabeda4598b77309e64c52c08962c3d75408ac4c5644df133a066208328ddc9dbfc86d4876587ccf374b434ab024ead352d0bd54bb1eddfdfca"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x6e88cba6d418225c0f2eda5e97c8e02688d496e230807e220e368755113e347d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83989680946a0a0fc761c612c340a0e98d33b37a75e526847280801ba08bb6e17e660cdefc2f6f8124e8f11cd74ac6d91ee05d3a1aa6f513335da0e4a7a01d356c9ff34a96d10ec2e0f9d708eea9da2801a37de491c5af43df7c77d56c0c"
                 }
             ]
         },

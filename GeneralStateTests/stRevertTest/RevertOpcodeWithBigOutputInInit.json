@@ -2,11 +2,11 @@
     "RevertOpcodeWithBigOutputInInit" : {
         "_info" : {
             "comment" : "A REVERT with a big output should not be confused with a big code deployment.  This test contains a REVERT in a contract init code that returns a big returndata.",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "9aee0b12f225d6fc641422c7c285975505c31fa6bf6332dc9a5186a80771724c",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "52b3adf37f839c67dc83bc686e96676c4639317e38ae89f969832c9834c6913a",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/RevertOpcodeWithBigOutputInInitFiller.json",
             "sourceHash" : "d9c550f5907ee1d8e927b3df1f7a8ebadf2395219fbdfebb7a73ee300aa144b7"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf85c800a83186a00800a8f600160005560016000fd6011600155819da06dd7b28ccf00d50d58d74da0185cbb1777e9c1eb2ef70b170500f80d37f80a0ca0250ea81f5016402eba78161d812dc5ebe208c07621ffe3ee2a201ec4779a2a7d"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xb86edb1f0e69013279c8cec9400c42220c45f82db967f596d6c3cf409758743e",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85b800a83186a0080808f600160005560016000fd60116001551ca0bc084a922aacd666ecec10123036a1401a951da4f7badeeb3716f37849b7f3b1a0258c54206b521745459eb08cbd44a7240cb93bd82a1b9a9e033ee80c66febfe3"
+                },
+                {
+                    "hash" : "0xb86edb1f0e69013279c8cec9400c42220c45f82db967f596d6c3cf409758743e",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85b800a83186a00800a8f600160005560016000fd60116001551ca0b536dcd00a0558aef9a226cda90026615b651b09455fdcdf465af82a180384daa00dc8d59d31b7626d4834144d8264850ded507a65df18820710ce0c09f87aacbe"
                 }
             ]
         },

@@ -2,11 +2,11 @@
     "contractCreationOOGdontLeaveEmptyContractViaTransaction" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a648ad13bc713f2cc83d01f0e298e99ba74b611f81f22ce343e569522e5676ca",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "3c354ac5929c2a5ac8bce8515f73a567317ee0f17bc7c9c2c2f96e57e3c375df",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stHomesteadSpecific/contractCreationOOGdontLeaveEmptyContractViaTransactionFiller.json",
             "sourceHash" : "865846c98bf54b8072ce4eb140b2b7c46e4b057cd9f5040d91e63582d89ecbfd"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf870800a830177008080a36040600060406000600073100000000000000000000000000000000000000161c350f1819da01f202b05ae4235c1fd6cfd55e43b3506af613f3531dff4251d5d9c26464a05c8a01a289de8abda5905092f735465efa38cf34eafad411ac9f1d7a8c28c86dc0550"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xf5b1298e4af940b2288639c7a946fffcf8ef198ab8896140bc4bbeb05215d287",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf86f800a830177008080a36040600060406000600073100000000000000000000000000000000000000161c350f11ca070b24165268ce126e7fe6db982bbe5a5416d96595b8c79ca53e627d5afc2e060a0332ddfdacfedaa92aa9f3c9eb31b5ae349c954dda2df85fa69811f491885cade"
                 }
             ]
         },

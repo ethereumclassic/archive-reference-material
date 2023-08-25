@@ -2,16 +2,16 @@
     "mstore8" : {
         "_info" : {
             "comment" : "Ori Pomerantz qbzzt1@gmail.com",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "fdf88ad92cbf43389a8ca854278d3d704281045bd11f0cba059fb285ef7abdf2",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "44e0417ed7d9e32f5c4c6a460f718d5ca705f590a2ea2280fe43d4502c43d56b",
             "labels" : {
                 "0" : "mstore8_onebyte",
                 "1" : "mstore8_twobytes",
                 "2" : "mstore8_neg1"
             },
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/VMTests/vmIOandFlowOperations/mstore8Filler.yml",
             "sourceHash" : "1282be59ecf432e033697a2d9a2c02ca16fc85b31c670ea6cd1b4c469e60dc7d"
         },
@@ -120,6 +120,38 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf886800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c61390000000000000000000000000000000000000000000000000000000000000001819da017f5ccb8ceecaac945c6cdaa20d3f4794c33f704311ce2cdc79421b9869b2571a062659aff41b3be07e8f3aa1ebe7b8f4aa726592bd18a6547cd68795b3e9e66f0"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xedfef2f0620a9ee7f590f190866578d97b7ba284fd3cf717653e6112c9ba779d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c613900000000000000000000000000000000000000000000000000000000000000001ba0e8ff56322287185f6afd3422a825b47bf5c1a4ccf0dc0389cdc03f7c1c32b7eaa0776b02f9f5773238d3ff36b74a123f409cd6420908d7855bbe4c8ff63e00d698"
+                },
+                {
+                    "hash" : "0x35608a784de9ee071b1525417b96d45afd5fbfd33b77c5b0f098faeaeb739d20",
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c613900000000000000000000000000000000000000000000000000000000000000021ba0fc37ad4eb0633eb18f2b7867bacbe994a2ffcbb04a71e394e6e76041f6ce216fa03b1b415a5c386d8de9e16be9fdc188234b80a0dec99922d03c240f2e463053e3"
+                },
+                {
+                    "hash" : "0x9672eb2c42ebcda2ea54850913626cf7d6b38b288a848051d6cf79d68d6a50c4",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c613900000000000000000000000000000000000000000000000000000000000000011ba02c5e81a024dd0f6fb773c8787fa46ab5eb55cb73df83562e6ddbe9106a3df7f6a029437b9a23e45bbfce086f2ddaa98b1e9e6914d7e58e2c5a128310042b332f89"
                 }
             ]
         },

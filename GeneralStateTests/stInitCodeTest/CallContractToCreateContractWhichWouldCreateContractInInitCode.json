@@ -2,11 +2,11 @@
     "CallContractToCreateContractWhichWouldCreateContractInInitCode" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "330f68f7c0e02785f2db8a27f9094e30a8a9e990bf701333fad63c13c483658c",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "fe89e783b7a23aabecc4d1e14d4f83548e41b9c272ec8c364b0c92aef4a4cf20",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stInitCodeTest/CallContractToCreateContractWhichWouldCreateContractInInitCodeFiller.json",
             "sourceHash" : "0a69ae473f50a646c6b8965f34a4afa5404b985b4ac721f8c8cf4d4af5a56cc5"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf862800a8401312d0094095e7baea6a6c7c4c2dfeb977efac326af552d878000819ea0ff95beaad85f96502da505e3347b59ab10cb7fc86eb660be8db248ea98d97742a01a9c1e437245486f5c42796827e946825c7737747ea1eb09823507f5b28dffbc"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x815c93765b8bc179628f2e5c70d223195610a27408875f65f243e606e71c4ba2",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8401312d0094095e7baea6a6c7c4c2dfeb977efac326af552d8780001ca0e5e42a33d04233da376d8e03714b03fe0fbd826ad51a84a156419fc94b9e42b9a07439f4e77cd0674dbd2765d68f4bd09fa474938cd0d33c5c3365a49b989f5747"
                 }
             ]
         },

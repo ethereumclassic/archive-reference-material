@@ -2,11 +2,11 @@
     "RawDelegateCallGas" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "d4435df2e99b7702779e09bd0acbaa22a522ab646d845f83e7f8281eaff7813d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "a5cf4d66d635d9acbf3f05f781fe9113ad844d6bfe4b3130dcc1f7956a1c9e69",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices/RawDelegateCallGasFiller.json",
             "sourceHash" : "ca063b43d19f3291273a8e4a63d2d58c0e38d22cdd1ce6eb606b6dbad53be9b6"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8307a12094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819ea050bdc78f56423f1bf14cdd7c11ce10be9e75ece3908e72f756625ca31d892110a0100d20997bf60e1edd554303f46f1868fcf61235efaa7eecb02b48a1d05a203b"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x8a88dd24f5a3324875ad83843cb160b64529c5c26d69958e0bdce634b7c28cc6",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8307a12094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca03aef3a5148d2925d8c9607b7102bdd96c4b712986e6e8011cceac4c152509f8ea04a0218cbed3a7577c71da2b2a701c4278b1e59c779efbaad585b92cfb7aad81c"
                 }
             ]
         },

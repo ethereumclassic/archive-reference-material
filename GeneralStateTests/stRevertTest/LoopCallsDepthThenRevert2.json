@@ -2,11 +2,11 @@
     "LoopCallsDepthThenRevert2" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "3c5fbaa5bae4ffb05dc78821e80f83334a391ef639e4cd4c511c957c229efe9d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "50c5bfab11a8de258424789fe1ede8843e4d97709c3a97b7ea01fa11f4c30310",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/LoopCallsDepthThenRevert2Filler.json",
             "sourceHash" : "3936f7fd80417ee03d2324c8da5c88cf883dad56779d1475262cb9f34a8f6e12"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf866800a887fe000000000000194a0000000000000000000000000000000000000008080819da0281b9711f441cc5d9263f0c2cf11d5fc261108033a1dd3cbb5104cd7bdc26481a03fec5817144c847f4a48942c824ab9ee8cc1146627bed11aec028ffd99c3e3d3"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xe1ba9f2c1c791bc673d33d4f1f73ff91103f0656b6272e7efcb1382933289561",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf865800a887fe000000000000194a00000000000000000000000000000000000000080801ba045940258a3a315af154284f8adc1a1d2d45ece5442735eed1becc8263e223782a04d1e76dbc74c087276a8b56d6fd0be83d688c872909868d2f6edd71329042430"
                 }
             ]
         },

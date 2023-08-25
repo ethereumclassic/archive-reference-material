@@ -2,11 +2,11 @@
     "walletChangeOwnerRemovePendingTransaction" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "6823032af04aa75390c36fcfef90e784299cb8d3ad75d5d0e157ddef2044ac4d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "aed3669652b326138df9d21acfa595bc7f258c27575eff440010b91f0572bca7",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/walletChangeOwnerRemovePendingTransactionFiller.json",
             "sourceHash" : "5a8367011f1882f27a706e31f5996379e82988654d168abc2c7f730c4047a6a7"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x3de01a73ffb6ee0a466ca4b3a66911df944552a7f940935b78d554d0308221c4",
                     "txbytes" : "0xf8a6800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80b844f00d4b5d000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa819da0436e45f46db285c8cdc2bf92f73e210f0c98b4348397f64a95f90961274b399ca03c37746c96347f6f8546c4b1b6448a014e775261c9e83086ac849b3f4344ec56"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x70f37128c90ceb5d04c5d8a2071d6ad03a2460c656da9df3a167db52aa1e48e1",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x3de01a73ffb6ee0a466ca4b3a66911df944552a7f940935b78d554d0308221c4",
+                    "txbytes" : "0xf8a5800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80b844f00d4b5d000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa1ca079a69c7d6d1b1622bf3dd874eebe28161d2987a5c462ecf7cb2c073a604c5df9a02c754ecc23a5d385d73e09dd3b007afa36f42f9141db54e13b43e6fb2e5c1e18"
                 }
             ]
         },

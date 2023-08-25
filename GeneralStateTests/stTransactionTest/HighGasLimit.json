@@ -2,11 +2,11 @@
     "HighGasLimit" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "0f881f6cb497519a9de778d37ef486ba005058b9a989eac588f79abbddf70ace",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "b7334119ffc4692b5bb3eaac838af1c31b90d25446a406ab95007261b9445860",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/HighGasLimitFiller.json",
             "sourceHash" : "34af3520a7597d7647b7b90e62fc9ff4ddb0e7b82abeba53114070cd3f742c13"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf870800a88100000000000000094b94f5374fce5edbc8e2a8697c15331677e6ebf0b820384883240349548983454819da057dd0ab638109958fd574779a3c2bb7fb55d9d1c843d973ac92adf4b49707002a06d7ae363d9e55dcc3ea32e6dbcb8e07273060be8138f3795892c299137d813e1"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x0fe6bab2c793b162cde7bb7bd479abdcfb5437183e7efee71bf4d6efcb75ae4c",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf86f800a88100000000000000094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8203848832403495489834541ca0bf639352ff3906ac21955ab967762211495191cb24152a93356cb242cd1fafdba060c9523b6ec1a931c9cfb8041cfa5c8d670cf7725c3feea5f77609862d661f57"
                 }
             ]
         },

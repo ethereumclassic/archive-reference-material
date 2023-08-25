@@ -1,7 +1,15 @@
 {
     "RLPIncorrectByteEncoding127": {
         "result": {
-            "ETC_Magneto": {
+            "Shanghai": {
+                "exception": "LeadingZerosNonceSize",
+				"intrinsicGas" : "0x00"
+            },
+            "Merge": {
+                "exception": "LeadingZerosNonceSize",
+				"intrinsicGas" : "0x00"
+            },
+            "Berlin": {
                 "exception": "LeadingZerosNonceSize",
 				"intrinsicGas" : "0x00"
             },

@@ -2,11 +2,11 @@
     "eip1559" : {
         "_info" : {
             "comment" : "Ori Pomerantz   qbzzt1@gmail.com",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "0c3584f890f926a5b20bb155c09c859e29c5a01976c4af7b2bf5727fb55099e0",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "84ed6e3ee86539e69346cd8a40109e5f6d3ab6305331d589be7f10f340fcd551",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExample/eip1559Filler.yml",
             "sourceHash" : "21a43d3805ce6089209ca36f5b43b4ef200b35a49b5e7c0b8a22341e758d96dc"
         },
@@ -129,6 +129,18 @@
                 {
                     "expectException" : "TR_TypeNotSupported",
                     "hash" : "0xcfa569514bd0f96c19e86a21946eb9bca6fda068d9eb523696d2628685383def",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0x02f8c101010a8207d0833d090094cccccccccccccccccccccccccccccccccccccccc8000f85bf85994ccccccccccccccccccccccccccccccccccccccccf842a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000180a0d671815898b8dd34321adbba4cb6a57baa7017323c26946f3719b00e70c755c2a03528b9efe3be57ea65a933d1e6bbf3b7d0c78830138883c1201e0c641fee6464"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x0d22f12f002f077e46b14cf06a35c7b9dbc3b1c80100c44fde15aff21696641b",
                     "indexes" : {
                         "data" : 0,
                         "gas" : 0,

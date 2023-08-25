@@ -2,11 +2,11 @@
     "create2collisionSelfdestructed2" : {
         "_info" : {
             "comment" : "A contract which performs SUICIDE, and is then attempted to be recreated (different code, same init-code) during the same transaction. This ought to fail, since the code is not cleaned out until after the transaction is ended.",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "df118aec5b0985518ca0eb7a65b08aa983d52758cc6dde5496b767936b9190c8",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "e7699fa0389e3a00a35241c8fdfe3722e5504754c2d90057a17f15f9e0c0f025",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/create2collisionSelfdestructed2Filler.json",
             "sourceHash" : "5c06a0cbcaf76c14edfc5c1da8f7219c7e0615ab4d0d756ef64f645ebd03c8b2"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf88c800a83061a808080b83e6000600060006000600073cff64f4c5df8f436c4f2c1af4b2e3f9e3004c77961c350f1506b626010ff6000526003601df36000526000600c60146000f500819da0e4028e54334a6f07876ce040b3aac6f07757d36e9e7d2b59f669c8591272fbdda049d01d8fc012c2f393dcf3bb4f15fe96924b9262dd7b14ea46f0a8e5118b266c"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x47062f46b7bea902ac122e72abf8865e5dca89c9a358b5c583d1db8f9bb72002",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf88b800a83061a808080b83e6000600060006000600073fce41d047b4a1d4450382dcc29ec7e5fedc5f9a361c350f1506b620102036000526003601df36000526000600c60146000f5001ca02be1eefac80c5e9e3cee6d92c620162e7300c1b6935e197172f2cd06475c1d81a00a12e54768700fb29a8f33b09212a2d940f0135fe6650d14a3e0f55ab944232d"
+                },
+                {
+                    "hash" : "0x32e3c22bffa427b5d54c7688e3a4c83dccdea7ba3fad1db4a767582ed6a69413",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf88b800a83061a808080b83e6000600060006000600073cff64f4c5df8f436c4f2c1af4b2e3f9e3004c77961c350f1506b626010ff6000526003601df36000526000600c60146000f5001ba0cdb79f005bd592b9120f3f4c6e745157a44055feff0a1329c2b366c0096a139ba0244f8bcf14c0318eeeacd996f473a5c89d0ce5c55d3a079837eec0e5641029cc"
                 }
             ]
         },

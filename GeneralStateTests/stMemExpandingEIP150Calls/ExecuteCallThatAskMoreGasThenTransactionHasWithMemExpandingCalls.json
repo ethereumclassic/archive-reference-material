@@ -2,11 +2,11 @@
     "ExecuteCallThatAskMoreGasThenTransactionHasWithMemExpandingCalls" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "fdba9a2fd36033109987409c9db8ac28d44ff81857bd7e30c4fa3b72246398f5",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "73bb7ff2cd9db8afdfaffffad7a308fc2be6497b0583e4ec48700cf1f178f5b9",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemExpandingEIP150Calls/ExecuteCallThatAskMoreGasThenTransactionHasWithMemExpandingCallsFiller.json",
             "sourceHash" : "b08f2bf98e831c7a9440d95900d2a15a5b253729ae6f69f0039f5cfd6ed26226"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830186a094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da0dfdc4deadeec1be726b06a1a5b096cf186513faa9da123bf97bda3b00507903da003ed02d4e7fd4b64ba179c3060e7664146656e5b13f53a6211cc9f6cf7cb5f32"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xfc096b52ae90991d54c7332aab7bf837a5f77e5dd0d21274e3e75c1876d6da91",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830186a094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca013e72da04d3a74fdc16979fdea1a319c45fcdcb22aed63dc8f7fc1851dde3640a05bc995d025196b6ef2ffc6777e831d18a86226f8759c5adb8dda36e4cc19d238"
                 }
             ]
         },

@@ -2,11 +2,11 @@
     "SuicidesAndSendMoneyToItselfEtherDestroyed" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "6409707f9a46a5cd0b6312ce8270cee94da4d8dfc7146aab9b26b17a9187e691",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "277ee33ec442401c456de38a3f525457bcb884272866ebdb7ce22ae029b99c9c",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/SuicidesAndSendMoneyToItselfEtherDestroyedFiller.json",
             "sourceHash" : "cebbdaa3fd62c7312b3ee8ed4ac06fd10dc3d32bcb8861268035b60632eba368"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a827bd494c94f5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea08626709359fcefbe0ae95a4330d3fb461c602b090ae999e7f69d120668f5fa13a03eab9513a6866e587a5583781c7c7fd52c11bf52f1e8b20e05b347a6f76468d9"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x5edaba1bc00792b4a3f3a53979311f239959f1c84ae91573fb11f311f1f4a852",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a827bd494c94f5374fce5edbc8e2a8697c15331677e6ebf0b0a801ba0606dc92cee78534d6034c9ba7369fed826526c6ca619da932ada213706ef49daa039d2c16bb0f35009e8032a1c6dd0c45cdead7bad6e3af951c105b405b08d6683"
                 }
             ]
         },

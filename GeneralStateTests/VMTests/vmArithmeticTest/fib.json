@@ -2,11 +2,11 @@
     "fib" : {
         "_info" : {
             "comment" : "Ori Pomerantz qbzzt1@gmail.com",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "75f247021b1130dc9eef87d6aae92b2ca873453d424dab802f9178bfd860c65e",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "58906adab15cfe4148844e0a34cfec01a5f429b9bc0c98105e753a72251bbe68",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/VMTests/vmArithmeticTest/fibFiller.yml",
             "sourceHash" : "71970f5b29e684f704d04d6cb5dd90020b42c13d71eda61a0e0014b6c916ad21"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf862800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc0101819ea06b9156330dc70bada3753afe6911fed0ef6c26daefb792eb8a7dbc306bdacbd3a04fb80765b5424a7d14c958bff6de22d4fe7496b62882dc99e10bff66f1f39f58"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x11b18edf688c9bae6277fcf3a951195b51bdcf5cbed1c470cf3beac2362dd2ed",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01011ca0db1a622b24f35797694145cbe4477b1e1139e30a7dfe81a22a1f08a772b90b90a04f3cf0cb9ad98a4c469d8d9cbf2693bc3182349023c9628f1bdc3791523d9d06"
                 }
             ]
         },

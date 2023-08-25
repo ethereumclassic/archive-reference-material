@@ -2,11 +2,11 @@
     "RawCallCodeGasValueTransferMemory" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "7fa20b7d3c46da540b674ce1eaa642b539ca0b4b085ba12d76f0a008594faa18",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "4c272281d4a11b638eb82fcd43de7aa45085cd222676b6edcfaa3c695f87cea4",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices/RawCallCodeGasValueTransferMemoryFiller.json",
             "sourceHash" : "78e32b7b3fa7a35f20c3604f7733b3067ca82cbf3084f77dadc8e3d3fae5c752"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8307a12094b94f5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea0d3bf1104c0e5a4e5f7ef262802e45d2160f63a7b7be80939913eeabc1a2f0218a058c4cdfd637852380ddaac9557bafdf17407850c917ec2c979295f32326cd736"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xaf1baceb217831cbe7cd34f36ad59537a8a1efdf0390bd2afbabc97391974e23",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8307a12094b94f5374fce5edbc8e2a8697c15331677e6ebf0b0a801ba0fb35c05d1d179aeeff9c12ca66f64b951bd1a1e6b2e8fd598d1ca177ac864ab8a0594406f2277897478d246b26b04bb589a5ed05944a22f904a29742f962ac8b5e"
                 }
             ]
         },

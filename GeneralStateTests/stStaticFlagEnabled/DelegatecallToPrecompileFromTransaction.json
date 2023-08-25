@@ -2,11 +2,11 @@
     "DelegatecallToPrecompileFromTransaction" : {
         "_info" : {
             "comment" : "Contract B staticcalls contract A.\nContract A delegatecalls precompiled contracts.\nIt should execute successfully for each precompiled contract.\n",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c1f689a0a34f80b86f48e6f32e2a22b850dd176dfc3c5fd3032b8a9124da2579",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "4e1a3f1dfb9fe3f60fc2f294561ac8abe73428f6d5ac88678f7406c7e07acdf4",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticFlagEnabled/DelegatecallToPrecompileFromTransactionFiller.yml",
             "sourceHash" : "487a43ec0c4d9a33afd5bb9aa83a142c32399e80df192f134511d7415c51606d"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a833d090094b0000000000000000000000000000000000000006480819da0b4a4bbb640be3d6e0cfe002c4e3d5e95252f72be4d8db3ec997b9d9f5fe92d13a07991ff22e3bfead17c2b3ab95c00ad8dcde53a12ca9660aa91d61684407899f6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x0175b5d7a06bd7a169cb92bef777d1950968ee2ad6e0e9ab87da9e583b8af01f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a833d090094b00000000000000000000000000000000000000064801ca0daa1d625d85c5e18f28b6aaccd3c6a15730961cf24aae07bbd8d64215437a22ca01e92ec5d0bf1c10c7504cbadc37fb725fe8875e414b0e214b88ce77ea45af23a"
                 }
             ]
         },

@@ -2,11 +2,11 @@
     "returndatasize_after_oog_after_deeper" : {
         "_info" : {
             "comment" : "transaction calls A (CALL B(CALL C(RETURN) OOG) 'check buffers')",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "814206042391ebb0eaec68b651ea8bc48f1d919de753e4c3662730785c2ec8b3",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "a513180e0bee5517e95aadabc2bbb0485512162679bc023e7456f906b6796130",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_after_oog_after_deeperFiller.json",
             "sourceHash" : "2f698abf3fc576a1023f6404726abf114949b093b900429a843ad46d3076dd18"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf863800a850a000000009410000000000000000000000000000000000000018080819ea07c9bf020a6a5333fc9dabdf5612b28aa83c5338a0c03f52c39146fe6a5a7518fa0367a703846d7d3510143a8eae27c2223785392b8cb183cfda15a3a8cd4a9627f"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x6cb989b9c2a6405f75f10a0804cb7708e3d777e66e3e58a01580cb25d1d4ada6",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf862800a850a0000000094100000000000000000000000000000000000000180801ca08bbb9026ad67292dd79e7029089219cc6c33dae0588d64694163002552fa5c9ea01252d0f551f409215407cd3f18f0064b2a252d50a613d6f41e71fc351439d550"
                 }
             ]
         },

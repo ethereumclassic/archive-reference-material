@@ -2,11 +2,11 @@
     "static_callCreate3" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "996dafd78f19e3b606d031cbcfdaa3fb73b8f705b9f7d06b2359ac1dae57e45a",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "31ee1e69fdf4466e250d91c75ae216b699b469b98f7b29c7783a79f6652ea3ab",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_callCreate3Filler.json",
             "sourceHash" : "9268e6e146caddaeec394fd7156fffd6dd015fcfdb0ae533fb6125b320caeba4"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf884800a830f424094a000000000000000000000000000000000000000830186a0a00000000000000000000000001000000000000000000000000000000000000000819ea005cf2e2d873b93c2916217a5d5b11968689b4cf2f1af6cf21fdec00f6624ea7da043331fc11724353d5181b42dcb0b85352d02e87b3db7aa61523ac5b96f0f7685"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x6a7796b59153c2ff6ad221a44e3fc232555faff48f80772d1176c7dd1d7d27b7",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf883800a830f424094a000000000000000000000000000000000000000830186a0a000000000000000000000000010000000000000000000000000000000000000001ba011245eee4844656f39de851802157db73ed455cc95fc8a3356d6ab2af14d626ea06ca8fd956f2583c20d6a66145fa219e1a714a93fb8effce857ce9cd37a9cb80d"
                 }
             ]
         },

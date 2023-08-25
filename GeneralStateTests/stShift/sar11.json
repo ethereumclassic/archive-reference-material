@@ -2,11 +2,11 @@
     "sar11" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a3e257352e464f34397e10f8999b0e32308b553649c0433ecfd415f3e8fb3f21",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "644bd3574f2a7c5d1f8840a7c94cd93b3b837e18ba8862a0a90586a8f82e7562",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stShift/sar11Filler.json",
             "sourceHash" : "223831b29c85a97d8d22fec7c549d646820636b4891ff12c5d835c42af9234e0"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea02762052f6fd9b92b90e609c21082b621af931e77682c349e8a2948dd6fd87b4ba01d74f005b43fdf151da59598f99bb2935fbaf5a4dd8385c5bf27e8f6b43bda69"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xe88f22e665e4ce50bfca4a9bb078f0dcb2fcdff2b1bafe7b450504e0a79603bb",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0ffb600e63115a7362e7811894a91d8ba4330e526f22121c994c4692035dfdfd5a06198379fcac8de3dbfac48b165df4bf88e2088f294b61efb9a65fe2281c76e16"
                 }
             ]
         },

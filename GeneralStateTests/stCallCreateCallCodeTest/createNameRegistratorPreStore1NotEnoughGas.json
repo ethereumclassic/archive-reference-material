@@ -2,11 +2,11 @@
     "createNameRegistratorPreStore1NotEnoughGas" : {
         "_info" : {
             "comment" : "Legacy Test from Christoph. J",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c4a59a80d95de7ed9af6a09d5a6b23322a4a5e4dc185ede938d569a0461b4207",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "8f32836a931ef7b557db564825e3249d0b704037bea7bba3f24004fa75da23a7",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/createNameRegistratorPreStore1NotEnoughGasFiller.json",
             "sourceHash" : "fb75099425386a3e1739e5cb7302cb356e5813c811243e54e967cea22065066d"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a83011d6f94095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819da08895f0ed8cd42d0d1f3bdc82d1f57d8b985eb9d34e8f5cd5d7947953181b3995a00247bca2722edde34e7588bc4b36c4dc280304caf4b93f9a91c8f27ba438b4d5"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4f096adb2567aa63f1a4e61b42691d71f56d612b5c56ac07ed926a075477e450",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a83011d6f94095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0d0d76b4882999b2669e26891044e28889f4b4c21b73f5888801fb7fb316ddc3fa060a8bcce33803093f72c6c2b3d08bdc822719a217794d2fbcc9b235574044657"
                 }
             ]
         },

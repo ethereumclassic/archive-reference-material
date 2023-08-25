@@ -1,7 +1,15 @@
 {
     "RLPgasPriceWithFirstZeros": {
         "result": {
-            "ETC_Magneto": {
+            "Shanghai": {
+                "exception": "LeadingZerosGasPrice",
+				"intrinsicGas" : "0x00"
+            },
+            "Merge": {
+                "exception": "LeadingZerosGasPrice",
+				"intrinsicGas" : "0x00"
+            },
+            "Berlin": {
                 "exception": "LeadingZerosGasPrice",
 				"intrinsicGas" : "0x00"
             },

@@ -2,13 +2,13 @@
     "HighGasPrice" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.11.0-unstable-8334b5f5-20221111",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.8857a634.Linux.g++",
-            "generatedTestHash" : "f6c96f874b255c5cbcbe32a3e0382c87e7ee7f4ca2b4bd55929f5674e464b544",
-            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.0-unstable-97c49b85",
+            "filling-tool-version" : "retesteth-0.3.1-shanghai+commit.acfdfad0.Linux.g++",
+            "generatedTestHash" : "ddbd39a88781f4c66195286d87e63a0fae365899fe8e550fef448adddc98f98a",
+            "lllcversion" : "Version: 0.5.14-develop.2023.5.21+commit.a096d7a9.mod.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/HighGasPriceFiller.yml",
-            "sourceHash" : "cc91864a3c73a48a3bc3455b3cb2c8532e29a09ce4935c7a5328692488c30883"
+            "sourceHash" : "61d92806c690112006c5c59c1491898c41b8a4dcb83a25f5ff4c0fde3531d8ba"
         },
         "env" : {
             "currentBaseFee" : "0x0a",
@@ -23,7 +23,7 @@
         "post" : {
             "Berlin" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -36,7 +36,7 @@
             ],
             "Byzantium" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -49,7 +49,7 @@
             ],
             "Constantinople" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -62,7 +62,7 @@
             ],
             "ConstantinopleFix" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -75,7 +75,7 @@
             ],
             "EIP150" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x7e18cda82e88b51f339192016b7f3e803051e1e115260efb25f8602b894226ec",
                     "indexes" : {
                         "data" : 0,
@@ -88,7 +88,7 @@
             ],
             "EIP158" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -101,7 +101,7 @@
             ],
             "Frontier" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x7e18cda82e88b51f339192016b7f3e803051e1e115260efb25f8602b894226ec",
                     "indexes" : {
                         "data" : 0,
@@ -114,7 +114,7 @@
             ],
             "Homestead" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x7e18cda82e88b51f339192016b7f3e803051e1e115260efb25f8602b894226ec",
                     "indexes" : {
                         "data" : 0,
@@ -127,7 +127,7 @@
             ],
             "Istanbul" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -140,7 +140,7 @@
             ],
             "London" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,
@@ -153,7 +153,20 @@
             ],
             "Merge" : [
                 {
-                    "expectException" : "TR_NoFunds",
+                    "expectException" : "TR_NoFundsX",
+                    "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf87e809f031eea408f8e1799cb883da2927b1336521d73c2c14accfebb70d5c5af006c82520894d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d001801ca039b081ab7094dff1b3ac79cbf8e381adc9f7a4e16290d7abc42dd006e5e062c5a033af00e26e5eb4431dcad601b2c8bf12d51eef2bd037d14681f22692ffab1ccd"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "expectException" : "TR_NoFundsX",
                     "hash" : "0x1751725d1aad5298768fbcf64069b2c1b85aeaffcc561146067d6beedd08052a",
                     "indexes" : {
                         "data" : 0,

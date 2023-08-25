@@ -2,11 +2,11 @@
     "callcodeToNameRegistratorAddresTooBigRight" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "fe17e6188451452099646832af74e4e3bfc7de7b9b789f747422e522f61df28a",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "2ea48e6c981a06ac82f8acdf257646cee3a5e4bb360293b2fe4d7d93b03c68e8",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/callcodeToNameRegistratorAddresTooBigRightFiller.json",
             "sourceHash" : "399c010bd1d04fd7f9a6b20ed8ece80fcd5cdb98c1f3aaa76b54b7beb54a4602"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a830f424094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea0af0c2d7fba8e82c046d6f0a00fde4772c6d55ff31dfb4b04be5faac46f759125a0575987697feccdb6a16eb4c72bda3fcd8f1eee78507094c9f4235a6fe3848569"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x24f4bd51ebf23e0a982728cedb49973c573759f2138f56cc5c024a11ef7d21fa",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a830f424094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca07bb4986663aec020c016ea3db37ba36e62e9c7d355dc8ed8566b20ce7452b600a07da62397d8a969f674442837f419001f2671df0f19a45586ed3acfd93e819d82"
                 }
             ]
         },

@@ -2,11 +2,11 @@
     "randomStatetest343" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "76e38ec25d86a5f64f1c1ae75d5c49b855467ab56a41d9b25e62ae49a15ca80f",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "c25f96a936d8ed0730e85281e35aa6bd3b91d9a91563ac11ba9a0bc4d07e7e67",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom/randomStatetest343Filler.json",
             "sourceHash" : "579f421e297a54eb40c3dffff52246a485e90e128200a19d5f93b46c26c7a742"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf90176800a8407c3d4a194095e7baea6a6c7c4c2dfeb977efac326af552d87844d914770b9010e7f00000000000000000000000000000000000000000000000000000000000000017f000000000000000000000000000000000000000000000000000000000000c3507f000000000000000000000000000000000000000000000000000000000000c3507f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff111010374135819da0d0fc1a987dd950d78c2739defd5c85f59616d33ecb7365bfe7b8672510084deaa02e9ce6e788f133053e2a13de145a602c29fd7e7243fb728fa32960bfe07d4bef"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xdc23f7bdfa9eb9434c93252534dedf11fe31b6bd839433020ea01eb9ceceb4d3",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf90175800a8407c3d4a194095e7baea6a6c7c4c2dfeb977efac326af552d87844d914770b9010e7f00000000000000000000000000000000000000000000000000000000000000017f000000000000000000000000000000000000000000000000000000000000c3507f000000000000000000000000000000000000000000000000000000000000c3507f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff1110103741351ca0b903aafd3ae9b92340f6a41110e3e4f4f238e9e1446f8486c1ef9a842a570f88a03470954f63e4387654c26c6bbb76dd86391d7ec5b99e11cd4c6adf89a6d3febc"
                 }
             ]
         },

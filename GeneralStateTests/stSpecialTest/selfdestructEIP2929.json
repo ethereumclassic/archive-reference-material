@@ -2,11 +2,11 @@
     "selfdestructEIP2929" : {
         "_info" : {
             "comment" : "Martin: @tkstanczak requested a state-test regarding selfdestructs in relation to EIP-2929. I made one, which tests different variants of hot/cold accounts, and even precompile beneficiaries. https://github.com/holiman/goevmlab/blob/selfdestruct_2929/examples/selfdestruct_2929/main.go#L94",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "e4c81ff499bbffc4973e074623490da40ed34628692a0aad3fd6d2e4c262e47d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "e83bc095b36e08e0581ffcab2963a9301d4703c7c157e11fd517246aff49c789",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/selfdestructEIP2929Filler.json",
             "sourceHash" : "3801edf1848a80f7ea3ec2275520a10223ed60a1f7314cb26d8f4725e295640c"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a837a120094000000000000000000000000000000000000c4118080819da088b0d9df4c1c746b06b89caa733f00f6543d817a20a42089831146b3f0ba42daa07611b49ff01b6867bf899f962a3ffaa6d88e6b71760a7d43b1a4bd66827125a3"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xfa21a0d4b054c54f8d3e3612808dc60d8fde22a31e6adf21bf719216de707072",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a837a120094000000000000000000000000000000000000c41180801ba0ae5df8f4eecd8f8e17f7629ca1afc2c3d17d472d00c43b01f5bcae355171d931a036135f53a87fe3acbf7a588ca1cfd1b69cfe82f122404abedef18b0a779053b6"
                 }
             ]
         },

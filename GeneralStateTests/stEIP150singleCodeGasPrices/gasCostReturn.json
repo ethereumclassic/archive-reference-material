@@ -2,11 +2,11 @@
     "gasCostReturn" : {
         "_info" : {
             "comment" : "Ori Pomerantz qbzzt1@gmail.com",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a0a2953319d18d9006bd423eef30093b2006fabf3723b4885dd4d9d26563df97",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "bd1f0daa1e8f7e3e64bbed66d32266a87253b3e6760286e84224aca1ce0881c9",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices/gasCostReturnFiller.yml",
             "sourceHash" : "ce1a1e2f16672c25afd4bddd3cab4db000b6d3045013d561ebd99aca0f02365b"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf862800a8404c4b40094095e7baea6a6c7c4c2dfeb977efac326af552d870100819da0da6986a2d562824c1070d2672e2f4eca7f67aa6f05a2dfc8c6acbcc92deaf691a00ef703afedd0b90611e7f6d2a1f83f60a9a3a62891081bbea272294f212ab813"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4f7b72b581e661e05db905c20ffd97422e90d325315f05f61e174e61333a4f67",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8404c4b40094095e7baea6a6c7c4c2dfeb977efac326af552d8701001ca09c04072a195620736c91e11650c2911f63561211e5c77228ef9de51d847f6b83a0458d939268c732da4daadf92fb5d7bedac3276bdb2b9c68e3ffaee308d2f7757"
                 }
             ]
         },

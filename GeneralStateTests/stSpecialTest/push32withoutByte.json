@@ -2,11 +2,11 @@
     "push32withoutByte" : {
         "_info" : {
             "comment" : "push expect 32 bytes. but we have only 10 byte",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "6685f18c6300f43c35f21f4353d3daaf2248c42efc120e1ce867c28a5e1a197b",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "0bd25faa1b31cc6ec5f5a3d5f082ffcbe79852894206a755781f60458e2b42e0",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/push32withoutByteFiller.json",
             "sourceHash" : "41a1e2cf7986c515e264b30f1b8f3e81ed3dbff56e65eb2dc7e887bdc705a209"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861010a8307a120940dc02922f33e45537411b9f92a1dcc9750ba99328080819da077d043700554a94ec4c5fad6256627e6fefeb46f6a7e90133394edd1b9aadb33a02dff2c4519d3ae3b4c33ea4ce8e8d32e6cafe1ad98453986f5b1f36377ae3b8b"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xc4207456484aec993178e97676d983fb99f752b8e6a5c84fbbe7a5e8bea6a512",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860010a8307a120940dc02922f33e45537411b9f92a1dcc9750ba993280801ca0251f31bd60aed600d24bc0c50af7a7041657e37c465b82c1004d9978213edb03a01a16bd43b6aebb640a6868291b69d2a39b69950f556a454e34c3e19a10949f6c"
                 }
             ]
         },

@@ -93,7 +93,6 @@ testOpcode_20:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -106,13 +105,13 @@ testOpcode_20:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x20': 1
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -217,7 +216,6 @@ testOpcode_21:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -230,13 +228,13 @@ testOpcode_21:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x21': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -341,7 +339,6 @@ testOpcode_22:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -354,13 +351,13 @@ testOpcode_22:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x22': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -465,7 +462,6 @@ testOpcode_23:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -478,13 +474,13 @@ testOpcode_23:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x23': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -589,7 +585,6 @@ testOpcode_24:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -602,13 +597,13 @@ testOpcode_24:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x24': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -713,7 +708,6 @@ testOpcode_25:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -726,13 +720,13 @@ testOpcode_25:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x25': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -837,7 +831,6 @@ testOpcode_26:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -850,13 +843,13 @@ testOpcode_26:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x26': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -961,7 +954,6 @@ testOpcode_27:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -974,13 +966,13 @@ testOpcode_27:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x27': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1085,7 +1077,6 @@ testOpcode_28:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1098,13 +1089,13 @@ testOpcode_28:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x28': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1209,7 +1200,6 @@ testOpcode_29:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1222,13 +1212,13 @@ testOpcode_29:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x29': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1333,7 +1323,6 @@ testOpcode_2a:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1346,13 +1335,13 @@ testOpcode_2a:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x2a': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1457,7 +1446,6 @@ testOpcode_2b:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1470,13 +1458,13 @@ testOpcode_2b:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x2b': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1581,7 +1569,6 @@ testOpcode_2c:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1594,13 +1581,13 @@ testOpcode_2c:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x2c': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1705,7 +1692,6 @@ testOpcode_2d:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1718,13 +1704,13 @@ testOpcode_2d:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x2d': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1829,7 +1815,6 @@ testOpcode_2e:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1842,13 +1827,13 @@ testOpcode_2e:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x2e': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
@@ -1953,7 +1938,6 @@ testOpcode_2f:
       gasPrice: 20
       nonce: auto
       gasLimit: F00000000000
-      nonce: 0
       to: 0xB1607E5700000000000000000000000000000000
       value: 0
 
@@ -1966,13 +1950,13 @@ testOpcode_2f:
   expect:
 
   - network:
-    - ETC_Magneto
+    - Merge
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:
           '0x2f': 0
   - network:
-    - ETC_Mystique
+    - Shanghai
     result:
       '0xB1607E5700000000000000000000000000000000':
         storage:

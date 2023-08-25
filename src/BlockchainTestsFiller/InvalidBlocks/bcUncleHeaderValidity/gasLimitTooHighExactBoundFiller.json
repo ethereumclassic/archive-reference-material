@@ -75,10 +75,11 @@
             },
             {
                 "expectException" : {
-                    "ETC_Phoenix" : "InvalidGasLimit2",
-                    "ETC_Magneto" : "InvalidGasLimit2",
-                    "ETC_Mystique" : "InvalidGasLimit2",
-                    ">=ETC_Mystique" : "3675PreMerge1559BlockRejected"
+                    "Istanbul" : "InvalidGasLimit2",
+                    "Berlin" : "InvalidGasLimit2",
+                    "London" : "InvalidGasLimit2",
+                    "Merge" : "3675PreMerge1559BlockRejected",
+                    ">=Shanghai" : "PostMergeUncleHashIsNotEmpty"
                 },
                 "transactions" : [
                     {

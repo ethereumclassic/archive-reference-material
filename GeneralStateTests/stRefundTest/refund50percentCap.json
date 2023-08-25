@@ -2,11 +2,11 @@
     "refund50percentCap" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "cca92947e25cdf0becbeaad5e392c85eea8bba812e74c3f04bd6b2f6aa991f63",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "6d0ed5d6697b789d67c9d19efb1ff408c1886a7c0a28e161902b6efcb40a0294",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRefundTest/refund50percentCapFiller.json",
             "sourceHash" : "91454abf9048c9942a7748af39cd5e0edaf406fadb4fa8f838f41b0450391c2f"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830186a094095e7baea6a6c7c4c2dfeb977efac326af552d878080819ea0555eb2a69b6af70726cfb59a8c641186b71c69bae8ee88fa10517482bff8b8e7a0229f1923ab7a56f514e79e4c48f91dabb8ab21bc49b024cef2caaca844db23ad"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xefa7a6bb4ac6a46622c5015f25c0b1767a4eb1c14aa01e35dc1368d3b1fa2555",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830186a094095e7baea6a6c7c4c2dfeb977efac326af552d8780801ba0eac92a424c1599d71b1c116ad53800caa599233ea91907e639b7cb98fa0da3bba06be40f001771af85bfba5e6c4d579e038e6465af3f55e71b9490ab48fcfa5b1e"
                 }
             ]
         },

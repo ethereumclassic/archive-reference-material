@@ -2,11 +2,11 @@
     "callWithHighValueAndOOGatTxLevel" : {
         "_info" : {
             "comment" : "call with value. call takes more gas then tx has, and more value than account has",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "9e73afadc6991c43b26bcabd4dcbf80416cec7c7e370a582d882cf20f658564a",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "712d67ff1ac98d397f3aa4f07e62bbcd2f7be84c78051ebe98bdaed3b5dd6eec",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/callWithHighValueAndOOGatTxLevelFiller.json",
             "sourceHash" : "1097d8665c5660c231369cac7435c09a94a7f9713c23167d82be134ca314dab7"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d870180819ea01ff244f4baa6e24bec7ef80a50a19d0be85b8b785902c3b9b94ccf313ea7af15a05b85143d4d3d9a17385f3b2effbd3ced37b68827964f90120e69f799ac523a95"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x5278660895678ada222d481b5165cf2f9cca818ad847377b31ed5cf9784bc003",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d8780801ca096fe0bdc8ea5e06836f0a4bdebad21024a56b36549e00aeae0d3d5e8c6f32302a021b8b5010ea4464453625562c4c0f0ec3039d1ed042db1e5cf02fb9e33d0b8d5"
+                },
+                {
+                    "hash" : "0x9e7cee9bd5774a6ae63ec3bbbb325b74ed2ddf97cc6a9dcba41624881d7c7e63",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ba0809a7acd1671d9555ce458b1a34e6b0c8a6d08f4854654571da92082eca2ae0ba02f52d29717da4ddb77ea14e60cf3c34791bfa3673f453bd849e822e674a2881a"
                 }
             ]
         },

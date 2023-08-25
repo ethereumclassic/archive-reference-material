@@ -2,11 +2,11 @@
     "Call1024OOG" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "97c7a07bc97c97d4bcf2aa8d324fc06f298c9fe10954a27f675c416cf7605dec",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "741db90f700eae7b93c6a301f59972415c4e9496df9da80c58b15efad6d85ca7",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stDelegatecallTestHomestead/Call1024OOGFiller.json",
             "sourceHash" : "78f23927dec56644f29f341598ec1da6b86c71cb8700517695996ec43bbe0f9f"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83efe17a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea055715f8efe8c035797564df9e7fed82a7debdd421c528703abe1ad10a6e1627da06889bbaabf8617b49fa31b67509ce8def44d6a7942443b3ee339bf85d67e669f"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x567ae41dab63c650287c44ac0c99c1946b90dfecb60784e706f7bf2d1db2feaa",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83c8353a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a801ca014c4ac8efa19723d893b27c12947bb1cc54d3fb255456bde809d5eeacc8097c8a04214b1cf469a2dcb91dc815d900653e74c7ab9116f8b862243f2e526ee7445c5"
+                },
+                {
+                    "hash" : "0xf0a9d54c9e9ae8a9500af004bc5a4bfaa136fef8b56f105d9db0530dedd23051",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83efe17a94bbbf5374fce5edbc8e2a8697c15331677e6ebf0b0a801ca02ba8393604eee5a91085dcc638a570907c65d83112b9d041fc9b096903510ba6a03436ebb8869c02355de0405ca29f940bdbf821b9ea2e7ea883abdb701114bcd4"
                 }
             ]
         },

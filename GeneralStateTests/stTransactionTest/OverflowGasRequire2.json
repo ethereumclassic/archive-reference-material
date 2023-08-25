@@ -2,11 +2,11 @@
     "OverflowGasRequire2" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "39fb601ed34e1fedf5f619af853a69be21e81b8c6944c44a3253e9f3e7c6cb94",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "f7e9520b8a9f00c627bb7ca187ef73d65efc98d418388733cf5386d1246ad063",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/OverflowGasRequire2Filler.json",
             "sourceHash" : "7a6d17b8ed3170f4fafd9846b29eb0088d4ed2a86eed1cf5f6e796db72dc479c"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf86e805088100000000000000094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80883240349548983454819da09ff2b1daf495a82367b99a1d53a31b5bef563d6a5d21510744a800a1add68b4ba06eb4078e59d3d7059bf9ce53198e26aeee72a9ee0b45bcbdffbfea8291c7d4f6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x81b20b949c76192938368daaf1bb0a855ba2d79a0988d6372eb5c681471abd44",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf86d805088100000000000000094b94f5374fce5edbc8e2a8697c15331677e6ebf0b808832403495489834541ba0ad09f36b8b3e242c628ba02751a13cebdbccc36ce52be40b18332e91eb6a8cb1a07381f8aa7848dc2650f37c3c559b4bcbceddf329939ce6e3bdd1e36781b0b746"
                 }
             ]
         },

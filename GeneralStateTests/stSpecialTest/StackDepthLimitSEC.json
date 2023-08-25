@@ -2,11 +2,11 @@
     "StackDepthLimitSEC" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "be4da3b9a2150d08a02e6c012d19783865356186052df804ac7978b82fb5e983",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "4dd8a8fde42c9d150e8c3743b58258ed057dddc3fb2d7f51cf6ff7294c2b769d",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/StackDepthLimitSECFiller.json",
             "sourceHash" : "4656140c74916109a4bfec5986a1d78e2b9b47dece83b537174ccb2a7c4713c3"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf882800a830f4240800ab5305032503350600460006000396000515060046000600037600051506f600060006000600060003060405a03f160005260106010f3819ea00de2608c2998bf89e0449969c6842cf98343d54e04e05eefd91fee1f49442284a0546a919ed8201a1efb54378e38ac5d12ab61baae66dc4516c86991df09fe82fc"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x62502c1fcc14ea30d36072be908c4ccbbd46ec937b7209142e352e4ff005a135",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf881800a830f4240800ab5305032503350600460006000396000515060046000600037600051506f600060006000600060003060405a03f160005260106010f31ba01181827ad58ab85838b9d87d4bab451bcbaa60c7e8ffc820bba0d0e44444bd08a07d2f2316fc44eb848fecc8e7d8b3eb293ac7d0a7bf2b622ce3ffbb4e33ae3fbe"
                 }
             ]
         },

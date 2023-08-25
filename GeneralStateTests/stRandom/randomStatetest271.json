@@ -2,11 +2,11 @@
     "randomStatetest271" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "e3bf3987e17dc57339900866a3952720bd95de76a720d82599f5b471fb02b905",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "9d6d844a6ab4e8a700e56839747ba540d4713f83f7aecf2da353f20f7db3a0d3",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom/randomStatetest271Filler.json",
             "sourceHash" : "f0d51da756e12bea8c4eb8ed978a2a47ebc0475e9f87a248e6a263389a859e58"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf90117800a84238967b794095e7baea6a6c7c4c2dfeb977efac326af552d87840b900eb8b8b07f0000000000000000000000000000000000000000000000000000000000000001457f000000000000000000000000000000000000000000000000000000000000c350417f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f0000000000000000000000000000000000000000000000000000000000000000357f00000000000000000000000000000000000000000000000000000000000000000b6d7d958a026999819ea0dd31ec01e85d8f202272ed74f98ae66a865f8f5e3f37831c727837babc21149fa06361ba4c47eee69fe9b4dd1d8656ca0ec9875e475fa7a0cfbff4a5a2bde2d166"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x08d65aaf812ec6d4fdaed3197dfb7ff1a6fa8726d855b2436efddffc1a24c547",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf90116800a84238967b794095e7baea6a6c7c4c2dfeb977efac326af552d87840b900eb8b8b07f0000000000000000000000000000000000000000000000000000000000000001457f000000000000000000000000000000000000000000000000000000000000c350417f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f0000000000000000000000000000000000000000000000000000000000000000357f00000000000000000000000000000000000000000000000000000000000000000b6d7d958a0269991ba0b8d07e25fe28029a8a179d7735d04ff81a5f8955999937425aa1bd83053ec471a0226eb5745b80ba7d3a779cdabab587baefbec87e69d3baa0ab98a0f16931b9f7"
                 }
             ]
         },

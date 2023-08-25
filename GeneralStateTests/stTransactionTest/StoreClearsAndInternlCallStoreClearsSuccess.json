@@ -2,11 +2,11 @@
     "StoreClearsAndInternlCallStoreClearsSuccess" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "eacbb62461021a703d05f3da28a9ca58d8732b744eeeee954ddea54e23597575",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "a78f5ecd760017d325babf22d5930f92751b9b5c8d4c6e932711f96c5cad03b3",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/StoreClearsAndInternlCallStoreClearsSuccessFiller.json",
             "sourceHash" : "7b9cc36d446735182653a652ea068b877a16427323127f0ea00d9d27b04b069d"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83030d4094c94f5374fce5edbc8e2a8697c15331677e6ebf0b0a80819da0cfbab8d8bca8692ef58d182eac8ba83e85776da3cfab6fdb65bdf9e943ff77c3a0269e4402bf98bc23a23bf4b4a37c1c9ff3a3e445b313d3139f52673c553a1ffa"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x6f8e611011006a070f87e923c285e80dbc9eb6b2222161263656b9311640f1ea",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83030d4094c94f5374fce5edbc8e2a8697c15331677e6ebf0b0a801ca0c9291e5983826f6d4d7cc91d0c22bf9e8079174ade181f2312bbef40d7f7dfc3a01670558c27459ba78b92ad368f4f6e15a84275da139a10c3c602d4baf61ebdbf"
                 }
             ]
         },

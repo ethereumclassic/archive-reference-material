@@ -2,11 +2,11 @@
     "callcodecallcallcode_101_OOGMBefore" : {
         "_info" : {
             "comment" : "callcode -> call -> oog callcode -> code",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "b57fc683e425dfcdaf04e62d5b46bcd709bbc363bf7f08827d4b09f279de5faf",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "e0d1206f3c8884acd9a4a6dbe95f5bd33b08299496bbb36668f61549f15dbd9f",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcodecallcallcode_101_OOGMBeforeFiller.json",
             "sourceHash" : "ac482d45659eed2f7590ed2ad36ec4e9b8f5e3b7f6f2774d2f72d3fd5a12f75c"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830f42409410000000000000000000000000000000000000008080819ea094418d58dc64caf52497b226f279e915f73edbf5c917d6ed6c168970c2c4f1c4a03c87cd577cad29ec28d5e0691be6104f204f5e87a6525cb83e50c208e5137a5d"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xd76c444bbedf724c84d3161b6407f2c13406d1839f00a3247fb3e366801df34a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830f424094100000000000000000000000000000000000000080801ba0878fccf1801724b1bfb5b0a67d68454b9c56fe9e3753200bc36cd66eed5636eca00dc53455b0e859433799ddbe3c16f98e70c52b6bf684992d9907dc9d1ccb03f1"
                 }
             ]
         },

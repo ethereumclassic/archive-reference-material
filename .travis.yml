@@ -8,11 +8,10 @@ branches:
     - develop
 sudo: false
 install:
-- pip install pyyaml jsonschema pysha3
-#- sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-#- sudo apt-get update
-#- sudo apt-get install gcc-9
-#- sudo apt-get install --only-upgrade libstdc++6
+- pip install pyyaml jsonschema pysha3 
+- sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+- sudo apt-get update
+- sudo apt-get install --only-upgrade libstdc++6
 
 script:
 
@@ -26,6 +25,8 @@ script:
 - ./retesteth -t LegacyTests -- --checkhash --all --testpath $(pwd)
 - ./retesteth -t TransactionTests -- --checkhash --all --testpath $(pwd)
 - ./retesteth -t DifficultyTests -- --checkhash --all --testpath $(pwd)
+- ./retesteth -t EIPTests -- --checkhash --all --testpath $(pwd)
+- ./retesteth -t EOFTests -- --checkhash --all --testpath $(pwd)
 
 # Retesteth does the format check upon test run and generation
 #- make sani

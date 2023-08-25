@@ -2,11 +2,11 @@
     "create2collisionSelfdestructed" : {
         "_info" : {
             "comment" : "collision with address that has been selfdestructed in the same transaction",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c897d87d76340010771b4b7dc7916e3ee85c79e04ad9b81f45d911b920549770",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "0f322c0559df0646204b32d6c409a0488b088a4114bac73ac07d6fe29158b5b1",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/create2collisionSelfdestructedFiller.json",
             "sourceHash" : "ccb87e8489895bc6a67fe8758a1c26e8bf4913b4f7fb5a00494a0404df011521"
         },
@@ -115,6 +115,38 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf88e800a83061a808001b8406000600060006000600073ec2c6832d00680ece8ff9254f81fdab0a5a2ac5061c350f1506d6460016001556000526005601bf36000526000600e60126000f500819ea014cdca432e0d0b2b729105ee585fd60eef72785f2a6a52fc62785877c9e3dff4a06254464e6375d3d92b75569c440a2c5ec15502d6520d350ae1fb3896c6eeb65f"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xce87403d56a2d3e4a42665b9938a46d40948badab56f91e30e58b8e594a11179",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf87a800a83061a808001ae6000600060006000600073e2b35478fdd26477cc576dd906e6277761246a3c61c350f1506000600060006000f5001ca0082da9353e2b9fad06feb662896cce5486c59bf3b75e94cde473d2b9d88a5774a03e537bca783536d9af1f362944178f9408f12fbb844f422ded1f4000de4f8a7f"
+                },
+                {
+                    "hash" : "0xf0de32117eb63178afe8ba4e0e9bfbe16adf978fbb281d15e7f27919b24505aa",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf883800a83061a808001b76000600060006000600073af3ecba2fe09a4f6c19f16a9d119e44e08c2da0161c350f15064600160015560005260006005601b6000f5001ba02b675fe8ae40be0af2745878b1d4954ae6974ccbcaebf8fac665e00716588af4a071f61b89f7bf34d4d0c04bd29fad89085d01d991794ac25ace34bdbf72ce3a44"
+                },
+                {
+                    "hash" : "0x4ddcae20178477c4dd3fe02b5e99eca4b8b0f22129e838d4fb284d5fefa69750",
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf88d800a83061a808001b8406000600060006000600073ec2c6832d00680ece8ff9254f81fdab0a5a2ac5061c350f1506d6460016001556000526005601bf36000526000600e60126000f5001ca0672bedbae180487f9dc93758ce9024338704b421a51b07e4f8b45ccaf97e5f7ea024768824ec83978be5646b06df4619a10c1a413cbd6d7b8ac57b86ef9b02082e"
                 }
             ]
         },

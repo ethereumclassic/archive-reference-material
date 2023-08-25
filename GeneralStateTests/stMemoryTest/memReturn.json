@@ -2,11 +2,11 @@
     "memReturn" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "2bf4b645de596cba6e4b9e8a1720328586e6c983cdd3dfcc80c0cc8bd26fc51d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "ca5d44be06e6a415ac7cc710b38ea3600c93d0b555eb9c5cb0a7a3ca3e9cae06",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemoryTest/memReturnFiller.json",
             "sourceHash" : "3e47bb58a2adc49a5cd8a1e0ebdea6cbf64e7701559cf635521d2338639c0283"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf8b3800a8450001798940f572e5295c57f15886f9b263e2f6d2d6c7b5ec60ab850ff55883355001144bbccddffeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa819ea03b3488d3955175e58394d4e9a97790db200c71a4227a5e4f9e6c99803aba3e2ba0693e2b338dd30af1859005a35aa3439fda1f7713383cf35dd28f51d0225c996d"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x49bca536939a979b32af7e0bb5700f6c8455025a1c87b5d0c33b2fa369636208",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8b2800a8450001798940f572e5295c57f15886f9b263e2f6d2d6c7b5ec60ab850ff55883355001144bbccddffeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1ba083394635d66c6e28e5a49259f9d02533472d7eecae40050187de84c773068ad2a02094be641e375d70b972b4ea489dd87cbf38bb574677849a1a1754147d5d1b19"
                 }
             ]
         },

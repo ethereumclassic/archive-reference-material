@@ -75,10 +75,11 @@
             },
             {
                 "expectException" : {
-                    "ETC_Phoenix" : "InvalidUncleParentHash",
-                    "ETC_Magneto" : "InvalidUncleParentHash",
-                    "ETC_Mystique" : "InvalidUncleParentHash",
-                    ">=ETC_Mystique" : "3675PreMerge1559BlockRejected"
+                    "Istanbul" : "InvalidUncleParentHash",
+                    "Berlin" : "InvalidUncleParentHash",
+                    "London" : "InvalidUncleParentHash",
+                    "Merge" : "3675PreMerge1559BlockRejected",
+                    ">=Shanghai" : "PostMergeUncleHashIsNotEmpty"
                 },
                 "transactions" : [
                     {

@@ -2,11 +2,11 @@
     "RevertOpcodeDirectCall" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "dbeda8601ef8ccdc7945b8f99d132fe977c0cd34e08edca5fed3dd5457592497",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "305929025fff641fe016f09205c11429ab6e0f6f24fff806620e0a9ea55377f2",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/RevertOpcodeDirectCallFiller.json",
             "sourceHash" : "bd74369de3cd0f3dba3d975defa45ca2ff6c6b80f5f4c4cbd36b5f03f62a5741"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf880800a82f5c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80a0000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b819da0450805fedd6d75fc2274bc8e9e084d2f482a3c649a4c02859bb019beb616da66a008536c5b88c73de46579a32522d5355f709e675b35284c6a492bb623b6981bcd"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x876917a3829382f12a9f04861520202c77fd5d4f2e0af2f14eacf250fb1f7dc3",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf880800a830704e094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80a0000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b1ba058f623ebcb656a250d329baf796646f86d29538d28500b83f4fbae18ab0ccdeba02a92a64e04657729a7666816d1d853e56d9b6b3e4643c29d4054acd338b638ba"
+                },
+                {
+                    "hash" : "0xaa9f86bc0cc89a37585a369b35bf28141cee62d6c85c56342531b3a44bd6a521",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf87f800a82f5c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80a0000000000000000000000000b94f5374fce5edbc8e2a8697c15331677e6ebf0b1ba076a9f4210dfb7bdfbda6d88221693f68632f290f9332c0ff093e5e76555ef19da0561f128344b27f66357510d38d29ba58b572ac33e810537f2e8a870173f7e73b"
                 }
             ]
         },

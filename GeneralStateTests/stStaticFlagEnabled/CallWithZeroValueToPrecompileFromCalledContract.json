@@ -2,11 +2,11 @@
     "CallWithZeroValueToPrecompileFromCalledContract" : {
         "_info" : {
             "comment" : "Contract C calls contract B.\nContract B staticcalls contract A.\nContract A calls precompiled contracts with 0 value.\nIt should execute successfully for each precompiled contract.\n",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "699f2818dd2fef4742eadfba1b01b97631c65ddea8edf3e3eb9ed5b732c2cfa6",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "563bb4e2efbaafe7d08a492081d5edb17a0c4643484bff18e2692ee902daa15d",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticFlagEnabled/CallWithZeroValueToPrecompileFromCalledContractFiller.yml",
             "sourceHash" : "c412f704979345fda7bc687e048ea836ffe62cbdbba2f470b3f463af91240bd7"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a833d090094c0000000000000000000000000000000000000006480819ea0199d26b1c91e95fccdff392c077f1aeeb5324afbdccc99cbc9f09080f7d10a68a07f5e246d3129f587c71cad5b06b5da9df664225fbbfc556128df23ad464afcf6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x76ef77f9db3e75e6a8c61af64ffaf98400688877ca063d49fe1d5b528be14ef5",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a833d090094c00000000000000000000000000000000000000064801ca06f1fa866da89e869cd6fbc877a5c65a3208fead5c6ee7ca2f8f287e802ca2c70a07cd7f175ffb75dfc30277beba49388d4dc30a001ceaf404013ec6d5e7fc8f810"
                 }
             ]
         },

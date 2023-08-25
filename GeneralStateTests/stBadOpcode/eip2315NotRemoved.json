@@ -2,11 +2,11 @@
     "eip2315NotRemoved" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "7613ecc73bd9ba8017e4744c4a80f8fe8a6524bf5a48db6020649b9f1a21dcbb",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "afca931f186d90132c29beee823eec89bd6706a1b4924053f1fbf5f07b7b51a8",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stBadOpcode/eip2315NotRemovedFiller.json",
             "sourceHash" : "ac796b84b654d24f20dbb367ff50100cb324e99a8a554ccf68bb2879c88b808a"
         },
@@ -43,6 +43,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83061a809410000000000000000000000000000000000000008080819da0f2a554ff0e89c6295b88f6e79ed8468bc34ce28c1ecff32db340ea7df631e0cca06dc56d38f611b69f90f4d91e00e9fa873b42c9bf0ab9a6795d03506a403966a7"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x011474b1769e17f945799ad962cc2c60e7997079b9a0245dd4dc0db8a6ea4a68",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a83061a8094100000000000000000000000000000000000000080801ba06f9b4ea02c2623bdd69fd0df484e92344b6abd00f31e2e6148b6d4bf2f3209869ff15ca97779078c002b38a70aa4402c960d1c2fd008220e22962f196297ac89"
                 }
             ]
         },

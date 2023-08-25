@@ -2,11 +2,11 @@
     "CallContractToCreateContractWhichWouldCreateContractIfCalled" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c24d7f134f35a7e9b90b06579330b93a5b3d9e5341cba2457a9605b39dae9f67",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "aa64282209665dab14a3b2a08dd290ec5c46a938e4f62ed634450adf1159bb8c",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stInitCodeTest/CallContractToCreateContractWhichWouldCreateContractIfCalledFiller.json",
             "sourceHash" : "ae21f4e2aa6c22f94e180219ce38a11a556de0ec4c9454a40aedff02d9016e12"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf862800a8401312d0094095e7baea6a6c7c4c2dfeb977efac326af552d878000819ea0ff95beaad85f96502da505e3347b59ab10cb7fc86eb660be8db248ea98d97742a01a9c1e437245486f5c42796827e946825c7737747ea1eb09823507f5b28dffbc"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x832ae42e202cfad0295dcb763a8948339974ccd801b72b86d09817c7a816dcc3",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8401312d0094095e7baea6a6c7c4c2dfeb977efac326af552d8780001ca0e5e42a33d04233da376d8e03714b03fe0fbd826ad51a84a156419fc94b9e42b9a07439f4e77cd0674dbd2765d68f4bd09fa474938cd0d33c5c3365a49b989f5747"
                 }
             ]
         },

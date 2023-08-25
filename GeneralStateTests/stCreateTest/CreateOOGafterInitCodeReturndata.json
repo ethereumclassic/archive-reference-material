@@ -2,11 +2,11 @@
     "CreateOOGafterInitCodeReturndata" : {
         "_info" : {
             "comment" : "Call RETURNDATASIZE and RETURNDATACOPY after CREATE deploy a contract",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "26715af4b2c267cfd8c2843bd0801ad91f6129dcc2b2e4ade5b98d2d2cb92692",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "c121a806dde873a09bce31964812e6c619a01342a60fe445f8a329fa7e0c134e",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CreateOOGafterInitCodeReturndataFiller.json",
             "sourceHash" : "84eadfadf83a5dd63c1bd22ada4200e8261360de2744fb20360ebc5e56893f19"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a8301731894b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da06fd86f50f2d703c9bf28c545fb2f84812986f50d290828d248b77e75c007b6cc9feba5c377a3fad777725d778d43f0eabc56acf2e32df08a1501e27002efce7a"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4d54e483c1e71bb5401928db4d463a162c0c6cde776db80b2365b1b1d4b702db",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a82d2f094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca04110d91c8d222752e43bb98f811ccf151dfd7ef10cf8dd5888369fece4112983a00752c4ac643358117ead0ac6abdeed2c936ebe3d64524ab6dc41e19aba7e2d21"
+                },
+                {
+                    "hash" : "0xd7a3ea87f623e15c44f028faf30e9aea32253bfc574b72fc1b54715c713ec02e",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8301731894b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca0378412b32fcd3ef4b3bd343dcd3e8c9f9538abc129f1b90803372440bbbb6057a06186c4dd19e0b3969dd87dddc244e87a27621cafcfeb2ca66c73dd64e3264aa6"
                 }
             ]
         },

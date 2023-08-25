@@ -2,11 +2,11 @@
     "CREATE_ContractSuicideDuringInit" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "58414502a9f6301ed79b8fd6bdbf3ce3d6e4c60f4e8e69bd9e9991f67e293b3f",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "ccd8be9cda91be039c8fa6b20ec7840945e7a5fff9d1d595a0cdfb989df9f2ac",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CREATE_ContractSuicideDuringInitFiller.json",
             "sourceHash" : "87dce50b7a1362579ec4bc0dc008e55d03e7bfb6c1dbbb9dea5ad53582041ff9"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf89a800a830249f08080b84c6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f1506d64600c6000556000526005601bf360005273c94f5374fce5edbc8e2a8697c15331677e6ebf0bff819da0d790f71526c45d6ae6db440a70622b3c91a06f23774a20daabafa2fc7882fb6ca006c30b9aa5b0e6e5d05c5f95913d467a7b0a58eb719d9e4b9713e3aaa9188a38"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xd682ce6b675de0192b18931e42d37c92291c2302cef14c3306338545c25b8296",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf899800a830249f08080b84c6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f1506d64600c6000556000526005601bf360005273c94f5374fce5edbc8e2a8697c15331677e6ebf0bff1ca0fd44363c653fe663864e496884391813b77f55822335b9fb71db87944f482372a05d92cbee0bbcda7c172e30c25e1ec42ed116de1c21882eebc570784f3902bbe9"
                 }
             ]
         },

@@ -72,10 +72,11 @@
             },
             {
                 "expectException" : {
-                    "ETC_Phoenix" : "InvalidStateRoot",
-                    "ETC_Magneto" : "InvalidStateRoot",
-                    "ETC_Mystique" : "InvalidStateRoot",
-                    ">=ETC_Mystique" : "3675PreMerge1559BlockRejected"
+                    "Istanbul" : "InvalidStateRoot",
+                    "Berlin" : "InvalidStateRoot",
+                    "London" : "InvalidStateRoot",
+                    "Merge" : "3675PreMerge1559BlockRejected",
+                    ">=Shanghai" : "PostMergeUncleHashIsNotEmpty"
                 },
                 "transactions" : [
                     {

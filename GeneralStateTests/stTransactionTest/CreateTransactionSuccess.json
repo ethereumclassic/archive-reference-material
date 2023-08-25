@@ -2,11 +2,11 @@
     "CreateTransactionSuccess" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "2915ab12357699c966b6b9c82823b656f96a9ca8ae3f3af95a9704c72b1d6e37",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "b6aa563a86e66fc489155829f1f1e565cc32ab50d8a32d50be8e4ee673227f18",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/CreateTransactionSuccessFiller.json",
             "sourceHash" : "a86e661d240b2c67681df3c36599b8c58ee9ffb3389b151776650491e1bf11a0"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf87b800a830111708064ae602280600c6000396000f30060e060020a600035048063f8a8fd6d14601457005b601a6020565b60006000f35b56819ea032b9fd8beba4ca65d930a308735a8dee03d2244bef3c4067cee8135c50343684a01bf49d0acadf89863160e5111c6a35cba2acf9314ff5135a349a979982c18a16"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x1b3960ccfd1ad95538f5043e914e3861f981fcca6340dcf569a42896b4a7a381",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf87a800a830111708064ae602280600c6000396000f30060e060020a600035048063f8a8fd6d14601457005b601a6020565b60006000f35b561ca05e38c10dc98ab9be90645e7b5d35ed35b71cdba799ca5a38aa1526bb78ab248fa0527c82011b56cc0be4549c67f862f8b1ea47f1c5697d6b5a575cb56a5249f460"
                 }
             ]
         },

@@ -2,11 +2,11 @@
     "randomStatetest359" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "24e4be8a6470da89a84c129d692ef1db138555b4b99e48a91983e27788f0212d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "2ccb521fd9049b898134bca8750ac1d10d518af338713c44fa9f9bbe37db3248",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom/randomStatetest359Filler.json",
             "sourceHash" : "d5067cb0d32e09334488f11896e3bd5dc0436ca1feebe1e8bf4bd0e26c30fd4c"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf9013b800a840897bac094095e7baea6a6c7c4c2dfeb977efac326af552d87842fc482f2b8d47f000000000000000000000000000000000000000000000000000000000000c3507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000000000000000000000000000000000000000c3507f000000000000000000000000000000000000000000000000000000000000c3507f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff428d06809e75f26764867d853b05819da066e145ee089fcb2474955f39cb73d9d940611ff039c36500ee5f6074efb7e73ba020dc3a6b1fc5accd4ded3ad008eb4962615d747af20bce030e4db67ff6d70c70"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xc3bd2407c72b76b46c89a89bfc5af96086c555fa8b99917771b556a209cbae14",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf9013a800a840897bac094095e7baea6a6c7c4c2dfeb977efac326af552d87842fc482f2b8d47f000000000000000000000000000000000000000000000000000000000000c3507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000000000000000000000000000000000000000c3507f000000000000000000000000000000000000000000000000000000000000c3507f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff428d06809e75f26764867d853b051ba0bc4ee2ff15e666f4d6e4f9c2ba6a651f436ff0dc25fa0d05f6c7fb790cb73230a037fbd5033907b73e7b5cbb1135e43d257b108ef47936977f37a220ca8f3f80db"
                 }
             ]
         },

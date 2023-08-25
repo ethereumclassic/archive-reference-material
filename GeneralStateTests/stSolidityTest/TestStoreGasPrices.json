@@ -2,11 +2,11 @@
     "TestStoreGasPrices" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a31f289e0b75c93871bc598e851b378201f7b11122f81d4242df999bcd23dd8f",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "ca575ea9aac0def8a7620e9c65e53b5f61db9429a7c4459ad5774cdc449b8d87",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSolidityTest/TestStoreGasPricesFiller.json",
             "sourceHash" : "168dd8d18b486266595f177076a95b98d2feb083da7f8c3889cf30297c0136c9"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf866800a8402160ec094095e7baea6a6c7c4c2dfeb977efac326af552d878084c0406226819ea09ab9bfa764ed5c46c17ff63616c9071bab36ab4a8aeb9d651c3e72b7edc92e7da05ac7f9b9d14458da9121f4d3752b208951102f7db952447994b0b522a5c73649"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x5ea8055c450870b23b324ebaf51d876fe0ba56e8901b04a737230a1eaacb6678",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf865800a8402160ec094095e7baea6a6c7c4c2dfeb977efac326af552d878084c04062261ba05c9f6682cbd74880521a7cb74b8c3cb10a3ae0d786e21c4ec5fb597017864705a00235ca04e7ea09fe3064096f11df1b9faa97788564acf6a768f3d295e48bfb83"
                 }
             ]
         },

@@ -58,8 +58,9 @@ badUncles:
       - populateFromBlock: 1
         gasLimit: 10230000
     expectException:
-      'ETC_Mystique': InvalidGasLimit2
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'London': InvalidGasLimit2
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
   # Excessively high gasLimit in uncle
   - transactions: []
@@ -68,8 +69,9 @@ badUncles:
       - populateFromBlock: 1
         gasLimit: 10250000
     expectException:
-      'ETC_Mystique': InvalidGasLimit2
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'London': InvalidGasLimit2
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
 
   # Acceptable gasLimit (same as the previous one)
@@ -81,7 +83,8 @@ badUncles:
       - populateFromBlock: 1
         gasLimit: 10240000
     expectException:
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
 
   # Acceptable gasLimit (almost too low)
@@ -93,7 +96,8 @@ badUncles:
       - populateFromBlock: 1
         gasLimit: 10230001
     expectException:
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
 
   # Acceptable gasLimit (almost too high)
@@ -105,7 +109,8 @@ badUncles:
       - populateFromBlock: 1
         gasLimit: 10249999
     expectException:
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
   # Wrong baseFee
   - transactions: []
@@ -114,8 +119,9 @@ badUncles:
       - populateFromBlock: 2
         baseFeePerGas: 670
     expectException:
-      'ETC_Mystique': 1559BlockImportImpossible_BaseFeeWrong
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'London': 1559BlockImportImpossible_BaseFeeWrong
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
   # Wrong baseFee
   - transactions: []
@@ -124,8 +130,9 @@ badUncles:
       - populateFromBlock: 2
         baseFeePerGas: 672
     expectException:
-      'ETC_Mystique': 1559BlockImportImpossible_BaseFeeWrong
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'London': 1559BlockImportImpossible_BaseFeeWrong
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
 
   # Correct baseFee
@@ -146,7 +153,8 @@ badUncles:
       - populateFromBlock: 2
         baseFeePerGas: 671
     expectException:
-      '>=ETC_Mystique': 3675PreMerge1559BlockRejected
+      'Merge': 3675PreMerge1559BlockRejected
+      '>=Shanghai': PostMergeUncleHashIsNotEmpty
 
 
 

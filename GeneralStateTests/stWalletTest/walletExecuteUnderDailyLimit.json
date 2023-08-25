@@ -2,11 +2,11 @@
     "walletExecuteUnderDailyLimit" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "9a4782b5d3059de163261e701aa862e6d8d772908e2cf0b34f650250c3cbeb7f",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "a387f61b8ad931e32b17ef83d020d37fe805b65a7545e31badbaa318b20aca60",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/walletExecuteUnderDailyLimitFiller.json",
             "sourceHash" : "d9eea899e15e38fd29e66d51ee50ec742aa9e2b613590c5db7243b1812b696b1"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x67bac4be8bc3c841ce2e144ab211bcb6537034b5e410417b6f0b95c9e534be81",
                     "txbytes" : "0xf8c6010a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80b864b61d27f6000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa00000000000000000000000000000000000000000000000000000000000000090000000000000000000000000000000000000000000000000000000000000060819da0f8cb27f2b38b466f6bdb5602b30c43a0dfd219dc812455eb4075c6407ec21fe8a038cdc356829d225ad470ef785be1fa68f717fd312873c21666fe55b050f1c95a"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xb0fa270e2420cc940a6d998c583befae7925d50bd41204f2fee0cbb976b1784f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x67bac4be8bc3c841ce2e144ab211bcb6537034b5e410417b6f0b95c9e534be81",
+                    "txbytes" : "0xf8c5010a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80b864b61d27f6000000000000000000000000aaaf5374fce5edbc8e2a8697c15331677e6ebaaa000000000000000000000000000000000000000000000000000000000000000900000000000000000000000000000000000000000000000000000000000000601ca0f3d1075cc395a1439c0f0c4639a7572c8a67ffa099c531b2fbd5b7303b80f5aca044c5856b259f057fd6502d3ccdd9179c0c237eb56ec3db06b87dd00149b2f7a6"
                 }
             ]
         },

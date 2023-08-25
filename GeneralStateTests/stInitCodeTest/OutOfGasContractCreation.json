@@ -2,11 +2,11 @@
     "OutOfGasContractCreation" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "1566a4838ce4664afa49d8f8d14d2746495df2686acbc01489055881fc4db69d",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "6396b71d028cc42a4ca5598dae05b1953d3515fb6c785d2425d71e5ecea9da78",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stInitCodeTest/OutOfGasContractCreationFiller.json",
             "sourceHash" : "877119afdaad366e9da23ddf598c5fd9d8217580c6a95e6f6f5954902f46c44d"
         },
@@ -145,6 +145,48 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf86a800a82dac080019e600160015560026001556003600155600460015560056001556006600155819da0b1b8b50ce525e5b2e77ab5e73e4c4145ab9c485fa1515f5357cd6c35424916e4a012e6beb97d1dbe24c0df7e47689370ccb61b1ce9bdfc54a291657c98b9599b59"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xe5bbd5409c5c723aa0ab60703976e5edd7ecef3a64aaa50b780407bcc2e98a69",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf862800a830249f0800196600a80600c6000396000f200600160008035811a81001ba05ac9446629d86def72274b7f18ccc05e3d0270899acd6c71c96a0708305e877fa047ea0362d89b4ba254c6c016da657857940284c14bd190cebe43366431b7c21b"
+                },
+                {
+                    "hash" : "0xb34fb29b7a60ee469585444645b1719de27e871a4b787f435f88e1b13b185d5f",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf86a800a830249f080019e6001600155600260015560036001556004600155600560015560066001551ba076fd4ba3e5d1e34c09639c3ad5b5227add8cad752488cfc49a5907dbbcd73a69a06684c095fd2cdb7fe034445277918ef28569b2a0c94a3946da3fbba3c909405c"
+                },
+                {
+                    "hash" : "0x05c0166daf29c7288fe4ba533368a6b6ce4b7b52944fe56aa3b9d10a70e4f159",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a82dac0800196600a80600c6000396000f200600160008035811a81001ca030ea1058593a24c7f1f555c126a2b6c0ef5cf5be063ff75bd087a5cf3f949419a05ec579e348b8332f2fd014ea016027b0ca9ebfe6a7198758b54f10427d93e3e8"
+                },
+                {
+                    "hash" : "0x05c0166daf29c7288fe4ba533368a6b6ce4b7b52944fe56aa3b9d10a70e4f159",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf869800a82dac080019e6001600155600260015560036001556004600155600560015560066001551ca087896810eafeabdd986a0dd3699ddd6c3dbf5f1bdb591d619fd70f5877e19f2ca014dda81a455a01ce80c3cea6c2f1ca073dc9d2c40da0f9c334ed16f5698a52f5"
                 }
             ]
         },

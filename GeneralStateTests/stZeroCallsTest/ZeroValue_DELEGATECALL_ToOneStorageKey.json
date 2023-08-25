@@ -2,11 +2,11 @@
     "ZeroValue_DELEGATECALL_ToOneStorageKey" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "7f3c54d311258ccb0cf2ac0f0ab2bff8838d4697a2dd2d15662f9a92f481ed81",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "684a024fc455f9e7f0cd2517c87447f0a00ae74b2225be7fc58190ee7d1b9b81",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stZeroCallsTest/ZeroValue_DELEGATECALL_ToOneStorageKeyFiller.json",
             "sourceHash" : "6b004f92f0ff766f3289dd83a7db4fc88ec9134570eec06ddf9514faf643f479"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da0ea4f1222ca2e167f94e8f5c32f0802fd07dbcb8afcc32daae4e5adeb5eeaea7da001958b3c3da2e2ec0b9cbcdf70a97ca55fd0a2201afbc01efa3f13201f7d1675"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xd09e15c9701450abf7eb06ba75600449ab562f79dbcac2dca403c0dea8ce3cbf",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca065622aa0319be041688699ffcc35390d71659fb43600cba91177760bd5cbe3f7a05d3be8e63e5061a12f6f569ba20df19ea8a844cbe9eba3a85c230f7cd8d70426"
                 }
             ]
         },

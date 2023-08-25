@@ -2,11 +2,11 @@
     "codesizeInit" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "9f20801ce95aaf81466363d63b7c2862f5f8bd60d3b422f85cc495057f0e58aa",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "46b73108215f417717eb97de8b6cc6a899ad2edc92241fb4305da43532146696",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCodeSizeLimit/codesizeInitFiller.json",
             "sourceHash" : "b75c864aaf44bd95296f43a74be9cf1bb21b4f6ba8bfeb94337dde91ba087cb9"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf857800a83e4e1c080808a38600155303b60025500819ea04bf0a4dd34d6b4efd0fbe586777914c04f15f0108fdd852fecb5b7012cbea5a7a05adf1e233e2c35db406f8fdfe7150bb2fc8bc670b95d01ef7fed6cf3142d9d5e"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x354ab41d6272fa76b164142ef2cdff724e7f05a610a07b1a658f61392597a627",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf856800a83e4e1c080808a38600155303b600255001ca0ca142920629079739236ca1857023725e136e58c9c65a2a629cc82b2db6b30b4a042895967f59679ea0f941ac25c46ba55d4bd2b509e8294bfb33f9d1ab58a1d89"
                 }
             ]
         },

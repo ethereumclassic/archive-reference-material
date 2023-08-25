@@ -2,11 +2,11 @@
     "multiOwnedAddOwner" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "3dcfbe9247524c599b784fc29d89481c232c29dd01e1b22315ad34fa25971b87",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "b5549abece8183c00d2a9b2047bc78d96baeb381c045517e2b7d4be564c278d0",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/multiOwnedAddOwnerFiller.json",
             "sourceHash" : "d13177ee82a86cb36e45b8367cbf461f94d705d313677957b5ed8d19a459c52b"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x4c188d8116cc36f2b4147493a6813c86c615bf567d4dcac6f3e8b3c958d2ba41",
                     "txbytes" : "0xf885010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64a47065cb480000000000000000000000003fb1cd2cd96c6d5c0b5eb3322d807b34482481d4819ea097ac64e561ac4347163300f96848c9d6705c564bf3ef48a05f59e9c177613eaba067fdd6e32485109ba82617f8b514ea0b3914da50aac935c4db41444390095cb7"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xebe2f7da63d64340a4fb935ddb63ce4c1ef3458f3dbb36d8722bfb99fcaf897f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x4c188d8116cc36f2b4147493a6813c86c615bf567d4dcac6f3e8b3c958d2ba41",
+                    "txbytes" : "0xf884010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64a47065cb480000000000000000000000003fb1cd2cd96c6d5c0b5eb3322d807b34482481d41ba0502b229cd0fb8724ef92cd3c181447add49ae6eddd3a8068125f4a2f28135d8aa0187acf84f1c1585129b9eaaa1936abed21f3bf13e56d7fc932583829ed15bdaf"
                 }
             ]
         },

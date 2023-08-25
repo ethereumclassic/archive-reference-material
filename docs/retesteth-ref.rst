@@ -69,6 +69,7 @@ Setting the Test Suite and Test
 Option                                    Meaning
 ========================================= ===================================================
 -\\-testpath <PathToTheTestRepo>          Set path to the test repo
+-\\-filloutdated                          Run only those tests that have changed fillers
 -\\-testfile <TestFile>                   Run tests from a file. Requires -t <TestSuite>
 -\\-singletest <TestName>                 Run on a single test. `Testname` is the filename 
                                           without Filler.<type> (either **json** or **yml**)
@@ -95,16 +96,16 @@ Option                        Meaning
                               GeneralStateTests
 -\\-vmtraceraw [<folder>]     Trace transaction execution (see note)
 -\\-vmtrace                   Trace transaction execution, simplified version
--\\-limitblocks <num>         Limit the block exectuion in blockchain tests for 
+-\\-limitblocks <num>         Limit the block execution in blockchain tests for 
                               debugging to the first <num> blocks
--\\-limitrpc                  Limit the rpc exectuion in tests for debug
+-\\-limitrpc                  Limit the rpc execution in tests for debug
 -\\-verbosity <level>         Set logs verbosity. 0 - silent, 1 - only errors, 
                               2 - informative, >2 - detailed
 -\\-exectimelog               Output execution time for each test suite
 -\\-stderr                    Redirect ipc client stderr to stdout
 -\\-travisout                 Output \`.\` to stdout
+-\\-statediff                 State changes between before and after the test
 ============================= ===================================================
-
 
 .. note::
 
@@ -113,6 +114,34 @@ Option                        Meaning
    If you are using docker that directory is in the folder, so it is easiest to use a directory such as
    **/tests/results** (because **/tests** on the docker is the tests repository on a file system outside
    the docker).
+
+
+
+Blockchain test debugging
+..........................
+
+Blockchain tests contain multiple transactions, so to debug them it is useful to
+look between transactions.
+
+============================== ===================================================
+Option                         Meaning
+============================== ===================================================
+-\\-statediff <a>to<c>         State changes from just after block a to 
+                               just after block c. The first block is numbered 1
+-\\-statediff <a>:<b>to<c>:<d> State changes from just after tx b on block a to
+                               just before tx d on block c. The first transaction
+                               in a block is numbered zero.
+-\\-poststate <a>              The state changes just after block a
+-\\-poststate <a>:<b>          The state just after tx b on block a
+-\\-vmtrace[raw] <a>:<b>       Trace a specific transaction          
+============================== ===================================================
+
+.. note::
+
+   You can only view the state in the middle of a block (**-\\-statediff**
+   **-\\-poststate** when you use 
+   **-\\-filltests**. Otherwise only the state at the end of blocks is 
+   available. 
 
 
 
@@ -165,7 +194,7 @@ Option                          Meaning
 
 Examples
 ===================
-These examples assume you configured your enviroment `the way it was
+These examples assume you configured your environment `the way it was
 shown in the tutorial 
 <https://ethereum-tests.readthedocs.io/en/latest/retesteth-tutorial.html>`_
 and that you are in your home directory.
@@ -248,7 +277,7 @@ will be slightly different.
    .. note::
 
       Not all transitions have associated test cases. To see which test
-      cases are avaliable, run:
+      cases are available, run:
 
       ::
 
@@ -328,7 +357,7 @@ will be slightly different.
       ./dretesteth.sh -t GeneralStateTests/stExample -- \
            --testpath ~/tests --vmtrace
 
-   Proudce a more detailed, but less readable, trace:
+   Produce a more detailed, but less readable, trace:
 
    ::
 

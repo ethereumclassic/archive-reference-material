@@ -2,11 +2,11 @@
     "extCodeHashDeletedAccount4" : {
         "_info" : {
             "comment" : "4) Call creates Account A\nCall to Account B stores Account A hash to 1\nCall to Account C runs self destruct on A\nCall to Account B stores Account a hash to 2\n",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "ed8ba4af77f1d20d0eeeed1b4088734bf8ff347372db1bce3c8971dcb1a1f698",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "573700c82ed6cb43179909b7d820c2de420dc042b1436b9cceb072c5d0828d29",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount4Filler.yml",
             "sourceHash" : "0e224dd34c7d85e986b674f93f04d8e961faa2e622d2d587a7e31d1d5c3abd33"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d870180819ea02381d23831fd5e0efab25e898ca943cf2004e6670cbaf62c07e1368134ddcacfa06926bb37e31b66f52d56f33d656db6a7103ba19b6c918956aebb0aa92c1f92f2"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xecb5a3017feb638aa561317ec583f47710a1add481659bc2f7e1a9084c651799",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83061a8094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ca09d46b87169053cc40670aef750b032c895cde3e35c2c7f5a37c059272e0914c7a04d4a94b67b2776cc3e0fca2ed9503c10fd92ec79f1b2dcbb85df9634c7de3119"
                 }
             ]
         },

@@ -2,11 +2,11 @@
     "multiOwnedAddOwnerAddMyself" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "17bfb791a36bfc82d1508a4850a209f8b948a888a2b0cec0c3fc1dea28de4312",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "04e4f17d213f6d0501ac66d7faebb090dc1164f4c49bccffd17f983148a742bf",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/multiOwnedAddOwnerAddMyselfFiller.json",
             "sourceHash" : "9fc9c38d7b809657e9c63a58adb91597741bee27687cb2c30d4a9bfc2bf07851"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0xbfff30234df4850b917360d5d201e4bd49e57a06770149918b0804774aec6666",
                     "txbytes" : "0xf885010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64a47065cb48000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b819ea02eb28d9f8303ae69ba0798fef4fa0022f58377bf000f8d9bdf29b64f445e69d9a0549ed5dd5d6a7ae9dfc4b3a852ae5642ea8e08b0e31294f906604aab23f6e24f"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xb35d161f2d917f2e8e656cfd28010f279f18877a1ae2a266a872646d3b964b49",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0xbfff30234df4850b917360d5d201e4bd49e57a06770149918b0804774aec6666",
+                    "txbytes" : "0xf884010a83989680946295ee1b4f6dd65047762f924ecd367c17eabf8f64a47065cb48000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b1ba0c7a19e63b918bbcca8bd4738a676c9961acd2cf5e36a6521059b122bd5c427a1a06c3ef9524557fd5bd5b0c006945bb71048fd9d1c1fac33fecfbfaa5986436c68"
                 }
             ]
         },

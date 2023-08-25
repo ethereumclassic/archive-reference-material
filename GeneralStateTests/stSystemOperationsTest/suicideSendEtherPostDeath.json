@@ -2,11 +2,11 @@
     "suicideSendEtherPostDeath" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a30c2798e6441cccbf9ddbd5feb9374347bbacc347d44ffae30e7773b5a29b64",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "c4e99791487d3f7c9c49923575a5bc27fcd5a3ea2b417b81fde9f565b4c5bda9",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/suicideSendEtherPostDeathFiller.json",
             "sourceHash" : "7a6064a64d1336607cc27cb1612689d4f0d96a51cd56be9d3eb0623d09d1ab02"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf868800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe3819ea035b91cef53830a30a2b3b9605d12db19b7c056db7d930aa4cff2e409b6e15534a041be18dc0782dc3a7518302a506aac875af68139e48c3e963aa3218f00c5b26f"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x31ced6bbab5328512553c50028de58e117e76540c9461f0f18f8aa141573b329",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf867800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe31ca062a023f1e5b9c5569d78edc008af16cb7f09a95ed477184f39e830384db30ae9a0237a8f8260183aed5613127920ede45dcedded45063efe79fa6f6b0e283255e7"
                 }
             ]
         },

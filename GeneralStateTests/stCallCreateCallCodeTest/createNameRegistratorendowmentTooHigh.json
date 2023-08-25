@@ -2,11 +2,11 @@
     "createNameRegistratorendowmentTooHigh" : {
         "_info" : {
             "comment" : "Legacy Test from Christoph. J",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "6e7d9deef316ff32fee6a186f05d9660d146f0b4de2b6c5f4fe6c0d0ffb53973",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "629e04f9398657102b126cc9b3e909347f7a483b781547cdcb7d4ea0d27eb839",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/createNameRegistratorendowmentTooHighFiller.json",
             "sourceHash" : "3a7337b68d75f4f33628064f84ad281cad4c9dc9f5dddcac9f6600bf5fb29d6a"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830493e094095e7baea6a6c7c4c2dfeb977efac326af552d878080819da08aa588743aa91e409aabd7e52363eda076aa715465b3941f2f7c23530281b02aa077beadfba843cee51149f907e7c0525b8bef564454e4c0e09d23ae2bae601888"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x74d5cd8340558540978d6ebd6d42adf00a33919897b12ab538f5aad96866b242",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830493e094095e7baea6a6c7c4c2dfeb977efac326af552d8780801ba07dac90ad76be184dd90393b97a7f5b12f65c841791c7462aac2d55bef38051aba0071a9c5cb6781a525949e167c2850acdd1fb05d02b11ae3838219c60c18cd448"
                 }
             ]
         },

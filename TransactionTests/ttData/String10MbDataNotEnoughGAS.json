@@ -2,10 +2,11 @@
     "String10MbDataNotEnoughGAS" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.13-unstable-291393c2",
-            "filling-tool-version" : "retesteth-0.2.0-memory+commit.093d78f6.Linux.g++",
-            "generatedTestHash" : "ed266e8cb87d64a9cbc53cc6ed7dc2fcd138cdcce070c295d032a1bdcdf39b9e",
-            "lllcversion" : "Version: 0.5.14-develop.2021.10.5+commit.401d5358.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-564db9a9-20230310",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.324bcf39.Linux.g++",
+            "generatedTestHash" : "d1611622f7e974fdac89cba4adde91f367c2a612037c832caaa7612f931eb1d4",
+            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/TransactionTestsFiller/ttData/String10MbDataNotEnoughGASFiller.json",
             "sourceHash" : "3b0e8f40e06e8fb1f2ec768dd0d77e16e29b4e5e3af2554a534433b180b78b17"
         },
@@ -47,6 +48,14 @@
                 "intrinsicGas" : "0x0a005208"
             },
             "London" : {
+                "exception" : "TR_IntrinsicGas",
+                "intrinsicGas" : "0x0a005208"
+            },
+            "Merge" : {
+                "exception" : "TR_IntrinsicGas",
+                "intrinsicGas" : "0x0a005208"
+            },
+            "Shanghai" : {
                 "exception" : "TR_IntrinsicGas",
                 "intrinsicGas" : "0x0a005208"
             }

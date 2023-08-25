@@ -72,10 +72,11 @@
             },
             {
                 "expectException" : {
-                    "ETC_Phoenix" : "UncleIsAncestor",
-                    "ETC_Magneto" : "UncleIsAncestor",
-                    "ETC_Mystique" : "UncleIsAncestor",
-                    ">=ETC_Mystique" : "3675PreMerge1559BlockRejected"
+                    "Istanbul" : "UncleIsAncestor",
+                    "Berlin" : "UncleIsAncestor",
+                    "London" : "UncleIsAncestor",
+                    "Merge" : "3675PreMerge1559BlockRejected",
+                    ">=Shanghai" : "PostMergeUncleHashIsNotEmpty"
                 },
                 "transactions" : [
                     {

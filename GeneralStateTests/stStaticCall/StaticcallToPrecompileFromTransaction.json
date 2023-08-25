@@ -2,11 +2,11 @@
     "StaticcallToPrecompileFromTransaction" : {
         "_info" : {
             "comment" : "STATICCALL to precompiled contracts from transaction code.\nIt should execute successfully for each precompiled contract.\n",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "4c372fcd8cd370b7ca34d6ff958e0fc6eb2c3026279cfc3f104359254c51c58c",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "51865a0ae064d2c603fa04844bb0d9b8ac39701d283a764577820be127fec31b",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/StaticcallToPrecompileFromTransactionFiller.yml",
             "sourceHash" : "e0d34914e017f615eb84eb7f8a7596eb83d45a798aeb2ae932b5bb0d5c6c0d04"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830f424094a0000000000000000000000000000000000000006480819ea0acce5ac78b0836533c9098f0e6a4dacbfdd2d9338dc8608acfc1d0f00e772889a043157b01599f0646f8845c32a50c4763a3ec96d7388befb870ad200c0359f18b"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x27bc5cdd4095fa9763fdaa343d55bd7023529ee48865d66d46fae4cc1a6bfaeb",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830f424094a00000000000000000000000000000000000000064801ca054870e924ab213fd0acf66dd0adfd431874d9face7898dd1782c737590cf01d0a05afbafd3918a0904a5d215edb16650f36704cc05a3eb3a3d950a72c3d4d364d0"
                 }
             ]
         },

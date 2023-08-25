@@ -2,11 +2,11 @@
     "CREATE_empty000CreateinInitCode_Transaction" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "16643035fb84dd00012519a94f51a6180afed0bcdaf6c2c7b42acda3c01c93de",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "7cc45dd2bff00e4761bd6b6a592df5cd3346a7c730871dc56f20333c391bc336",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CREATE_empty000CreateinInitCode_TransactionFiller.json",
             "sourceHash" : "dfe4233375d6ff5988938f0c6d459184588e61b443d621844cd53141a795517a"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf878800a830927c08080ab6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f150600060006000f0819ea0b3808e09e800fc571257e124ae3c520758f1875e5e6319724050f08c92404480a055de89917d4305bfb11e363ce305e7dcb1fce72024e274914b327e29088d13d6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x36d8f2854b50dbeb2cdb73fb9a160928923858ee714aaae204282a89f54d30e5",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf877800a830927c08080ab6000600060006000600073c94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f150600060006000f01ba0d02eb553e6521e97995ee533202555cf1990bf7253cd68fdf7dfdc781a8e0703a00dea57bc6db72f83bb4988b129142f0c3d03037ff0fdf7ddb86c825e1290eccf"
                 }
             ]
         },

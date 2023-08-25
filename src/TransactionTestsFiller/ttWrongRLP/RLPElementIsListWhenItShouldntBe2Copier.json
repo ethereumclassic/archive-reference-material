@@ -1,7 +1,15 @@
 {
     "RLPElementIsListWhenItShouldntBe2": {
         "result": {
-            "ETC_Magneto": {
+            "Shanghai": {
+                "exception": "InvalidNonce",
+				"intrinsicGas" : "0x00"
+            },
+            "Merge": {
+                "exception": "InvalidNonce",
+				"intrinsicGas" : "0x00"
+            },
+            "Berlin": {
                 "exception": "InvalidNonce",
 				"intrinsicGas" : "0x00"
             },

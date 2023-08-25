@@ -2,11 +2,11 @@
     "TransactionCollisionToEmptyButNonce" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "f48b11574bfb80d1b6cc1effa9e2d1049b738411ee32c0f9c96e36b126f6b157",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "8c5484c9bbe704c32a44ded8de418ec3415fe4e798f5895ce0c7a7634a38337b",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/TransactionCollisionToEmptyButNonceFiller.json",
             "sourceHash" : "7601b85ffe0f102fc253833de1534fffda6a4c5ae4a281582c3652452f514068"
         },
@@ -145,6 +145,48 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf851800a82d2f08001856001600155819da09be107b1ffc75fd63162baba90f5f896f9e461aad29271539f88596b20fd91f9a017c2090404d73ee9e335a648a9a28e6a13b1119b9c6092a880e67795640c4b56"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xea9abee4c134b327d1cbdc95f6596c85b711bfb1c3fd6a40b635ad503401dd95",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf851800a830927c080808560016001551ba0d7bfe35511eabc6166c05a65a945a6e39fd3da54f3d248e620ebab7b56630126a04aa22dbb215699bc84862c3a2b8e714f00cc58e13c8250465d71445e8f30e2c3"
+                },
+                {
+                    "hash" : "0xea9abee4c134b327d1cbdc95f6596c85b711bfb1c3fd6a40b635ad503401dd95",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf851800a830927c080018560016001551ba09776ff9118043cd6fbd3d8e7a020b1f5474f37e4c9e606bbfc42a43a7930eba6a02e2c29035825c377380c06221944bac15880821ba96100e7d131cacd8d89f9da"
+                },
+                {
+                    "hash" : "0xe6efbf73578c2382d3a3881924aabf1ca599a1e12cde0f64b9bd97901fd4fe29",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf850800a82d2f080808560016001551ca0fce53e4eae7399e374b3519309ec7b7841ba4ab02490298e5dd0401b70ad0a05a07bc2801bce201d1337221dc1cf5a855a644690f291d86b9721e6292771271425"
+                },
+                {
+                    "hash" : "0xe6efbf73578c2382d3a3881924aabf1ca599a1e12cde0f64b9bd97901fd4fe29",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 1
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf850800a82d2f080018560016001551ba0b007ccbb2927b5194c93b40e2a6bc5ad533a74fdf21937b0efda7b6692c3dfafa0743f43aabe62ca3419ae6b35ab08edfd8a944b7a9072a6219dcb31552f5f10d8"
                 }
             ]
         },

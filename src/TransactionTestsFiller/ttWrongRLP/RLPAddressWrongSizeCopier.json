@@ -1,7 +1,15 @@
 {
     "RLPAddressWrongSize": {
         "result": {
-            "ETC_Magneto": {
+            "Shanghai": {
+                "exception": "AddressTooShort",
+				"intrinsicGas" : "0x00"
+            },
+            "Merge": {
+                "exception": "AddressTooShort",
+				"intrinsicGas" : "0x00"
+            },
+            "Berlin": {
                 "exception": "AddressTooShort",
 				"intrinsicGas" : "0x00"
             },

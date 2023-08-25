@@ -48,10 +48,11 @@
                     "difficulty" : "10000"
                 },
                 "expectException" : {
-                    "ETC_Phoenix" : "InvalidDifficulty",
-                    "ETC_Magneto" : "InvalidDifficulty",
-                    "ETC_Mystique" : "InvalidDifficulty",
-                    ">=ETC_Mystique" : "3675PreMerge1559BlockRejected"
+                    "Istanbul" : "InvalidDifficulty",
+                    "Berlin" : "InvalidDifficulty",
+                    "London" : "InvalidDifficulty",
+                    "Merge" : "3675PreMerge1559BlockRejected",
+                    ">=Shanghai" : "PostMergeDifficultyIsNot0"
                 },
                 "transactions" : [
                     {

@@ -2,13 +2,13 @@
     "CREATE_EmptyContractWithStorageAndCallIt_0wei" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c7b532d09fd6bbc8562fcf923339f178b1cf01c9c79c877717532dd91c9ca734",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "297bd515dee9a480541489485590fc12dee651423848e584d4897733b150d1c4",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CREATE_EmptyContractWithStorageAndCallIt_0weiFiller.json",
-            "sourceHash" : "f3e3dbba196ae1de364714bcb69ee3aca4274396cbdad84d01d9c8d4918ec5a3"
+            "sourceHash" : "0596d3a25b37db691f502402e3783772d0e292088a0cc2b5320a5bd61821ebf2"
         },
         "env" : {
             "currentBaseFee" : "0x0a",
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da0ea4f1222ca2e167f94e8f5c32f0802fd07dbcb8afcc32daae4e5adeb5eeaea7da001958b3c3da2e2ec0b9cbcdf70a97ca55fd0a2201afbc01efa3f13201f7d1675"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x3c7c8da1cf6560d09d5c91142701308b027c1f9cca9d410961a2e8e2f77972ec",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca065622aa0319be041688699ffcc35390d71659fb43600cba91177760bd5cbe3f7a05d3be8e63e5061a12f6f569ba20df19ea8a844cbe9eba3a85c230f7cd8d70426"
                 }
             ]
         },

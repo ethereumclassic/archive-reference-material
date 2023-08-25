@@ -2,11 +2,11 @@
     "ExtCodeCopyTests" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "1463e0da4d82c3f21d658854debe71fcff76a23d1aaad84ddd812c256b588cb2",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "3d0c8e8d585b08f11dc14917b339f6d42c0eac44fd407e4b4a31f7b8a3552c70",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCodeCopyTest/ExtCodeCopyTestsFiller.json",
             "sourceHash" : "b66a98383fcbc963d9b9514ec3663e1753febb1e3b559c3cfff5258945e0993a"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83061a8094aaaf5374fce5edbc8e2a8697c15331677e6ebf0b8080819ea0888e36c7085a94f3de9e299efaa7bd86ff6523182460eabba9be3916a9d7b6c9a0362b863c9a0795e04469ccb238972cb08671176be12197abe7ae8a13132fb78d"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x729d07e9712e0adfc31903752e354b1d3e13fa847846bb03e1245d5d910176aa",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83061a8094aaaf5374fce5edbc8e2a8697c15331677e6ebf0b80801ca0f1326147c4351dc80fb7bef9b63c76a4aae39ceccd9ec54065339ba60f77c6d9a02567b84dc4697e7b6ca92bec948694fa9723fec84460588629068c5bbb1ee6de"
                 }
             ]
         },

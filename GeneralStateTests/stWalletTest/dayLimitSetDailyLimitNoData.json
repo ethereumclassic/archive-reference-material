@@ -2,11 +2,11 @@
     "dayLimitSetDailyLimitNoData" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "04df35de09fa4ebb4a831c441ab92e5425f8ba49a217aa56d156170db8358563",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "1cba2ffc8901ec627b1e0bcf81dc2f53c52a2281531dcdf6bade5738ea6c662b",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/dayLimitSetDailyLimitNoDataFiller.json",
             "sourceHash" : "8ee1ed05305eb58fcf40c8518c0ea17f1d9913a73cee05ee30e3c25fb7d3fb5f"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x02e887a0431a6fffbf7f1414813f8a321931fd8b3bdf2825d8d2dec214e1697e",
                     "txbytes" : "0xf865010a8309b33594ec0e71ad0a90ffe1909d27dac207f7680abba42d6484b20d30a9819da0771fefb9a48c94f61670bf25c31e390a6cd206ea1182678b041c23680f0f7ecda0127a90199a398d11f241e9c7c0c9c58c3d53d8376d00992230651a33345f49cc"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x0a664db106ba7273b91b94aa605f96c5acf04848eb7c58733a01e9e6b52cdf59",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x02e887a0431a6fffbf7f1414813f8a321931fd8b3bdf2825d8d2dec214e1697e",
+                    "txbytes" : "0xf864010a8309b33594ec0e71ad0a90ffe1909d27dac207f7680abba42d6484b20d30a91ba04f059a3ed795c49fd45b7eca97b00b2b617f09a6c1d02f1eed914c9f6badd951a07892763e4ae0acb4660e94d9da727cedf79662fc5fcb0e0b06e4f542e42628fb"
                 }
             ]
         },

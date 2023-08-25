@@ -2,11 +2,11 @@
     "callcallcodecallcode_011_OOGE" : {
         "_info" : {
             "comment" : "CALLCODE -> DELEGATE -> DELEGATE -> CODE OOG",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "af57404f28f63d45217b10d7715e888749673e126988b1fb5a6b83a816318568",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "2b068b3a11e67991e93e52ca56cdedb0f3e68b8bfe9522e8535254fe5064fc33",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead/callcallcodecallcode_011_OOGEFiller.json",
             "sourceHash" : "6c6662d6943e9bd7b89a12a7422aceb9885309a7aabc5a8db24eab6fb5a5ba33"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830f42409410000000000000000000000000000000000000008080819ea094418d58dc64caf52497b226f279e915f73edbf5c917d6ed6c168970c2c4f1c4a03c87cd577cad29ec28d5e0691be6104f204f5e87a6525cb83e50c208e5137a5d"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xf61bd0ff2c190fa8791d907cc23046f7e88c5f8f7b7c015bb71e53d998a3091b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830f424094100000000000000000000000000000000000000080801ba0878fccf1801724b1bfb5b0a67d68454b9c56fe9e3753200bc36cd66eed5636eca00dc53455b0e859433799ddbe3c16f98e70c52b6bf684992d9907dc9d1ccb03f1"
                 }
             ]
         },

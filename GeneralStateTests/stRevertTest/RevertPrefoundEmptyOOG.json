@@ -2,11 +2,11 @@
     "RevertPrefoundEmptyOOG" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "6f942a106a5800c69ffa5f445b8e5df9b06ddc7d7c5186fd201b4135e511ab02",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "d0a975d5dfc929ed9ca524f1e34ceb6bed78137f565e7feea63047743bb32a21",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRevertTest/RevertPrefoundEmptyOOGFiller.json",
             "sourceHash" : "7fcec3903360bd5b8f57cbdb1a203fdab296f4e1b20209c008a99f2beaefe9c1"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830e30d094a0000000000000000000000000000000000000008080819ea0a951f416f34c51a3b3309523582df68b50d36e636f847a5e8f52b4cade40285aa013e39a7b61ebae1587d4baf0821839b833cac5083f4a7a17bb9b17fd73eb582c"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xd0a9cd35ab04a811bd1bd3e77565ac4f0833c6adb9bfd47254863280694e22ab",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830e30d094a00000000000000000000000000000000000000080801ca05c3f1e6773c901e467947ba168cd429e7d7a1ad7ecc450cf5c8f1cbc36336941a07440df464268bd7ba6e64c3d97b467794214530c45ccb2b463397f116e2a7bf2"
                 }
             ]
         },

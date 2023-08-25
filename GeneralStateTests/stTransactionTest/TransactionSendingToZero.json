@@ -2,11 +2,11 @@
     "TransactionSendingToZero" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a926232894bb99adbedf72749c593ce8dc6dd9f10772d2a111155e6f020b40c6",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "cf0da8eb9c5bb59c86e27fbc37896dd791d8dc3f12fe67b1f4ddc11ebbe1150f",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/TransactionSendingToZeroFiller.json",
             "sourceHash" : "e1d89731a9d5084748dbc5d113d3590e75cf404b0a4e4272cadc300faddf8c24"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a8261a89400000000000000000000000000000000000000000180819da0207fa36f76f1bee02f9301a001c00bccafaac2d1365b18117c22695d9b510958a0686d772f1957e27f182afaf9b993c16aa924b1cc67a202048a5a6e342e90a054"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x7f5cf10086700d13ec49dea3037e9878b8ceb6f32ed64fc25141e2f36d1ae18d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a8261a894000000000000000000000000000000000000000001801ca0b2d14737cfeadb71a80b7569f12da1e86709adc3839b8335aac66bf2ddefe7c9a00c3e5734175e32a3607c7c89e38b754ac5c6781f5238c7055e4fc058debc2b99"
                 }
             ]
         },

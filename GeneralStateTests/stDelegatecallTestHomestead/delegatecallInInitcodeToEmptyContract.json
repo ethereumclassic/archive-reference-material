@@ -2,11 +2,11 @@
     "delegatecallInInitcodeToEmptyContract" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "edadd3ab606747f7ede2e31f76c49980ba4c037987052f95c7a26156c7191ce3",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "bcc8914d3d1e8d11704c02e897c01e6c9466f826725eeb3408e9137fac7e2675",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stDelegatecallTestHomestead/delegatecallInInitcodeToEmptyContractFiller.json",
             "sourceHash" : "6b0e79d694ff2f382bd32b053e04b95a60c4f1fe8d3428c656c6ddb416a7d41c"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a8306e9d99410000000000000000000000000000000000000008080819ea0e69388a64b2f46abdb07bf0f55296ebe63e8a57ce760fc2bd18b465331a6d78ba05364930c453e136f8d960782ef8071c8fd722c3ebb9ce0d9251699920198a29e"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x0c9a6630c932363b1ffa088f0d2561119620c88c1b866dd1940619e8fc8e6a8a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a8306e9d994100000000000000000000000000000000000000080801ca0334306f65e075082f467ce5b3e0e9f1d0208298b6b4d8742162b4f5e7f769bd1a0726fdf8f6593b922628956f15e49fb97e84745fdd56ee4794fae4d31d80dd7dd"
                 }
             ]
         },

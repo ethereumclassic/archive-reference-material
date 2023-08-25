@@ -2,11 +2,11 @@
     "TransactionSendingToEmpty" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "68360eb00c479c4041f56bbf7acf751266807230ab624084f0f56cff53843e37",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "bcfc886c6272a4dc537170379aa3bfc93c1ef1e67249aa114168c2375371570a",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/TransactionSendingToEmptyFiller.json",
             "sourceHash" : "4aba3fe5439a95a018c3908414d428bbd95f62e817e0909923d51faa9709c87d"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf84c800a82cf08808080819ea071e088f1d208e00299ce15928b6ba35adb98945a9e8eab5e35c987cd98917ed8a02ac93ca2a45b06762b43e46c321964b6f98162eda0e6c59cf0e4c32eee34f54a"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4e25de9ed738d6969b3eaa4691c6dc94e550fa5ad202af5c55ed4a1dfc35d058",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf84b800a82cf088080801ca093f6ca6b3db9ca397d92bd7871a87a0a455a4f09f59e4188dc5ab777bc49a0cda004b9fc4cf2dbf5a27afeead1e8d720d9e4c27aba972c420ac34193a67de0fea2"
                 }
             ]
         },

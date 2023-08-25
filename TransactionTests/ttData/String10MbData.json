@@ -2,10 +2,11 @@
     "String10MbData" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.13-unstable-291393c2",
-            "filling-tool-version" : "retesteth-0.2.0-memory+commit.093d78f6.Linux.g++",
-            "generatedTestHash" : "7ca0f40bca0a2f47fc46cdeccb3582d1b6d99e5daf924598289cf7c87c7108d1",
-            "lllcversion" : "Version: 0.5.14-develop.2021.10.5+commit.401d5358.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-564db9a9-20230310",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.324bcf39.Linux.g++",
+            "generatedTestHash" : "22680b3c580db34103a41bd885a9d3a610550c77b212840e7634e242592f7abf",
+            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/TransactionTestsFiller/ttData/String10MbDataFiller.json",
             "sourceHash" : "0e78782b0bf604204b60cea95500ccb33b56cba048cd1278b99a6d429d157889"
         },
@@ -56,6 +57,16 @@
                 "sender" : "0xd96a38218f8e3a6748466133135f1890a4371c5e"
             },
             "London" : {
+                "hash" : "0x2de61fe0cc178fb36031f9dbc43c3e1f52e24c3e03edb1f7f10c7eb5123b65a9",
+                "intrinsicGas" : "0x0a005208",
+                "sender" : "0xd96a38218f8e3a6748466133135f1890a4371c5e"
+            },
+            "Merge" : {
+                "hash" : "0x2de61fe0cc178fb36031f9dbc43c3e1f52e24c3e03edb1f7f10c7eb5123b65a9",
+                "intrinsicGas" : "0x0a005208",
+                "sender" : "0xd96a38218f8e3a6748466133135f1890a4371c5e"
+            },
+            "Shanghai" : {
                 "hash" : "0x2de61fe0cc178fb36031f9dbc43c3e1f52e24c3e03edb1f7f10c7eb5123b65a9",
                 "intrinsicGas" : "0x0a005208",
                 "sender" : "0xd96a38218f8e3a6748466133135f1890a4371c5e"

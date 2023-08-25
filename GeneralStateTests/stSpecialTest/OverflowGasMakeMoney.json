@@ -2,11 +2,11 @@
     "OverflowGasMakeMoney" : {
         "_info" : {
             "comment" : "Apparently this test was testing theoretical issue occur when tr gas > block gas limit overflow. no longer the case",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "3598f629d0b73089bdcbc1d534f6b95703a32d0ebf79f4a11a9e6549a2762eb9",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "3c6561cd1bc72e59b229a28d84dbb8f092e4119526510c67bcf4e86eae1da3cc",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/OverflowGasMakeMoneyFiller.json",
             "sourceHash" : "06aa4340ef8c719a52665f47c0c3848796934553a3be72343780318917b741ce"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf868800a887fe000000000000194b94f5374fce5edbc8e2a8697c15331677e6ebf0b8201f580819da0d2fbedc929fcada33aef2aa38471b37f6d7ed580675e31ce48b0f566101d6eb4a03751cff9dc3f1639f6904cda1b4debd43085120bbd3aa0ae9efe9e913be1e714"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x398c6edef867518daa0d7149504aafb67b53ffc893bab1826c0001b5ad470f32",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf867800a887fe000000000000194b94f5374fce5edbc8e2a8697c15331677e6ebf0b8201f5801ba0f7572e7fd17016b64871834a291b874693988b0174142605b92de3668e8d9764a035ca59b9aa504d925da65fa750b430370bd68d89f459405601db74eadb0d1075"
                 }
             ]
         },

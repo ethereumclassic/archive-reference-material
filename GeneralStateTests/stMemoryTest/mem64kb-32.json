@@ -2,11 +2,11 @@
     "mem64kb-32" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "008b92550323f1d03103dd147d2616bf6602c6974b6eb98e2de0209e6c085b4f",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "3ce9a8298ab879fb707421a1538f1a8b88cfc4a20bf33e80af5701bb68395813",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemoryTest/mem64kb-32Filler.json",
             "sourceHash" : "c6341c3a2f8ac9552561bed5e5936d1df3bc8ff7cd9c090decf7f551eb204745"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf862800a84500018d8940f572e5295c57f15886f9b263e2f6d2d6c7b5ec60a80819ea0e776b6fb9856d29b7bbff5f97f820d46ddec0bd5ec0f8f4426b3e45e768cdde4a0479a25ea62fbd913a0db91cc08412c43149b9a3cdb804d5c30dc40729581f568"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x486e3375c8e52d9e15e23c92eb5c4e5f30ce76cb89249fb3e0d3ec86effc8c32",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a84500018d8940f572e5295c57f15886f9b263e2f6d2d6c7b5ec60a801ca008eb482b74b6f567145a737c020941f0cc75242f1d7349c73c8a7b20ac59738fa004f150a7f57c99f452920bcff42afe039036fe2630ab6a61ce49ab35445096a2"
                 }
             ]
         },

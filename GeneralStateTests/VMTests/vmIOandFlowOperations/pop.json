@@ -2,15 +2,15 @@
     "pop" : {
         "_info" : {
             "comment" : "Ori Pomerantz qbzzt1@gmail.com",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "776c477a11e8b708c32becaa7f08ebdb860190e12a79e73d0d906a48620c9fd5",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "0c51209302320e11117eaaef8e68f582d62d1b1f34ce16716e4c834b44be18a0",
             "labels" : {
                 "0" : "pop1",
                 "1" : "pop2"
             },
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/VMTests/vmIOandFlowOperations/popFiller.yml",
             "sourceHash" : "c650f972216e28c718bbd780480e99de4344b023ebe061af56745e3453c85402"
         },
@@ -79,6 +79,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf886800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c61390000000000000000000000000000000000000000000000000000000000000000819da0e5b4b5227b4224ccc6e7594c72cfa688451e0af814db3254e86f3f1f78c46e86a027e5ca23f55184ea8c2d27fbba8240f74c32dee058d0cb3ee61a1ce40331d008"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x5e6ac6e1e5223613cb16827ec6a8437558e6ef3f3091b99c2b97425f1d96770b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c613900000000000000000000000000000000000000000000000000000000000000001ba0e8ff56322287185f6afd3422a825b47bf5c1a4ccf0dc0389cdc03f7c1c32b7eaa0776b02f9f5773238d3ff36b74a123f409cd6420908d7855bbe4c8ff63e00d698"
+                },
+                {
+                    "hash" : "0x0e02c6d6e7f56d01328340125d2e883a675d04c5252331a74d3db9af957fdb43",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc01a4693c613900000000000000000000000000000000000000000000000000000000000000011ba02c5e81a024dd0f6fb773c8787fa46ab5eb55cb73df83562e6ddbe9106a3df7f6a029437b9a23e45bbfce086f2ddaa98b1e9e6914d7e58e2c5a128310042b332f89"
                 }
             ]
         },

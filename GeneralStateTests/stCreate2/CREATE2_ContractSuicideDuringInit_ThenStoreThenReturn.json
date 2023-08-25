@@ -2,11 +2,11 @@
     "CREATE2_ContractSuicideDuringInit_ThenStoreThenReturn" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "b3b4ba27ff32e501c47a08e927a60297f796498c91711c95710c38d930b7c8ff",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "c4ebee1df5ff7c67c20ed9e4c3f7b63fd31f5b190b13430b57ba48f1b64c34e9",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/CREATE2_ContractSuicideDuringInit_ThenStoreThenReturnFiller.json",
             "sourceHash" : "26a6427e4326fe9852e76a72b7381fddeed4d43048f8e5de4941a2940f8f995b"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b0a80819da0b2508ff0750a1de63e64435acbaee8d5ee94196b9ef80ca971048433f8a34424a03e98f2f059e45a4b14d58e6a6911287ac442e643aad2a68858e90b7910c94254"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xcb464fba26007b7c6bc4c3e6bc53b6a1b89474fb88385bc15b266ed606d5835e",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b0a801ca06c4f36beba005bbfb53692899549a34d3c77554d8c89a3f80ad0ad5a78ce071da03378630efaaec2bf68883fd5879fcbeff2a508c6af95f7fe097d7481868b0f6f"
                 }
             ]
         },

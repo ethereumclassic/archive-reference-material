@@ -1,7 +1,15 @@
 {
     "RLPHeaderSizeOverflowInt32": {
         "result": {
-            "ETC_Magneto": {
+            "Shanghai": {
+                "exception": "RLP_Error_RLP_Size",
+				"intrinsicGas" : "0x00"
+            },
+            "Merge": {
+                "exception": "RLP_Error_RLP_Size",
+				"intrinsicGas" : "0x00"
+            },
+            "Berlin": {
                 "exception": "RLP_Error_RLP_Size",
 				"intrinsicGas" : "0x00"
             },

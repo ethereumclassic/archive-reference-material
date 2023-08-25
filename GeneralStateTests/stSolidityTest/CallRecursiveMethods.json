@@ -2,11 +2,11 @@
     "CallRecursiveMethods" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "d28a40a44020a70ba9a0d8b624cfa58c68a70b8732378e2e2e71756fc9b5edfe",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "0fe8222577ff155914243d07076c82bd0e0af1dbaa2f1dd0ebd89e92c79dde2f",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSolidityTest/CallRecursiveMethodsFiller.json",
             "sourceHash" : "f26bfcfa8d219e6514bf7746a92dd20b02eedb7ee4dcce29de63dce30e769c93"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a82ea6094095e7baea6a6c7c4c2dfeb977efac326af552d870184981a3165819ea00dda76843332f983627453cf12e8f552ba596729783987f9f60635d8b6642645a061c2da8374d298dd16685d11de915abb21e7bb261389635f4365c02567565879"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xa4b8d5c45e32dbd94da71fcaa281e7b995cd15e73ef675d378fc227c79285750",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a82ea6094095e7baea6a6c7c4c2dfeb977efac326af552d870184981a31651ca0acf4ca9dd32dc8e5e6e8375702f20020010107cc5fd8081b686a3157480a531aa00bb47e4f2b81a88902c4e8f584a7999087e6c2131ce895dff45e326631420fed"
                 }
             ]
         },

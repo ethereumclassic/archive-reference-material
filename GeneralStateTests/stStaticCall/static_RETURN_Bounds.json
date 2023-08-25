@@ -2,11 +2,11 @@
     "static_RETURN_Bounds" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "fe5cad2211e5ed179d808db9f2481f317a99b0b6c945d841e9436c4c357eecbb",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "1014adf175f7c5923dfa006c04ba88c8e49a79a4679826b2ec81f7b0254ff62e",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_RETURN_BoundsFiller.json",
             "sourceHash" : "b722ce72f21d411f74f0a23514551afd667210f6898a85186b0d41b5829b8b29"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83e4e1c09410000000000000000000000000000000000000000180819da027c5974435cce38b55731837a0cabc9bdb43d261b0bfaa88036c4b636565dc70a032f8db9f829fa6d5c448e5fed78887a1347ee4ad30db3b5802dd968bc86a82bc"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x032f11360e0a68833fad06afcfdfd9fb34ea89365ac4cf16e540ba8d93178f5d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83e4e1c094100000000000000000000000000000000000000001801ca02e11c64679a2e918f62444a04a0ce6c97966543d24d6567a2ec61019821d00bda0576332402517902aacbb6871851a4e85bb970996109a78e10db30582decd03a8"
                 }
             ]
         },

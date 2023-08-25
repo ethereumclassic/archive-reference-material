@@ -2,11 +2,11 @@
     "createNameRegistratorValueTooHigh" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "7ee5abc5927fc2b26354b60560690dc7534e7a0d3e3789919171486223063b7f",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "6f63d6b0f1e3eb40191bb860ab2e4d8ffd73076d195a9e3ae436052dd0ef14f9",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/createNameRegistratorValueTooHighFiller.json",
             "sourceHash" : "adbd3acf97a202b57f81ba2a2e4e4311281bae359b6450ec523b67c65258e7a8"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830493e094095e7baea6a6c7c4c2dfeb977efac326af552d878080819da08aa588743aa91e409aabd7e52363eda076aa715465b3941f2f7c23530281b02aa077beadfba843cee51149f907e7c0525b8bef564454e4c0e09d23ae2bae601888"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x03ec22f8d9d96873505eb388b0315c4a70b2f292d3c5367e8d159f46076ff2fa",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830493e094095e7baea6a6c7c4c2dfeb977efac326af552d8780801ba07dac90ad76be184dd90393b97a7f5b12f65c841791c7462aac2d55bef38051aba0071a9c5cb6781a525949e167c2850acdd1fb05d02b11ae3838219c60c18cd448"
                 }
             ]
         },

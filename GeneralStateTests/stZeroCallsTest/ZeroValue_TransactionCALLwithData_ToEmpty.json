@@ -2,11 +2,11 @@
     "ZeroValue_TransactionCALLwithData_ToEmpty" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "4df50285e36a53f6842130a5a6f24f15a68a8ea3fd5d5eb2e2d708a1209dab4e",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "a920a5ed3a535f71a82e9d55fba439037e934680f40b9e457b453a940d02fd73",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stZeroCallsTest/ZeroValue_TransactionCALLwithData_ToEmptyFiller.json",
             "sourceHash" : "279d916b001d8dabbb69b62304976e8c85f3fa88e578b33e18cd6d5ea677780b"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf875800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80941122334455667788991011121314151617181920819ea0d500b0eee4625ce9503fcfbfaa187707a8c3fe3e0241ba608ecaaaf4085a1743a0340e981caef6343f1647ede96b2a4f1f1d47fb795a29f2e7cdf23ea6bd125caf"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x312b3f9f7b7231fe9283a8f955056d90fa67da2f58dde1439a70e2f436c9b625",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf874800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b809411223344556677889910111213141516171819201ba0027d420c12538d15ca752c684122f4e35922eef83368d4f3a5f73474f762da91a077836b0920f1bc2b958e74428b0bb68b5099800d0008df9949b0284e69ebb4c4"
                 }
             ]
         },

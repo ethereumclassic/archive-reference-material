@@ -2,11 +2,11 @@
     "ZeroValue_CALLCODE_ToOneStorageKey" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "03682a1436863f7f58d0b8eb84373f1623fd80f2adbc1072597dc4e98b6fb207",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "be2cfe0f45865dfd7fcfda763953f4605979633c1e49b3b6b1f33ab0d107c0e1",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stZeroCallsTest/ZeroValue_CALLCODE_ToOneStorageKeyFiller.json",
             "sourceHash" : "abc1ac1e49478369136f6b3e7d096ad28b637a46b7a0c49d5c0d22d6e96fba68"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da0ea4f1222ca2e167f94e8f5c32f0802fd07dbcb8afcc32daae4e5adeb5eeaea7da001958b3c3da2e2ec0b9cbcdf70a97ca55fd0a2201afbc01efa3f13201f7d1675"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x333fc82d9d97e293582b0abd9a941b4bdb7c06c1e37b72d5d4b31129d4d6d080",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca065622aa0319be041688699ffcc35390d71659fb43600cba91177760bd5cbe3f7a05d3be8e63e5061a12f6f569ba20df19ea8a844cbe9eba3a85c230f7cd8d70426"
                 }
             ]
         },

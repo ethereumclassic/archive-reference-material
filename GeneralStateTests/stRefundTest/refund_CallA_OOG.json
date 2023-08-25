@@ -2,11 +2,11 @@
     "refund_CallA_OOG" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c885d8c983f95f3673585a7151da0e1e5d550ec37be18175252489efb2e3392a",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "523aa6e6c67269c4419ebea1e1279fc7c27d3cf17a22413f6c214f783dab4a56",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRefundTest/refund_CallA_OOGFiller.json",
             "sourceHash" : "b7ead6c281216502e4735f29775c030dd23acc4691803f3f03b9560e68297faa"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf860800a82795d94095e7baea6a6c7c4c2dfeb977efac326af552d870a80819ea040dd0f40460efbff8d7883d761450fbab6ecf2e1fc97f4db84922d148f8cca2aa03756d1582026ccfa8c29a5b55eb40d80c9e6b7d9dc479dfdecbbe8b092262590"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x865219743b83157b98ba4d149c32c1e242cf64c801a8dc588430960505b72154",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a82795d94095e7baea6a6c7c4c2dfeb977efac326af552d870a801ba01aba575b2a2543bb73c0a277b9a7a8762acc3734b1987592123b7cf75c03cbd9a06d880a50ef60c65a304a6f5f86fa764339ee86309568677e533307596c66e71a"
                 }
             ]
         },

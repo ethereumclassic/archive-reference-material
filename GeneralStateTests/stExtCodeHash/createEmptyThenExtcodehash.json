@@ -2,11 +2,11 @@
     "createEmptyThenExtcodehash" : {
         "_info" : {
             "comment" : "https://github.com/ethereum/tests/issues/652",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "5b7956dc7e5145e92276a9dce388126f5f23871f8b9dcb55c0f6cbd05848948c",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "ad42f8885079f4dcddd6aa67fb23c9135d36f2a936a8337a2524999f73003c92",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/createEmptyThenExtcodehashFiller.json",
             "sourceHash" : "e72799b1d8c4eec53285b9611a3dbcd555e22d8899a9ae6814a4e6aeae0fdaaa"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830493e09410000000000000000000000000000000000000008080819da0d5d9d1f964e218f8accc12ce62a93641af30d006d50e7bef6b604d3bb2675e52a0571faf3b07bcbe3fb9b5e00949089a28095b16841424e6eb030049c31057ad14"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x9db4371cf4df6add650ad1c59514e685eefd33784fa1251f3e234488717eb4ee",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830493e094100000000000000000000000000000000000000080801ca06296808a81bdd8279ec29f4862b8678512191ee7c494fdb571b5c1afb481c3ffa0726595094eaba39fd741a3bf8c36774c624c9ce9d28a161cad82f2c85d950890"
                 }
             ]
         },

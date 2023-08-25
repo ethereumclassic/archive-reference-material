@@ -2,11 +2,11 @@
     "static_callToStaticOpCodeCheck" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "0afb6dfe0c4e4c0e272a735650c4fcadaae6c92636393792dfc1adc7796029b7",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "bbfc0642f847e85710581cecc765fef1285cf2e780e72ff5a0ed7b215fc666ec",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_callToStaticOpCodeCheckFiller.json",
             "sourceHash" : "f16eaee416d45d291791f63d0e321b65bdf988f12d4b09f3e027e13954dfdd12"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf884800a830f4240941000000000000000000000000000000000000000830186a0a00000000000000000000000001000000000000000000000000000000000000001819da0e046da08289330b65986c2ef6a529aa69c74b86bf6490ce7b04b710a6c174feea02baa485deb615d2636a94aa9640e5517be56c450f855a488f44cf238306c890e"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x911d459fcf1a4ed14284b67c264876e0b3ea479ae8054f6e1be373667d297103",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf882800a830f4240941000000000000000000000000000000000000000830186a0a000000000000000000000000010000000000000000000000000000000000000011ca0514e6d57b27c36a1adf5890b29f2022eb31ca22c9caf7ec23173cce0e205b1fa9f2b4089c9e9eb460c07d87a38b69fb5ee99cc7fdf6b3a4da9b485c0ba654a5b"
                 }
             ]
         },

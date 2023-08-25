@@ -2,11 +2,11 @@
     "CallContractToCreateContractAndCallItOOG" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "7e8b457fac4f6e2ac5b092e5453e616389b423579a5bcbfa4a11ec8dd0ab17e0",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "75a496e191bb7dae61c1bc7f3b829c42ba414128be4785511982f8921878b638",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stInitCodeTest/CallContractToCreateContractAndCallItOOGFiller.json",
             "sourceHash" : "fcac5782c1038cdb826478931e5ed4ceb12663dd89656d01900e7c0a22800854"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830318f894095e7baea6a6c7c4c2dfeb977efac326af552d878000819ea0bed8c14c50fda2ba1862b8d406d4d76ec4840893921e683c972b1dc28c98a6a1a0257f2f4451b3c904b0b408b8bf47607f9aabcaf0fbe7212a022495729fe138ed"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xe5004d7f49eb4a49c6791ad974c95bd92b244f0b6af9a6fc48eb50128b3cb57f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830318f894095e7baea6a6c7c4c2dfeb977efac326af552d8780001ca0ed7099e3bf2fc10f12c49ce5a0bf8ffd8fdca079207e0c0917c1ae821221ecd9a029faa8892ca9ec398baad3b05574c0d40d2801537e3cc27c85275bcf0a17f728"
                 }
             ]
         },

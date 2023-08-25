@@ -2,11 +2,11 @@
     "CallGoesOOGOnSecondLevelWithMemExpandingCalls" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "df21791bbd4e4ef42aa5d48871c1eb5c661814fa52863d39b226990150f402eb",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "c5b0c5b231e817f75be33f0daa7d95dcf829e1b008cd2e71d03e6c0df38a1b42",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemExpandingEIP150Calls/CallGoesOOGOnSecondLevelWithMemExpandingCallsFiller.json",
             "sourceHash" : "88192f6c649ebdcda3660e157f881bef5ac17ed6be038b4e9b3df384ab62d379"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a83035b6094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8080819da0c8531326c13f5a1a1be0cbe267c86279cdd42288cd522aeefff77583beda35fda044fe017f55e4b0010933446a09ceb35f4ca22617dad1d2fb00d9af5b3d7c5d3f"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4e943ae5f3f89e79bbca89648841f4d59ecc1e73d227f785982d03a8d3639310",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83035b6094b94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ba0ffa221058227d8d75f72c77be7c1d7e425e6125b7af0bcffda85586f96716e64a03234060c471eb67a8ff588066a6767bbbd5456de6cd7d0f50abcd45558bab8a6"
                 }
             ]
         },

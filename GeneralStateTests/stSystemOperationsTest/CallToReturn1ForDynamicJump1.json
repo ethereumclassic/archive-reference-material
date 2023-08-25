@@ -2,11 +2,11 @@
     "CallToReturn1ForDynamicJump1" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c1eebae41c5f4a27ad687bf444678e29d83b9b1a88f6d1dc981391455f9c75ab",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "6c8aaead6ced550c3976228f3c6dc1f2f7f051de1366d58a6d8faaa6414097c6",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/CallToReturn1ForDynamicJump1Filler.json",
             "sourceHash" : "703de5b3d69b565540b17821c388e96157086cd541fbe8075a63e04c04ac2218"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a830493e094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a080819ea08b1200326ac74ea77437d314cb8870a563e15c5d9677091f919fd2fa22cd25a0a049793363a904a1eaa80cc2e33b17f9c1ff12ef597665a3963b7b02e3c50112f7"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x4dd80b4a2ae32c3016ddf36b4a32ba0cb21cbd60b42c93bc603a70eee50e7fd5",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a830493e094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca0eaba2c4380d98d9c50136f125ed97e3c2dd0b36c4d4492108be1b0e885dbad68a027594bc48dc0ceb398bd05f0bfb8b6c5dee2f476d270a4e9a7030bff805bd71e"
                 }
             ]
         },

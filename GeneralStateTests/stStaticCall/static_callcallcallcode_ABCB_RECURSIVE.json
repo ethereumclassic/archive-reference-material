@@ -2,11 +2,11 @@
     "static_callcallcallcode_ABCB_RECURSIVE" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "09b86237aa09f573ffcfb038de8f39e910b8d4cfac4aa89a0916d01d665ec24e",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "b0fb0f30d02edd7fefee07adfa91b86554295241e2c045581713900891a3f4b4",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_callcallcallcode_ABCB_RECURSIVEFiller.json",
             "sourceHash" : "27a399898eec046e9e9ac015cfe7b249bd7787a73c9710638d2b4936031c201e"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf862800a8401c9c3809410000000000000000000000000000000000000008080819ea0497805371abf5ae0cfeac9aaac32a81e160cb9d30bc936b586459f01943da5fca07b52b04301e274ce86c052ad18172f7286c051aa12034626b0ddd84feb7244b5"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xcc0654041a19c60cf948555ebd600285857366e2a00ad8f47db9a8f9488ab5d4",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8401c9c38094100000000000000000000000000000000000000080801ba0e8d1cea1a04c8b4da190371aa4937f7756d5c55d54af29cc22a1f457ca1a213aa0517b7f1455b270f21c5e3b5ebf42dd7234a8b7dcbcd0d96e910182f8ccd55629"
                 }
             ]
         },

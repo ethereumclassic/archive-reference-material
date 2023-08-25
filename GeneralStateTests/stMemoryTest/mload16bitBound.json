@@ -2,11 +2,11 @@
     "mload16bitBound" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "10d13e04ed262329025aa3dde227cd8c66aad57dabf8e8a3fb6b508e84decdcd",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "59d2541a0c579b802a2db26913448be709b92fbf69967811c47fb908fee2f65d",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemoryTest/mload16bitBoundFiller.json",
             "sourceHash" : "6f87911bf0ab6d9d4d2be4fca4afceeaf780a91f11403535224742d2af6c470a"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf864800a860ffc0802015d940f572e5295c57f15886f9b263e2f6d2d6c7b5ec60a80819da07cfe0f783f8d0a7131964246aab4f8a7f7a0f1ef7b4102e9810ec292cc1f684da06440aa142c2ca84a838086e640e6d6570f34dcf745c3fad1a5368b96c31844a7"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xa6be3d077215c98e6f253dd456db12f6350e367c774bd523f39d5dc555c0931b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a860ffc0802015d940f572e5295c57f15886f9b263e2f6d2d6c7b5ec60a801ba0d6e063f55b8805082d776fada150f18f621b5ed50aba9b116956e6d7cc9f8933a065669d8d749a2bdd161220c0318ffae9aca534912e305df71775e45a1391df52"
                 }
             ]
         },

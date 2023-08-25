@@ -2,11 +2,11 @@
     "static_call_value_inherit_from_call" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "458dec0a0eacd764b04b914f2baffeb0ca9fabd56688e4c24240812bb5106bcd",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "f2e36c0b7ae5a56d2da0af7d5e2f537fca7dca408bc0f51291ba15e1e01b988a",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_call_value_inherit_from_callFiller.json",
             "sourceHash" : "7073e8796df0e682389738914d6fe920b32a8e570645c410293e12b75f1a1821"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830704e094c8b90f8d999d9d9988209481999a9889098a89a00a80819da013e1e568433a10fc6b6e041365655b33a6ca72921224ca2683e888fc85cf563ea0214e94a1b1f8e09b53bf141c891237b8c327ecac36e0ba6ce84036f0096520a6"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xae762b56fc85b82046022eedd44abc36ebbf560d8507476425a3bad16ee4fecd",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830704e094c8b90f8d999d9d9988209481999a9889098a89a00a801ba015bd7a44e39b3f98ab5b08c3034173b8e4b2be8507b3a1ca0fa99def5a8a35c6a06d89cd6d72a710e3c53662f0f29031985a150d38789e88d1b2c32ba5a473849d"
                 }
             ]
         },

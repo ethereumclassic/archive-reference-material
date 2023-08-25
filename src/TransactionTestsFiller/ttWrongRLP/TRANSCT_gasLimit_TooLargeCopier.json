@@ -1,7 +1,15 @@
 {
     "TRANSCT_gasLimit_TooLarge": {
         "result": {
-            "ETC_Magneto": {
+            "Shanghai": {
+                "exception": "InvalidGasLimit4",
+				"intrinsicGas" : "0x00"
+            },
+            "Merge": {
+                "exception": "InvalidGasLimit4",
+				"intrinsicGas" : "0x00"
+            },
+            "Berlin": {
                 "exception": "InvalidGasLimit4",
 				"intrinsicGas" : "0x00"
             },

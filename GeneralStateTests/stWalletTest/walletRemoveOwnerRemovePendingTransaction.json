@@ -2,11 +2,11 @@
     "walletRemoveOwnerRemovePendingTransaction" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "2c741cb05a718cab8e8939c49024e2630317ab26a9e31c5edfd437c6f6966fd7",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "bcb3dae6ff5ecd9fc972ccfe25d2c71ad42316adc3fa9485937b9f1346fc2890",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/walletRemoveOwnerRemovePendingTransactionFiller.json",
             "sourceHash" : "fc7e8e992a54eaca8a2127c55b9dec2167a90b050d042b593463d02cb3d64663"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x3f13793a99095532416da372dfab6229094f0f08494851939fa7ef0dea29e8bb",
                     "txbytes" : "0xf885800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80a4173825d9000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b819da0597a6b1690637c1c9cf3c30659b2014391b468789d7bfd1e2c1ee723e6ef9af9a06c9ad2b7303e32e04616113868052e7788db9236acffa40cb49e6d379f15e701"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x6e682d429cfadc4cc938c58f3f9f73ca5c0a81959ec3256d23df6b24abd2951f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x3f13793a99095532416da372dfab6229094f0f08494851939fa7ef0dea29e8bb",
+                    "txbytes" : "0xf884800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80a4173825d9000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b1ca04658d0585afe7eeae9c44653a7d1101e7dd670687644697bf7bc4b24a763e0bca03d43bc957fc2eb0c38b53cdb5e7f2448b2cc337108caf28871e2747b13579bad"
                 }
             ]
         },

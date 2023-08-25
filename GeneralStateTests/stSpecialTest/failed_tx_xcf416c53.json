@@ -2,11 +2,11 @@
     "failed_tx_xcf416c53" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "a59a31db16ed594b010d24e58c7d429bfc05ec620dda24836ed98f4734b997e4",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "d23594963f853d6e1dff437229d674d6dcc6bbce37717f57ae391282ee104b6b",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/failed_tx_xcf416c53Filler.json",
             "sourceHash" : "1ecdfb9e71532728e79a79c0383994d44f8454edff6111ec6240322dc0375e40"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf8a6010a83f8b7e0940e879ae28cdddeb31a405a9db354505a5560b0bd80b84497dd3054000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002bc819da088bac523cec9877ed1d7af0f2a747ceda1bb584ee8ec2acad64a9d8afbd452e2a07c9c25a2d21fd1adf70e3f9362fd1cc373a15e0a331de31c8128c2eef519768a"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xc4d6e9c8a8703fab7191dbb46d7bded9badacb4ece8adf937154a0553d6774b2",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8a5010a83f8b7e0940e879ae28cdddeb31a405a9db354505a5560b0bd80b84497dd3054000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002bc1ca0c7168521175d9b3646f818d187da084790eb4353e0a01fe9beecd2e280a08fd7a0416e5ea499289dbf68e105e6c4f2881a2b87b73eca68a47b52d3476bf98a536b"
                 }
             ]
         },

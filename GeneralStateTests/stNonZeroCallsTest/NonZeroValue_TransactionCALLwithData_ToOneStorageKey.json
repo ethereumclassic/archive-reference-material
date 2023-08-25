@@ -2,11 +2,11 @@
     "NonZeroValue_TransactionCALLwithData_ToOneStorageKey" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "c204c22990f24910efd1e63d5f9f5eb764b83fd88b6fe0a0a6ed54ebff460e82",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "602755dd312e068555aacabc719e350f51c920fc3aebaaa701dfca0983850eba",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stNonZeroCallsTest/NonZeroValue_TransactionCALLwithData_ToOneStorageKeyFiller.json",
             "sourceHash" : "806b2f4fad218c54c22b5d29b87507eca0a4ed6a694f80f39f6cb955b88fbdea"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf875800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b01941122334455667788991011121314151617181920819da0636c81e3d747cc0b869e54223ecfd74e0852573a43af421fb3737b8e3abe374ea04745900b894a3f9fcebd37221f568ed7b32e646bd2a087d9080e5e0b01c2c48b"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x5264f246f8333d08863c5000a43e90cadd7cb2a723e54439c9000feb06ac4ba5",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf874800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b019411223344556677889910111213141516171819201ba09b61c327057844fea2d140ba07457aefc92e8126675242b1cb6460973f3ea93aa065048035baaf914f82864a523ea217092243e89ef0afd5aebd3b9d62a945724f"
                 }
             ]
         },

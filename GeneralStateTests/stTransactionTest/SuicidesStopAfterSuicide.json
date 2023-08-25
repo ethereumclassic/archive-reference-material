@@ -2,11 +2,11 @@
     "SuicidesStopAfterSuicide" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "2f60d385d86772792c630bcf486ad559128ab3fa1feac7ef4d4a88c25a534e7e",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "4d684fb0e50c76af54e1aed7e5776c3b1f0a0b1deb416d9ef6c110fae150abe6",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/SuicidesStopAfterSuicideFiller.json",
             "sourceHash" : "f04815ac6c066c9cf44b13044ab20fbf7fd68a4639780062f5ddec5b3a024d72"
         },
@@ -55,6 +55,18 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830146f494c94f5374fce5edbc8e2a8697c15331677e6ebf0b0a80819ea0aa57d0e9daae3a08391e9134403b8e408d48eeec38f7dc41a7b53d5459183027a012d71f9ebbbdd40dcdaae565f23a64b4cd3df6707a35f723bea75958b58726df"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0xcc248257d4b6c9dca0f426695888564e0d8340659b66e4c985e0ac3b1188a1f7",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830146f494c94f5374fce5edbc8e2a8697c15331677e6ebf0b0a801ba067b705b92163ccfd9705cfbe4a5df1b72d71a0b225ef9991d1c44570306f2002a04a28fa12146d50bd38a4c4420e596a369e28bb7beeb1837d22f27df8a66c3425"
                 }
             ]
         },

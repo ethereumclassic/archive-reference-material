@@ -2,11 +2,11 @@
     "static_CheckCallCostOOG" : {
         "_info" : {
             "comment" : "Check balance in blackbox, just fill the balance consumed",
-            "filling-rpc-server" : "evmetc version 1.12.9-unstable-550af1e1-20221005",
-            "filling-tool-version" : "retesteth-0.2.3-postmerge+commit.ca43bb20.Linux.g++",
-            "generatedTestHash" : "1d0c9f5c16a52813b6dc8f2b51c282e4bee01a45ace5586925c81c60076e89ff",
+            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
+            "generatedTestHash" : "154f164ec4532391e8cb50f34e9ce91b713f2af38deb473c17b927d50ccb5994",
             "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
-            "solidity" : "Version: 0.8.5+commit.a4f2e591.Linux.g++",
+            "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/static_CheckCallCostOOGFiller.json",
             "sourceHash" : "777176fa3d1c21df9cca58d46515f27adaed884c67b6ed4844d5f6bf5a4b7c9d"
         },
@@ -85,6 +85,28 @@
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes" : "0xf861800a830f42409410000000000000000000000000000000000000008080819ea094418d58dc64caf52497b226f279e915f73edbf5c917d6ed6c168970c2c4f1c4a03c87cd577cad29ec28d5e0691be6104f204f5e87a6525cb83e50c208e5137a5d"
+                }
+            ],
+            "Shanghai" : [
+                {
+                    "hash" : "0x627da1578db9dc104025104be8041b54398cfbaebad3421d0f928aa37c511a00",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a8255f094100000000000000000000000000000000000000080801ba040185a046592c0d18a1b27e18337675fd85a2e38612b9a5932c6c9a2169272d9a072f913a418c724bf98d64130e584d7385d68fc2ce5b6af87e9fece115df90c1d"
+                },
+                {
+                    "hash" : "0xf593d5ec1481773f9cb40f4afa6d953526149977830238054b0198c7cdfcb734",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830f424094100000000000000000000000000000000000000080801ba0878fccf1801724b1bfb5b0a67d68454b9c56fe9e3753200bc36cd66eed5636eca00dc53455b0e859433799ddbe3c16f98e70c52b6bf684992d9907dc9d1ccb03f1"
                 }
             ]
         },
