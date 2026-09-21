@@ -1,0 +1,384 @@
+-- Logs begin at Mon 2020-11-16 09:00:20 CST, end at Tue 2020-12-01 07:55:24 CST. --
+Dec 01 07:46:02 ubp52 systemd[1]: Starting core-geth classic service...
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.314|internal/debug/flags.go:212] Starting pprof server                    addr=http://127.0.0.1:6060/debug/pprof
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.314|geth/main.go:317]            Starting Geth on Ethereum Classic...
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.314|cmd/utils/flags.go:1910]     Enabling metrics collection
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.314|cmd/utils/flags.go:1930]     Enabling stand-alone metrics HTTP endpoint address=0.0.0.0:6060
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.315|metrics/exp/exp.go:62]       Starting metrics server                  addr=http://0.0.0.0:6060/debug/metrics
+Dec 01 07:46:02 ubp52 sh[16822]: ERROR[12-01|07:46:02.315|metrics/exp/exp.go:65]       Failure in running metrics server        err="listen tcp 0.0.0.0:6060: bind: address already in use"
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.316|cmd/utils/flags.go:1228]     Maximum peer count                       ETH=50 LES=0 total=50
+Dec 01 07:46:02 ubp52 sh[16822]: WARN [12-01|07:46:02.316|cmd/utils/flags.go:957]      The flag --rpc is deprecated and will be removed in the future, please use --http
+Dec 01 07:46:02 ubp52 sh[16822]: WARN [12-01|07:46:02.316|cmd/utils/flags.go:973]      The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+Dec 01 07:46:02 ubp52 sh[16822]: WARN [12-01|07:46:02.316|cmd/utils/flags.go:981]      The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+Dec 01 07:46:02 ubp52 sh[16822]: WARN [12-01|07:46:02.316|cmd/utils/flags.go:989]      The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.316|cmd/utils/flags.go:1302]     Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.337|cmd/utils/flags.go:1703]                Set global gas cap                       cap=25000000
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.344|eth/backend.go:123]                     Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.344|ethdb/leveldb/leveldb.go:95]            Allocated cache and file handles         database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata cache=512.00MiB handles=2048
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.385|core/rawdb/freezer.go:133]              Opened ancient database                  database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata/ancient
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.385|core/genesis.go:65]                     Writing custom genesis block
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.542|trie/database.go:722]                   Persisted trie from memory database      nodes=12356 size=1.78MiB time=49.278473ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.543|core/genesis.go:79]                     Wrote custom genesis block OK            config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.543|eth/backend.go:138]                     Initialised chain configuration          config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.544|consensus/ethash/ethash.go:558]         Disk storage enabled for ethash caches   dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/etchash count=3
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.544|consensus/ethash/ethash.go:561]         Disk storage enabled for ethash DAGs     dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/.ethash count=2
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.544|eth/backend.go:160]                     Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=<nil>
+Dec 01 07:46:02 ubp52 sh[16822]: WARN [12-01|07:46:02.544|eth/backend.go:166]                     Upgrade blockchain database version      from=<nil> to=8
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.544|core/blockchain.go:441]                 Loaded most recent local header          number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y7mo3w
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.544|core/blockchain.go:442]                 Loaded most recent local full block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y7mo3w
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.544|core/blockchain.go:443]                 Loaded most recent local fast block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y7mo3w
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.545|core/tx_journal.go:166]                 Regenerated local transaction journal    transactions=0 accounts=0
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.550|trie/sync_bloom.go:76]                  Allocated fast sync bloom                size=512.00MiB
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.553|node/node.go:252]                       Starting peer-to-peer node               instance=CoreGeth/v1.11.20-unstable-b24f4890-20201130/linux-amd64/go1.15.5
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.574|p2p/enode/localnode.go:284]             New local node record                    seq=1 id=05473c273a294f2d ip=127.0.0.1 udp=30361 tcp=30361
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.575|p2p/server.go:695]                      Started P2P networking                   self=enode://41365c56e0391ed859de633d4591ea0b182f6eac43b07e46e5165e7deb86b6c97480491ae90b5b218346f073d4f4097b996a9972ec139e1e384eccdea3097dae@127.0.0.1:30361
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.578|node/rpcstack.go:453]                   IPC endpoint opened                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.578|node/rpcstack.go:149]                   HTTP server started                      endpoint=127.0.0.1:8061 cors=* vhosts=localhost
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.583|p2p/nat/nat.go:110]                     Mapped network port                      proto=tcp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.586|p2p/nat/nat.go:110]                     Mapped network port                      proto=udp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:46:02 ubp52 sh[16822]: INFO [12-01|07:46:02.588|trie/sync_bloom.go:135]                 Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=36.957ms
+Dec 01 07:46:03 ubp52 systemd[1]: Started core-geth classic service.
+Dec 01 07:46:04 ubp52 sh[16822]: INFO [12-01|07:46:04.077|p2p/enode/localnode.go:284]             New local node record                    seq=2 id=05473c273a294f2d ip=75.134.144.252 udp=30361 tcp=30361
+Dec 01 07:46:05 ubp52 sh[16822]: INFO [12-01|07:46:05.471|eth/backend.go:377]                     Etherbase automatically configured       address=0xd64BCe66534A2c509f5C271348afDF5437fFF01E
+Dec 01 07:46:12 ubp52 sh[16822]: INFO [12-01|07:46:12.578|eth/downloader/downloader.go:378]       Block synchronisation started
+Dec 01 07:46:12 ubp52 sh[16822]: INFO [12-01|07:46:12.655|p2p/dial.go:339]                        Looking for peers                        peercount=1 tried=28 static=0
+Dec 01 07:46:14 ubp52 sh[16822]: INFO [12-01|07:46:14.263|core/headerchain.go:337]                Imported new block headers               count=192 elapsed=625.050ms number=192 hash="723899…123390" age=5y5mo22h
+Dec 01 07:46:14 ubp52 sh[16822]: INFO [12-01|07:46:14.263|eth/downloader/queue.go:391]            Downloader queue stats                   receiptTasks=0 blockTasks=188 itemSize=109.57B throttle=8192
+Dec 01 07:46:14 ubp52 sh[16822]: INFO [12-01|07:46:14.266|core/blockchain.go:1212]                Migrated ancient blocks                  count=1   elapsed=2.172ms
+Dec 01 07:46:14 ubp52 sh[16822]: INFO [12-01|07:46:14.340|core/blockchain.go:1381]                Imported new block receipts              count=2   elapsed=76.357ms  number=2   hash="b495a1…4698c9" age=5y5mo22h               size=1.69KiB
+Dec 01 07:46:14 ubp52 sh[16822]: INFO [12-01|07:46:14.341|eth/downloader/statesync.go:597]        Imported new state entries               count=480 elapsed="3.706µs" processed=480 pending=7681 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:14 ubp52 sh[16822]: INFO [12-01|07:46:14.487|core/blockchain.go:1381]                Imported new block receipts              count=4   elapsed=7.441ms   number=6   hash="1f1aed…6b326e" age=5y5mo22h               size=3.30KiB
+Dec 01 07:46:15 ubp52 sh[16822]: INFO [12-01|07:46:15.012|eth/downloader/statesync.go:597]        Imported new state entries               count=384   elapsed="2.2µs"   processed=864 pending=13825 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:15 ubp52 sh[16822]: INFO [12-01|07:46:15.068|core/blockchain.go:1381]                Imported new block receipts              count=93    elapsed=58.018ms  number=99  hash="db10af…24ec1e" age=5y5mo22h               size=61.98KiB
+Dec 01 07:46:15 ubp52 sh[16822]: INFO [12-01|07:46:15.074|core/blockchain.go:1381]                Imported new block receipts              count=5     elapsed=5.675ms   number=104 hash="7faae5…52398e" age=5y5mo22h               size=2.82KiB
+Dec 01 07:46:15 ubp52 sh[16822]: INFO [12-01|07:46:15.257|core/blockchain.go:1381]                Imported new block receipts              count=88    elapsed=19.675ms  number=192 hash="723899…123390" age=5y5mo22h               size=62.51KiB
+Dec 01 07:46:16 ubp52 sh[16822]: INFO [12-01|07:46:16.085|eth/downloader/statesync.go:597]        Imported new state entries               count=384   elapsed="2.925µs" processed=1248 pending=19758 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:19 ubp52 sh[16822]: INFO [12-01|07:46:19.236|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=7.245ms   processed=2400 pending=20138 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:20 ubp52 sh[16822]: INFO [12-01|07:46:20.623|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=5.955ms   processed=3552 pending=19884 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:21 ubp52 sh[16822]: INFO [12-01|07:46:21.888|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=12.178ms  processed=4704 pending=19598 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:22 ubp52 sh[16822]: INFO [12-01|07:46:22.714|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=59 static=0
+Dec 01 07:46:23 ubp52 sh[16822]: INFO [12-01|07:46:23.148|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=12.832ms  processed=5856 pending=19343 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:24 ubp52 sh[16822]: INFO [12-01|07:46:24.533|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=15.391ms  processed=7008 pending=19085 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:25 ubp52 sh[16822]: INFO [12-01|07:46:25.780|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=9.182ms   processed=8160 pending=18799 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:27 ubp52 sh[16822]: INFO [12-01|07:46:27.280|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=5.311ms   processed=9312 pending=20204 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:28 ubp52 sh[16822]: INFO [12-01|07:46:28.500|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=7.399ms   processed=10464 pending=18946 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:29 ubp52 sh[16822]: INFO [12-01|07:46:29.774|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=7.376ms   processed=11616 pending=18636 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:31 ubp52 sh[16822]: INFO [12-01|07:46:31.185|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=11.823ms  processed=12768 pending=18977 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:32 ubp52 sh[16822]: INFO [12-01|07:46:32.465|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=19.104ms  processed=13920 pending=17716 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:32 ubp52 sh[16822]: INFO [12-01|07:46:32.846|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=45 static=0
+Dec 01 07:46:33 ubp52 sh[16822]: INFO [12-01|07:46:33.861|eth/downloader/statesync.go:597]        Imported new state entries               count=1152  elapsed=6.779ms   processed=15072 pending=17180 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:34 ubp52 sh[16822]: INFO [12-01|07:46:34.950|eth/downloader/statesync.go:597]        Imported new state entries               count=1134  elapsed=9.473ms   processed=16206 pending=17327 trieretry=16 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:36 ubp52 sh[16822]: INFO [12-01|07:46:36.250|eth/downloader/statesync.go:597]        Imported new state entries               count=1034  elapsed=6.075ms   processed=17240 pending=16870 trieretry=86 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:38 ubp52 sh[16822]: INFO [12-01|07:46:38.625|eth/downloader/statesync.go:597]        Imported new state entries               count=1060  elapsed=7.820ms   processed=18300 pending=16214 trieretry=305 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:46:42 ubp52 sh[16822]: INFO [12-01|07:46:42.943|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=38 static=0
+Dec 01 07:46:52 ubp52 sh[16822]: INFO [12-01|07:46:52.975|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=68 static=0
+Dec 01 07:47:01 ubp52 sh[16822]: INFO [12-01|07:47:01.654|eth/downloader/statesync.go:597]        Imported new state entries               count=979   elapsed=5.659ms   processed=19279 pending=16814 trieretry=229 coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:47:02 ubp52 sh[16822]: WARN [12-01|07:47:02.040|eth/downloader/statesync.go:390]        Node data write error                    err="trie node 7f1d04…9a09e7 failed with all peers (3 tries, 3 peers)"
+Dec 01 07:47:02 ubp52 sh[16822]: INFO [12-01|07:47:02.045|eth/downloader/statesync.go:597]        Imported new state entries               count=154   elapsed=4.676ms   processed=19433 pending=16643 trieretry=2   coderetry=0 duplicate=0 unexpected=0
+Dec 01 07:47:02 ubp52 sh[16822]: INFO [12-01|07:47:02.046|core/blockchain.go:441]                 Loaded most recent local header          number=192      hash="723899…123390" td=3453055867795         age=5y5mo22h
+Dec 01 07:47:02 ubp52 sh[16822]: INFO [12-01|07:47:02.046|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184           age=51y7mo3w
+Dec 01 07:47:02 ubp52 sh[16822]: INFO [12-01|07:47:02.046|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184           age=51y7mo3w
+Dec 01 07:47:02 ubp52 sh[16822]: INFO [12-01|07:47:02.046|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=10387969
+Dec 01 07:47:02 ubp52 sh[16822]: WARN [12-01|07:47:02.046|eth/downloader/downloader.go:1551]      Rolled back chain segment                header=192->192 fast=192->0 block=0->0 reason="syncing canceled (requested)"
+Dec 01 07:47:02 ubp52 sh[16822]: WARN [12-01|07:47:02.046|eth/downloader/downloader.go:358]       Synchronisation failed, retrying         err="trie node 7f1d04…9a09e7 failed with all peers (3 tries, 3 peers)"
+Dec 01 07:47:13 ubp52 sh[16822]: INFO [12-01|07:47:13.156|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=49 static=0
+Dec 01 07:47:19 ubp52 sh[16822]: WARN [12-01|07:47:19.071|core/blockchain.go:554]                 Rewinding blockchain                     target=1
+Dec 01 07:47:19 ubp52 sh[16822]: INFO [12-01|07:47:19.141|core/blockchain.go:441]                 Loaded most recent local header          number=1        hash="88e96d…406cb6" td=34351349760            age=5y5mo22h
+Dec 01 07:47:19 ubp52 sh[16822]: INFO [12-01|07:47:19.141|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184            age=51y7mo3w
+Dec 01 07:47:19 ubp52 sh[16822]: INFO [12-01|07:47:19.141|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184            age=51y7mo3w
+Dec 01 07:47:19 ubp52 sh[16822]: INFO [12-01|07:47:19.141|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717539
+Dec 01 07:47:19 ubp52 sh[16822]: INFO [12-01|07:47:19.975|core/headerchain.go:337]                Imported new block headers               count=383   elapsed=42.599ms  number=384      hash="d3d5d5…c79cf3" age=5y5mo22h               ignored=1
+Dec 01 07:47:20 ubp52 sh[16822]: INFO [12-01|07:47:20.170|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=78.264ms  number=576      hash="41a746…6a8b38" age=5y5mo21h
+Dec 01 07:47:20 ubp52 sh[16822]: INFO [12-01|07:47:20.193|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=21.952ms  number=768      hash="5cfe57…c19c3a" age=5y5mo21h
+Dec 01 07:47:20 ubp52 sh[16822]: INFO [12-01|07:47:20.399|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=27.424ms  number=960      hash="916910…1d0e2a" age=5y5mo21h
+Dec 01 07:47:20 ubp52 sh[16822]: INFO [12-01|07:47:20.586|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=33.707ms  number=1152     hash="495b33…0fc327" age=5y5mo21h
+Dec 01 07:47:20 ubp52 sh[16822]: INFO [12-01|07:47:20.730|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=73.453ms  number=1344     hash="84b787…0e2783" age=5y5mo21h
+Dec 01 07:47:21 ubp52 sh[16822]: INFO [12-01|07:47:21.021|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=61.729ms  number=1536     hash="b787b8…7d0da3" age=5y5mo21h
+Dec 01 07:47:21 ubp52 sh[16822]: INFO [12-01|07:47:21.242|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=34.540ms  number=1728     hash="d8c37e…b4f264" age=5y5mo21h
+Dec 01 07:47:21 ubp52 sh[16822]: INFO [12-01|07:47:21.432|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=63.610ms  number=1920     hash="80013e…3549c2" age=5y5mo21h
+Dec 01 07:47:21 ubp52 sh[16822]: INFO [12-01|07:47:21.817|core/headerchain.go:337]                Imported new block headers               count=192   elapsed=55.623ms  number=2112     hash="88983b…9a2ec8" age=5y5mo20h
+Dec 01 07:47:26 ubp52 sh[16822]: INFO [12-01|07:47:26.976|core/headerchain.go:337]                Imported new block headers               count=1152    elapsed=152.812ms number=3264     hash="c9ccf0…cfbc3f" age=5y5mo19h
+Dec 01 07:47:43 ubp52 sh[16822]: INFO [12-01|07:47:43.597|core/headerchain.go:337]                Imported new block headers               count=384     elapsed=57.497ms  number=3648     hash="381213…f1b99b" age=5y5mo19h
+Dec 01 07:47:44 ubp52 sh[16822]: INFO [12-01|07:47:44.064|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=198.211ms number=5696     hash="9c4c20…6f954f" age=5y5mo16h
+Dec 01 07:47:44 ubp52 sh[16822]: INFO [12-01|07:47:44.080|core/headerchain.go:337]                Imported new block headers               count=64      elapsed=9.782ms   number=5760     hash="82b72f…cceca3" age=5y5mo16h
+Dec 01 07:47:45 ubp52 sh[16822]: INFO [12-01|07:47:45.582|core/headerchain.go:337]                Imported new block headers               count=1152    elapsed=140.445ms number=6912     hash="ab79f8…80175b" age=5y5mo13h
+Dec 01 07:47:45 ubp52 sh[16822]: INFO [12-01|07:47:45.865|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=226.677ms number=8960     hash="db18e6…54e5be" age=5y5mo7h
+Dec 01 07:47:46 ubp52 sh[16822]: INFO [12-01|07:47:46.058|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=186.561ms number=11008    hash="8dab4b…53d002" age=5y5mo25m
+Dec 01 07:47:46 ubp52 sh[16822]: INFO [12-01|07:47:46.257|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=193.382ms number=13056    hash="94837e…831089" age=5y4mo4w
+Dec 01 07:47:46 ubp52 sh[16822]: INFO [12-01|07:47:46.340|core/headerchain.go:337]                Imported new block headers               count=768     elapsed=77.048ms  number=13824    hash="aba881…276fe7" age=5y4mo4w
+Dec 01 07:47:46 ubp52 sh[16822]: INFO [12-01|07:47:46.530|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=187.715ms number=15872    hash="4457b9…335a7d" age=5y4mo4w
+Dec 01 07:47:46 ubp52 sh[16822]: INFO [12-01|07:47:46.628|core/headerchain.go:337]                Imported new block headers               count=1024    elapsed=90.859ms  number=16896    hash="d26010…0e6877" age=5y4mo4w
+Dec 01 07:47:48 ubp52 sh[16822]: INFO [12-01|07:47:48.257|core/headerchain.go:337]                Imported new block headers               count=576     elapsed=106.980ms number=17472    hash="c31ac9…7aba1e" age=5y4mo4w
+Dec 01 07:47:48 ubp52 sh[16822]: INFO [12-01|07:47:48.786|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=207.520ms number=19520    hash="caff10…5559b9" age=5y4mo4w
+Dec 01 07:47:48 ubp52 sh[16822]: INFO [12-01|07:47:48.989|core/headerchain.go:337]                Imported new block headers               count=1984    elapsed=197.402ms number=21504    hash="b3827e…ca0764" age=5y4mo4w
+Dec 01 07:47:49 ubp52 sh[16822]: INFO [12-01|07:47:49.538|core/headerchain.go:337]                Imported new block headers               count=2048    elapsed=203.882ms number=23552    hash="3c2250…c86c53" age=5y4mo3w
+Dec 01 07:47:49 ubp52 sh[16822]: INFO [12-01|07:47:49.606|core/headerchain.go:337]                Imported new block headers               count=640     elapsed=62.082ms  number=24192    hash="df064f…2e735a" age=5y4mo3w
+Dec 01 07:47:49 ubp52 sh[16822]: INFO [12-01|07:47:49.909|core/headerchain.go:337]                Imported new block headers               count=384     elapsed=45.417ms  number=24576    hash="32aa83…ca3c79" age=5y4mo3w
+Dec 01 07:47:54 ubp52 sh[16822]: INFO [12-01|07:47:54.013|core/headerchain.go:337]                Imported new block headers               count=384     elapsed=46.654ms  number=24960    hash="685eb7…05d468" age=5y4mo3w
+Dec 01 07:48:01 ubp52 sh[16822]: INFO [12-01|07:48:01.981|eth/downloader/queue.go:391]            Downloader queue stats                   receiptTasks=0 blockTasks=22912 itemSize=660.33B throttle=8192
+Dec 01 07:48:02 ubp52 sh[16822]: CRIT [12-01|07:48:02.014|core/rawdb/accessors_chain.go:683]      Failed to write block data to ancient store err="the append operation is out-order"
+Dec 01 07:48:02 ubp52 systemd[1]: core-geth.classic.service: Main process exited, code=exited, status=1/FAILURE
+Dec 01 07:48:02 ubp52 systemd[1]: core-geth.classic.service: Failed with result 'exit-code'.
+Dec 01 07:48:05 ubp52 systemd[1]: core-geth.classic.service: Service hold-off time over, scheduling restart.
+Dec 01 07:48:05 ubp52 systemd[1]: core-geth.classic.service: Scheduled restart job, restart counter is at 1.
+Dec 01 07:48:05 ubp52 systemd[1]: Stopped core-geth classic service.
+Dec 01 07:48:05 ubp52 systemd[1]: Starting core-geth classic service...
+Dec 01 07:48:05 ubp52 systemd[1]: Started core-geth classic service.
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.229|internal/debug/flags.go:212] Starting pprof server                    addr=http://127.0.0.1:6060/debug/pprof
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.229|geth/main.go:317]            Starting Geth on Ethereum Classic...
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.230|cmd/utils/flags.go:1910]     Enabling metrics collection
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.230|cmd/utils/flags.go:1930]     Enabling stand-alone metrics HTTP endpoint address=0.0.0.0:6060
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.230|metrics/exp/exp.go:62]       Starting metrics server                  addr=http://0.0.0.0:6060/debug/metrics
+Dec 01 07:48:05 ubp52 sh[17255]: ERROR[12-01|07:48:05.231|metrics/exp/exp.go:65]       Failure in running metrics server        err="listen tcp 0.0.0.0:6060: bind: address already in use"
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.232|cmd/utils/flags.go:1228]     Maximum peer count                       ETH=50 LES=0 total=50
+Dec 01 07:48:05 ubp52 sh[17255]: WARN [12-01|07:48:05.232|cmd/utils/flags.go:957]      The flag --rpc is deprecated and will be removed in the future, please use --http
+Dec 01 07:48:05 ubp52 sh[17255]: WARN [12-01|07:48:05.232|cmd/utils/flags.go:973]      The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+Dec 01 07:48:05 ubp52 sh[17255]: WARN [12-01|07:48:05.232|cmd/utils/flags.go:981]      The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+Dec 01 07:48:05 ubp52 sh[17255]: WARN [12-01|07:48:05.232|cmd/utils/flags.go:989]      The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.232|cmd/utils/flags.go:1302]     Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.234|cmd/utils/flags.go:1703]                Set global gas cap                       cap=25000000
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.240|eth/backend.go:123]                     Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+Dec 01 07:48:05 ubp52 sh[17255]: INFO [12-01|07:48:05.241|ethdb/leveldb/leveldb.go:95]            Allocated cache and file handles         database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata cache=512.00MiB handles=2048
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.022|core/rawdb/freezer.go:133]              Opened ancient database                  database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata/ancient
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.129|trie/database.go:722]                   Persisted trie from memory database      nodes=12356 size=1.78MiB time=20.632635ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.130|core/genesis.go:126]                    Found stored genesis block               config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.130|eth/backend.go:138]                     Initialised chain configuration          config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.130|consensus/ethash/ethash.go:558]         Disk storage enabled for ethash caches   dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/etchash count=3
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.130|consensus/ethash/ethash.go:561]         Disk storage enabled for ethash DAGs     dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/.ethash count=2
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|eth/backend.go:160]                     Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=8
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:441]                 Loaded most recent local header          number=24960 hash="685eb7…05d468" td=15726233560462609 age=5y4mo3w
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:442]                 Loaded most recent local full block      number=0     hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:443]                 Loaded most recent local fast block      number=0     hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717539
+Dec 01 07:48:06 ubp52 sh[17255]: ERROR[12-01|07:48:06.131|core/blockchain.go:320]                 Truncating ancient chain                 from=24960 to=0
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:441]                 Loaded most recent local header          number=24960    hash="685eb7…05d468" td=15726233560462609 age=5y4mo3w
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717539
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.131|core/chain_indexer.go:325]              Upgrading chain index                    type=bloombits percentage=0
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.132|core/tx_journal.go:114]                 Loaded local transaction journal         transactions=0 dropped=0
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.132|core/tx_journal.go:166]                 Regenerated local transaction journal    transactions=0 accounts=0
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.139|trie/sync_bloom.go:76]                  Allocated fast sync bloom                size=512.00MiB
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.141|node/node.go:252]                       Starting peer-to-peer node               instance=CoreGeth/v1.11.20-unstable-b24f4890-20201130/linux-amd64/go1.15.5
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.184|p2p/nat/nat.go:110]                     Mapped network port                      proto=udp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.186|p2p/enode/localnode.go:284]             New local node record                    seq=3 id=05473c273a294f2d ip=75.134.144.252 udp=30361 tcp=30361
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.186|p2p/server.go:695]                      Started P2P networking                   self=enode://41365c56e0391ed859de633d4591ea0b182f6eac43b07e46e5165e7deb86b6c97480491ae90b5b218346f073d4f4097b996a9972ec139e1e384eccdea3097dae@75.134.144.252:30361
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.188|node/rpcstack.go:453]                   IPC endpoint opened                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.188|node/rpcstack.go:149]                   HTTP server started                      endpoint=127.0.0.1:8061 cors=* vhosts=localhost
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.191|p2p/nat/nat.go:110]                     Mapped network port                      proto=tcp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:48:06 ubp52 sh[17255]: INFO [12-01|07:48:06.297|trie/sync_bloom.go:135]                 Initialized fast sync bloom              items=30499 errorrate=0.000 elapsed=157.941ms
+Dec 01 07:48:07 ubp52 sh[17255]: INFO [12-01|07:48:07.134|core/chain_indexer.go:356]              Finished upgrading chain index           type=bloombits
+Dec 01 07:48:08 ubp52 systemd[1]: Stopping core-geth classic service...
+Dec 01 07:48:08 ubp52 sh[17255]: INFO [12-01|07:48:08.939|cmd/utils/cmd.go:75]                    Got interrupt, shutting down...
+Dec 01 07:48:08 ubp52 sh[17255]: WARN [12-01|07:48:08.939|cmd/utils/cmd.go:80]                    Already shutting down, interrupt more to panic. times=9
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.439|node/rpcstack.go:220]                   HTTP server stopped                      endpoint=127.0.0.1:8061
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.440|node/rpcstack.go:468]                   IPC endpoint closed                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.446|trie/sync_bloom.go:165]                 Deallocated fast sync bloom              items=30499 errorrate=0.000
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.446|eth/handler.go:292]                     Ethereum protocol stopped
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.446|core/tx_pool.go:407]                    Transaction pool stopped
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.446|trie/database.go:834]                   Writing clean trie cache to disk         path=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/triecache threads=12
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.451|trie/database.go:842]                   Persisted the clean trie cache           path=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/triecache elapsed=4.838ms
+Dec 01 07:48:09 ubp52 sh[17255]: INFO [12-01|07:48:09.451|core/blockchain.go:991]                 Blockchain stopped
+Dec 01 07:48:10 ubp52 systemd[1]: Stopped core-geth classic service.
+Dec 01 07:52:45 ubp52 systemd[1]: Starting core-geth classic service...
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.118|internal/debug/flags.go:212] Starting pprof server                    addr=http://127.0.0.1:6060/debug/pprof
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.118|geth/main.go:317]            Starting Geth on Ethereum Classic...
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.118|cmd/utils/flags.go:1910]     Enabling metrics collection
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.118|cmd/utils/flags.go:1930]     Enabling stand-alone metrics HTTP endpoint address=0.0.0.0:6060
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.118|metrics/exp/exp.go:62]       Starting metrics server                  addr=http://0.0.0.0:6060/debug/metrics
+Dec 01 07:52:45 ubp52 sh[18259]: ERROR[12-01|07:52:45.119|metrics/exp/exp.go:65]       Failure in running metrics server        err="listen tcp 0.0.0.0:6060: bind: address already in use"
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.121|cmd/utils/flags.go:1228]     Maximum peer count                       ETH=50 LES=0 total=50
+Dec 01 07:52:45 ubp52 sh[18259]: WARN [12-01|07:52:45.121|cmd/utils/flags.go:957]      The flag --rpc is deprecated and will be removed in the future, please use --http
+Dec 01 07:52:45 ubp52 sh[18259]: WARN [12-01|07:52:45.121|cmd/utils/flags.go:973]      The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+Dec 01 07:52:45 ubp52 sh[18259]: WARN [12-01|07:52:45.121|cmd/utils/flags.go:981]      The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+Dec 01 07:52:45 ubp52 sh[18259]: WARN [12-01|07:52:45.121|cmd/utils/flags.go:989]      The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.121|cmd/utils/flags.go:1302]     Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.123|cmd/utils/flags.go:1703]                Set global gas cap                       cap=25000000
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.129|eth/backend.go:123]                     Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.130|ethdb/leveldb/leveldb.go:95]            Allocated cache and file handles         database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata cache=512.00MiB handles=2048
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.173|core/rawdb/freezer.go:133]              Opened ancient database                  database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata/ancient
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.279|trie/database.go:722]                   Persisted trie from memory database      nodes=12356 size=1.78MiB time=18.881011ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.279|core/genesis.go:126]                    Found stored genesis block               config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.280|eth/backend.go:138]                     Initialised chain configuration          config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.280|consensus/ethash/ethash.go:558]         Disk storage enabled for ethash caches   dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/etchash count=3
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.280|consensus/ethash/ethash.go:561]         Disk storage enabled for ethash DAGs     dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/.ethash count=2
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.280|eth/backend.go:160]                     Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=8
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:441]                 Loaded most recent local header          number=24960 hash="685eb7…05d468" td=15726233560462609 age=5y4mo3w
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:442]                 Loaded most recent local full block      number=0     hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:443]                 Loaded most recent local fast block      number=0     hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717539
+Dec 01 07:52:45 ubp52 sh[18259]: ERROR[12-01|07:52:45.282|core/blockchain.go:320]                 Truncating ancient chain                 from=24960 to=0
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:441]                 Loaded most recent local header          number=24960    hash="685eb7…05d468" td=15726233560462609 age=5y4mo3w
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184       age=51y7mo3w
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.282|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717539
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.283|core/tx_journal.go:114]                 Loaded local transaction journal         transactions=0 dropped=0
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.283|core/tx_journal.go:166]                 Regenerated local transaction journal    transactions=0 accounts=0
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.289|trie/sync_bloom.go:76]                  Allocated fast sync bloom                size=512.00MiB
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.291|node/node.go:252]                       Starting peer-to-peer node               instance=CoreGeth/v1.11.20-unstable-b24f4890-20201130/linux-amd64/go1.15.5
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.323|p2p/enode/localnode.go:284]             New local node record                    seq=4 id=05473c273a294f2d ip=127.0.0.1 udp=30361 tcp=30361
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.324|p2p/server.go:695]                      Started P2P networking                   self=enode://41365c56e0391ed859de633d4591ea0b182f6eac43b07e46e5165e7deb86b6c97480491ae90b5b218346f073d4f4097b996a9972ec139e1e384eccdea3097dae@127.0.0.1:30361
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.325|node/rpcstack.go:453]                   IPC endpoint opened                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.325|node/rpcstack.go:149]                   HTTP server started                      endpoint=127.0.0.1:8061 cors=* vhosts=localhost
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.326|p2p/nat/nat.go:110]                     Mapped network port                      proto=udp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.329|p2p/nat/nat.go:110]                     Mapped network port                      proto=tcp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.331|p2p/enode/localnode.go:284]             New local node record                    seq=5 id=05473c273a294f2d ip=75.134.144.252 udp=30361 tcp=30361
+Dec 01 07:52:45 ubp52 sh[18259]: INFO [12-01|07:52:45.372|trie/sync_bloom.go:135]                 Initialized fast sync bloom              items=30499 errorrate=0.000 elapsed=83.170ms
+Dec 01 07:52:46 ubp52 systemd[1]: Started core-geth classic service.
+Dec 01 07:52:55 ubp52 sh[18259]: INFO [12-01|07:52:55.706|p2p/dial.go:339]                        Looking for peers                        peercount=1 tried=38 static=0
+Dec 01 07:53:04 ubp52 sh[18259]: INFO [12-01|07:53:04.318|eth/downloader/downloader.go:378]       Block synchronisation started
+Dec 01 07:53:05 ubp52 sh[18259]: INFO [12-01|07:53:05.769|p2p/dial.go:339]                        Looking for peers                        peercount=1 tried=61 static=0
+Dec 01 07:53:13 ubp52 sh[18259]: WARN [12-01|07:53:13.550|core/blockchain.go:554]                 Rewinding blockchain                     target=1
+Dec 01 07:53:14 ubp52 sh[18259]: INFO [12-01|07:53:14.666|core/blockchain.go:441]                 Loaded most recent local header          number=1        hash="88e96d…406cb6" td=34351349760             age=5y5mo22h
+Dec 01 07:53:14 ubp52 sh[18259]: INFO [12-01|07:53:14.666|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:53:14 ubp52 sh[18259]: INFO [12-01|07:53:14.666|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:53:14 ubp52 sh[18259]: INFO [12-01|07:53:14.666|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11366987
+Dec 01 07:53:15 ubp52 sh[18259]: WARN [12-01|07:53:15.153|eth/downloader/statesync.go:390]        Node data write error                    err="trie node 585007…25edfe failed with all peers (2 tries, 2 peers)"
+Dec 01 07:53:15 ubp52 sh[18259]: INFO [12-01|07:53:15.153|eth/downloader/queue.go:391]            Downloader queue stats                   receiptTasks=0 blockTasks=0 itemSize=0.00B throttle=8192
+Dec 01 07:53:15 ubp52 sh[18259]: WARN [12-01|07:53:15.153|eth/downloader/downloader.go:358]       Synchronisation failed, retrying         err="trie node 585007…25edfe failed with all peers (2 tries, 2 peers)"
+Dec 01 07:53:25 ubp52 sh[18259]: INFO [12-01|07:53:25.956|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=46 static=0
+Dec 01 07:53:30 ubp52 sh[18259]: WARN [12-01|07:53:30.325|core/blockchain.go:554]                 Rewinding blockchain                     target=1
+Dec 01 07:53:30 ubp52 sh[18259]: INFO [12-01|07:53:30.325|core/blockchain.go:441]                 Loaded most recent local header          number=1        hash="88e96d…406cb6" td=34351349760             age=5y5mo22h
+Dec 01 07:53:30 ubp52 sh[18259]: INFO [12-01|07:53:30.325|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:53:30 ubp52 sh[18259]: INFO [12-01|07:53:30.325|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:53:30 ubp52 sh[18259]: INFO [12-01|07:53:30.325|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11366987
+Dec 01 07:53:31 ubp52 sh[18259]: WARN [12-01|07:53:31.013|eth/downloader/statesync.go:390]        Node data write error                    err="trie node 585007…25edfe failed with all peers (2 tries, 2 peers)"
+Dec 01 07:53:31 ubp52 sh[18259]: WARN [12-01|07:53:31.014|eth/downloader/downloader.go:358]       Synchronisation failed, retrying         err="trie node 585007…25edfe failed with all peers (2 tries, 2 peers)"
+Dec 01 07:53:46 ubp52 sh[18259]: INFO [12-01|07:53:46.165|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=62 static=0
+Dec 01 07:53:50 ubp52 sh[18259]: WARN [12-01|07:53:50.995|core/blockchain.go:554]                 Rewinding blockchain                     target=1
+Dec 01 07:53:50 ubp52 sh[18259]: INFO [12-01|07:53:50.996|core/blockchain.go:441]                 Loaded most recent local header          number=1        hash="88e96d…406cb6" td=34351349760             age=5y5mo22h
+Dec 01 07:53:50 ubp52 sh[18259]: INFO [12-01|07:53:50.996|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:53:50 ubp52 sh[18259]: INFO [12-01|07:53:50.996|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:53:50 ubp52 sh[18259]: INFO [12-01|07:53:50.996|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11366988
+Dec 01 07:53:51 ubp52 sh[18259]: WARN [12-01|07:53:51.657|eth/downloader/statesync.go:390]        Node data write error                    err="trie node ed7793…98f781 failed with all peers (2 tries, 2 peers)"
+Dec 01 07:53:51 ubp52 sh[18259]: WARN [12-01|07:53:51.657|eth/downloader/downloader.go:358]       Synchronisation failed, retrying         err="trie node ed7793…98f781 failed with all peers (2 tries, 2 peers)"
+Dec 01 07:53:56 ubp52 sh[18259]: INFO [12-01|07:53:56.699|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=46 static=0
+Dec 01 07:54:11 ubp52 sh[18259]: WARN [12-01|07:54:11.602|core/blockchain.go:554]                 Rewinding blockchain                     target=1
+Dec 01 07:54:11 ubp52 sh[18259]: INFO [12-01|07:54:11.602|core/blockchain.go:441]                 Loaded most recent local header          number=1        hash="88e96d…406cb6" td=34351349760             age=5y5mo22h
+Dec 01 07:54:11 ubp52 sh[18259]: INFO [12-01|07:54:11.602|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:54:11 ubp52 sh[18259]: INFO [12-01|07:54:11.602|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184             age=51y7mo3w
+Dec 01 07:54:11 ubp52 sh[18259]: INFO [12-01|07:54:11.602|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11366990
+Dec 01 07:54:12 ubp52 sh[18259]: INFO [12-01|07:54:12.481|core/headerchain.go:337]                Imported new block headers               count=191 elapsed=14.827ms number=192      hash="723899…123390" age=5y5mo22h                ignored=1
+Dec 01 07:54:12 ubp52 sh[18259]: CRIT [12-01|07:54:12.482|core/rawdb/accessors_chain.go:683]      Failed to write block data to ancient store err="the append operation is out-order"
+Dec 01 07:54:12 ubp52 systemd[1]: core-geth.classic.service: Main process exited, code=exited, status=1/FAILURE
+Dec 01 07:54:12 ubp52 systemd[1]: core-geth.classic.service: Failed with result 'exit-code'.
+Dec 01 07:54:15 ubp52 systemd[1]: core-geth.classic.service: Service hold-off time over, scheduling restart.
+Dec 01 07:54:15 ubp52 systemd[1]: core-geth.classic.service: Scheduled restart job, restart counter is at 1.
+Dec 01 07:54:15 ubp52 systemd[1]: Stopped core-geth classic service.
+Dec 01 07:54:15 ubp52 systemd[1]: Starting core-geth classic service...
+Dec 01 07:54:15 ubp52 systemd[1]: Started core-geth classic service.
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.760|internal/debug/flags.go:212] Starting pprof server                    addr=http://127.0.0.1:6060/debug/pprof
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.761|geth/main.go:317]            Starting Geth on Ethereum Classic...
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.761|cmd/utils/flags.go:1910]     Enabling metrics collection
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.761|cmd/utils/flags.go:1930]     Enabling stand-alone metrics HTTP endpoint address=0.0.0.0:6060
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.761|metrics/exp/exp.go:62]       Starting metrics server                  addr=http://0.0.0.0:6060/debug/metrics
+Dec 01 07:54:15 ubp52 sh[18533]: ERROR[12-01|07:54:15.761|metrics/exp/exp.go:65]       Failure in running metrics server        err="listen tcp 0.0.0.0:6060: bind: address already in use"
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.763|cmd/utils/flags.go:1228]     Maximum peer count                       ETH=50 LES=0 total=50
+Dec 01 07:54:15 ubp52 sh[18533]: WARN [12-01|07:54:15.763|cmd/utils/flags.go:957]      The flag --rpc is deprecated and will be removed in the future, please use --http
+Dec 01 07:54:15 ubp52 sh[18533]: WARN [12-01|07:54:15.763|cmd/utils/flags.go:973]      The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+Dec 01 07:54:15 ubp52 sh[18533]: WARN [12-01|07:54:15.763|cmd/utils/flags.go:981]      The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+Dec 01 07:54:15 ubp52 sh[18533]: WARN [12-01|07:54:15.763|cmd/utils/flags.go:989]      The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.763|cmd/utils/flags.go:1302]     Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.766|cmd/utils/flags.go:1703]                Set global gas cap                       cap=25000000
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.775|eth/backend.go:123]                     Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+Dec 01 07:54:15 ubp52 sh[18533]: INFO [12-01|07:54:15.775|ethdb/leveldb/leveldb.go:95]            Allocated cache and file handles         database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata cache=512.00MiB handles=2048
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.053|core/rawdb/freezer.go:133]              Opened ancient database                  database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata/ancient
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.182|trie/database.go:722]                   Persisted trie from memory database      nodes=12356 size=1.78MiB time=19.490652ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.182|core/genesis.go:126]                    Found stored genesis block               config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.183|eth/backend.go:138]                     Initialised chain configuration          config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.183|consensus/ethash/ethash.go:558]         Disk storage enabled for ethash caches   dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/etchash count=3
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.183|consensus/ethash/ethash.go:561]         Disk storage enabled for ethash DAGs     dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/.ethash count=2
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.183|eth/backend.go:160]                     Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=8
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.184|core/blockchain.go:441]                 Loaded most recent local header          number=192 hash="723899…123390" td=3453055867795 age=5y5mo22h
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.184|core/blockchain.go:442]                 Loaded most recent local full block      number=0   hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.184|core/blockchain.go:443]                 Loaded most recent local fast block      number=0   hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.184|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11366990
+Dec 01 07:54:16 ubp52 sh[18533]: ERROR[12-01|07:54:16.184|core/blockchain.go:320]                 Truncating ancient chain                 from=192 to=0
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.185|core/blockchain.go:441]                 Loaded most recent local header          number=192      hash="723899…123390" td=3453055867795 age=5y5mo22h
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.185|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.185|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.185|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11366990
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.185|core/tx_journal.go:114]                 Loaded local transaction journal         transactions=0 dropped=0
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.185|core/tx_journal.go:166]                 Regenerated local transaction journal    transactions=0 accounts=0
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.192|trie/sync_bloom.go:76]                  Allocated fast sync bloom                size=512.00MiB
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.195|node/node.go:252]                       Starting peer-to-peer node               instance=CoreGeth/v1.11.20-unstable-b24f4890-20201130/linux-amd64/go1.15.5
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.232|p2p/nat/nat.go:110]                     Mapped network port                      proto=tcp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.234|p2p/enode/localnode.go:284]             New local node record                    seq=6 id=05473c273a294f2d ip=127.0.0.1 udp=30361 tcp=30361
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.234|p2p/server.go:695]                      Started P2P networking                   self=enode://41365c56e0391ed859de633d4591ea0b182f6eac43b07e46e5165e7deb86b6c97480491ae90b5b218346f073d4f4097b996a9972ec139e1e384eccdea3097dae@127.0.0.1:30361
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.235|node/rpcstack.go:453]                   IPC endpoint opened                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.235|node/rpcstack.go:149]                   HTTP server started                      endpoint=127.0.0.1:8061 cors=* vhosts=localhost
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.236|p2p/nat/nat.go:110]                     Mapped network port                      proto=udp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.256|p2p/enode/localnode.go:284]             New local node record                    seq=7 id=05473c273a294f2d ip=75.134.144.252 udp=30361 tcp=30361
+Dec 01 07:54:16 ubp52 sh[18533]: INFO [12-01|07:54:16.321|trie/sync_bloom.go:135]                 Initialized fast sync bloom              items=30499 errorrate=0.000 elapsed=128.439ms
+Dec 01 07:54:26 ubp52 sh[18533]: INFO [12-01|07:54:26.543|p2p/dial.go:339]                        Looking for peers                        peercount=0 tried=17 static=0
+Dec 01 07:54:35 ubp52 sh[18533]: INFO [12-01|07:54:35.967|eth/downloader/downloader.go:378]       Block synchronisation started
+Dec 01 07:54:36 ubp52 sh[18533]: INFO [12-01|07:54:36.662|p2p/dial.go:339]                        Looking for peers                        peercount=2 tried=36 static=0
+Dec 01 07:54:42 ubp52 sh[18533]: WARN [12-01|07:54:42.667|core/blockchain.go:554]                 Rewinding blockchain                     target=1
+Dec 01 07:54:42 ubp52 sh[18533]: INFO [12-01|07:54:42.716|core/blockchain.go:441]                 Loaded most recent local header          number=1        hash="88e96d…406cb6" td=34351349760            age=5y5mo22h
+Dec 01 07:54:42 ubp52 sh[18533]: INFO [12-01|07:54:42.716|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184            age=51y7mo3w
+Dec 01 07:54:42 ubp52 sh[18533]: INFO [12-01|07:54:42.717|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184            age=51y7mo3w
+Dec 01 07:54:42 ubp52 sh[18533]: INFO [12-01|07:54:42.717|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717577
+Dec 01 07:54:43 ubp52 sh[18533]: INFO [12-01|07:54:43.890|core/headerchain.go:337]                Imported new block headers               count=191 elapsed=62.310ms  number=192      hash="723899…123390" age=5y5mo22h                ignored=1
+Dec 01 07:54:43 ubp52 sh[18533]: INFO [12-01|07:54:43.892|eth/downloader/queue.go:391]            Downloader queue stats                   receiptTasks=0 blockTasks=188 itemSize=109.57B throttle=8192
+Dec 01 07:54:43 ubp52 sh[18533]: CRIT [12-01|07:54:43.892|core/rawdb/accessors_chain.go:683]      Failed to write block data to ancient store err="the append operation is out-order"
+Dec 01 07:54:43 ubp52 systemd[1]: core-geth.classic.service: Main process exited, code=exited, status=1/FAILURE
+Dec 01 07:54:43 ubp52 systemd[1]: core-geth.classic.service: Failed with result 'exit-code'.
+Dec 01 07:54:46 ubp52 systemd[1]: core-geth.classic.service: Service hold-off time over, scheduling restart.
+Dec 01 07:54:46 ubp52 systemd[1]: core-geth.classic.service: Scheduled restart job, restart counter is at 2.
+Dec 01 07:54:46 ubp52 systemd[1]: Stopped core-geth classic service.
+Dec 01 07:54:46 ubp52 systemd[1]: Starting core-geth classic service...
+Dec 01 07:54:46 ubp52 systemd[1]: Started core-geth classic service.
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.980|internal/debug/flags.go:212] Starting pprof server                    addr=http://127.0.0.1:6060/debug/pprof
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.981|geth/main.go:317]            Starting Geth on Ethereum Classic...
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.981|cmd/utils/flags.go:1910]     Enabling metrics collection
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.981|cmd/utils/flags.go:1930]     Enabling stand-alone metrics HTTP endpoint address=0.0.0.0:6060
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.981|metrics/exp/exp.go:62]       Starting metrics server                  addr=http://0.0.0.0:6060/debug/metrics
+Dec 01 07:54:46 ubp52 sh[18674]: ERROR[12-01|07:54:46.981|metrics/exp/exp.go:65]       Failure in running metrics server        err="listen tcp 0.0.0.0:6060: bind: address already in use"
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.983|cmd/utils/flags.go:1228]     Maximum peer count                       ETH=50 LES=0 total=50
+Dec 01 07:54:46 ubp52 sh[18674]: WARN [12-01|07:54:46.983|cmd/utils/flags.go:957]      The flag --rpc is deprecated and will be removed in the future, please use --http
+Dec 01 07:54:46 ubp52 sh[18674]: WARN [12-01|07:54:46.983|cmd/utils/flags.go:973]      The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+Dec 01 07:54:46 ubp52 sh[18674]: WARN [12-01|07:54:46.983|cmd/utils/flags.go:981]      The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+Dec 01 07:54:46 ubp52 sh[18674]: WARN [12-01|07:54:46.983|cmd/utils/flags.go:989]      The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.983|cmd/utils/flags.go:1302]     Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.985|cmd/utils/flags.go:1703]                Set global gas cap                       cap=25000000
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.992|eth/backend.go:123]                     Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+Dec 01 07:54:46 ubp52 sh[18674]: INFO [12-01|07:54:46.992|ethdb/leveldb/leveldb.go:95]            Allocated cache and file handles         database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata cache=512.00MiB handles=2048
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.033|core/rawdb/freezer.go:133]              Opened ancient database                  database=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/chaindata/ancient
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.153|trie/database.go:722]                   Persisted trie from memory database      nodes=12356 size=1.78MiB time=19.370237ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.154|core/genesis.go:126]                    Found stored genesis block               config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.154|eth/backend.go:138]                     Initialised chain configuration          config="NetworkID: 1, ChainID: 61 Engine: ethash ECBP1100: 11380000 EIP1014: 9573000 EIP1052: 9573000 EIP1108: 10500839 EIP1344: 10500839 EIP140: 8772000 EIP145: 9573000 EIP150: 2500000 EIP152: 10500839 EIP155: 3000000 EIP160: 3000000 EIP161abc: 8772000 EIP161d: 8772000 EIP170: 8772000 EIP1884: 10500839 EIP198: 8772000 EIP2028: 10500839 EIP211: 8772000 EIP212: 8772000 EIP213: 8772000 EIP214: 8772000 EIP2200: 10500839 EIP2: 1150000 EIP658: 8772000 EIP7: 1150000 EthashECIP1010Continue: 5000000 EthashECIP1010Pause: 3000000 EthashECIP1017: 5000000 EthashECIP1041: 5900000 EthashECIP1099: 11700000 EthashEIP100B: 8772000 EthashHomestead: 1150000 "
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.155|consensus/ethash/ethash.go:558]         Disk storage enabled for ethash caches   dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/etchash count=3
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.155|consensus/ethash/ethash.go:561]         Disk storage enabled for ethash DAGs     dir=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/.ethash count=2
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.155|eth/backend.go:160]                     Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=8
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:441]                 Loaded most recent local header          number=192 hash="723899…123390" td=3453055867795 age=5y5mo22h
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:442]                 Loaded most recent local full block      number=0   hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:443]                 Loaded most recent local fast block      number=0   hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717577
+Dec 01 07:54:47 ubp52 sh[18674]: ERROR[12-01|07:54:47.156|core/blockchain.go:320]                 Truncating ancient chain                 from=192 to=0
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:441]                 Loaded most recent local header          number=192      hash="723899…123390" td=3453055867795 age=5y5mo22h
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:442]                 Loaded most recent local full block      number=0        hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:443]                 Loaded most recent local fast block      number=0        hash="d4e567…cb8fa3" td=17179869184   age=51y7mo3w
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.156|core/blockchain.go:445]                 Loaded last fast-sync pivot marker       number=11717577
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.157|core/tx_journal.go:114]                 Loaded local transaction journal         transactions=0 dropped=0
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.157|core/tx_journal.go:166]                 Regenerated local transaction journal    transactions=0 accounts=0
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.163|trie/sync_bloom.go:76]                  Allocated fast sync bloom                size=512.00MiB
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.164|node/node.go:252]                       Starting peer-to-peer node               instance=CoreGeth/v1.11.20-unstable-b24f4890-20201130/linux-amd64/go1.15.5
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.211|p2p/nat/nat.go:110]                     Mapped network port                      proto=tcp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.213|p2p/enode/localnode.go:284]             New local node record                    seq=8 id=05473c273a294f2d ip=75.134.144.252 udp=30361 tcp=30361
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.214|p2p/server.go:695]                      Started P2P networking                   self=enode://41365c56e0391ed859de633d4591ea0b182f6eac43b07e46e5165e7deb86b6c97480491ae90b5b218346f073d4f4097b996a9972ec139e1e384eccdea3097dae@75.134.144.252:30361
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.215|node/rpcstack.go:453]                   IPC endpoint opened                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.216|node/rpcstack.go:149]                   HTTP server started                      endpoint=127.0.0.1:8061 cors=* vhosts=localhost
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.216|p2p/nat/nat.go:110]                     Mapped network port                      proto=udp extport=30361 intport=30361 interface=NAT-PMP(192.168.86.1)
+Dec 01 07:54:47 ubp52 sh[18674]: INFO [12-01|07:54:47.281|trie/sync_bloom.go:135]                 Initialized fast sync bloom              items=30499 errorrate=0.000 elapsed=117.654ms
+Dec 01 07:54:51 ubp52 systemd[1]: Stopping core-geth classic service...
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.051|cmd/utils/cmd.go:75]                    Got interrupt, shutting down...
+Dec 01 07:54:51 ubp52 sh[18674]: WARN [12-01|07:54:51.052|cmd/utils/cmd.go:80]                    Already shutting down, interrupt more to panic. times=9
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.551|node/rpcstack.go:220]                   HTTP server stopped                      endpoint=127.0.0.1:8061
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.552|node/rpcstack.go:468]                   IPC endpoint closed                      url=/tmp/core-geth_classic.ipc
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.571|trie/sync_bloom.go:165]                 Deallocated fast sync bloom              items=30499 errorrate=0.000
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.571|eth/handler.go:292]                     Ethereum protocol stopped
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.572|core/tx_pool.go:407]                    Transaction pool stopped
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.572|trie/database.go:834]                   Writing clean trie cache to disk         path=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/triecache threads=12
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.598|trie/database.go:842]                   Persisted the clean trie cache           path=/home/ia/SAMSUNG_T5/e/clients/core-geth/classic/geth/triecache elapsed=26.393ms
+Dec 01 07:54:51 ubp52 sh[18674]: INFO [12-01|07:54:51.598|core/blockchain.go:991]                 Blockchain stopped
+Dec 01 07:54:56 ubp52 systemd[1]: Stopped core-geth classic service.
