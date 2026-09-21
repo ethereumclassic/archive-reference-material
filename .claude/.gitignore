@@ -1,0 +1,14 @@
+# Machine-local and agent-written state under .claude/. The rest of this
+# directory is TRACKED on purpose: an agent, skill or rule inside an ignored
+# directory never reaches a clone, which is not a stricter form of sharing it.
+#
+# The root .gitignore carries the same entries, as house policy requires of
+# every repository. This copy keeps the list beside the directory it governs,
+# and for paths under .claude/ its patterns take precedence over the root's.
+settings.local.json
+worktrees/
+agent-memory-local/
+launch.json
+scheduled_tasks.json
+**/*.local.*
+**/*-local/

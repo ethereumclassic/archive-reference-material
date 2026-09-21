@@ -1,0 +1,110 @@
+# Secrets and credentials. These patterns guard this repository's own small
+# surface (the root documents, .github/, .claude/) against accident; nothing
+# authored here should ever hold a credential.
+#
+# The vendored trees under <org>/<repo>/ are upstream bytes, and some of them
+# legitimately carry files these patterns match: keystore and TLS test
+# fixtures, test-network node keys, a sample .env. They are tracked, and an
+# ignore pattern never affects a tracked file, so nothing here hides or alters
+# them. Two consequences:
+#
+# - `git subtree add` stages a corpus with read-tree, which no ignore pattern
+#   reaches, so a vendored tree always arrives whole.
+# - An extraction is staged with `git add`, which silently drops any file a
+#   pattern matches. Verify every extraction against its source in both
+#   directions after staging it.
+#
+# Verify coverage BY EFFECT, never by reading these patterns, and calibrate
+# every sweep against a path that must NOT be ignored:
+#
+#   git -c core.excludesFile=/dev/null check-ignore --no-index -q -- .env      && echo ignored || echo "NOT ignored"
+#   git -c core.excludesFile=/dev/null check-ignore --no-index -q -- README.md && echo "check is broken" || echo "check discriminates"
+#
+# A check that cannot report "not ignored" is not checking anything.
+#
+# No pattern here may match a tracked file OUTSIDE the vendored trees. After
+# any change to this file, this must print nothing:
+#
+#   git -c core.excludesFile=/dev/null ls-files -ci --exclude-standard -- ':(glob)*' ':(glob).github/**' ':(glob).claude/**'
+#
+# The same command without the pathspecs lists the vendored matches, by design.
+
+# Environment and credentials
+.env
+.env.*
+# The example CLASS, not one filename: .env.local.example is a template and must
+# reach a clone. End-anchored, so .env.example.local stays ignored. Do not narrow.
+!.env*.example
+*.env
+.envrc
+credentials.json
+service-account.json
+*.credentials
+secrets/
+.secrets/
+*.secret
+.netrc
+.git-credentials
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.ppk
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+secring.gpg
+
+# Wallets, keystores and node keys. UTC--* is the name geth gives a keystore
+# file, which can land outside any keystore/ directory. A client run from a
+# vendored tree writes a node key and an engine JWT secret into its data
+# directory.
+keystore/
+*.keystore
+UTC--*
+wallet.json
+mnemonic.txt
+*.nodekey
+node.key
+etc-node.key
+jwt.hex
+jwtsecret
+
+# Package-registry auth. These carry registry tokens, and nothing here needs a
+# registry, so the safe posture is to ignore them outright.
+.npmrc
+.yarnrc
+.yarnrc.yml
+
+# Machine-local working state. `.local/` is this repository's private working
+# directory (plans, prompts, drafts, scratch scripts) and never reaches a clone.
+.local/
+CLAUDE.local.md
+SESSION_NOTES.md
+PLANNING.md
+SCRATCH.md
+*.scratch.*
+*.draft.*
+
+# Agent-written and per-developer state. The rest of `.claude/` is TRACKED on
+# purpose: an agent, skill or rule inside an ignored directory never reaches a
+# clone, which is not a stricter form of sharing it.
+.claude/settings.local.json
+.claude/worktrees/
+.claude/agent-memory-local/
+.claude/launch.json
+.claude/scheduled_tasks.json
+.claude/**/*.local.*
+.claude/**/*-local/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/settings.json
+.idea/
