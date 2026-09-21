@@ -1,0 +1,442 @@
+archive-reference-material
+Copyright 2025–present Chippr Robotics LLC
+Copyright 2026–present White B0x Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+The Apache-2.0 license above covers this project's own material: the root
+documentation (README.md, PROVENANCE.md, EXTRACTION-historic-clients.md),
+meowsbits/EXTRACTION.md, and this repository's wiring (AGENTS.md, CLAUDE.md,
+this NOTICE, and the .github/.claude configuration). It does NOT relicense
+anything vendored below -- every vendored and extracted tree keeps the
+license and copyright its own upstream published it under, per README.md's
+"frozen means frozen" posture.
+Nothing under a vendored prefix has been relicensed, relabeled, or altered.
+
+================================================================================
+VENDORED CLIENT LINEAGE AND TEST CORPORA
+================================================================================
+
+Read directly from each tree's own top-level license file (or, for the
+extractions, from the same upstream's license file at the extraction's source
+ref, since only a subset of paths was extracted and no root LICENSE/COPYING
+file exists inside those trees). Not inferred from a project's
+reputation or from a sibling entry's license. See PROVENANCE.md and
+EXTRACTION-historic-clients.md for the ref each entry is frozen at.
+
+--------------------------------------------------------------------------------
+Full vendors (whole repository, with history)
+--------------------------------------------------------------------------------
+
+etclabscore/tests
+  License:    MIT
+  Copyright:  Copyright 2014 Ethereum Foundation
+  Read from:  etclabscore/tests/LICENSE
+
+ethereumproject/tests
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists anywhere
+              in this vendored tree; its README.md does not mention licensing
+              terms either. The upstream GitHub repository itself reports
+              "license": null via the GitHub API (checked 2026-08-24,
+              and again 2026-09-21). This is
+              recorded as a fact about what upstream published, not corrected
+              here -- see README.md's freeze rule. No license is assumed or
+              implied on this project's behalf by this NOTICE.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+multi-geth/tests
+  License:    MIT
+  Copyright:  Copyright 2014 Ethereum Foundation
+  Read from:  multi-geth/tests/LICENSE
+
+etclabscore/hive
+  License:    GPL-3.0 (README states "GNU General Public License v3.0"
+              plainly, linking the base license text; no "or later" grant
+              language found in this tree, unlike the go-ethereum- and
+              Parity-derived entries below -- recorded as GPL-3.0 rather than
+              GPL-3.0-or-later on that basis)
+  Copyright:  Copyright (C) 2016 The hive Authors
+  Read from:  etclabscore/hive/COPYING, etclabscore/hive/README.md ("License")
+
+etclabscore/goldset
+  License:    Apache-2.0
+  Copyright:  not stated (unfilled template; the LICENSE file carries no
+              project-specific copyright line, and the tree has no NOTICE)
+  Read from:  etclabscore/goldset/LICENSE
+
+ethereumproject/go-ethereum
+  License:    Dual: GPL-3.0-or-later (cmd/ -- the binaries) and
+              LGPL-3.0-or-later (the libraries), the standard go-ethereum
+              split. "Or later" confirmed from source file grant language
+              ("... or (at your option) any later version"), not assumed from
+              the raw GPLv3/LGPLv3 text in COPYING/COPYING.LESSER alone.
+  Copyright:  Copyright 2014 The go-ethereum Authors
+  Read from:  ethereumproject/go-ethereum/COPYING,
+              ethereumproject/go-ethereum/COPYING.LESSER,
+              ethereumproject/go-ethereum/cmd/geth/main.go (grant language)
+
+ethereumproject/parity
+  License:    GPL-3.0-or-later ("... or (at your option) any later version",
+              confirmed in license_header)
+  Copyright:  Copyright 2015-2017 Parity Technologies (UK) Ltd.
+  Read from:  ethereumproject/parity/LICENSE,
+              ethereumproject/parity/license_header
+
+openethereum/parity-ethereum-dao
+  License:    GPL-3.0-or-later (same confirmation method)
+  Copyright:  Copyright 2015, 2016 Ethcore (UK) Ltd.
+  Read from:  openethereum/parity-ethereum-dao/LICENSE,
+              openethereum/parity-ethereum-dao/license_header
+
+openethereum/parity-ethereum
+  License:    GPL-3.0-or-later (same confirmation method)
+  Copyright:  Copyright 2015-2020 Parity Technologies (UK) Ltd.
+  Read from:  openethereum/parity-ethereum/LICENSE,
+              openethereum/parity-ethereum/license_header
+
+multi-geth/multi-geth
+  License:    Dual: GPL-3.0-or-later (cmd/) and LGPL-3.0-or-later (libraries),
+              same split and same confirmation method as
+              ethereumproject/go-ethereum above
+  Copyright:  The go-ethereum Authors (COPYING/COPYING.LESSER carry only the
+              generic FSF preamble text; grant language confirmed in-tree)
+  Read from:  multi-geth/multi-geth/COPYING,
+              multi-geth/multi-geth/COPYING.LESSER,
+              multi-geth/multi-geth/cmd/utils/*.go (grant language)
+
+besu-eth/besu-etc
+  License:    Apache-2.0
+  Copyright:  Copyright contributors to Hyperledger Besu. Carries its OWN
+              NOTICE file with third-party attribution this project forwards
+              below, per Apache-2.0 4(d).
+  Read from:  besu-eth/besu-etc/LICENSE, besu-eth/besu-etc/NOTICE
+
+--------------------------------------------------------------------------------
+Ethereum Classic tooling, mining and signing work, and personal-account
+repositories (full vendors, whole repository with history)
+--------------------------------------------------------------------------------
+
+etclabscore/ethereum-json-rpc-specification
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/ethereum-json-rpc-specification/LICENSE.md
+
+etclabscore/eth-x-chainspec
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+etclabscore/go-etchash
+  License:    GPL-3.0-or-later
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/go-etchash/LICENSE.md
+
+etclabscore/ancient-store-s3
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/ancient-store-s3/LICENSE
+
+etclabscore/core-pool
+  License:    GPL-3.0-or-later
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/core-pool/LICENSE
+
+etclabscore/core-pool-interface
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+etclabscore/classic-geth-supervisor.sh
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+etclabscore/expedition
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/expedition/LICENSE.md
+
+etclabscore/signatory
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/signatory/LICENSE.md
+
+etclabscore/signatory-core
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/signatory-core/LICENSE.md
+
+etclabscore/jade-signer-rpc
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/jade-signer-rpc/LICENSE.md
+
+etclabscore/jade-rs
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/jade-rs/LICENSE
+
+etclabscore/sig.tools
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/sig.tools/LICENSE.md
+
+etclabscore/eserialize
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/eserialize/LICENSE.md
+
+etclabscore/jade-desktop
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/jade-desktop/LICENSE.md
+
+etclabscore/rpcflow-meta-schema
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/rpcflow-meta-schema/LICENSE.md
+
+iquidus/ecip-1099-data
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+iquidus/libdag
+  License:    MIT
+  Copyright:  Copyright 2021 Linzhi Ltd
+  Read from:  iquidus/libdag/COPYING.txt
+
+iquidus/dagd
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+iquidus/ethash
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  iquidus/ethash/LICENSE
+
+iquidus/ethminer
+  License:    GPL-3.0-or-later
+  Copyright:  not stated in the license file
+  Read from:  iquidus/ethminer/LICENSE
+
+iquidus/open-ethereum-pool
+  License:    GPL-3.0-or-later
+  Copyright:  not stated in the license file
+  Read from:  iquidus/open-ethereum-pool/LICENSE
+
+ethereumstack/ethereumstack.tools
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  ethereumstack/ethereumstack.tools/LICENSE.md
+
+meowsbits/51-percent-docs
+  License:    MIT
+  Copyright:  Copyright (c) 2020 Esau Silva
+  Read from:  meowsbits/51-percent-docs/LICENSE
+
+meowsbits/mini-etc-network
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  meowsbits/mini-etc-network/LICENSE
+
+meowsbits/x-client-tests-project
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+meowsbits/go-miner-sim
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+meowsbits/canhaz.net
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, and the upstream GitHub repository
+              reports "license": null via the GitHub API (checked 2026-08-26,
+              and again 2026-09-21).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole tree; GitHub API cross-check)
+
+meowsbits/eserialize-cli
+  License:    Apache-2.0
+  Copyright:  not stated in the license file
+  Read from:  meowsbits/eserialize-cli/LICENSE.md
+
+--------------------------------------------------------------------------------
+The preceding repository's client (full vendor, whole repository with
+history, frozen at the 2024-12-16 repository boundary)
+--------------------------------------------------------------------------------
+
+etclabscore/core-geth
+  License:    Dual: GPL-3.0-or-later (cmd/) and LGPL-3.0-or-later (libraries),
+              the same split and the same confirmation method as the other
+              go-ethereum-derived entries above. Measured at this ref rather
+              than inherited from those entries: 970 files make the LESSER
+              grant and 105 make the non-lesser GPL grant, and 1071 of those
+              1075 carry "or (at your option) any later version". The four
+              that do not are README.md and cmd/clef/tutorial.md, which name a
+              license in prose and carry no header, so every actual file
+              header makes the or-later grant.
+  Copyright:  Two holders, both present, with no file carrying both:
+              "The go-ethereum Authors" in 1022 files and "The core-geth
+              Authors" in 5 -- accounts/hd_cg.go, accounts/hd_cg_test.go,
+              cmd/ancient-store-mem/lib/mem.go, cmd/ancient-store-mem/main.go
+              and cmd/ancient-store-mem/root.go. The downstream project added
+              its own attribution only to files it authored outright and left
+              every inherited header untouched. Recorded as published.
+  Read from:  etclabscore/core-geth/COPYING,
+              etclabscore/core-geth/COPYING.LESSER, and the per-file headers
+              throughout the vendored tree (grant language and holders)
+
+--------------------------------------------------------------------------------
+Go modules the production client builds against (full vendors, whole
+repository with history)
+--------------------------------------------------------------------------------
+
+etclabscore/go-openrpc-reflect
+  License:    Apache-2.0. LICENSE.md is the unmodified license text,
+              byte-identical to etclabscore/expedition/LICENSE.md above.
+  Copyright:  not stated in the license file
+  Read from:  etclabscore/go-openrpc-reflect/LICENSE.md
+
+etclabscore/go-jsonschema-walk
+  License:    Apache-2.0 at the vendored ref, the same unmodified text. The
+              module version the production client pins, v0.0.6, predates
+              it: LICENSE.md arrived in the last of the four commits after
+              that tag. The tree at v0.0.6 is go.mod, go.sum, walk.go and
+              walk_test.go, and none of them states a license or a copyright.
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf for that version.
+  Copyright:  not stated by upstream
+  Read from:  etclabscore/go-jsonschema-walk/LICENSE.md, and the whole tree at
+              v0.0.6 for the absence
+
+--------------------------------------------------------------------------------
+The WMI fork the production client compiles into Windows builds (full
+vendor, whole repository with history)
+--------------------------------------------------------------------------------
+
+yusufpapurcu/wmi
+  License:    MIT, at the vendored ref, which is also the pinned version
+              v1.2.4. LICENSE is byte-identical to the LICENSE of the archived
+              original it was forked from, github.com/StackExchange/wmi.
+  Copyright:  Copyright (c) 2013 Stack Exchange
+  Read from:  yusufpapurcu/wmi/LICENSE
+
+--------------------------------------------------------------------------------
+Extractions (a subset of files, not the whole repository -- no root
+LICENSE/COPYING file exists inside these trees, so the license below is read
+from the same upstream's own license file at the extraction's source ref, per
+EXTRACTION-historic-clients.md and meowsbits/EXTRACTION.md)
+--------------------------------------------------------------------------------
+
+openethereum/openethereum
+  License:    GPL-3.0-or-later ("... or (at your option) any later version",
+              confirmed in source at the frozen ref)
+  Copyright:  Copyright 2015-2020 Parity Technologies (UK) Ltd., per the header
+              of the extracted json/src/spec/ethash.rs. LICENSE itself is the
+              raw GPLv3 text and carries no project-specific copyright line;
+              the four extracted JSON files carry no header.
+  Read from:  LICENSE at tag v3.0.1 (8ca8089e9, the extraction's frozen ref)
+              as upstream serves it; grant language confirmed in the header
+              of the extracted json/src/spec/ethash.rs
+
+meowsbits/gists, meowsbits/documents
+  License:    NONE STATED for the gists as a set and for both documents. GitHub
+              gists carry no license field, and neither document states terms.
+              One gist (b5a8f9d1304a77c72807c2b981091452) ships its own LICENSE
+              file, which governs that gist alone. Recorded as a fact about what
+              was published; no license is assumed on this project's behalf.
+  Copyright:  Isaac (@meowsbits), author of ECIP-1100. Note that
+              meowsbits/51-percent-docs' own LICENSE names a different copyright
+              holder (Esau Silva); that is what upstream published and is
+              recorded above unchanged.
+  Read from:  each gist at the revision named in meowsbits/EXTRACTION.md; the two
+              documents carry no gist ID, and authorship rests on the embedded
+              user-images.githubusercontent.com/45600330/ URLs, where id 45600330
+              and login meowsbits resolve to each other (checked both directions,
+              2026-08-26, and again 2026-09-21)
+
+================================================================================
+FORWARDED NOTICE CONTENT (Apache License 2.0, section 4(d))
+================================================================================
+
+besu-eth/besu-etc is included here under Apache-2.0 and carries its own
+NOTICE file, verbatim below, forwarded per Apache-2.0 4(d) rather than
+summarized:
+
+--------------------------------------------------------------------------------
+Hyperledger Besu
+Copyright contributors to Hyperledger Besu.
+
+This product includes software adapted from Tuweni. (https://tuweni.tmio.io/)
+Copyright 2023-2024 The Machine Consultancy LLC
+Licensed under Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
+The following NOTICE file content is provided by Tuweni:
+------------------------------------------------------------
+This product includes code developed under the Apache Tuweni incubation project.
+
+Copyright 2019-2023 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+In addition, this product includes software developed by
+Copyright 2018-2019 ConsenSys, Inc.
+------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+etclabscore/goldset also carries an Apache-2.0 LICENSE but ships no NOTICE
+file of its own, so nothing is forwarded from it beyond the license grant
+already stated above.
