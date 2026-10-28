@@ -244,3 +244,12 @@ ones came from each repository's current address. Every branch and tag of each c
 from the refs below, so the commits it held are the same objects, by hash, as the ones the new
 owners serve.
 
+# Every other ref of `etclabscore/tests` and `etclabscore/tests-etc` — kept 2026-10-28
+
+**The first repositories held under the rule that an archived repository keeps every ref it had**
+(`AGENTS.md`, "Layout"). 36 history-only merges, 32 for `etclabscore/tests` and 4 for
+`etclabscore/tests-etc`, add 343 and 5 commits and nothing at `main`'s tip: each takes a ref's commit
+as its second parent and keeps its first parent's tree. Each repository's record lists every one of
+its refs by name and commit, and says how each is kept:
+[`provenance/etclabscore/tests.md`](provenance/etclabscore/tests.md) and
+[`provenance/etclabscore/tests-etc.md`](provenance/etclabscore/tests-etc.md).

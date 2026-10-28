@@ -493,3 +493,26 @@ ETCCooperative/etc-nix-coregeth-src-proxyvendor
               file in this tree or in either commit of its history.
   Copyright:  not stated by upstream
   Read from:  (absence confirmed across the whole history)
+
+================================================================================
+KEPT AS HISTORY 2026-10-28
+================================================================================
+
+Read the same way as the entries above, at each ref's own commit, since a
+history-only merge adds no tree at main's tip. Each repository's record under
+provenance/ lists its refs.
+
+etclabscore/tests: the refs held as history only
+  License:    MIT. LICENSE at each of these refs' commits is the same blob
+              as etclabscore/tests/LICENSE,
+              65f52d6f57b0ec2759930e9f4d3ec6a803d30bcf.
+  Copyright:  Copyright 2014 Ethereum Foundation
+  Read from:  LICENSE at each ref's commit
+
+etclabscore/tests-etc: the refs held as history only
+  License:    NONE FOUND, as for etclabscore/tests-etc above: no license
+              file at any path in any commit of these refs' histories.
+              Recorded as a fact about what upstream published; no license
+              is assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across each ref's history)

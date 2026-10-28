@@ -56,3 +56,58 @@ commits.
 Swept for blobs over 100 MiB across the whole history before landing: **0**, with the sweep
 calibrated at 1 MiB, which returns 107. The largest blob in the history is 5.3 MiB.
 
+## Every ref, kept 2026-10-28
+
+**Every ref of `etclabscore/tests-etc` is held from this record on**, each commit unchanged
+(`AGENTS.md`, "Layout"). The folder recorded above holds `isaac`, and four more refs are in its
+history. The other four are held by history-only merges: `develop` and the heads of pull requests
+#2, #5 and #7, which the record above gives as not taken. `develop` is one commit sharing no history
+with `master`, so its merge was made with `--allow-unrelated-histories`.
+
+**What they hold.** `develop`, one commit of 2022-09-14 by meows, whose files differ from `master`'s
+commit of the same day only in the stamp naming the build that generated them; the heads of pull
+requests #2 and #5, one commit each by Diego López León, closed without merging; and the head of
+pull request #7, "Originalvectors adaptation WIP", two commits by Dimitry Kh, open on 2026-10-27.
+Nothing in core-geth's history pins any of them (read 2026-10-28). Each merge's message says what its
+ref holds.
+
+| field | value |
+|---|---|
+| upstream | `https://github.com/etclabscore/tests-etc` |
+| refs read | 2026-10-28, with `git ls-remote` |
+| kept | 2026-10-28 |
+| mechanism | `git merge -s ours --no-ff`, history only, 4 merges |
+| commits added | 5 |
+| contents at `main`'s tip | none: each merge's tree is its first parent's |
+| license | see NOTICE |
+
+Each commit was fetched by its hash from GitHub and confirmed against the upstream's own
+`git ls-remote`, and each merge is checked by hash, as for `etclabscore/tests`. To list them:
+
+```sh
+git log --first-parent --format='%H%x09%(trailers:key=history-only-repository,valueonly,separator=)%x09%(trailers:key=history-only-ref,valueonly,separator=%x2C)' main \
+  | awk -F'\t' '$2 == "etclabscore/tests-etc"'
+```
+
+### Every ref, by name and commit
+
+Read with `git ls-remote https://github.com/etclabscore/tests-etc` on 2026-10-28, where `HEAD` points
+at `master`. Left out: `refs/pull/7/merge`, the test merge GitHub generates for an open pull request,
+which is not history.
+
+| ref | commit | kept as |
+|---|---|---|
+| `refs/heads/develop` | `e507022b1cd9b4c54b6dfcc293dc2d94e0f3887c` | history-only merge |
+| `refs/heads/isaac` | `8183e9eebd93912cebddbe3e88f66f836a8205dd` | folder `etclabscore/tests-etc/` |
+| `refs/heads/master` | `7d1ea7e6a9012f94901fbc694eabbe4fac7641ee` | in the history of `etclabscore/tests-etc/` |
+| `refs/pull/1/head` | `2db4595befc27e58e6dab591ee0360346637074d` | in the history of `etclabscore/tests-etc/` |
+| `refs/pull/2/head` | `6ade3dfb1ff277b8f02c2e0a3e656b6d5072a721` | history-only merge |
+| `refs/pull/3/head` | `4f96c48ba324de4ac1e72d4954f33ecab9660ad1` | in the history of `etclabscore/tests-etc/` |
+| `refs/pull/4/head` | `eee0383834a6e32ff17690d6c4763fffd04fcaaa` | in the history of `etclabscore/tests-etc/` |
+| `refs/pull/5/head` | `b8d9cbffed717951897ba89c5f55937e996efcb5` | history-only merge |
+| `refs/pull/7/head` | `f8870fff6f158651e689503ac39dfab9a618b45e` | history-only merge |
+
+Swept for blobs over 100 MiB across the whole history of these refs before landing: **0**, with the
+sweep calibrated at 1 MiB, which returns 113. The largest blob in those histories is 20.0 MiB,
+`src/TransactionTestsFiller/ttData/String10MbDataNotEnoughGASFiller.json`, already held here. The
+largest they add is 4.4 MiB, `GeneralStateTests/stStackTests/stackOverflowPUSH.json`.
