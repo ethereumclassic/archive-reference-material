@@ -1257,3 +1257,40 @@ commits.
 
 Swept for blobs over 100 MiB across the whole history before landing: **0**, with the sweep
 calibrated at 1 MiB, which returns 107. The largest blob in the history is 5.3 MiB.
+
+# The fixture commits core-geth's 2023 releases pin — vendored 2026-10-27
+
+**A second ref of `etclabscore/tests`, taken for the releases that pin it.** core-geth's `v1.12.9`
+and `v1.12.10` pin `etclabscore/tests` at `315779c508`, and `v1.12.11` to `v1.12.13` at
+`c138c1391d`. Neither commit is in the history of the `etclabscore/tests/` entry, which is frozen at
+`06ec708ea7` on a branch that diverged from this one at `5e0bdda91d`. `c138c1391d` is the tip of
+`etcversion_filled` and `315779c508` its parent, so this ref makes both pins reachable from `main`.
+
+## `etclabscore/tests-etcversion_filled/`
+
+| field | value |
+|---|---|
+| upstream | `https://github.com/etclabscore/tests` |
+| ref | `etcversion_filled` @ `c138c1391deb604aa8efa97561b3f8edc49f0eb5` |
+| upstream date | 2023-01-04 |
+| vendored | 2026-10-27 |
+| mechanism | `git subtree add`, **full history**, 3,176 commits |
+| contents | 9,284 files · 8,722 json · 915 MiB |
+| license | see NOTICE |
+| tree | `d23d4bc03c52fece9279dc9f7d0ad66b9f4c5be4` |
+
+```sh
+printf '%s\n' 315779c508 c138c1391d | git cat-file --batch-check    # want: two lines, each of type commit
+```
+
+**It adds two commits to what this archive already held.** `315779c508` (2022-12-12) renames the
+fork key `Merge` to `Merged` in `GeneralStateTests/stExample/accessListExample.json`, and
+`c138c1391d` (2023-01-04) renames it back, there and in `docs/t8ntool.rst`. Every other commit in
+its history is the `etclabscore/tests/` entry's own, and 9,250 of the 9,256 distinct blobs at its
+tip are in that entry's tree, so the object store barely grows, while the tree at this prefix is a
+second copy of the corpus. `LegacyTests` is a gitlink to `ethereum/legacytests` at the same commit
+as the entry's, mapped in `.gitmodules` the same way.
+
+Swept for blobs over 100 MiB across the whole history before landing: **0**, with the sweep
+calibrated at 1 MiB, which returns 1,435. The largest blob in the history is 62.0 MiB,
+`VMTests/vmInputLimits.json`, already held here.
