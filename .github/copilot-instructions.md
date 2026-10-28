@@ -37,6 +37,11 @@ repository, is held frozen at the commit its successor was created from.
   `git-subtree-*` ones. A ref whose commit `main` already reaches gets no merge.
   Each repository's record, `provenance/<org>/<repo>.md`, lists every ref by name
   and commit, and how each is kept; `PROVENANCE.md` is the overview and its index.
+- A commit no ref holds, which a consumer's history pins, is kept the same way
+  while the upstream serves it by hash: fetched by its hash, kept only if it
+  resolves under that hash with the tree and parents the upstream's API reports,
+  never rebuilt from API data or a tarball, and named by `history-only-pin`
+  trailers in place of `history-only-ref`.
 - What predates the rule stays as it is: an entry recorded before 2026-10-28 can
   lack refs, and `openethereum/parity-ethereum-dao/`,
   `etclabscore/tests-etcversion_filled/` and

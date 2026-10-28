@@ -45,6 +45,17 @@ GitHub generates, not history, and is not kept.
   ref.
 - **A ref whose commit `main` already reaches gets no merge of its own:** one in the history of a ref
   already kept, or at the same commit as another ref.
+- **A commit no ref holds is kept the same way, when a consumer's history pins it and the upstream
+  still serves it by hash.** No ref names it, so `git ls-remote` cannot confirm it. Fetch it by its
+  hash, `git fetch --no-tags <upstream-url> <commit>`, and keep it only if
+  `git cat-file -t <commit>` prints `commit` and its tree and parents equal what the upstream's API
+  reports: git checks each object's hash as it arrives, so a commit that resolves under its own hash
+  is that commit. Never rebuild one from API data or a tarball, since the rebuilt commit would not
+  carry the same hash. One history-only merge holds it, unless another kept commit's history
+  already does. That merge's message carries `history-only-repository` and `history-only-commit`,
+  no `history-only-ref`, and a `history-only-pin` trailer for each pin it resolves: the pinning
+  commit, as `<org>/<repo>@<commit>`, and the path whose gitlink it sets. A pinned commit that no
+  source serves any more is listed in the repository's record, with where it was looked for.
 - **A tag is kept as its commit, and no tag object is kept here.** The repository's record gives
   each tag's object ID, and quotes an annotated tag's object as text, which `git hash-object -t tag`
   turns back into the same object ID.
