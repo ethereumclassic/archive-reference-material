@@ -11,8 +11,9 @@ Preserved copies of material Ethereum Classic depends on, or would lose if an
 upstream disappeared: the clients that carried the chain, whole and with full git
 history, the test corpora of their eras, the tooling built for it, and the Go
 modules its production client builds against. `README.md`, `PROVENANCE.md` and
-`EXTRACTION-historic-clients.md` carry the postures, refs and known defects; read
-them before using anything here.
+`EXTRACTION-historic-clients.md` carry the postures, and each repository's record,
+`provenance/<org>/<repo>.md`, its refs and known defects; read them before using
+anything here.
 
 **This is an archive, not a fork.** Nothing held here is maintained, modernized,
 reformatted or corrected. It is not an archive of the `ethereumclassic`
@@ -20,19 +21,38 @@ organization's own repositories: `ethereumclassic/core-geth` is deliberately
 absent while it is the live client, and `etclabscore/core-geth`, a different
 repository, is held frozen at the commit its successor was created from.
 
-## Layout: one subtree merge per entry
+## Layout: every ref of an archived repository, one folder at the tip
 
-- Each entry is a `git subtree add` without `--squash`, under `<org>/<repo>/`. The
+- An archived repository keeps every ref it had, each commit unchanged: one ref as
+  a folder at `main`'s tip, and each of the others as a history-only merge (the
+  owner's decision of 2026-10-28). A ref is a branch, a tag or a pull request's
+  head; GitHub's `refs/pull/<n>/merge` test merges are not history and are not kept.
+- The folder is a `git subtree add` without `--squash`, under `<org>/<repo>/`. The
   merge's second parent is the upstream commit itself, with its original hash, and
   its message carries `git-subtree-dir` and `git-subtree-split` trailers.
+- A history-only merge is `git merge -s ours --no-ff` of another ref's commit
+  (with `--allow-unrelated-histories` when it shares no history with `main`): its
+  second parent is that commit and its tree is its first parent's, so it adds no
+  folder and changes no file. Its message carries `history-only-*` trailers, never
+  `git-subtree-*` ones. A ref whose commit `main` already reaches gets no merge.
+  Each repository's record, `provenance/<org>/<repo>.md`, lists every ref by name
+  and commit, and how each is kept; `PROVENANCE.md` is the overview and its index.
+- What predates the rule stays as it is: an entry recorded before 2026-10-28 can
+  lack refs, and `openethereum/parity-ethereum-dao/`,
+  `etclabscore/tests-etcversion_filled/` and
+  `ETCCooperative/etc-nix-coregeth-src-proxyvendor/` are second folders, frozen.
+  Nothing is added past the boundary `etclabscore/core-geth` or the
+  `ETCCooperative` entries are frozen at.
 - A few entries are extractions instead, a named subset of files:
   `openethereum/openethereum`, and the gists and documents under `meowsbits/`, each
-  recorded in an `EXTRACTION` document.
-- Every upstream commit is reachable from `main`, so a consumer can pin one by Go
-  pseudo-version or submodule gitlink. `PROVENANCE.md` carries the `replace` and
-  `go.sum` lines, and the cost: a clone fetches every entry's history.
-- No tag is kept. **Never rewrite `main` once it is pushed**: a rewrite orphans
-  every consumer's pin.
+  recorded in an `EXTRACTION` document. They keep no upstream commit.
+- Every upstream commit of every ref kept is reachable from `main`, so a consumer
+  can pin one by Go pseudo-version or submodule gitlink. `PROVENANCE.md` carries
+  the `replace` and `go.sum` lines, and the cost: a clone fetches every entry's
+  history. Only a folder's ref can be read at `main`'s tip.
+- No tag is kept: the records give each tag's object ID and commit, and quote an
+  annotated tag's object as text. **Never rewrite `main` once it is pushed**: a
+  rewrite orphans every consumer's pin.
 - `git ls-tree -d --name-only HEAD` lists the organizations. No count is kept in
   any document, because a count goes stale the moment an entry is added.
 
@@ -42,20 +62,28 @@ repository, is held frozen at the commit its successor was created from.
   corrected. A defect is a fact about what upstream published; answer it in a
   suite built outside this repository, never here.
 - `README.md`, `EXTRACTION-historic-clients.md`, `meowsbits/EXTRACTION.md` and
-  `.gitmodules` are frozen too. `PROVENANCE.md` and `NOTICE` are append-only: add
-  an entry for new material, never revise an existing one.
+  `.gitmodules` are frozen too. The records under `provenance/`, `PROVENANCE.md`
+  and `NOTICE` are add-only: add a record for new material, and a new repository's
+  row to `PROVENANCE.md`'s index; never revise or remove a line. Against the last
+  commit, `git diff --numstat HEAD -- PROVENANCE.md NOTICE provenance/` must show 0
+  removed lines.
 - Verify by tree hash, never by diff: `git rev-parse '<ref>^{tree}'` must equal
   `git rev-parse 'HEAD:<org>/<repo>'`. A diff across a subtree prefix reports every
-  file as added and proves nothing.
+  file as added and proves nothing. A history-only merge has its first parent's
+  tree (`git rev-parse '<merge>^{tree}' '<merge>^1^{tree}'` prints two identical
+  hashes) and the ref's commit as its second parent.
 
 ## Adding an entry
 
 Assess the source first, one source at a time, and propose it to the owner before
-importing anything. Never bulk import. Fetch with `--no-tags`, confirm the commit
-against the upstream's own `git ls-remote`, check that no blob in its history
-exceeds GitHub's 100 MiB limit (calibrating the check so it can report a hit), run
-`git subtree add` without `--squash`, verify by tree hash, map any gitlinks it
-brings in `.gitmodules`, and append its `PROVENANCE.md` and `NOTICE` records.
+importing anything. Never bulk import. List every ref with `git ls-remote`. Fetch
+with `--no-tags`, confirm each commit against the upstream's own `git ls-remote`,
+check that no blob in its history exceeds GitHub's 100 MiB limit (calibrating the
+check so it can report a hit), run `git subtree add` without `--squash` for the
+folder's ref and `git merge -s ours --no-ff` for each other ref `main` does not
+already reach, verify by tree hash, map any gitlinks the folder brings in
+`.gitmodules`, and add its record under `provenance/` (with an index row in
+`PROVENANCE.md` for a new repository) and its `NOTICE` record.
 
 An extraction is staged with `git add`, which silently drops any file an ignore
 pattern matches. Verify an extraction against its source in both directions

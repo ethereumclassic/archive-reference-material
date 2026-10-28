@@ -8,9 +8,10 @@ disagreeing, `AGENTS.md` wins.
 
 ## Before acting
 
-- **Nothing here is built or run.** An entry is an upstream history merged under
-  its prefix; the work is fetching, checking and merging, and a task that ends in
-  "now build it" or "now fix it" has misread where it is.
+- **Nothing here is built or run.** An entry is an upstream repository's history:
+  one ref merged under its prefix, the others merged as history only. The work is
+  fetching, checking and merging, and a task that ends in "now build it" or "now
+  fix it" has misread where it is.
 - **An import is proposed before it is performed.** If a task seems to call for
   adding material in bulk, stop and assess the source first; `AGENTS.md` says why.
 - **Read vendored material narrowly.** The tree runs to gigabytes and single
