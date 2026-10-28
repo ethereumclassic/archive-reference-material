@@ -1,0 +1,68 @@
+{
+    "randomStatetestDEFAULT-Tue_07_58_41-15153-575192": {
+        "_info": {
+            "comment": "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
+            "filling-rpc-server": "",
+            "filling-tool-version": "",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192Filler.json",
+            "sourceHash": "8722c54dd1f693a0ea9bece116d7891cb0be201cc4025a1238bd16ddb3577006"
+        },
+        "env": {
+            "currentCoinbase": "0x1000000000000000000000000000000000000000",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x1312d00",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5fa368f13facaec6bf82d19c5d075fd3386be8a4265ed2d90c29b312a09b6d9d"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000dead": {
+                "code": "0x62abcdefff",
+                "balance": "0x0",
+                "nonce": "0x1c"
+            },
+            "0x1000000000000000000000000000000000000000": {
+                "code": "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                "balance": "0x0",
+                "nonce": "0x1c"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0x5d8fdd3ff54298b4",
+                "nonce": "0x1c"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x1c",
+            "to": "0x1000000000000000000000000000000000000000",
+            "data": [
+                "0x"
+            ],
+            "gasLimit": [
+                "0x5fde07"
+            ],
+            "value": [
+                "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
+        },
+        "post": {
+            "ETC_Agharta": [
+                {
+                    "hash": "db71d5ef19015222fb18292b8c1b9d3a1387ba6f497da92ac824f3a01dd94845",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

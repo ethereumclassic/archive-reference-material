@@ -1,0 +1,70 @@
+{
+    "StackDepthLimitSEC": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "",
+            "filling-tool-version": "",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stSpecialTest/StackDepthLimitSECFiller.json",
+            "sourceHash": "c46bab5f93610125920b157f6d5ae305b12c07f5452d74b293a708daeda3d5db"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0xf4240",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0x5f5e100",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "",
+            "data": [
+                "0x305032503350600460006000396000515060046000600037600051506f600060006000600060003060405a03f160005260106010f3"
+            ],
+            "gasLimit": [
+                "0xf4240"
+            ],
+            "value": [
+                "0x0a"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
+        },
+        "post": {
+            "ETC_Agharta": [
+                {
+                    "hash": "833aa0052cff19618ec94e8996dbc8fc5e1722a37dec95e11dbdcb072bc279aa",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Atlantis": [
+                {
+                    "hash": "833aa0052cff19618ec94e8996dbc8fc5e1722a37dec95e11dbdcb072bc279aa",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

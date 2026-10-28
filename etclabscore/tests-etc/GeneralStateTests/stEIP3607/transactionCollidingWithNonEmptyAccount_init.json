@@ -1,0 +1,294 @@
+{
+    "transactionCollidingWithNonEmptyAccount_init": {
+        "_info": {
+            "comment": "Account with non-empty code attempts to send tx to create a contract",
+            "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
+            "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stEIP3607/transactionCollidingWithNonEmptyAccount_initFiller.yml",
+            "sourceHash": "504ed4dad45a35dee016abe8ac646e8850ded61c0d9655f830898a1838e774de"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0xff112233445566",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x1"
+            },
+            "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f": {
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x0"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x00",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
+            },
+            "0xd0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0": {
+                "code": "0x00",
+                "balance": "0x0",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0xa",
+            "nonce": "0x0",
+            "to": "",
+            "data": [
+                "0x00",
+                "0x60206000f3",
+                "0x600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af150",
+                "0x600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af450"
+            ],
+            "gasLimit": [
+                "0x61a80"
+            ],
+            "value": [
+                "0x0186a0"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+        },
+        "post": {
+            "ETC_Agharta": [
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf84f800a83061a8080830186a0001ca0940546fa422a9310b30cc6b14ecb25996f6f7c56b25b4c4d3ad0f60b56ea7df0a02686b496576a0632b2b9238d6aacb7fa317864b06bb3199b613050c1d8abb42b",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf854800a83061a8080830186a08560206000f31ca0b3090d3211444a7b1530ae2b72bfd606fc5902d2d04bb2390448361b3d198d94a05c69af38472b9a5c913eb413379078dbb3beed941467229da6d47bf5c82d67c0",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf872800a83061a8080830186a0a3600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af1501ba040d3d6858f1c34305bd11065b186ae2260091c085d24d8a0d6d3d734a44f4bc3a01b681d0fcc6f7b71cb05ffa53c2ec2b31330b978a7616e82b0a86e4e7ec2a1be",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86f800a83061a8080830186a0a0600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af4501ca0595cb60a95da661b631af32003c1a51c7f29bd4f4510d4cd0bb2f64b920d4403a07989325b95d47863402bd30e719afd93e70bfc0fbf048672a8a1c6756599338f",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Atlantis": [
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf84f800a83061a8080830186a0001ca0940546fa422a9310b30cc6b14ecb25996f6f7c56b25b4c4d3ad0f60b56ea7df0a02686b496576a0632b2b9238d6aacb7fa317864b06bb3199b613050c1d8abb42b",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf854800a83061a8080830186a08560206000f31ca0b3090d3211444a7b1530ae2b72bfd606fc5902d2d04bb2390448361b3d198d94a05c69af38472b9a5c913eb413379078dbb3beed941467229da6d47bf5c82d67c0",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf872800a83061a8080830186a0a3600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af1501ba040d3d6858f1c34305bd11065b186ae2260091c085d24d8a0d6d3d734a44f4bc3a01b681d0fcc6f7b71cb05ffa53c2ec2b31330b978a7616e82b0a86e4e7ec2a1be",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86f800a83061a8080830186a0a0600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af4501ca0595cb60a95da661b631af32003c1a51c7f29bd4f4510d4cd0bb2f64b920d4403a07989325b95d47863402bd30e719afd93e70bfc0fbf048672a8a1c6756599338f",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Magneto": [
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf84f800a83061a8080830186a0001ca0940546fa422a9310b30cc6b14ecb25996f6f7c56b25b4c4d3ad0f60b56ea7df0a02686b496576a0632b2b9238d6aacb7fa317864b06bb3199b613050c1d8abb42b",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf854800a83061a8080830186a08560206000f31ca0b3090d3211444a7b1530ae2b72bfd606fc5902d2d04bb2390448361b3d198d94a05c69af38472b9a5c913eb413379078dbb3beed941467229da6d47bf5c82d67c0",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf872800a83061a8080830186a0a3600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af1501ba040d3d6858f1c34305bd11065b186ae2260091c085d24d8a0d6d3d734a44f4bc3a01b681d0fcc6f7b71cb05ffa53c2ec2b31330b978a7616e82b0a86e4e7ec2a1be",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86f800a83061a8080830186a0a0600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af4501ca0595cb60a95da661b631af32003c1a51c7f29bd4f4510d4cd0bb2f64b920d4403a07989325b95d47863402bd30e719afd93e70bfc0fbf048672a8a1c6756599338f",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf84f800a83061a8080830186a0001ca0940546fa422a9310b30cc6b14ecb25996f6f7c56b25b4c4d3ad0f60b56ea7df0a02686b496576a0632b2b9238d6aacb7fa317864b06bb3199b613050c1d8abb42b",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf854800a83061a8080830186a08560206000f31ca0b3090d3211444a7b1530ae2b72bfd606fc5902d2d04bb2390448361b3d198d94a05c69af38472b9a5c913eb413379078dbb3beed941467229da6d47bf5c82d67c0",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf872800a83061a8080830186a0a3600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af1501ba040d3d6858f1c34305bd11065b186ae2260091c085d24d8a0d6d3d734a44f4bc3a01b681d0fcc6f7b71cb05ffa53c2ec2b31330b978a7616e82b0a86e4e7ec2a1be",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86f800a83061a8080830186a0a0600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af4501ca0595cb60a95da661b631af32003c1a51c7f29bd4f4510d4cd0bb2f64b920d4403a07989325b95d47863402bd30e719afd93e70bfc0fbf048672a8a1c6756599338f",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf84f800a83061a8080830186a0001ca0940546fa422a9310b30cc6b14ecb25996f6f7c56b25b4c4d3ad0f60b56ea7df0a02686b496576a0632b2b9238d6aacb7fa317864b06bb3199b613050c1d8abb42b",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf854800a83061a8080830186a08560206000f31ca0b3090d3211444a7b1530ae2b72bfd606fc5902d2d04bb2390448361b3d198d94a05c69af38472b9a5c913eb413379078dbb3beed941467229da6d47bf5c82d67c0",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf872800a83061a8080830186a0a3600060006000600061271073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af1501ba040d3d6858f1c34305bd11065b186ae2260091c085d24d8a0d6d3d734a44f4bc3a01b681d0fcc6f7b71cb05ffa53c2ec2b31330b978a7616e82b0a86e4e7ec2a1be",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "e4cbd6db8a1703c767c4eb649b108ca6e68039006bf277fdb7398933a6515cad",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86f800a83061a8080830186a0a0600060006000600073d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d05af4501ca0595cb60a95da661b631af32003c1a51c7f29bd4f4510d4cd0bb2f64b920d4403a07989325b95d47863402bd30e719afd93e70bfc0fbf048672a8a1c6756599338f",
+                    "expectException": "SenderNotEOA",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

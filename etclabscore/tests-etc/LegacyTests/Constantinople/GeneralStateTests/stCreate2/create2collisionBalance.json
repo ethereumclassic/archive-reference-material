@@ -1,0 +1,148 @@
+{
+    "create2collisionBalance": {
+        "_info": {
+            "comment": "create2 generates an account that already exists and has balance != 0",
+            "filling-rpc-server": "",
+            "filling-tool-version": "",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionBalanceFiller.json",
+            "sourceHash": "d3a3f9d4c3ef3fb49f5b86628642b72e617d6ac7d1a60a29e74ef2177ff57174"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0xf4240",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
+            },
+            "0xaf3ecba2fe09a4f6c19f16a9d119e44e08c2da01": {
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
+            },
+            "0xe2b35478fdd26477cc576dd906e6277761246a3c": {
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
+            },
+            "0xec2c6832d00680ece8ff9254f81fdab0a5a2ac50": {
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "",
+            "data": [
+                "0x6000600060006000f5",
+                "0x64600160015560005260006005601b6000f5",
+                "0x6d6460016001556000526005601bf36000526000600e60126000f5",
+                "0x6000600060006001f5"
+            ],
+            "gasLimit": [
+                "0x61a80"
+            ],
+            "value": [
+                "0x01"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
+        },
+        "post": {
+            "ETC_Agharta": [
+                {
+                    "hash": "69b97ecb350ab7c49e0ffbea5dd5ee872dc2dab90e8fca9d6ecae2b16f61c3cf",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "9e09c79467e825fb06658b0579db3bb64c46ba75571a3b55527341d9c0f94c3e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "b2b5b03bd60ba1f7d20ccf21299576b496c9dca0cdcadd199a1c23fbd0545a3e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "a616341f188981f5b84d7e67e3e8c9f460c77255b725bf6a79a4b024d6169f54",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Atlantis": [
+                {
+                    "hash": "782e2bfd6acde8f3fa357bf1029dfc522a31f2379a1befdfde927158c77fb590",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "782e2bfd6acde8f3fa357bf1029dfc522a31f2379a1befdfde927158c77fb590",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "782e2bfd6acde8f3fa357bf1029dfc522a31f2379a1befdfde927158c77fb590",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "782e2bfd6acde8f3fa357bf1029dfc522a31f2379a1befdfde927158c77fb590",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

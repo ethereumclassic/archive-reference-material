@@ -1,0 +1,87 @@
+{
+    "CallRecursiveBomb0_OOG_atMaxCallDepth": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
+            "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stSystemOperationsTest/CallRecursiveBomb0_OOG_atMaxCallDepthFiller.json",
+            "sourceHash": "1a8e427b7cdbc22ffa5063a2dc1e523b45df63fe2f4650d3eec36436dacf6deb"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x199c82cc00",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
+                "code": "0x600160005401600055690fffffffffffffffffff610402600054040260025560006000690fffffffffffffffffff610402600054040260006000306104005a03f160015500",
+                "balance": "0x1312d00",
+                "nonce": "0x0"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0xa",
+            "nonce": "0x0",
+            "to": "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
+            "data": [
+                "0x"
+            ],
+            "gasLimit": [
+                "0x174876e800"
+            ],
+            "value": [
+                "0x0186a0"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+        },
+        "post": {
+            "ETC_Magneto": [
+                {
+                    "hash": "770bade2bad3878d3575730ef856bab122dca690582a8ede6570eabb498158dd",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf865800a85174876e80094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0e9b172209bb23928c48d34fcab2ee1badd92e5aa0de747e4b42989d6163d3dd8a0511203194596ed82a29e1a4596a08c209c7bc2bce0ecb351fe07d37b45db7c20",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "770bade2bad3878d3575730ef856bab122dca690582a8ede6570eabb498158dd",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf865800a85174876e80094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0e9b172209bb23928c48d34fcab2ee1badd92e5aa0de747e4b42989d6163d3dd8a0511203194596ed82a29e1a4596a08c209c7bc2bce0ecb351fe07d37b45db7c20",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "a5165b43e48c376f3a093289288769c185951d0708d1d969fc56aaadf2d208fa",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf865800a85174876e80094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0e9b172209bb23928c48d34fcab2ee1badd92e5aa0de747e4b42989d6163d3dd8a0511203194596ed82a29e1a4596a08c209c7bc2bce0ecb351fe07d37b45db7c20",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "TouchToEmptyAccountRevert3": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "",
+            "filling-tool-version": "",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stRevertTest/TouchToEmptyAccountRevert3Filler.json",
+            "sourceHash": "9a1b1018612519f3fbd0bd2912cd4a9d47ea9fb1ab1392b186ba21c62e794e1c"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x989680",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0x1000000000000000000000000000000000000000": {
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x0"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
+            },
+            "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x6000600060006000600073e94f5374fce5edbc8e2a8697c15331677e6ebf0b617530f16002556001600355",
+                "balance": "0x0",
+                "nonce": "0x0"
+            },
+            "0xba4f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x6000600060006000600073d94f5374fce5edbc8e2a8697c15331677e6ebf0b617530f16000556000600060006000600073b94f5374fce5edbc8e2a8697c15331677e6ebf0b617530f1600155",
+                "balance": "0x0",
+                "nonce": "0x0"
+            },
+            "0xd94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x731000000000000000000000000000000000000000ff",
+                "balance": "0x0",
+                "nonce": "0x0"
+            },
+            "0xe94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x731000000000000000000000000000000000000000ff",
+                "balance": "0x0",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "0xba4f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "data": [
+                "0x"
+            ],
+            "gasLimit": [
+                "0x141e0",
+                "0xea60"
+            ],
+            "value": [
+                "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
+        },
+        "post": {
+            "ETC_Agharta": [
+                {
+                    "hash": "408c421965df91a5ab9a8103c92e4497d11740e218ce569e47dd39b0ca924e2f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "405588e9b792212bc3d0e15c7894f604061eb2d0ef3cb559756c5275587200ab",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Atlantis": [
+                {
+                    "hash": "408c421965df91a5ab9a8103c92e4497d11740e218ce569e47dd39b0ca924e2f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "405588e9b792212bc3d0e15c7894f604061eb2d0ef3cb559756c5275587200ab",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 1,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

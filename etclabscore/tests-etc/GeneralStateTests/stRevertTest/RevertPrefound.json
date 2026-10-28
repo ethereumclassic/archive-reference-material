@@ -1,0 +1,92 @@
+{
+    "RevertPrefound": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
+            "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stRevertTest/RevertPrefoundFiller.json",
+            "sourceHash": "805f250dc3dc6e26d22e1b639207057a569fa235841d50ca8f136a54a2514781"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x989680",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0x7db299e0885c85039f56fa504a13dd8ce8a56aa7": {
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
+            },
+            "0xa000000000000000000000000000000000000000": {
+                "code": "0x602060006000f0600055600c60015500",
+                "balance": "0x1",
+                "nonce": "0x0"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0xa",
+            "nonce": "0x0",
+            "to": "0xa000000000000000000000000000000000000000",
+            "data": [
+                "0x"
+            ],
+            "gasLimit": [
+                "0xfde80"
+            ],
+            "value": [
+                "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+        },
+        "post": {
+            "ETC_Magneto": [
+                {
+                    "hash": "37e7a887ffc35a5e2c5614c6f60053f4173eb23385d93c5fe5487022b73f4675",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a830fde8094a00000000000000000000000000000000000000080801ca04eb70a6acdb7f2d3409c5fe932df4fcbe7a64d08a39d9ebeaba1a9c35a7d3c18a00444aac4ef56efd579f5e534a2ea0adc8ee562e9810dc515ed45e1c96784fe40",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "37e7a887ffc35a5e2c5614c6f60053f4173eb23385d93c5fe5487022b73f4675",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a830fde8094a00000000000000000000000000000000000000080801ca04eb70a6acdb7f2d3409c5fe932df4fcbe7a64d08a39d9ebeaba1a9c35a7d3c18a00444aac4ef56efd579f5e534a2ea0adc8ee562e9810dc515ed45e1c96784fe40",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "77a992e4c499b1561b910406a9b7c9ad53276f3f06f55eebc96563ae8139ec4e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a830fde8094a00000000000000000000000000000000000000080801ca04eb70a6acdb7f2d3409c5fe932df4fcbe7a64d08a39d9ebeaba1a9c35a7d3c18a00444aac4ef56efd579f5e534a2ea0adc8ee562e9810dc515ed45e1c96784fe40",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

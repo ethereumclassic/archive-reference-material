@@ -1,0 +1,85 @@
+{
+    "refundFF": {
+        "_info": {
+            "comment": "Ori Pomerantz   qbzzt1@gmail.com",
+            "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
+            "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stRefundTest/refundFFFiller.yml",
+            "sourceHash": "e8b49a3ac2d52b3bee331c5a32d7cf463a70282193a148d3f4a3dca8542f8196"
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x1000000",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0xe8d6599218",
+                "nonce": "0x1"
+            },
+            "0xcccccccccccccccccccccccccccccccccccccccc": {
+                "code": "0x73ddddddddddddddddddddddddddddddddddddddddff",
+                "balance": "0x0",
+                "nonce": "0x1"
+            },
+            "0xdddddddddddddddddddddddddddddddddddddddd": {
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x1"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x3e8",
+            "nonce": "0x1",
+            "to": "0xcccccccccccccccccccccccccccccccccccccccc",
+            "data": [
+                "0x00"
+            ],
+            "accessLists": [
+                []
+            ],
+            "gasLimit": [
+                "0x27b028"
+            ],
+            "value": [
+                "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+        },
+        "post": {
+            "ETC_Magneto": [
+                {
+                    "hash": "4c63b99dca1faff010457fad0507433ae6d1f86a2228da946bf42ccaf3689110",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x01f86401018203e88327b02894cccccccccccccccccccccccccccccccccccccccc8000c080a039a0a692787fa83274937107332a154b786bf2cb1f80d1f20fe49d20da6ba324a0103bb80408321d84a1db211dfc777a640db593e889d6ec52f94d8718db3935c6",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "637d8fff0de11cbfd18c15f90d0019dc5f76a010be1dc58b0483f975e19d6784",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x01f86401018203e88327b02894cccccccccccccccccccccccccccccccccccccccc8000c080a039a0a692787fa83274937107332a154b786bf2cb1f80d1f20fe49d20da6ba324a0103bb80408321d84a1db211dfc777a640db593e889d6ec52f94d8718db3935c6",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

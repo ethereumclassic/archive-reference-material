@@ -1,0 +1,92 @@
+{
+    "randomStatetestDEFAULT-Tue_07_58_41-15153-575192_london": {
+        "_info": {
+            "comment": "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
+            "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
+            "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192_londonFiller.json",
+            "sourceHash": "fb313125d39fc6a4e80672d10873766c9e83814831df4f3f3343f78ac2b16688"
+        },
+        "env": {
+            "currentCoinbase": "0x1000000000000000000000000000000000000000",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x1312d00",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5fa368f13facaec6bf82d19c5d075fd3386be8a4265ed2d90c29b312a09b6d9d"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000dead": {
+                "code": "0x62abcdefff",
+                "balance": "0x0",
+                "nonce": "0x1c"
+            },
+            "0x1000000000000000000000000000000000000000": {
+                "code": "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                "balance": "0x0",
+                "nonce": "0x1c"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0x5d8fdd3ff54298b4",
+                "nonce": "0x1c"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0xa",
+            "nonce": "0x1c",
+            "to": "0x1000000000000000000000000000000000000000",
+            "data": [
+                "0x"
+            ],
+            "gasLimit": [
+                "0x5fde07"
+            ],
+            "value": [
+                "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+        },
+        "post": {
+            "ETC_Magneto": [
+                {
+                    "hash": "cc21f45b2d2d4a34a26263f1e4848b999c1d06388de85ccaf77605d9c1c26f1f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf8601c0a835fde0794100000000000000000000000000000000000000080801ba0945b0f78b6921849705296174ddec81de943cf3c8d9b65cc3dc85d0946bb64eda039303ddce8ae619da612ff2d33511309c0d5db322e4a3a6bb3013eef5388ebce",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Mystique": [
+                {
+                    "hash": "24458d6a5da89fa4d372298a0ce90bf302596558ed3c329779e6b6bcd41e7a24",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf8601c0a835fde0794100000000000000000000000000000000000000080801ba0945b0f78b6921849705296174ddec81de943cf3c8d9b65cc3dc85d0946bb64eda039303ddce8ae619da612ff2d33511309c0d5db322e4a3a6bb3013eef5388ebce",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Phoenix": [
+                {
+                    "hash": "7b7af87151447302aaa5057dacfa3ce718a7ade115cacbdfcf62bb2a78fbe64c",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf8601c0a835fde0794100000000000000000000000000000000000000080801ba0945b0f78b6921849705296174ddec81de943cf3c8d9b65cc3dc85d0946bb64eda039303ddce8ae619da612ff2d33511309c0d5db322e4a3a6bb3013eef5388ebce",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}

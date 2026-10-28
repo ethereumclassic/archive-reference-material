@@ -1,0 +1,72 @@
+{
+    "lowFeeCap": {
+        "_info": {
+            "comment": "Ori Pomerantz qbzzt1@gmail.com",
+            "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
+            "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
+            "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stEIP1559/lowFeeCapFiller.yml",
+            "sourceHash": "8cc8b95e98f05f2b500fc977b26b9398cf956727aefb973d075da015daf702d6",
+            "labels": {
+                "0": "declaredKeyWrite"
+            }
+        },
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0xff112233445566",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "pre": {
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x1"
+            },
+            "0xcccccccccccccccccccccccccccccccccccccccc": {
+                "code": "0x6001600101600055",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0xa",
+            "maxFeePerGas": "0x3e7",
+            "maxPriorityFeePerGas": "0x64",
+            "nonce": "0x1",
+            "to": "0xcccccccccccccccccccccccccccccccccccccccc",
+            "data": [
+                "0x00"
+            ],
+            "accessLists": [
+                []
+            ],
+            "gasLimit": [
+                "0x61a80"
+            ],
+            "value": [
+                "0x0186a0"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+        },
+        "post": {
+            "ETC_Mystique": [
+                {
+                    "hash": "500ddcebbfe42e15e3d8b5a3344b569cc5820e13d432e69b346a416bb1817491",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x02f8680101648203e783061a8094cccccccccccccccccccccccccccccccccccccccc830186a000c080a0a0c75b311bd40cb10835e4ef967a6629e01352001bd7cc3b5b4cba0c3ca35722a00ed43a4b0bd8161baa12da82564ead82f3edf051e3d2cfeb57003db712fcfd16",
+                    "expectException": "TR_FeeCapLessThanBlocks",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}
