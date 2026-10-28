@@ -1,0 +1,441 @@
+name: Auto-Update Nethermind
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:        # Manual trigger
+
+env:
+  NETHERMIND_REPO: NethermindEth/nethermind
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    outputs:
+      new_version: ${{ steps.check.outputs.new_version }}
+      plugin_version: ${{ steps.check.outputs.plugin_version }}
+      current_version: ${{ steps.check.outputs.current_version }}
+      needs_update: ${{ steps.check.outputs.needs_update }}
+      release_action: ${{ steps.check.outputs.release_action }}
+      nethermind_sha: ${{ steps.check.outputs.nethermind_sha }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Check for Nethermind updates
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Get latest Nethermind release version + commit SHA
+          LATEST=$(gh api repos/${{ env.NETHERMIND_REPO }}/releases/latest --jq '.tag_name' | sed 's/^v//')
+          LATEST_SHA=$(gh api repos/${{ env.NETHERMIND_REPO }}/releases/latest --jq '.target_commitish' | head -c 8)
+          echo "Latest Nethermind release: $LATEST @ $LATEST_SHA"
+
+          # Get current version from Directory.Packages.props
+          CURRENT=$(grep -oP 'Include="Nethermind.ReferenceAssemblies" Version="\K[^"]+' Directory.Packages.props)
+          echo "Current version in repo: $CURRENT"
+
+          echo "new_version=$LATEST" >> $GITHUB_OUTPUT
+          echo "current_version=$CURRENT" >> $GITHUB_OUTPUT
+          echo "nethermind_sha=$LATEST_SHA" >> $GITHUB_OUTPUT
+
+          # Strict semver-aware upgrade check. Upstream sometimes demotes a published
+          # release to pre-release after we bumped to it; in that window /releases/latest
+          # falls back to the previous stable, so a plain `!=` would attempt a downgrade.
+          HIGHER=$(printf '%s\n%s\n' "$CURRENT" "$LATEST" | sort -V | tail -n1)
+          if [ "$LATEST" != "$CURRENT" ] && [ "$HIGHER" = "$LATEST" ] \
+            && git ls-remote --exit-code --heads origin "auto-update/nethermind-${LATEST}" >/dev/null; then
+            # A previous run already opened the branch for this version, and it may now
+            # carry manual fixes. Rebuilding would only fail again and recreate the branch
+            # on top of them. Delete the branch to retry.
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+            echo "Branch auto-update/nethermind-${LATEST} already exists. Skipping; delete it to retry."
+          elif [ "$LATEST" != "$CURRENT" ] && [ "$HIGHER" = "$LATEST" ]; then
+            # Verify the NuGet package actually exists before attempting update
+            NUGET_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+              "https://api.nuget.org/v3-flatcontainer/nethermind.referenceassemblies/${LATEST}/nethermind.referenceassemblies.${LATEST}.nupkg")
+            if [ "$NUGET_STATUS" = "200" ]; then
+              echo "needs_update=true" >> $GITHUB_OUTPUT
+              echo "release_action=upgrade" >> $GITHUB_OUTPUT
+              echo "plugin_version=${LATEST}.0" >> $GITHUB_OUTPUT
+              echo "Update needed: $CURRENT -> $LATEST (NuGet package available)"
+            else
+              echo "needs_update=false" >> $GITHUB_OUTPUT
+              echo "Nethermind $LATEST released but NuGet package not yet available (HTTP $NUGET_STATUS). Skipping."
+            fi
+          elif [ "$LATEST" != "$CURRENT" ]; then
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+            echo "Latest stable is $LATEST but repo is on $CURRENT (likely upstream demoted a release to pre-release). Skipping to avoid downgrade."
+          else
+            # Same version. Detect upstream re-publishing the same tag with a new commit
+            # (e.g. a hotfix re-release on the same version number) and rebuild if so.
+            PREV_TAG=$(gh release list --limit 100 --json tagName --jq '.[].tagName' \
+              | grep -E "^v${LATEST//./\\.}\.[0-9]+$" | sort -V | tail -n1)
+            PREV_BODY=$(gh release view "$PREV_TAG" --json body --jq '.body' 2>/dev/null || echo "")
+            USED_SHA=$(printf '%s' "$PREV_BODY" | grep -oE 'Built from Nethermind [^ ]+ @ [a-f0-9]+' | grep -oE '[a-f0-9]+$' | head -1)
+            if [ -n "$USED_SHA" ] && [ "$USED_SHA" != "$LATEST_SHA" ]; then
+              echo "needs_update=true" >> $GITHUB_OUTPUT
+              echo "release_action=replace" >> $GITHUB_OUTPUT
+              echo "plugin_version=${PREV_TAG#v}" >> $GITHUB_OUTPUT
+              echo "Upstream re-published $LATEST: $USED_SHA -> $LATEST_SHA. Rebuilding and replacing $PREV_TAG."
+            else
+              echo "needs_update=false" >> $GITHUB_OUTPUT
+              echo "Already up to date (Nethermind $LATEST @ $LATEST_SHA)"
+            fi
+          fi
+
+  build:
+    needs: check-and-update
+    if: needs.check-and-update.outputs.needs_update == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Update version files
+        env:
+          NEW_VERSION: ${{ needs.check-and-update.outputs.new_version }}
+          CURRENT_VERSION: ${{ needs.check-and-update.outputs.current_version }}
+        run: scripts/update-nethermind-version.sh "$CURRENT_VERSION" "$NEW_VERSION"
+
+      - name: Refresh sync pivots
+        env:
+          CLASSIC_PIVOT_RPC_URL: ${{ secrets.CLASSIC_PIVOT_RPC_URL }}
+          MORDOR_PIVOT_RPC_URL: ${{ secrets.MORDOR_PIVOT_RPC_URL }}
+        run: |
+          scripts/update-sync-pivot.sh classic
+          scripts/update-sync-pivot.sh mordor
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Test
+        run: dotnet test --no-build --configuration Release
+
+      - name: Publish plugin
+        run: |
+          dotnet publish src/Nethermind.EthereumClassic/Nethermind.EthereumClassic.csproj \
+            --no-build \
+            --configuration Release \
+            --output ./publish
+
+      - name: Upload plugin artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: plugin
+          path: |
+            publish/Nethermind.EthereumClassic.dll
+            chainspecs/
+            configs/
+
+      - name: Upload version files
+        uses: actions/upload-artifact@v7
+        with:
+          name: version-files
+          path: |
+            Directory.Packages.props
+            src/Nethermind.EthereumClassic/Nethermind.EthereumClassic.csproj
+            configs/classic.cfg
+            configs/mordor.cfg
+
+  integration-test:
+    needs: [check-and-update, build]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Download plugin artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: plugin
+          path: plugin
+
+      - name: Download Nethermind release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NETHERMIND_TAG: ${{ needs.check-and-update.outputs.new_version }}
+        run: |
+          gh release download "$NETHERMIND_TAG" \
+            --repo ${{ env.NETHERMIND_REPO }} \
+            --pattern "*-linux-x64.zip" \
+            --output nethermind.zip
+          unzip nethermind.zip -d nethermind
+
+      - name: Inject plugin into Nethermind
+        run: |
+          cp plugin/publish/Nethermind.EthereumClassic.dll nethermind/plugins/
+          mkdir -p nethermind/chainspecs
+          cp plugin/chainspecs/*.json nethermind/chainspecs/
+          cp plugin/configs/*.cfg nethermind/configs/
+
+      - name: Run integration tests
+        run: ./scripts/integration-test.sh ./nethermind
+
+      - name: Upload Nethermind logs
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: nethermind-logs
+          path: nethermind/nethermind-test-*.log
+
+  create-bundles:
+    needs: [check-and-update, build]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        arch: [linux-arm64, linux-x64, macos-arm64, macos-x64, windows-x64]
+
+    steps:
+      - name: Download plugin artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: plugin
+          path: plugin
+
+      - name: Download Nethermind release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NETHERMIND_TAG: ${{ needs.check-and-update.outputs.new_version }}
+        run: |
+          PATTERN="*-${{ matrix.arch }}.zip"
+          echo "Downloading asset matching $PATTERN from ${{ env.NETHERMIND_REPO }} release $NETHERMIND_TAG"
+          gh release download "$NETHERMIND_TAG" \
+            --repo ${{ env.NETHERMIND_REPO }} \
+            --pattern "$PATTERN" \
+            --output nethermind.zip
+
+      - name: Extract and integrate plugin
+        run: |
+          unzip nethermind.zip -d nethermind
+
+          # Copy plugin DLL to plugins folder
+          cp plugin/publish/Nethermind.EthereumClassic.dll nethermind/plugins/
+
+          # Create chainspecs folder (doesn't exist in base Nethermind)
+          mkdir -p nethermind/chainspecs
+
+          # Copy chainspecs and configs from the plugin artifact
+          cp plugin/chainspecs/*.json nethermind/chainspecs/
+          cp plugin/configs/*.cfg nethermind/configs/
+
+      - name: Create bundle archive
+        env:
+          PLUGIN_VERSION: ${{ needs.check-and-update.outputs.plugin_version }}
+        run: |
+          cd nethermind
+          zip -r ../nethermind-etc-v${PLUGIN_VERSION}-${{ matrix.arch }}.zip .
+
+      - name: Upload bundle artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: bundle-${{ matrix.arch }}
+          path: nethermind-etc-v${{ needs.check-and-update.outputs.plugin_version }}-${{ matrix.arch }}.zip
+
+  # The version bump lands on main only once the plugin has built, passed its
+  # tests against the new Nethermind and been bundled. Pushing earlier would leave
+  # main on a version whose release never happened, and the failure PR below
+  # would carry an empty diff.
+  commit-version-bump:
+    needs: [check-and-update, integration-test, create-bundles]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Download version files
+        # The exact files the release was built from. Regenerating them here would
+        # pick a newer pivot than the one shipped in the bundles.
+        uses: actions/download-artifact@v8
+        with:
+          name: version-files
+
+      - name: Commit and push changes
+        env:
+          NEW_VERSION: ${{ needs.check-and-update.outputs.new_version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Directory.Packages.props src/Nethermind.EthereumClassic/Nethermind.EthereumClassic.csproj configs/classic.cfg configs/mordor.cfg
+          # On a `replace` rebuild the version doesn't change; only the pivots
+          # may, and there may be nothing to commit.
+          if git diff --cached --quiet; then
+            echo "No file changes to commit (release_action=${{ needs.check-and-update.outputs.release_action }})."
+          else
+            git commit -m "chore: update to Nethermind $NEW_VERSION"
+            git push
+          fi
+
+  release:
+    needs: [check-and-update, build, integration-test, create-bundles, commit-version-bump]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download plugin artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: plugin
+          path: plugin
+
+      - name: Download all bundle artifacts
+        uses: actions/download-artifact@v8
+        with:
+          pattern: bundle-*
+          path: bundles
+          merge-multiple: true
+
+      - name: Create plugin-only archive
+        env:
+          PLUGIN_VERSION: ${{ needs.check-and-update.outputs.plugin_version }}
+        run: |
+          mkdir -p release
+          cp plugin/publish/Nethermind.EthereumClassic.dll release/
+          cp -r plugin/chainspecs plugin/configs release/
+          cd release && zip -r ../nethermind-etc-plugin-v${PLUGIN_VERSION}.zip .
+
+      - name: Generate checksums
+        env:
+          PLUGIN_VERSION: ${{ needs.check-and-update.outputs.plugin_version }}
+        run: |
+          sha256sum nethermind-etc-plugin-v${PLUGIN_VERSION}.zip > SHA256SUMS
+          sha256sum bundles/*.zip >> SHA256SUMS
+          cat SHA256SUMS
+
+      - name: Delete previous release before replacing
+        if: needs.check-and-update.outputs.release_action == 'replace'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PLUGIN_VERSION: ${{ needs.check-and-update.outputs.plugin_version }}
+        run: |
+          # Replacing v${PLUGIN_VERSION} because upstream re-published the same Nethermind
+          # version with a new commit. Delete release + tag so the next step can recreate.
+          gh release delete "v${PLUGIN_VERSION}" --yes --cleanup-tag
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v3
+        env:
+          NEW_VERSION: ${{ needs.check-and-update.outputs.new_version }}
+          NETHERMIND_SHA: ${{ needs.check-and-update.outputs.nethermind_sha }}
+        with:
+          tag_name: v${{ needs.check-and-update.outputs.plugin_version }}
+          name: v${{ needs.check-and-update.outputs.plugin_version }}
+          files: |
+            nethermind-etc-plugin-v${{ needs.check-and-update.outputs.plugin_version }}.zip
+            bundles/*.zip
+            SHA256SUMS
+          body: |
+            Automatic update to Nethermind ${{ needs.check-and-update.outputs.new_version }}.
+
+            Built from Nethermind ${{ needs.check-and-update.outputs.new_version }} @ ${{ needs.check-and-update.outputs.nethermind_sha }}
+
+            [Nethermind ${{ needs.check-and-update.outputs.new_version }} Release Notes](https://github.com/NethermindEth/nethermind/releases/tag/${{ needs.check-and-update.outputs.new_version }})
+          draft: false
+          prerelease: true
+
+  create-pr-on-failure:
+    needs: [check-and-update, build, integration-test, create-bundles, commit-version-bump, release]
+    # Only on a real upgrade. A `replace` rebuild has no version diff, so a PR
+    # would be empty — if one fails, the workflow logs are the right place to look.
+    if: failure() && needs.check-and-update.outputs.release_action == 'upgrade'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Update version files
+        env:
+          NEW_VERSION: ${{ needs.check-and-update.outputs.new_version }}
+          CURRENT_VERSION: ${{ needs.check-and-update.outputs.current_version }}
+        run: scripts/update-nethermind-version.sh "$CURRENT_VERSION" "$NEW_VERSION"
+
+      - name: Refresh sync pivots
+        env:
+          CLASSIC_PIVOT_RPC_URL: ${{ secrets.CLASSIC_PIVOT_RPC_URL }}
+          MORDOR_PIVOT_RPC_URL: ${{ secrets.MORDOR_PIVOT_RPC_URL }}
+        run: |
+          scripts/update-sync-pivot.sh classic
+          scripts/update-sync-pivot.sh mordor
+
+      - name: Create PR branch and push
+        env:
+          NEW_VERSION: ${{ needs.check-and-update.outputs.new_version }}
+        run: |
+          BRANCH_NAME="auto-update/nethermind-${NEW_VERSION}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # The check job skips versions whose branch already exists, so this creates it.
+          # A plain push fails instead of overwriting if one appeared in the meantime.
+          git checkout -b "$BRANCH_NAME"
+          git add Directory.Packages.props src/Nethermind.EthereumClassic/Nethermind.EthereumClassic.csproj configs/classic.cfg configs/mordor.cfg
+          git commit -m "chore: update to Nethermind $NEW_VERSION"
+          git push -u origin "$BRANCH_NAME"
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEW_VERSION: ${{ needs.check-and-update.outputs.new_version }}
+          CURRENT_VERSION: ${{ needs.check-and-update.outputs.current_version }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          BRANCH_NAME="auto-update/nethermind-${NEW_VERSION}"
+          # Skip PR creation if one already exists for this branch
+          EXISTING_PR=$(gh pr list --head "$BRANCH_NAME" --json number --jq '.[0].number')
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR #$EXISTING_PR already exists for $BRANCH_NAME, skipping creation"
+            exit 0
+          fi
+          gh pr create \
+            --title "[Auto-Update] Nethermind $NEW_VERSION - Build Failed" \
+            --body "$(cat <<EOF
+          ## Auto-Update: Nethermind $NEW_VERSION
+
+          ### Build/Test Failed
+
+          This automatic update encountered issues while trying to update
+          from Nethermind \`$CURRENT_VERSION\` to \`$NEW_VERSION\`.
+
+          ### Error Details
+
+          See the [workflow run logs]($RUN_URL) for detailed error information.
+
+          ### Changes made
+
+          - \`Directory.Packages.props\`: Nethermind.ReferenceAssemblies → $NEW_VERSION,
+            plus any shared dependency realigned to what Nethermind $NEW_VERSION was built
+            against (see the diff)
+          - \`Nethermind.EthereumClassic.csproj\`: Version → $NEW_VERSION.0
+
+          ### Next steps
+
+          1. Review changes in Nethermind $NEW_VERSION
+          2. Fix incompatibilities
+          3. Merge this PR
+          4. Run release manually
+
+          [Nethermind $NEW_VERSION Release Notes](https://github.com/NethermindEth/nethermind/releases/tag/$NEW_VERSION)
+          EOF
+          )" \
+            --assignee "diega" \
+            --label "auto-update,needs-attention" \
+            --base main

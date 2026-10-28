@@ -1,0 +1,236 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      plugin_ref:
+        description: 'Plugin ref to build (tag/branch/SHA). Empty = the workflow''s triggering ref (default: main).'
+        required: false
+        default: ''
+      nethermind_repo:
+        description: 'Source repo for Nethermind binaries (e.g. diega/nethermind_etc for ETC patch builds prior to 1.37.0). Empty = NethermindEth/nethermind.'
+        required: false
+        default: ''
+      nethermind_version:
+        description: 'Override upstream Nethermind release tag for the bundles (e.g. 1.36.2 or v1.36.2-etc). Empty = derive from Directory.Packages.props.'
+        required: false
+        default: ''
+      replace_existing:
+        description: 'If a release with this tag already exists, delete and recreate it.'
+        type: boolean
+        required: false
+        default: false
+      prerelease:
+        description: 'Publish as a pre-release. Uncheck to cut a stable release.'
+        type: boolean
+        required: false
+        default: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      nethermind_tag: ${{ steps.version.outputs.nethermind_tag }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          # When called with a `plugin_ref` input (e.g. to rebuild an old release
+          # against a tagged historic snapshot of the source), check out that ref
+          # for the build inputs while still running the workflow definition from
+          # the trigger ref (typically main).
+          ref: ${{ inputs.plugin_ref || github.ref }}
+
+      - name: Get version from csproj
+        id: version
+        run: |
+          VERSION=$(grep -oP '(?<=<Version>)[^<]+' src/Nethermind.EthereumClassic/Nethermind.EthereumClassic.csproj)
+          if [ -n "${{ inputs.nethermind_version }}" ]; then
+            NETHERMIND_TAG="${{ inputs.nethermind_version }}"
+            echo "Nethermind runtime tag: $NETHERMIND_TAG (override from input)"
+          else
+            NETHERMIND_TAG=$(grep -oP 'Include="Nethermind.ReferenceAssemblies" Version="\K[^"]+' Directory.Packages.props)
+            echo "Nethermind runtime tag: $NETHERMIND_TAG (from Directory.Packages.props)"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "nethermind_tag=$NETHERMIND_TAG" >> $GITHUB_OUTPUT
+          echo "Plugin version: $VERSION"
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build Release
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Test
+        run: dotnet test --no-build --configuration Release
+
+      - name: Publish plugin
+        run: |
+          dotnet publish src/Nethermind.EthereumClassic/Nethermind.EthereumClassic.csproj \
+            --no-build \
+            --configuration Release \
+            --output ./publish
+
+      - name: Upload plugin artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: plugin
+          path: |
+            publish/Nethermind.EthereumClassic.dll
+            chainspecs/
+            configs/
+
+  create-bundles:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        arch: [linux-arm64, linux-x64, macos-arm64, macos-x64, windows-x64]
+
+    steps:
+      - name: Download plugin artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: plugin
+          path: plugin
+
+      - name: Download Nethermind release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NETHERMIND_TAG: ${{ needs.build.outputs.nethermind_tag }}
+          # ETC needed two upstream-missing fixes through 1.36.x, distributed via the
+          # diega/nethermind_etc fork. For 1.37.0+ both fixes are upstream, so the
+          # default points at upstream and only historical rebuilds need the override.
+          NETHERMIND_REPO: ${{ inputs.nethermind_repo || 'NethermindEth/nethermind' }}
+        run: |
+          PATTERN="*-${{ matrix.arch }}.zip"
+          echo "Downloading asset matching $PATTERN from $NETHERMIND_REPO release $NETHERMIND_TAG"
+          gh release download "$NETHERMIND_TAG" \
+            --repo "$NETHERMIND_REPO" \
+            --pattern "$PATTERN" \
+            --output nethermind.zip
+
+      - name: Extract and integrate plugin
+        run: |
+          unzip nethermind.zip -d nethermind
+
+          # Copy plugin DLL to plugins folder
+          cp plugin/publish/Nethermind.EthereumClassic.dll nethermind/plugins/
+
+          # Create chainspecs folder (doesn't exist in base Nethermind)
+          mkdir -p nethermind/chainspecs
+
+          # Copy chainspecs
+          cp plugin/chainspecs/*.json nethermind/chainspecs/
+
+          # Copy configs
+          cp plugin/configs/*.cfg nethermind/configs/
+
+      - name: Create bundle archive
+        run: |
+          cd nethermind
+          zip -r ../nethermind-etc-v${{ needs.build.outputs.version }}-${{ matrix.arch }}.zip .
+
+      - name: Upload bundle artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: bundle-${{ matrix.arch }}
+          path: nethermind-etc-v${{ needs.build.outputs.version }}-${{ matrix.arch }}.zip
+
+  release:
+    needs: [build, create-bundles]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          # Same ref as the build job. If `replace_existing` removes a tag, we
+          # want softprops/action-gh-release to recreate it pointing at this
+          # historical commit — not at main HEAD.
+          ref: ${{ inputs.plugin_ref || github.ref }}
+
+      - name: Download plugin artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: plugin
+          path: plugin
+
+      - name: Download all bundle artifacts
+        uses: actions/download-artifact@v8
+        with:
+          pattern: bundle-*
+          path: bundles
+          merge-multiple: true
+
+      - name: Create plugin-only archive
+        run: |
+          mkdir -p release
+          cp plugin/publish/Nethermind.EthereumClassic.dll release/
+          cp -r plugin/chainspecs plugin/configs release/
+          cd release && zip -r ../nethermind-etc-plugin-v${{ needs.build.outputs.version }}.zip .
+
+      - name: Generate checksums
+        run: |
+          sha256sum nethermind-etc-plugin-v${{ needs.build.outputs.version }}.zip > SHA256SUMS
+          sha256sum bundles/*.zip >> SHA256SUMS
+          cat SHA256SUMS
+
+      - name: Delete previous release before replacing
+        if: inputs.replace_existing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          # Keep the tag intact — annotated/signed tags are pre-created at the
+          # right commit and softprops will reuse them. `|| true` lets re-runs
+          # succeed when the release doesn't actually exist yet.
+          gh release delete "v${VERSION}" --yes || true
+
+      - name: Compose release notes
+        id: notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PLUGIN_REF: ${{ inputs.plugin_ref || github.ref_name }}
+          NETHERMIND_REPO: ${{ inputs.nethermind_repo || 'NethermindEth/nethermind' }}
+          NETHERMIND_TAG: ${{ needs.build.outputs.nethermind_tag }}
+        run: |
+          # Use the checkout's HEAD, not $GITHUB_SHA — the latter is the workflow
+          # trigger commit (typically main HEAD), which on a historical rebuild
+          # is not the commit the plugin was actually built from.
+          PLUGIN_SHA=$(git rev-parse --short=8 HEAD)
+          NETHERMIND_SHA=$(gh api "repos/${NETHERMIND_REPO}/releases/tags/${NETHERMIND_TAG}" \
+            --jq '.target_commitish' | head -c 8)
+          {
+            echo "Built from plugin ref \`${PLUGIN_REF}\` (commit \`${PLUGIN_SHA}\`)."
+            echo
+            echo "Bundles include Nethermind from [\`${NETHERMIND_REPO}@${NETHERMIND_TAG}\`](https://github.com/${NETHERMIND_REPO}/releases/tag/${NETHERMIND_TAG})."
+            if [ -n "$NETHERMIND_SHA" ]; then
+              echo
+              echo "Built from Nethermind ${NETHERMIND_TAG} @ ${NETHERMIND_SHA}"
+            fi
+          } > RELEASE_NOTES.md
+          cat RELEASE_NOTES.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: v${{ needs.build.outputs.version }}
+          name: v${{ needs.build.outputs.version }}
+          files: |
+            nethermind-etc-plugin-v${{ needs.build.outputs.version }}.zip
+            bundles/*.zip
+            SHA256SUMS
+          body_path: RELEASE_NOTES.md
+          draft: false
+          prerelease: ${{ inputs.prerelease }}
