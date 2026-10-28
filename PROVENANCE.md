@@ -1294,3 +1294,152 @@ as the entry's, mapped in `.gitmodules` the same way.
 Swept for blobs over 100 MiB across the whole history before landing: **0**, with the sweep
 calibrated at 1 MiB, which returns 1,435. The largest blob in the history is 62.0 MiB,
 `VMTests/vmInputLimits.json`, already held here.
+
+# The ETC Cooperative's repositories, as its organization held them — vendored 2026-10-27
+
+**Two repositories, whole, with history, each frozen at the last state its merge history places in
+the `ETCCooperative` organization.** Its GitHub profile names the ETC Cooperative, which funded
+Core-Geth development from January 2022 and was in maintenance mode by early 2025, as recorded under
+`etclabscore/core-geth/` above. Both repositories have left it: on 2026-10-27, GitHub redirected
+`ETCCooperative/nethermind-etc-plugin` to `nethermindEtc/nethermind-etc-plugin` and
+`ETCCooperative/etc-nix` to `classix-dev/etc-nix`. These entries hold the organization's record of
+the two, not their continuation under other owners.
+
+**The merge history dates the boundary.** When GitHub merges a pull request with a merge commit, it
+writes the head repository's owner into the message, `Merge pull request #N from <owner>/<branch>`,
+so each such merge records who held the repository at that moment:
+
+| repository | taken at | last merge naming `ETCCooperative` | first naming another owner |
+|---|---|---|---|
+| `nethermind-etc-plugin` | #18's merge, 2026-09-24 | #18, 2026-09-24 | #19, 2026-10-19: `nethermindEtc` |
+| `etc-nix` | #5's merge, 2026-09-17 | #4, 2026-09-17, two minutes earlier | #6, 2026-10-14: `classix-dev` |
+
+Pull-request numbers in this group are each upstream repository's own, not this archive's. Pull
+request #5 was merged by rebase, which writes no owner. Later upstream commits are not held and do
+not resolve here; whether the organization still held a repository when they were made is not
+established either way.
+
+**Where the commits came from.** Each ref was fetched by its hash. The commits held by a clone of
+each repository, last fetched from the organization on 2026-08-26, came from that clone; the later
+ones came from each repository's current address. Every branch and tag of each clone is reachable
+from the refs below, so the commits it held are the same objects, by hash, as the ones the new
+owners serve.
+
+## `ETCCooperative/nethermind-etc-plugin/`
+
+| field | value |
+|---|---|
+| upstream | `https://github.com/ETCCooperative/nethermind-etc-plugin` |
+| ref | `main` @ `aae9ff8012a6b2c6d5766efb1912c27a37d9dbe6` |
+| upstream date | 2026-09-24 |
+| vendored | 2026-10-27 |
+| mechanism | `git subtree add`, **full history**, 62 commits |
+| contents | 75 files · 1.1 MiB |
+| license | see NOTICE |
+| tree | `6998ef4e78175168ceef81b84c974906108f7949` |
+
+The Ethereum Classic plugin for the Nethermind client, in its README's words a *"Plugin to add
+Ethereum Classic (ETC) support to Nethermind"*, for ETC mainnet (chain ID 61) and Mordor (63). Its
+tags follow the Nethermind version each release targets: `v1.39.3.0` is the commit "chore: update to
+Nethermind 1.39.3".
+
+**Taken at the merge of pull request #18**, `main`'s tip on 2026-09-24. It reaches all of the
+2026-08-26 clone, whose `main` was `f7d71a321d` (2026-08-07), plus thirteen commits of 2026-09-23
+and 2026-09-24, among them the port to Nethermind 2.0.0, released as `v2.0.0.0`. The branches
+`force-seal-validation` and `remote-mining-self-trigger`, merged as #7 and #12, are its ancestors.
+
+Tag map, read from the upstream at vendoring; the thirteen tags the clone held carry the same tag
+objects there:
+
+```
+tag        tag object                                commit
+v1.36.0.0  b3611b543fa4750d64735428d10bb1e01fdf4297  9d6b2a9d56e1b8da5209c3ca9c8781ef17dcdaed
+v1.36.2.0  929d2a42363ceec7d01ec9b39a59d642a1c99c6f  fa9d0c9f00c495396f65fe42315628a0d060a5e3
+v1.37.0.0  16b442a7d6caecf0ff12131fd8630a4c953aaaff  2f17e362b413a7dd4164a717c030904a82a29932
+v1.37.1.0  1e00cca95ffef4b47451cb6207bb7cdd12c3c46a  960d7a594e7af5a7e9ce12fcf0a19e5444b86d77
+v1.37.2.0  a53bbf0143aee638bcb4c62a8018d1f5fd967a9d  b7342dd5bc55dab5b7365dce66fc67f721af527a
+v1.38.0.0  fed8bb317b643eea39f5feabc78e62096a676bc2  d9f15ed43bd1670212f6cecc254655f076f1f899
+v1.38.1.0  lightweight                               4e43dd426286034cec945b9fe66148a18390044d
+v1.38.1.1  lightweight                               bf27e22c95b35de5dabdf91c60b218ea14c35ff6
+v1.39.0.0  lightweight                               de749ea9c323dfd0ff084fc95ad6ce94954706f5
+v1.39.1.0  lightweight                               80a8bb6c335fc2aa18ac0b322a7e8f2fa38c3387
+v1.39.1.1  fc40e463fec701e0afca76495a4eb131e11e8c78  f8921b57c05ba6b950b607eea7f191f94e4448c8
+v1.39.2.0  lightweight                               7972d430bb6bc157088bb3f3647ca96f731fd6e8
+v1.39.3.0  lightweight                               f7d71a321dd08aea505621a355fb2ceccdfadfa1
+v2.0.0.0   ef7681be6d85f99e85f5944fac2312336e280aac  67afbb875fbec8b35da86cfbeadb491d71d6654f
+```
+
+**Not taken:** `e74fd79034` (2026-10-06), the next commit on `main` and the commit of `v2.1.0.0`,
+which no merge places in the organization, nor anything after it. Nor are pull-request refs held:
+pull requests #2, #4 and #11 were closed without merging, and their heads are not in this history.
+
+```sh
+git cat-file -t e74fd79034   # want: fatal: Not a valid object name e74fd79034
+git cat-file -t aae9ff8012   # want: commit  <- the control
+```
+
+Swept for blobs over 100 MiB across the whole history before landing: **0**, and none over 1 MiB, so
+the sweep was calibrated at 10 KiB, which returns 13. The largest blob in the history is
+`chainspecs/classic.json` at 847.0 KiB.
+
+## `ETCCooperative/etc-nix/`
+
+| field | value |
+|---|---|
+| upstream | `https://github.com/ETCCooperative/etc-nix` |
+| ref | `main` @ `5e6a3e52669c28bc47944e0956f64734082e65f8` |
+| upstream date | 2026-09-17 |
+| vendored | 2026-10-27 |
+| mechanism | `git subtree add`, **full history**, 8 commits |
+| contents | 62 files · 0.4 MiB |
+| license | none published |
+| tree | `838901779f753154ecba8f18da80d0e5422fa3eb` |
+
+In its README's words, *"Reusable Nix builds of the Ethereum Classic clients (core-geth, getc,
+Nethermind, Besu) plus two experiment factories"*: a consensus-replay machine and a private devnet.
+
+**Taken at the commit pull request #5 was merged as**, on 2026-09-17. It reaches the organization's
+`main` of 2026-07-26, `b055c94965`, which the 2026-08-26 clone held, and the merges of #2 to #4.
+
+**This history is reachable from no upstream ref.** Upstream's `main` has since been replaced by a
+parentless commit, `013f0ab457`, dated 2026-09-25, whose tree differs from this entry's in ten lines,
+each giving the repository's address as `classix-dev` where this one gives `ETCCooperative`. So
+`git ls-remote` cannot confirm this commit; GitHub's own record of pull request #5 names it as that
+merge's commit, and on 2026-10-27 GitHub still served it by hash. Upstream can prune unreferenced
+objects at any time.
+
+```sh
+git cat-file -t 013f0ab457   # want: fatal: Not a valid object name 013f0ab457
+git cat-file -t 5e6a3e5266   # want: commit  <- the control
+```
+
+**Not taken:** `7331b77b66`, pull request #5's head, which the merge rebased, and the replacement
+history. Pull request #1's branch is the next entry.
+
+Swept for blobs over 100 MiB across the whole history before landing: **0**, and none over 100 KiB,
+so the sweep was calibrated at 10 KiB, which returns 9. The largest blob in the history is
+`pkgs/eth-netstats/package-lock.json` at 73.2 KiB.
+
+## `ETCCooperative/etc-nix-coregeth-src-proxyvendor/`
+
+| field | value |
+|---|---|
+| upstream | `https://github.com/ETCCooperative/etc-nix` |
+| ref | `coregeth-src-proxyvendor` @ `687356afdd230cc07d4b81a3045580caf37aee81` |
+| upstream date | 2026-08-14 |
+| vendored | 2026-10-27 |
+| mechanism | `git subtree add`, **full history**, 2 commits |
+| contents | 62 files · 0.4 MiB |
+| license | none published |
+| tree | `ce82b8e07a43ce12f5510051eed3f94883bc970e` |
+
+**A second ref of `ETCCooperative/etc-nix`, for the one commit of the 2026-08-26 clone that the
+entry above does not reach.** `coregeth-src-proxyvendor` is one commit past the organization's `main`
+of 2026-07-26. It was opened as pull request #1 and closed without merging on 2026-09-17, the minute
+pull request #2 merged; the organization's last `main`, above, differs from it in five files. Its
+parent is in the entry above, so it adds one commit, while the tree at this prefix is a second copy
+of the repository at another state. Upstream still serves it, as the head of pull request #1.
+
+Swept for blobs over 100 MiB across the whole history before landing: **0**, and none over 100 KiB,
+so the sweep was calibrated at 10 KiB, which returns 9. The largest blob in the history is
+`pkgs/eth-netstats/package-lock.json` at 73.2 KiB.

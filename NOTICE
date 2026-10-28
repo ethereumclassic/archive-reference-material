@@ -460,3 +460,36 @@ etclabscore/tests-etcversion_filled
   License:    MIT
   Copyright:  Copyright 2014 Ethereum Foundation
   Read from:  etclabscore/tests-etcversion_filled/LICENSE
+
+ETCCooperative/nethermind-etc-plugin
+  License:    GPL-3.0. LICENSE is the GNU General Public License version 3
+              text, and the README's "License" section reads "GPL-3.0"; the
+              only "any later version" wording in the tree is that license
+              text's own appendix, so recorded as GPL-3.0 rather than
+              GPL-3.0-or-later, as for etclabscore/hive above. The source
+              files carry SPDX headers that differ from LICENSE: 34 declare
+              Apache-2.0 and 19 declare LGPL-3.0-only. Recorded as upstream
+              published them; not reconciled here.
+  Copyright:  not stated in the license file. The source files'
+              SPDX-FileCopyrightText headers name "Ethereum Classic
+              Community" (2025) and "Demerzel Solutions Limited" (2022, 2024,
+              2025).
+  Read from:  ETCCooperative/nethermind-etc-plugin/LICENSE,
+              ETCCooperative/nethermind-etc-plugin/README.md ("License"),
+              and the SPDX headers of its source files
+
+ETCCooperative/etc-nix
+  License:    NONE FOUND. No LICENSE, COPYING, or LICENCE file exists at any
+              depth in this vendored tree, or at any path in any commit of
+              its history, and GitHub reports "license": null for the
+              repository at its current address (checked 2026-10-27).
+              Recorded as a fact about what upstream published; no license is
+              assumed or implied on this project's behalf.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole history; GitHub API cross-check)
+
+ETCCooperative/etc-nix-coregeth-src-proxyvendor
+  License:    NONE FOUND, as for ETCCooperative/etc-nix above: no license
+              file in this tree or in either commit of its history.
+  Copyright:  not stated by upstream
+  Read from:  (absence confirmed across the whole history)
