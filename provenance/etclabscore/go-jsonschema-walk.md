@@ -50,3 +50,11 @@ Swept for blobs over 100 MiB across the whole history before landing: **0**, and
 100 KiB either, so the sweep was calibrated at 10 KiB, which returns 8. The largest blob in the
 history is 16.9 KiB.
 
+## A branch for `ethereumclassic/core-geth`, added 2026-10-30
+
+`dep-etclabscore-go-jsonschema-walk-44dea48ac8a4` points at
+`44dea48ac8a4a2b28bde66e6409ceb52535ba432`, the pinned version above, so that
+`ethereumclassic/core-geth` fetches the module from this repository at
+`v0.0.0-20200501124244-44dea48ac8a4`, taking that commit's files alone. The commit was already in
+`main`'s history. Its files reproduce both `h1:` values above, read from the checksum database on the
+same day. `AGENTS.md`, "Branches that serve a client", says why a branch and what may not happen to it.

@@ -345,6 +345,24 @@ safety. This repository sends no pull requests upstream; it is the organization'
 repository, not a fork. The owner confirmed both on 2026-09-21. Pushing remains a separate
 confirmation boundary regardless.
 
+## Branches that serve a client
+
+**A branch other than `main` exists only so a client can fetch a commit it pins.** It points at an
+upstream commit already in `main`'s history and adds nothing to the tree, so it holds no object
+`main` lacks. Adding an entry still pushes only `main`: one of these branches is added for a client's
+pin, never as part of an entry.
+
+- **Its name is `dep-<org>-<repo>-<the commit's first 12 characters>`, by the owner's decision of
+  2026-10-30.** It is never moved, deleted or committed to, and a ruleset on `refs/heads/dep-*` protects
+  it. Moving or deleting one sends that client's go command back to fetching the whole archive.
+- **Each is listed in its repository's record, `provenance/<org>/<repo>.md`, with the client that pins
+  it.** `git ls-remote --heads https://github.com/ethereumclassic/archive-reference-material 'dep-*'`
+  lists them.
+- **Why a branch:** the go command fetches a commit cheaply only when a ref points at it. It then takes
+  that one ref at depth 1. With no ref at the commit, it fetches every branch and tag in full, which
+  here is the whole archive (`cmd/go/internal/modfetch/codehost/git.go`, read at Go 1.26.10). This
+  repository keeps no tags, so the ref is a branch.
+
 ## Working here
 
 - Public repository: never commit secrets.

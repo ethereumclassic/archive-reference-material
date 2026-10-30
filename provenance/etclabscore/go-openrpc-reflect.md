@@ -81,3 +81,11 @@ v0.0.37  * 03c29bcebfa77f18bada9668d90e0511cedf10c5  ba5a99fa846de681b412765a38a
 Swept for blobs over 100 MiB across the whole history before landing: **0**. The sweep was calibrated
 at 1 MiB first, which returns 1: `test.out`, 2.1 MiB, the largest blob in the history.
 
+## A branch for `ethereumclassic/core-geth`, added 2026-10-30
+
+`dep-etclabscore-go-openrpc-reflect-ba5a99fa846d` points at
+`ba5a99fa846de681b412765a38a3fb11b0016208`, the pinned version above, so that
+`ethereumclassic/core-geth` fetches the module from this repository at
+`v0.0.0-20220829134241-ba5a99fa846d`, taking that commit's files alone. The commit was already in
+`main`'s history. Its files reproduce both `h1:` values above, read from the checksum database on the
+same day. `AGENTS.md`, "Branches that serve a client", says why a branch and what may not happen to it.

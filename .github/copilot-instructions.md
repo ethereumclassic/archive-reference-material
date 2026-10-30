@@ -141,6 +141,12 @@ This repository sends no pull requests upstream; it is the organization's own
 repository, not a fork. Work goes directly on `main`. Both confirmed by the owner
 2026-09-21. Pushing is a separate confirmation boundary regardless.
 
+A branch other than `main` exists only so a client can fetch a commit it pins. It
+points at an upstream commit already in `main`'s history, is named
+`dep-<org>-<repo>-<the commit's first 12 characters>`, is listed in its repository's
+record, and is never moved, deleted or committed to; a ruleset on `refs/heads/dep-*`
+protects it. Adding an entry still pushes only `main`.
+
 ## Licensing
 
 `LICENSE` (Apache-2.0) covers only this repository's own authored material.
